@@ -3,9 +3,6 @@
 ## Date: 2013-03-06
 ########################################################################
 
-## TODO (Michael): Finish checking the data and structure.
-## TODO (Michael):
-
 library(data.table)
 library(reshape2)
 
@@ -16,6 +13,7 @@ library(reshape2)
 
 fullTree.dt = data.table(read.csv(file = "item_tree_final.csv", header = TRUE,
     stringsAsFactors = FALSE))
+
 
 ## Load and manipulate the extraction rate data
 ## ---------------------------------------------------------------------
@@ -60,7 +58,7 @@ subset(finalTree.dt, itemCode == targetCode)
 ##                 as 'Grand Total'.
 ##
 ## missTree.dt = subset(finalTree.dt, subset = is.na(FAOST_CODE))
-## hackTree.dt = subset(finalTree.dt, subset = !is.na(FAOST_CODE) & !is.na(fbsCode))
+hackTree.dt = subset(finalTree.dt, subset = !is.na(FAOST_CODE) & !is.na(fbsCode))
 
 ## TODO (Michael): Need to include the target commodity such as
 ##                 'Wheat'.
@@ -79,18 +77,20 @@ new_var_names = c("FAOST_CODE", "countryName", "itemCode", "itemName",
 year_names = grep("[0-9]{4}", colnames(fullSUA.dt), value = TRUE)
 setnames(fullSUA.dt, old = var_names, new = new_var_names)
 subSUA.dt = subset(fullSUA.dt, subset = elementCode %in% c(51, 61, 91))
-names(subSUA.lst) = sapply(subSUA.lst, function(x) unique(x$countryName))
+
 
 ## Split the tree to make the list for mapreduce.
 ## NOTE (Michael): What country standard should be used?
 subSUA.lst = split(subSUA.dt, subSUA.dt$FAOST_CODE)
-foo = function(x, id.vars){
+names(subSUA.lst) = sapply(subSUA.lst, function(x) unique(x$countryName))
+
+listMelt = function(x, id.vars){
     x = data.table(melt(x, id.vars = id.vars))
     setnames(x, "variable", "year")
     x$year = as.numeric(gsub("[^0-9]", "", x$year))
     x
 }
-subSUA.lst = lapply(subSUA.lst, FUN = foo, id.vars = new_var_names)
+subSUA.lst = lapply(subSUA.lst, FUN = listMelt, id.vars = new_var_names)
 ## hist(sapply(subSUA.lst, function(x) length(unique(x$itemCode))))
 
 
@@ -116,24 +116,17 @@ testSD = preStand(subSUA.lst[[1]], hackTree.dt)
 
 
 ## Compute the whole standardization
-foo2 = function(x, y){
+listPreStand = function(x, y){
     tmp = preStand(raw_data = y, extraction_data = hackTree.dt)
     rbind(x, tmp)
 }
 
 system.time(
-    {sdFull.dt =
-        Reduce(f = foo2, x = subSUA.lst[2:length(subSUA.lst)],
+    {
+      sdFull.dt =
+        Reduce(f = listPreStand, x = subSUA.lst[2:length(subSUA.lst)],
                init = preStand(raw_data = subSUA.lst[[1]],
-                               extraction_data = hackTree.dt))
- }
-    )
+                 extraction_data = hackTree.dt))
+    }
+  )
 
-
-## Test parallel computing
-cl = makeCluster(10)
-parLapply(cl, 1:15, get("+"), 2)
-parSapply(cl, 1:15, get("+"), 2)
-
-
-parSapply(cl, subSUA.lst[1:2], FUN = preStand, extraction_data = hackTree.dt)
