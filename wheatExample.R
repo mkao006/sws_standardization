@@ -21,8 +21,8 @@ has.multiple(wheatTree.graph)
 E(wheatTree.graph)[which(is.multiple(wheatTree.graph))]
 
 ## Read the wheat sua tree data
-wheatData.df = read.sua(file = "wheatFullTreeData.csv", header = TRUE,
-  stringsAsFactors = FALSE, keys = c("Area.Code", "Item.Code", "Element.Code"))
+wheatData.df = read.sua(file = "wheatFullTreeData.csv", stringsAsFactors = FALSE,
+  keys = c("Area.Code", "Item.Code", "Element.Code", "Element.Name"))
 
 
 ## Only take data within the specified tree and only take value not symble
@@ -143,3 +143,10 @@ check$impDiff = with(check, (wheatImport/1000 - wheatProductImp)/
   (wheatImport/1000))
 check$exDiff = with(check, (wheatExport/1000 - wheatProductExp)/
   (wheatExport/1000))
+
+
+hist(check$impDiff, breaks = 100)
+hist(check$exDiff, breaks = 100)
+
+table(check$impDiff < 1, useNA = "always")
+table(check$exDiff < 1, useNA = "always")
