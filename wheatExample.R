@@ -1,11 +1,12 @@
 ########################################################################
-## Title: Test for tree type computation
+## Title: Test example for wheat
 ## Date: 2013-05-14
 ########################################################################
 
 library(FAOSTAT)
 library(igraph)
 library(data.table)
+library(Matrix)
 source("computeDirectExtractRate.R")
 source("read.sua.R")
 
@@ -18,7 +19,7 @@ plot(wheatTree.graph)
 
 ## Test whether the tree has multiple or loop edge and find which one
 has.multiple(wheatTree.graph)
-E(wheatTree.graph)[which(is.multiple(wheatTree.graph))]
+## E(wheatTree.graph)[which(is.multiple(wheatTree.graph))]
 
 ## Read the wheat sua tree data
 wheatData.df = read.sua(file = "wheatFullTreeData.csv", stringsAsFactors = FALSE,
