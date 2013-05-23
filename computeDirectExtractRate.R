@@ -14,10 +14,11 @@
 computeDirectExtractRate = function(Data, child, parent, ExtractionRate,
   plots = FALSE){
   ## Determine the scaling factor to avoid logging number less than 1
-  k = max(Data[, ExtractionRate], na.rm = TRUE)/10000 + 1
+  k = max(Data[, ExtractionRate, with = FALSE], na.rm = TRUE)/10000 + 1
   ## Compute the conversion factor
-  Data$cf = (k * 10000)/Data[, ExtractionRate]
-  tmp.graph = graph.data.frame(Data[, c(child, parent)], directed = TRUE)
+  Data$cf = unlist((k * 10000)/Data[, ExtractionRate, with = FALSE])
+  tmp.graph = graph.data.frame(Data[, c(child, parent), with = FALSE],
+    directed = TRUE)
   if(plots)
     plot(tmp.graph)
   ## Find the primary product, assuming it has a circular loop
@@ -26,7 +27,7 @@ computeDirectExtractRate = function(Data, child, parent, ExtractionRate,
 
   ## Compute the direct extraction rate
   wldist = shortest.paths(graph = tmp.graph,
-    to = primary, weights = log(Data[, "cf"]), algorithm = "johnson")
+    to = primary, weights = log(Data[, cf]), algorithm = "johnson")
   dist = shortest.paths(graph = tmp.graph, to = primary, algorithm = "johnson")
   wdist = exp(wldist - dist * log(k))
   finite = which(is.finite(wdist))
