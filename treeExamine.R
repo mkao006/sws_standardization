@@ -3,9 +3,11 @@
 ## Date: 2013-05-24
 ########################################################################
 
+library(data.table)
+library(plyr)
 library(gdata)
 library(igraph)
-igraph.options(label.cex = 0.5)
+igraph.options(label.cex = 0.8)
 
 
 fullTree.dt = data.table(read.csv(file = "tree_test.csv", header = TRUE,
@@ -29,12 +31,16 @@ system("evince commodity_trees.pdf&")
 
 
 FBSTree.graph = graph.data.frame(fullTree.dt[, list(Item.Name, FBS.Parent.Name)])
-uniqueParent = unique(fullTree.dt[FBS.Parent.Code >= 2511, FBS.Parent.Name])
-pdf(file = "fbs_trees.pdf", width = 15, height = 15)
+uniqueParent = unique(arrange(fullTree.dt[FBS.Parent.Code >= 2511, ],
+  FBS.Parent.Code)$FBS.Parent.Name)
+FBSTree.graph = set.edge.attribute(FBSTree.graph, "color",
+  value = ifelse(fullTree.dt[, Weight], "black", "red"))
+## uniqueParent = unique(fullTree.dt[FBS.Parent.Code >= 2511, FBS.Parent.Name])
+pdf(file = "fbs_trees.pdf", width = 12, height = 12)
 for(i in 1:length(uniqueParent)){
 tmp.graph = subgraph(FBSTree.graph, V(FBSTree.graph)
   [which(is.finite(shortest.paths(FBSTree.graph, to = uniqueParent[i])))]$name)
-if(length(V(tmp.graph)) >= 2)
+## if(length(V(tmp.graph)) >= 2)
   plot.igraph(tmp.graph)
 }
 graphics.off()
