@@ -37,6 +37,6 @@ computeDirectExtractRate = function(Data, child, parent, ExtractionRate,
     as.numeric(rep(primary, length(finite))),
     wdist[finite], stringsAsFactors = FALSE)
   colnames(tmp) = c(child, "Primary", "Primary.Extraction.Rate")
-  tmp[tmp[, 1] == tmp[, 2], 3] = 1
+  tmp[tmp[, child] == tmp[, "Primary"], 3] = 1
   tmp
 }
