@@ -21,22 +21,29 @@ computeDirectExtractRate = function(Data, child, parent, ExtractionRate,
     directed = TRUE)
   if(plots)
     plot(tmp.graph)
-  ## Find the primary product, assuming it has a circular loop
-  ## primary = names(which(degree(tmp.graph, mode = "out") == 0))
-  primary = V(tmp.graph)[which(diag(get.adjacency(tmp.graph)) == 1)]$name
+
+  ## Find the terminal edge (The FBS product)
+  terminal = names(which(degree(tmp.graph, mode = "out") == 0))
+  ## Find the primary product, assuming it has a circular loop  
+  ## primary = V(tmp.graph)[which(diag(get.adjacency(tmp.graph)) == 1)]$name
 
   ## Compute the direct extraction rate
   wldist = shortest.paths(graph = tmp.graph,
-    to = primary, weights = log(Data[, cf]), algorithm = "johnson")
-  dist = shortest.paths(graph = tmp.graph, to = primary, algorithm = "johnson")
+    to = terminal, weights = log(Data[, cf]), algorithm = "johnson")
+  dist = shortest.paths(graph = tmp.graph, to = terminal, algorithm = "johnson")
   wdist = exp(wldist - dist * log(k))
-  finite = which(is.finite(wdist))
-
+  ## finite = which(is.finite(wdist))
+  ind = which(is.finite(wdist), arr.ind = TRUE)
+    
   ## put into data.frame
-  tmp = data.frame(as.numeric(rownames(wdist)[finite]),
-    as.numeric(rep(primary, length(finite))),
-    wdist[finite], stringsAsFactors = FALSE)
+  ## tmp = data.frame(as.numeric(rownames(wdist)[finite]),
+  ##   as.numeric(rep(primary, length(finite))),
+  ##   wdist[finite], stringsAsFactors = FALSE)
+  tmp = data.frame(as.numeric(rownames(wdist)),
+    as.numeric(colnames(wdist)[ind[, 2]]),
+    wdist[ind])  
   colnames(tmp) = c(child, "Primary", "Primary.Extraction.Rate")
-  tmp[tmp[, child] == tmp[, "Primary"], 3] = 1
+  tmp[tmp$Primary %in% as.numeric(terminal), "Primary.Extraction.Rate"] = 1
+  ## tmp[tmp[, child] == tmp[, "Primary"], 3] = 1
   tmp
 }
