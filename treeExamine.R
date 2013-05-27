@@ -41,7 +41,7 @@ for(i in 1:length(uniqueParent)){
 tmp.graph = subgraph(FBSTree.graph, V(FBSTree.graph)
   [which(is.finite(shortest.paths(FBSTree.graph, to = uniqueParent[i])))]$name)
 ## if(length(V(tmp.graph)) >= 2)
-  plot.igraph(tmp.graph)
+  plot.igraph(tmp.graph, layout=layout.fruchterman.reingold)
 }
 graphics.off()
 system("evince fbs_trees.pdf&")
