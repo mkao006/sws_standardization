@@ -34,16 +34,15 @@ computeDirectExtractRate = function(Data, child, parent, ExtractionRate,
   wdist = exp(wldist - dist * log(k))
   ## finite = which(is.finite(wdist))
   ind = which(is.finite(wdist), arr.ind = TRUE)
-    
+
   ## put into data.frame
   ## tmp = data.frame(as.numeric(rownames(wdist)[finite]),
   ##   as.numeric(rep(primary, length(finite))),
   ##   wdist[finite], stringsAsFactors = FALSE)
-  tmp = data.frame(as.numeric(rownames(wdist)),
-    as.numeric(colnames(wdist)[ind[, 2]]),
-    wdist[ind])  
+  tmp = data.frame(as.numeric(rownames(wdist)[ind[, 1]]),
+    as.numeric(colnames(wdist)[ind[, 2]]), wdist[ind])
   colnames(tmp) = c(child, "Primary", "Primary.Extraction.Rate")
-  tmp[tmp$Primary %in% as.numeric(terminal), "Primary.Extraction.Rate"] = 1
+  tmp[tmp[, child] %in% as.numeric(terminal), "Primary.Extraction.Rate"] = 1
   ## tmp[tmp[, child] == tmp[, "Primary"], 3] = 1
   tmp
 }
