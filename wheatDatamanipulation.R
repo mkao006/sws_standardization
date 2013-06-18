@@ -23,7 +23,7 @@ fullTree.dt = data.table(read.csv(file = "tree_test.csv",
 subTree.dt = fullTree.dt[, list(Item.Code, Item.Name, FBS.Parent.Code,
   Default.Extraction.Rates, Weight, Use.Calorie)]
 fullTree.graph = graph.data.frame(fullTree.dt[, list(Item.Code, FBS.Parent.Code)])
-tmp.graph = subgraph(fullTree.graph, V(fullTree.graph)
+tmp.graph = induced.subgraph(fullTree.graph, V(fullTree.graph)
   [which(is.finite(shortest.paths(fullTree.graph, to = "2511")))]$name)
 
 
