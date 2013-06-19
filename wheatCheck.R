@@ -62,7 +62,8 @@ arrange(wheatCheck.dt[abs(exDiff) >= 10,
 ## NOTE (Michael): It appears that the difference simply come from
 ##                 breakfast cereals (41). This is the main counter
 ##                 case, since the breakfast cereal is greater than
-##                 the FBS result already.
+##                 the FBS result already. Tomasz said that breakfast
+##                 cereal is not includedin wheat for India.
 checkStandard(countryCode = 100, year = 2002, finalData = wheatFinal.dt,
           checkData = wheatCheck.dt, elementCode = 61)
 
