@@ -39,6 +39,12 @@ uniqueParent = unique(arrange(fullTree.dt[FBS.Parent.Code >= 2511, ],
   FBS.Parent.Code)$Full.FBS.Parent.Name)
 FBSTree.graph = set.edge.attribute(FBSTree.graph, "color",
   value = ifelse(fullTree.dt[, Weight], "grey50", "red"))
+FBSTree.graph = set.edge.attribute(FBSTree.graph, "weight",
+  value = fullTree.dt[, Default.Extraction.Rates])
+## E(FBSTree.graph)$name = fullTree.dt[, Default.Extraction.Rates]
+E(FBSTree.graph)$label = round(10000/fullTree.dt[, Default.Extraction.Rates], 4)
+
+
 ## uniqueParent = unique(fullTree.dt[FBS.Parent.Code >= 2511, FBS.Parent.Name])
 pdf(file = "fbs_trees.pdf", width = 12, height = 12)
 for(i in 1:length(uniqueParent)){
@@ -49,3 +55,6 @@ tmp.graph = subgraph(FBSTree.graph, V(FBSTree.graph)
 }
 graphics.off()
 system("evince fbs_trees.pdf&")
+
+
+
