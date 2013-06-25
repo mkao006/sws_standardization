@@ -14,7 +14,8 @@ fillMissingCartesian = function(Data, areaCol, yearCol, extractSpecificCol,
   Data[specific == 0, specific := as.numeric(default)]  
   Data[is.na(areaCol), areaCol := unique(na.omit(Data[, areaCol]))]
   Data[is.na(yearCol), yearCol := unique(na.omit(Data[, yearCol]))]
-  setnames(Data, new = c(extractSpecificCol, extractDefaultCol, areaCol, yearCol),
-           old = c("specific", "default", "areaCol", "yearCol"))
+  Data[, default := NULL]
+  setnames(Data, new = c(extractSpecificCol, areaCol, yearCol),
+           old = c("specific", "areaCol", "yearCol"))
   Data
 }
