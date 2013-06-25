@@ -7,10 +7,7 @@ library(FAOSTAT)
 library(igraph)
 library(data.table)
 library(Matrix)
-source("computeDirectExtractRate.R")
 source("read.sua.R")
-source("toExtractTree.R")
-source("fillMissingCartesian.R")
 
 
 ## Data preperation
@@ -20,8 +17,8 @@ source("fillMissingCartesian.R")
 ## Using the full tree
 fullTree.dt = data.table(read.csv(file = "tree_test.csv",
   stringsAsFactors = FALSE))
-subTree.dt = fullTree.dt[, list(Item.Code, Item.Name, FBS.Parent.Code,
-  Default.Extraction.Rates, Weight, Use.Calorie)]
+subTree.dt = fullTree.dt[, list(Item.Code, FBS.Parent.Code,
+  Default.Extraction.Rates)]
 fullTree.graph = graph.data.frame(fullTree.dt[, list(Item.Code, FBS.Parent.Code)])
 tmp.graph = induced.subgraph(fullTree.graph, V(fullTree.graph)
   [which(is.finite(shortest.paths(fullTree.graph, to = "2511")))]$name)
@@ -54,3 +51,10 @@ setkeyv(wheatExtract.dt, c("Area.Code", "Item.Code", "Year"))
 
 ## This is a hack to change the yield to extraction rate
 wheatExtract.dt[Item.Code == 15, ExtractRate := 10000]
+
+## Take the trade data
+wheatTrade.dt = data.table(subset(wheatProcess.df,
+  Element.Code %in% c(61, 91),
+  select = c(Area.Code, Item.Code, Element.Code, Year, value)))
+wheatTrade.dt[, value := as.numeric(value)]
+setnames(wheatTrade.dt, old = "value", new = "Trade")
