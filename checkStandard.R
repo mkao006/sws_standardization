@@ -5,7 +5,7 @@
 
 
 checkStandard = function(countryCode, countryCodeCol = "Area.Code",
-  year, yearCol = "Year", itemCodeCol = "Item.Code", elementCode = c(61, 91),
+  year, yearCol = "Year", itemCodeCol = "Item.Code", elementCode = c(5611, 5911),
   elementCodeCol = "Element.Code", finalData, checkData){
   finalData.dt = data.table(finalData)
   setnames(finalData.dt, old = c(countryCodeCol, yearCol, itemCodeCol,
@@ -14,10 +14,10 @@ checkStandard = function(countryCode, countryCodeCol = "Area.Code",
   print(finalData.dt[countryCodeCol == countryCode &
                      yearCol == year &
                      elementCodeCol == elementCode,
-                     list(itemCodeCol, value, Primary.Extraction.Rate, Weight)])
+                     list(itemCodeCol, Trade, Primary.Extraction.Rate, Weight)])
   checkData.dt = data.table(checkData)
-  setnames(checkData.dt, old = c(countryCodeCol, yearCol),
-           new = c("countryCodeCol", "yearCol"))
+  setnames(checkData.dt, old = c(countryCodeCol, yearCol, elementCodeCol),
+           new = c("countryCodeCol", "yearCol", "elementCodeCol"))
   print(subset(checkData.dt, countryCodeCol == countryCode &
-               yearCol == year))
+               yearCol == year & elementCodeCol == elementCode))
 }
