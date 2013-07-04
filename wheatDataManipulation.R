@@ -32,13 +32,15 @@ tmp.graph = induced.subgraph(fullTree.graph, V(fullTree.graph)
 wheatData.df = read.sua(file = "wheatFullTreeData.csv", stringsAsFactors = FALSE,
   keys = c("Area.Code", "Item.Code", "Element.Code", "Element.Name"))
 
+
 ## Elements in wheat tree
 unique(FAOmetaTable$itemTable[FAOmetaTable$itemTable$itemCode %in%
                        unique(wheatData.df$Item.Code), c("itemCode", "itemName")])
 
 
 ## Only take data within the specified tree and only take value not symble
-wheatProcess.df = subset(wheatData.df, Type == "Value")
+wheatProcess.df = subset(wheatData.df,
+  subset = Element.Code %in% c(41, 61, 91) & Type == "Value")
 wheatProcess.df$value = as.numeric(wheatProcess.df$value)
 
 ## Process the full data into trade and extraction 
@@ -54,7 +56,10 @@ wheatExtract.dt[Item.Code == 15, ExtractRate := 10000]
 
 ## Take the trade data
 wheatTrade.dt = data.table(subset(wheatProcess.df,
-  Element.Code %in% c(61, 91),
+  Element.Code %in% c(61, 91),  
   select = c(Area.Code, Item.Code, Element.Code, Year, value)))
 wheatTrade.dt[, value := as.numeric(value)]
 setnames(wheatTrade.dt, old = "value", new = "Trade")
+wheatTrade.dt[, Trade := Trade/1000]
+wheatTrade.dt[Element.Code == 61, Element.Code := as.integer(5611)]
+wheatTrade.dt[Element.Code == 91, Element.Code := as.integer(5911)]
