@@ -40,6 +40,5 @@ computeDirectExtractRate = function(Data, child, parent, ExtractionRate,
     as.numeric(colnames(wdist)[ind[, 2]]), wdist[ind])
   colnames(tmp) = c(child, "Primary", "Primary.Extraction.Rate")
   tmp[tmp[, child] %in% as.numeric(terminal), "Primary.Extraction.Rate"] = 1
-
   tmp  
 }
