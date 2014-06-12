@@ -61,11 +61,11 @@ E(completeFBSnetwork.graph)$calorieOnly =
 
 
 standardization.graph = induced.subgraph(completeFBSnetwork.graph,
-    V(fullFBSnetwork.graph)
-    [which(is.finite(shortest.paths(fullFBSnetwork.graph,
+    V(completeFBSnetwork.graph)
+    [which(is.finite(shortest.paths(completeFBSnetwork.graph,
                                     to = "2511")))]$name)
 
-
+## pdf(file = "wheat_network.pdf", width = 10, height = 10)
 plot.igraph(standardization.graph,  vertex.color = "white",
             vertex.frame.color = "steelblue", vertex.size = 20,
             vertex.label = gsub(" |,", "\n",
@@ -76,14 +76,13 @@ plot.igraph(standardization.graph,  vertex.color = "white",
             edge.label =
             round(E(standardization.graph)$conversionFactor, 4),
             edge.label.family = "sans",
-            ## edge.color = ifelse(E(standardization.graph)$calorieOnly,
-            ##     "red", "grey")
             edge.lty = ifelse(E(standardization.graph)$calorieOnly,
                 2, 1),
             edge.arrow.mode = 1,
             edge.curved = 0.5,
             layout = layout.auto
             )
+## graphics.off()
 
 
 ## This shows we can standardize to whatever equivalent we want
@@ -104,12 +103,19 @@ physicalDistance =
 directDistance =
     exp(weightedLogDistance + physicalDistance *
         log(minConversionFactor))
+## NOTE (Michael): If you are going to standardize to a non-FBS item,
+##                 then you need to make sure that you treat the FBS
+##                 item has all the attributes of non-FBS item such as
+##                 "Use.Calorie"
 standardized.dt =
     data.table(Item.Code = V(standardization.graph)$name,
                FBS.Parent.Code = standardizeCode,
                Item.Name = V(standardization.graph)$Item.Name,
                FBS.Parent.Name = standardizeCodeName,
-               directDistance = c(directDistance))
+               directDistance = c(directDistance),
+               calorieOnly = c(completeFBSnetwork.dt[Item.Code %in%
+                   as.numeric(V(standardization.graph)$name),
+                   as.logical(Use.Calorie)], FALSE))
 ## standardized.dt = standardized.dt[Item.Code != FBS.Parent.Code, ]
 
 standardized.graph =
@@ -130,15 +136,28 @@ plot.igraph(standardized.graph,  vertex.color = "white",
             edge.arrow.size = 0.5,
             edge.label =
             round(E(standardized.graph)$directDistance, 4),
-            edge.label.family = "sans"
+            edge.label.family = "sans",
+            layout = layout.auto,
+            edge.lty = ifelse(E(standardized.graph)$calorieOnly,
+                2, 1),
+            edge.curved = 1
             )
 
-
+            
+            
 ## Tests for contract
-V(standardized.graph)$size = rnorm(length(V(standardized.graph)$size))
+V(standardized.graph)$size = rnorm(length(V(standardized.graph)))
 comm.graph =
     contract.vertices(standardized.graph,
-                      mapping = rep(1, length(V(standardized.graph)),
-                          vertex.attr.comb=list(size="sum", "ignore"))
+                      mapping = rep(1, length(V(standardized.graph))),
+                          vertex.attr.comb=list(size="sum", "ignore")
                       )
+
+comm.graph = simplify(comm.graph, remove.loops=FALSE,
+                       edge.attr.comb=list(size="sum", name ="ignore"))
+
+
 plot(comm.graph)
+
+
+
