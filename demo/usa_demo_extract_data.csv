@@ -1,0 +1,217 @@
+Area Code,Area Name,Item Code,Item Name,Element Code,Element Name,Year,Num,Symb
+231,USA,15,Wheat,41,Yield (Hg/Ha),2000,28238.423,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2001,27017.985,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2002,23567.06,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2003,29711.766,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2004,29026.392,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2005,28230.583,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2006,25985.935,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2007,27046.34,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2008,30174.624,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2009,29897.049,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2010,31167.365,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2011,29418.388,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2000,7435.409,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2001,7375.987,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2002,7396.163,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2003,7426.416,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2004,7494.38,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2005,7445.95,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2006,7515.917,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2007,7556.621,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2008,7630.957,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2009,7702.467,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2010,7703.418,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2011,7655.263,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2000,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2001,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2002,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2003,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2004,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2005,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2006,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2007,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2008,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2009,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2010,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2011,2480,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2000,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2001,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2002,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2003,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2004,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2005,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2006,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2007,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2008,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2009,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2010,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2011,11000,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2000,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2001,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2002,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2003,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2004,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2005,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2006,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2007,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2008,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2009,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2010,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2011,9500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2000,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2001,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2002,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2003,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2004,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2005,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2006,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2007,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2008,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2009,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2010,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2011,8500,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2000,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2001,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2002,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2003,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2004,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2005,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2006,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2007,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2008,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2009,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2010,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2011,6600,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2000,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2001,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2002,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2003,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2004,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2005,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2006,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2007,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2008,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2009,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2010,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2011,7080,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2000,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2001,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2002,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2003,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2004,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2005,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2006,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2007,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2008,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2009,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2010,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2011,8000,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2000,64934.093,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2001,81836.949,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2002,82799.296,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2003,81573.876,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2004,85129.989,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2005,86217.829,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2006,87544.486,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2007,79289.092,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2008,80004.142,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2009,80353.862,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2010,79943.158,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2011,80477.5,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2000,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2001,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2002,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2003,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2004,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2005,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2006,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2007,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2008,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2009,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2010,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2011,9500,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2000,10675.932,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2001,10377.756,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2002,10624.449,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2003,10483.708,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2004,10572.274,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2005,10602.913,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2006,10631.25,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2007,10648.512,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2008,10602.108,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2009,10600.355,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2010,10933.333,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2011,10933.333,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2000,10436.118,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2001,10434.917,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2002,10296.183,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2003,10270.27,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2004,10675.92,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2005,10201.46,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2006,10596.639,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2007,10577.657,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2008,10584.958,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2009,10598.416,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2010,11603.175,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2011,11603.175,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2000,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2001,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2002,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2003,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2004,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2005,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2006,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2007,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2008,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2009,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2010,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2011,2500,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2000,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2001,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2002,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2003,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2004,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2005,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2006,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2007,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2008,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2009,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2010,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2011,50000,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2000,2975.557,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2001,3071.05,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2002,3572.848,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2003,3963.384,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2004,3335.825,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2005,3695.247,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2006,3678.47,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2007,3729.999,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2008,3948.582,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2009,3418.423,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2010,3400.31,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2011,3071.187,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2000,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2001,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2002,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2003,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2004,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2005,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2006,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2007,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2008,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2009,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2010,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2011,4000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2000,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2001,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2002,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2003,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2004,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2005,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2006,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2007,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2008,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2009,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2010,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2011,10000,C
