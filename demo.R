@@ -9,22 +9,37 @@
 library(data.table)
 library(igraph)
 library(reshape2)
+currentYear = 2000
+target = "2511"
 
 ## Read the graph for usa
-usa2009network.dt = data.table(read.csv(file = "usa_2009_network.csv",
+usaNetwork.dt = data.table(read.csv(file = "usa_demo_network.csv",
   stringsAsFactors = FALSE))
-usa2009network.dt[, finalExtractRate :=
+
+## Read specific extraction rate
+extract.dt = data.table(read.csv(file = "usa_demo_extract_data.csv",
+    stringsAsFactors = FALSE))
+
+## Merge and obtain the final extraction rates
+usaNetwork.dt = merge(usaNetwork.dt,
+    extract.dt[Year == currentYear, list(Item.Code, Num)],
+    by = "Item.Code", all.x = TRUE)
+setnames(usaNetwork.dt, old = "Num", new = "Specific.Rates")
+usaNetwork.dt[, finalExtractRate :=
                   ifelse(!is.na(Specific.Rates), Specific.Rates,
                          ifelse(!is.na(Default.Extraction.Rates),
                                 Default.Extraction.Rates, NA))]
 
+## This is a hack, need to accommodate this
+usaNetwork.dt[Item.Code == 15, finalExtractRate := 10000]
+
 ## This create the vertex table, need to think about how to handle the
 ## fcl and fbs classification together.
 itemTable.dt =
-    unique(usa2009network.dt[, list(Item.Code, Item.Name)])
+    unique(usaNetwork.dt[, list(Item.Code, Item.Name)])
 itemTable.dt[, FBS := FALSE]
 fbsTable.dt = 
-    unique(usa2009network.dt[!(FBS.Parent.Code %in% Item.Code),
+    unique(usaNetwork.dt[!(FBS.Parent.Code %in% Item.Code),
                                  list(FBS.Parent.Code, FBS.Parent.Name)])
 setnames(fbsTable.dt, old = c("FBS.Parent.Code", "FBS.Parent.Name"),
          new = c("Item.Code", "Item.Name"))
@@ -34,22 +49,22 @@ nodesTable.dt = rbind(itemTable.dt, fbsTable.dt)
 
 ## Devide the extraction rate by 10000 so it becomes a standard
 ## expression
-usa2009network.dt[, finalExtractRate := finalExtractRate/10000]
+usaNetwork.dt[, finalExtractRate := finalExtractRate/10000]
 
 ## create the graph
-usa2009network.graph =
+usaNetwork.graph =
     graph.data.frame(
-        d = usa2009network.dt[, list(Item.Code, FBS.Parent.Code)],
+        d = usaNetwork.dt[, list(Item.Code, FBS.Parent.Code)],
         vertices = nodesTable.dt
         )
 
 ## Assign extraction rates to the graph
-E(usa2009network.graph)$weight =
-    usa2009network.dt[, finalExtractRate]
+E(usaNetwork.graph)$weight =
+    usaNetwork.dt[, finalExtractRate]
 
 ## Assign calorie only to graph, should it be vertex or edge?
-E(usa2009network.graph)$calorieOnly =
-    usa2009network.dt[, Use.Calorie]
+E(usaNetwork.graph)$calorieOnly =
+    usaNetwork.dt[, Use.Calorie]
 
 ## Function for adding the reverse edge with weights
 add.reverse.edges = function(graph, ..., attr = list()){
@@ -60,13 +75,13 @@ add.reverse.edges = function(graph, ..., attr = list()){
 }
 
 ## The final full graph
-## usa2009FullNetwork.graph = add.reverse.edges(usa2009network.graph)
-standardization.graph = add.reverse.edges(usa2009network.graph)
+## usaFullNetwork.graph = add.reverse.edges(usaNetwork.graph)
+standardization.graph = add.reverse.edges(usaNetwork.graph)
 
 ## For this demo, we standardize to the FBS code 2511
-## standardization.graph = induced.subgraph(usa2009FullNetwork.graph,
-##     V(usa2009FullNetwork.graph)
-##     [which(is.finite(shortest.paths(usa2009FullNetwork.graph,
+## standardization.graph = induced.subgraph(usaFullNetwork.graph,
+##     V(usaFullNetwork.graph)
+##     [which(is.finite(shortest.paths(usaFullNetwork.graph,
 ##                                     to = "2511")))]$name)
 
 
@@ -74,17 +89,17 @@ standardization.graph = add.reverse.edges(usa2009network.graph)
 ##
 plot.igraph(standardization.graph,
             vertex.color =
-            ifelse(V(standardization.graph)$name == "2511",
+            ifelse(V(standardization.graph)$name == target,
                    "steelblue", "white"),
             vertex.frame.color =
-            ifelse(V(standardization.graph)$name == "2511",
+            ifelse(V(standardization.graph)$name == target,
                    "darkblue", "steelblue"),
                    vertex.size = 20,
             vertex.label = gsub(" |,", "\n",
                 V(standardization.graph)$Item.Name),
             vertex.label.family = "sans", vertex.label.cex = 0.5,
             vertex.label.color = 
-            ifelse(V(standardization.graph)$name == "2511",
+            ifelse(V(standardization.graph)$name == target,
                    "white", "steelblue"),            
             edge.arrow.size = 0.5,
             edge.label =
@@ -100,13 +115,9 @@ plot.igraph(standardization.graph,
 
 
 ## Read the SUA data
-demoData.dt = data.table(read.csv(file = "usa_2009_demo_data.csv",
+demoData.dt = data.table(read.csv(file = "usa_demo_sua_data.csv",
     stringsAsFactors = FALSE))
-
-
-## This is a problem that needs to be solved, the names and meaning of
-## codes changes with primary and processed commodity.
-## demoData.dt[Item.Code == 15 & Element.Code == 131, Element.Code := 141]
+demoData.dt = demoData.dt[Year == currentYear, ]
 
 ## Elements to be standardized.
 standardizeElementCode = c(61, 71, 91, 101, 111, 141)
@@ -118,7 +129,7 @@ for(i in standardizeElementCode){
              set.vertex.attribute(standardization.graph,
                                   name = as.character(i),
                                   index = V(standardization.graph)[as.character(Item.Code)],
-                                  value = Num_2009))
+                                  value = Num))
 }
 
 
@@ -133,6 +144,8 @@ computeDirectWeight = function(graph, target, weights, calorieOnly){
                      to = as.character(target),
                      weights = log(weights/minWeight) * calorieOnly,
                      algorithm = "johnson")
+    ## print(weightedLogDistance)
+    
     physicalDistance =
         shortest.paths(graph = graph,
                        to = as.character(target),
@@ -140,27 +153,29 @@ computeDirectWeight = function(graph, target, weights, calorieOnly){
                        algorithm = "johnson")
     ## This is somewhat a hack to turn the calorie path off
     physicalDistance[physicalDistance == 0] = Inf
+    physicalDistance[rownames(physicalDistance) == target] = 0
+    ## print(physicalDistance)
+    
     exp(weightedLogDistance + physicalDistance * log(minWeight))
 }
 
 ## Compute the direct weights
 directWeights = computeDirectWeight(standardization.graph,
-    target = "2511", weights = 1/(E(standardization.graph)$weight),
+    target = target, weights = 1/(E(standardization.graph)$weight),
     calorieOnly = as.numeric(!E(standardization.graph)$calorieOnly))
 V(standardization.graph)[rownames(directWeights)]$directWeight =
     ifelse(is.finite(directWeights), directWeights, 0)
 
-## Standardization, trade and feed are slightly off.
+## Standardization, trades are slightly off need to investigate why.
 sum(V(standardization.graph)$`61` * 
     V(standardization.graph)$directWeight, na.rm = TRUE)/1000
 sum(V(standardization.graph)$`71` *
     V(standardization.graph)$directWeight, na.rm = TRUE)/1000
 sum(V(standardization.graph)$`91` *
     V(standardization.graph)$directWeight, na.rm = TRUE)/1000
+sum(V(standardization.graph)$`141` *
+    V(standardization.graph)$directWeight, na.rm = TRUE)/1000
 sum(V(standardization.graph)$`101` *
     V(standardization.graph)$directWeight, na.rm = TRUE)/1000
 sum(V(standardization.graph)$`111` *
     V(standardization.graph)$directWeight, na.rm = TRUE)/1000
-sum(V(standardization.graph)$`141` *
-    V(standardization.graph)$directWeight, na.rm = TRUE)/1000
-
