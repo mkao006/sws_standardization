@@ -9,7 +9,7 @@
 library(data.table)
 library(igraph)
 library(reshape2)
-currentYear = 2000
+currentYear = 2009
 target = "2511"
 
 ## Read the graph for usa
@@ -115,17 +115,24 @@ plot.igraph(standardization.graph,
 
 
 ## Read the SUA data
-demoData.dt = data.table(read.csv(file = "usa_demo_sua_data.csv",
+sua.dt = data.table(read.csv(file = "usa_demo_sua_data.csv",
     stringsAsFactors = FALSE))
-demoData.dt = demoData.dt[Year == currentYear, ]
+sua.dt = sua.dt[Year == currentYear, ]
 
-## Elements to be standardized.
-standardizeElementCode = c(61, 71, 91, 101, 111, 141)
+## Read nutrient data, check why there is food in FBS selection
+nutrient.dt = data.table(read.csv(file = "usa_demo_nutrient_data.csv",
+    stringsAsFactors = FALSE))
+nutrient.dt = nutrient.dt[Year == currentYear & Element.Code != 141, ]
+
+fbs.dt = rbind(sua.dt, nutrient.dt)
+
+## attributes of vertexes
+standardizeElementCode = c(61, 71, 91, 101, 111, 141, 261, 271, 281)
 
 ## Assign attributes to the vertex
 for(i in standardizeElementCode){
     standardization.graph =
-        with(demoData.dt[Element.Code == i, ],
+        with(fbs.dt[Element.Code == i, ],
              set.vertex.attribute(standardization.graph,
                                   name = as.character(i),
                                   index = V(standardization.graph)[as.character(Item.Code)],
@@ -179,3 +186,30 @@ sum(V(standardization.graph)$`101` *
     V(standardization.graph)$directWeight, na.rm = TRUE)/1000
 sum(V(standardization.graph)$`111` *
     V(standardization.graph)$directWeight, na.rm = TRUE)/1000
+
+## NOTE (Michael): Need to obtain the data for population
+
+
+## Kg/Yr/caput
+sum(V(standardization.graph)$`141` *
+    V(standardization.graph)$directWeight, na.rm = TRUE)/309492
+
+## g/day/caput
+sum(V(standardization.graph)$`141` *
+    V(standardization.graph)$directWeight, na.rm = TRUE)/309492/365 *
+    1000
+
+## Kcal/day/caput
+## This is wrong
+sum(V(standardization.graph)$`141`/100 * 
+    V(standardization.graph)$`261` *
+    V(standardization.graph)$directWeight/309492/365 * 1000,
+    na.rm = TRUE)
+
+## This should be correct
+sum(V(standardization.graph)$`141` * 1000 * 10 * 
+    V(standardization.graph)$`261` *
+    as.numeric(V(standardization.graph)$directWeight != 0),
+    na.rm = TRUE)/309492000/365
+
+
