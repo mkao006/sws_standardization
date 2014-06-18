@@ -10,7 +10,9 @@ library(data.table)
 library(igraph)
 library(reshape2)
 currentYear = 2009
-target = "2511"
+target = na.omit(unique(usaNetwork.dt$FBS.Code))
+plotGraph = FALSE
+
 
 ## Read the graph for usa
 usaNetwork.dt = data.table(read.csv(file = "usa_demo_network.csv",
@@ -19,6 +21,7 @@ usaNetwork.dt = data.table(read.csv(file = "usa_demo_network.csv",
 ## Read specific extraction rate
 extract.dt = data.table(read.csv(file = "usa_demo_extract_data.csv",
     stringsAsFactors = FALSE))
+extract.dt[Element.Name == "Yield (Hg/Ha)", Num := 10000]
 
 ## Merge and obtain the final extraction rates
 usaNetwork.dt = merge(usaNetwork.dt,
@@ -29,9 +32,6 @@ usaNetwork.dt[, finalExtractRate :=
                   ifelse(!is.na(Specific.Rates), Specific.Rates,
                          ifelse(!is.na(Default.Extraction.Rates),
                                 Default.Extraction.Rates, NA))]
-
-## This is a hack, need to accommodate this
-usaNetwork.dt[Item.Code == 15, finalExtractRate := 10000]
 
 ## This create the vertex table, need to think about how to handle the
 ## fcl and fbs classification together.
@@ -75,44 +75,36 @@ add.reverse.edges = function(graph, ..., attr = list()){
 }
 
 ## The final full graph
-## usaFullNetwork.graph = add.reverse.edges(usaNetwork.graph)
 standardization.graph = add.reverse.edges(usaNetwork.graph)
 
-## For this demo, we standardize to the FBS code 2511
-## standardization.graph = induced.subgraph(usaFullNetwork.graph,
-##     V(usaFullNetwork.graph)
-##     [which(is.finite(shortest.paths(usaFullNetwork.graph,
-##                                     to = "2511")))]$name)
-
-
 ## Plot of the network assuming the FBS item 2511 is the root.
-##
-plot.igraph(standardization.graph,
-            vertex.color =
-            ifelse(V(standardization.graph)$name == target,
-                   "steelblue", "white"),
-            vertex.frame.color =
-            ifelse(V(standardization.graph)$name == target,
-                   "darkblue", "steelblue"),
-                   vertex.size = 20,
-            vertex.label = gsub(" |,", "\n",
-                V(standardization.graph)$Item.Name),
-            vertex.label.family = "sans", vertex.label.cex = 0.5,
-            vertex.label.color = 
-            ifelse(V(standardization.graph)$name == target,
-                   "white", "steelblue"),            
-            edge.arrow.size = 0.5,
-            edge.label =
-            round(E(standardization.graph)$weight, 4),
-            edge.label.cex = 0.8,
-            edge.label.family = "sans",
-            edge.lty = ifelse(E(standardization.graph)$calorieOnly,
-                2, 1),
-            edge.arrow.mode = 1,
-            edge.curved = 0.5,
-            layout = layout.auto
-            )
-
+if(plotGraph){
+    plot.igraph(standardization.graph,
+                vertex.color =
+                ifelse(V(standardization.graph)$name %in% target,
+                       "steelblue", "white"),
+                vertex.frame.color =
+                ifelse(V(standardization.graph)$name %in% target,
+                       "darkblue", "steelblue"),
+                vertex.size = 20,
+                vertex.label = gsub(" |,", "\n",
+                    V(standardization.graph)$Item.Name),
+                vertex.label.family = "sans", vertex.label.cex = 0.5,
+                vertex.label.color = 
+                ifelse(V(standardization.graph)$name %in% target,
+                       "white", "steelblue"),            
+                edge.arrow.size = 0.5,
+                edge.label =
+                round(E(standardization.graph)$weight, 4),
+                edge.label.cex = 0.8,
+                edge.label.family = "sans",
+                edge.lty = ifelse(E(standardization.graph)$calorieOnly,
+                    2, 1),
+                edge.arrow.mode = 1,
+                edge.curved = 0.5,
+                layout = layout.auto
+                )
+}
 
 ## Read the SUA data
 sua.dt = data.table(read.csv(file = "usa_demo_sua_data.csv",
@@ -160,7 +152,7 @@ computeDirectWeight = function(graph, target, weights, calorieOnly){
                        algorithm = "johnson")
     ## This is somewhat a hack to turn the calorie path off
     physicalDistance[physicalDistance == 0] = Inf
-    physicalDistance[rownames(physicalDistance) == target] = 0
+    physicalDistance[rownames(physicalDistance) %in% target] = 0
     ## print(physicalDistance)
     
     exp(weightedLogDistance + physicalDistance * log(minWeight))
@@ -168,48 +160,69 @@ computeDirectWeight = function(graph, target, weights, calorieOnly){
 
 ## Compute the direct weights
 directWeights = computeDirectWeight(standardization.graph,
-    target = target, weights = 1/(E(standardization.graph)$weight),
+    target = target,
+    weights = 1/(E(standardization.graph)$weight),
     calorieOnly = as.numeric(!E(standardization.graph)$calorieOnly))
-V(standardization.graph)[rownames(directWeights)]$directWeight =
-    ifelse(is.finite(directWeights), directWeights, 0)
-
-## Standardization, trades are slightly off need to investigate why.
-sum(V(standardization.graph)$`61` * 
-    V(standardization.graph)$directWeight, na.rm = TRUE)/1000
-sum(V(standardization.graph)$`71` *
-    V(standardization.graph)$directWeight, na.rm = TRUE)/1000
-sum(V(standardization.graph)$`91` *
-    V(standardization.graph)$directWeight, na.rm = TRUE)/1000
-sum(V(standardization.graph)$`141` *
-    V(standardization.graph)$directWeight, na.rm = TRUE)/1000
-sum(V(standardization.graph)$`101` *
-    V(standardization.graph)$directWeight, na.rm = TRUE)/1000
-sum(V(standardization.graph)$`111` *
-    V(standardization.graph)$directWeight, na.rm = TRUE)/1000
-
-## NOTE (Michael): Need to obtain the data for population
 
 
-## Kg/Yr/caput
-sum(V(standardization.graph)$`141` *
-    V(standardization.graph)$directWeight, na.rm = TRUE)/309492
-
-## g/day/caput
-sum(V(standardization.graph)$`141` *
-    V(standardization.graph)$directWeight, na.rm = TRUE)/309492/365 *
-    1000
-
-## Kcal/day/caput
-## This is wrong
-sum(V(standardization.graph)$`141`/100 * 
-    V(standardization.graph)$`261` *
-    V(standardization.graph)$directWeight/309492/365 * 1000,
-    na.rm = TRUE)
-
-## This should be correct
-sum(V(standardization.graph)$`141` * 1000 * 10 * 
-    V(standardization.graph)$`261` *
-    as.numeric(V(standardization.graph)$directWeight != 0),
-    na.rm = TRUE)/309492000/365
+## Compute the whole FBS
+directWeights = ifelse(is.finite(directWeights), directWeights, 0)
+tmp = data.matrix(dcast(sua.dt[, list(Item.Code, Element.Code, Num)],
+    Item.Code ~ Element.Code, value.var = "Num"))
+rownames(tmp) = tmp[, 1]
+tmp = tmp[, -1]
+tmp[is.na(tmp)] = 0
+FBS = t(t(tmp) %*% directWeights[rownames(directWeights) %in%
+    rownames(tmp), ]/1000)
 
 
+## Output the file for examination
+write.csv(FBS[as.character(sort(as.numeric(rownames(FBS)))), ],
+          file = "usa_fbs.csv", na = "")
+
+
+
+## This was for individual groups
+## ---------------------------------------------------------------------
+
+## V(standardization.graph)[rownames(directWeights)]$directWeight =
+##     ifelse(is.finite(directWeights), directWeights, 0)
+
+## ## Standardization, trades are slightly off need to investigate why.
+## sum(V(standardization.graph)$`61` * 
+##     V(standardization.graph)$directWeight, na.rm = TRUE)/1000
+## sum(V(standardization.graph)$`71` *
+##     V(standardization.graph)$directWeight, na.rm = TRUE)/1000
+## sum(V(standardization.graph)$`91` *
+##     V(standardization.graph)$directWeight, na.rm = TRUE)/1000
+## sum(V(standardization.graph)$`141` *
+##     V(standardization.graph)$directWeight, na.rm = TRUE)/1000
+## sum(V(standardization.graph)$`101` *
+##     V(standardization.graph)$directWeight, na.rm = TRUE)/1000
+## sum(V(standardization.graph)$`111` *
+##     V(standardization.graph)$directWeight, na.rm = TRUE)/1000
+
+## ## NOTE (Michael): Need to obtain the data for population
+
+
+## ## Kg/Yr/caput
+## sum(V(standardization.graph)$`141` *
+##     V(standardization.graph)$directWeight, na.rm = TRUE)/309492
+
+## ## g/day/caput
+## sum(V(standardization.graph)$`141` *
+##     V(standardization.graph)$directWeight, na.rm = TRUE)/309492/365 *
+##     1000
+
+## ## Kcal/day/caput
+## ## This is wrong
+## sum(V(standardization.graph)$`141`/100 * 
+##     V(standardization.graph)$`261` *
+##     V(standardization.graph)$directWeight/309492/365 * 1000,
+##     na.rm = TRUE)
+
+## ## This should be correct
+## sum(V(standardization.graph)$`141` * 1000 * 10 * 
+##     V(standardization.graph)$`261` *
+##     as.numeric(V(standardization.graph)$directWeight != 0),
+##     na.rm = TRUE)/309492000/365
