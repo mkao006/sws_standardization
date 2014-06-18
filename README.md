@@ -10,6 +10,10 @@ Pre-Standardization Methodology.
 
 ### Documentation
 
+### Presentation
+
+A presentation on the methodology can be found at
+[Slides](presentation/draft_presentation.pdf)
 
 ### Demo
 
