@@ -178,7 +178,7 @@ FBS = t(t(tmp) %*% directWeights[rownames(directWeights) %in%
 
 ## Output the file for examination
 write.csv(FBS[as.character(sort(as.numeric(rownames(FBS)))), ],
-          file = "usa_fbs.csv", na = "")
+          file = "usa_demo_fbs.csv", na = "")
 
 
 

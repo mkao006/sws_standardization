@@ -515,6 +515,522 @@ Area Code,Area Name,Item Code,Item Name,Element Code,Element Name,Year,Num,Symb
 231,USA,24,Wheat Gluten,131,Processed (Mt),2009,166864,B
 231,USA,24,Wheat Gluten,131,Processed (Mt),2010,191979,B
 231,USA,24,Wheat Gluten,131,Processed (Mt),2011,168899,B
+231,USA,27,"Rice, Paddy",31,Area Harv (Ha),2000,1229853, 
+231,USA,27,"Rice, Paddy",31,Area Harv (Ha),2001,1341143, 
+231,USA,27,"Rice, Paddy",31,Area Harv (Ha),2002,1297840, 
+231,USA,27,"Rice, Paddy",31,Area Harv (Ha),2003,1212860, 
+231,USA,27,"Rice, Paddy",31,Area Harv (Ha),2004,1345590, 
+231,USA,27,"Rice, Paddy",31,Area Harv (Ha),2005,1361380, 
+231,USA,27,"Rice, Paddy",31,Area Harv (Ha),2006,1141630, 
+231,USA,27,"Rice, Paddy",31,Area Harv (Ha),2007,1112088, 
+231,USA,27,"Rice, Paddy",31,Area Harv (Ha),2008,1204357, 
+231,USA,27,"Rice, Paddy",31,Area Harv (Ha),2009,1255750, 
+231,USA,27,"Rice, Paddy",31,Area Harv (Ha),2010,1462950, 
+231,USA,27,"Rice, Paddy",31,Area Harv (Ha),2011,1059070, 
+231,USA,27,"Rice, Paddy",51,Production (Mt),2000,8657819, 
+231,USA,27,"Rice, Paddy",51,Production (Mt),2001,9764495, 
+231,USA,27,"Rice, Paddy",51,Production (Mt),2002,9568985, 
+231,USA,27,"Rice, Paddy",51,Production (Mt),2003,9067175, 
+231,USA,27,"Rice, Paddy",51,Production (Mt),2004,10539760, 
+231,USA,27,"Rice, Paddy",51,Production (Mt),2005,10107535, 
+231,USA,27,"Rice, Paddy",51,Production (Mt),2006,8826227, 
+231,USA,27,"Rice, Paddy",51,Production (Mt),2007,8998728, 
+231,USA,27,"Rice, Paddy",51,Production (Mt),2008,9241173, 
+231,USA,27,"Rice, Paddy",51,Production (Mt),2009,9972230, 
+231,USA,27,"Rice, Paddy",51,Production (Mt),2010,11027010, 
+231,USA,27,"Rice, Paddy",51,Production (Mt),2011,8388780, 
+231,USA,27,"Rice, Paddy",61,Imports - Qty (Mt),2000,0, 
+231,USA,27,"Rice, Paddy",61,Imports - Qty (Mt),2001,0, 
+231,USA,27,"Rice, Paddy",61,Imports - Qty (Mt),2002,4, 
+231,USA,27,"Rice, Paddy",61,Imports - Qty (Mt),2003,15, 
+231,USA,27,"Rice, Paddy",61,Imports - Qty (Mt),2004,13, 
+231,USA,27,"Rice, Paddy",61,Imports - Qty (Mt),2005,20, 
+231,USA,27,"Rice, Paddy",61,Imports - Qty (Mt),2006,43, 
+231,USA,27,"Rice, Paddy",61,Imports - Qty (Mt),2007,16, 
+231,USA,27,"Rice, Paddy",61,Imports - Qty (Mt),2008,88, 
+231,USA,27,"Rice, Paddy",61,Imports - Qty (Mt),2009,9, 
+231,USA,27,"Rice, Paddy",61,Imports - Qty (Mt),2010,4, 
+231,USA,27,"Rice, Paddy",61,Imports - Qty (Mt),2011,20, 
+231,USA,27,"Rice, Paddy",71,Stock Variation (Mt),2000,-45400, 
+231,USA,27,"Rice, Paddy",71,Stock Variation (Mt),2001,-476000, 
+231,USA,27,"Rice, Paddy",71,Stock Variation (Mt),2002,553900, 
+231,USA,27,"Rice, Paddy",71,Stock Variation (Mt),2003,139900, 
+231,USA,27,"Rice, Paddy",71,Stock Variation (Mt),2004,-636200, 
+231,USA,27,"Rice, Paddy",71,Stock Variation (Mt),2005,-239600, 
+231,USA,27,"Rice, Paddy",71,Stock Variation (Mt),2006,0,M
+231,USA,27,"Rice, Paddy",71,Stock Variation (Mt),2007,0,M
+231,USA,27,"Rice, Paddy",71,Stock Variation (Mt),2008,0,M
+231,USA,27,"Rice, Paddy",71,Stock Variation (Mt),2009,0,M
+231,USA,27,"Rice, Paddy",71,Stock Variation (Mt),2010,0,M
+231,USA,27,"Rice, Paddy",71,Stock Variation (Mt),2011,0,M
+231,USA,27,"Rice, Paddy",91,Exports - Qty (Mt),2000,1181547, 
+231,USA,27,"Rice, Paddy",91,Exports - Qty (Mt),2001,1066184, 
+231,USA,27,"Rice, Paddy",91,Exports - Qty (Mt),2002,1585952, 
+231,USA,27,"Rice, Paddy",91,Exports - Qty (Mt),2003,2008662, 
+231,USA,27,"Rice, Paddy",91,Exports - Qty (Mt),2004,1327028, 
+231,USA,27,"Rice, Paddy",91,Exports - Qty (Mt),2005,1746194, 
+231,USA,27,"Rice, Paddy",91,Exports - Qty (Mt),2006,1548787, 
+231,USA,27,"Rice, Paddy",91,Exports - Qty (Mt),2007,1451240, 
+231,USA,27,"Rice, Paddy",91,Exports - Qty (Mt),2008,1801028, 
+231,USA,27,"Rice, Paddy",91,Exports - Qty (Mt),2009,1467126, 
+231,USA,27,"Rice, Paddy",91,Exports - Qty (Mt),2010,2052749, 
+231,USA,27,"Rice, Paddy",91,Exports - Qty (Mt),2011,1385993, 
+231,USA,27,"Rice, Paddy",111,Seed (Mt),2000,186653, 
+231,USA,27,"Rice, Paddy",111,Seed (Mt),2001,181392, 
+231,USA,27,"Rice, Paddy",111,Seed (Mt),2002,167828, 
+231,USA,27,"Rice, Paddy",111,Seed (Mt),2003,185972, 
+231,USA,27,"Rice, Paddy",111,Seed (Mt),2004,190500, 
+231,USA,27,"Rice, Paddy",111,Seed (Mt),2005,158700, 
+231,USA,27,"Rice, Paddy",111,Seed (Mt),2006,154220, 
+231,USA,27,"Rice, Paddy",111,Seed (Mt),2007,167829, 
+231,USA,27,"Rice, Paddy",111,Seed (Mt),2008,176901, 
+231,USA,27,"Rice, Paddy",111,Seed (Mt),2009,175313, 
+231,USA,27,"Rice, Paddy",111,Seed (Mt),2010,203306, 
+231,USA,27,"Rice, Paddy",111,Seed (Mt),2011,150577, 
+231,USA,27,"Rice, Paddy",121,Waste (Mt),2000,512579,B
+231,USA,27,"Rice, Paddy",121,Waste (Mt),2001,1366919,B
+231,USA,27,"Rice, Paddy",121,Waste (Mt),2002,1352059,B
+231,USA,27,"Rice, Paddy",121,Waste (Mt),2003,751961,B
+231,USA,27,"Rice, Paddy",121,Waste (Mt),2004,1920745,B
+231,USA,27,"Rice, Paddy",121,Waste (Mt),2005,972761,B
+231,USA,27,"Rice, Paddy",121,Waste (Mt),2006,330663,B
+231,USA,27,"Rice, Paddy",121,Waste (Mt),2007,556075,B
+231,USA,27,"Rice, Paddy",121,Waste (Mt),2008,269532,B
+231,USA,27,"Rice, Paddy",121,Waste (Mt),2009,1457100,B
+231,USA,27,"Rice, Paddy",121,Waste (Mt),2010,1770959,B
+231,USA,27,"Rice, Paddy",121,Waste (Mt),2011,2230,B
+231,USA,27,"Rice, Paddy",131,Processed (Mt),2000,6731640, 
+231,USA,27,"Rice, Paddy",131,Processed (Mt),2001,6674000, 
+231,USA,27,"Rice, Paddy",131,Processed (Mt),2002,7017050, 
+231,USA,27,"Rice, Paddy",131,Processed (Mt),2003,6260495, 
+231,USA,27,"Rice, Paddy",131,Processed (Mt),2004,6465300, 
+231,USA,27,"Rice, Paddy",131,Processed (Mt),2005,6990300, 
+231,USA,27,"Rice, Paddy",131,Processed (Mt),2006,6792600,F
+231,USA,27,"Rice, Paddy",131,Processed (Mt),2007,6823600,F
+231,USA,27,"Rice, Paddy",131,Processed (Mt),2008,6993800,F
+231,USA,27,"Rice, Paddy",131,Processed (Mt),2009,6872700,F
+231,USA,27,"Rice, Paddy",131,Processed (Mt),2010,7000000,F
+231,USA,27,"Rice, Paddy",131,Processed (Mt),2011,6850000,F
+231,USA,27,"Rice, Paddy",181,Statistic Discrepancies (Mt),2000,0,M
+231,USA,27,"Rice, Paddy",181,Statistic Discrepancies (Mt),2001,0,M
+231,USA,27,"Rice, Paddy",181,Statistic Discrepancies (Mt),2002,0,M
+231,USA,27,"Rice, Paddy",181,Statistic Discrepancies (Mt),2003,0,M
+231,USA,27,"Rice, Paddy",181,Statistic Discrepancies (Mt),2004,0,M
+231,USA,27,"Rice, Paddy",181,Statistic Discrepancies (Mt),2005,0,M
+231,USA,27,"Rice, Paddy",181,Statistic Discrepancies (Mt),2006,0,M
+231,USA,27,"Rice, Paddy",181,Statistic Discrepancies (Mt),2007,0,M
+231,USA,27,"Rice, Paddy",181,Statistic Discrepancies (Mt),2008,0,M
+231,USA,27,"Rice, Paddy",181,Statistic Discrepancies (Mt),2009,0,M
+231,USA,27,"Rice, Paddy",181,Statistic Discrepancies (Mt),2010,0,M
+231,USA,27,"Rice, Paddy",181,Statistic Discrepancies (Mt),2011,0,M
+231,USA,28,"Rice, Husked",31,Input (Mt),2000,575000,F
+231,USA,28,"Rice, Husked",31,Input (Mt),2001,482000,F
+231,USA,28,"Rice, Husked",31,Input (Mt),2002,586500,F
+231,USA,28,"Rice, Husked",31,Input (Mt),2003,595700,F
+231,USA,28,"Rice, Husked",31,Input (Mt),2004,512500,F
+231,USA,28,"Rice, Husked",31,Input (Mt),2005,372900,F
+231,USA,28,"Rice, Husked",31,Input (Mt),2006,342600,F
+231,USA,28,"Rice, Husked",31,Input (Mt),2007,323600,F
+231,USA,28,"Rice, Husked",31,Input (Mt),2008,393800,F
+231,USA,28,"Rice, Husked",31,Input (Mt),2009,222700,F
+231,USA,28,"Rice, Husked",31,Input (Mt),2010,350000,F
+231,USA,28,"Rice, Husked",31,Input (Mt),2011,200000,F
+231,USA,28,"Rice, Husked",51,Production (Mt),2000,454250,C
+231,USA,28,"Rice, Husked",51,Production (Mt),2001,380780,C
+231,USA,28,"Rice, Husked",51,Production (Mt),2002,463335,C
+231,USA,28,"Rice, Husked",51,Production (Mt),2003,470603,C
+231,USA,28,"Rice, Husked",51,Production (Mt),2004,404875,C
+231,USA,28,"Rice, Husked",51,Production (Mt),2005,294591,C
+231,USA,28,"Rice, Husked",51,Production (Mt),2006,270654,C
+231,USA,28,"Rice, Husked",51,Production (Mt),2007,255644,C
+231,USA,28,"Rice, Husked",51,Production (Mt),2008,311102,C
+231,USA,28,"Rice, Husked",51,Production (Mt),2009,175933,C
+231,USA,28,"Rice, Husked",51,Production (Mt),2010,276500,C
+231,USA,28,"Rice, Husked",51,Production (Mt),2011,158000,C
+231,USA,28,"Rice, Husked",61,Imports - Qty (Mt),2000,32636.5, 
+231,USA,28,"Rice, Husked",61,Imports - Qty (Mt),2001,28896, 
+231,USA,28,"Rice, Husked",61,Imports - Qty (Mt),2002,22299, 
+231,USA,28,"Rice, Husked",61,Imports - Qty (Mt),2003,24805, 
+231,USA,28,"Rice, Husked",61,Imports - Qty (Mt),2004,28774, 
+231,USA,28,"Rice, Husked",61,Imports - Qty (Mt),2005,33570, 
+231,USA,28,"Rice, Husked",61,Imports - Qty (Mt),2006,32182, 
+231,USA,28,"Rice, Husked",61,Imports - Qty (Mt),2007,28708, 
+231,USA,28,"Rice, Husked",61,Imports - Qty (Mt),2008,28087, 
+231,USA,28,"Rice, Husked",61,Imports - Qty (Mt),2009,38950, 
+231,USA,28,"Rice, Husked",61,Imports - Qty (Mt),2010,40762, 
+231,USA,28,"Rice, Husked",61,Imports - Qty (Mt),2011,53092, 
+231,USA,28,"Rice, Husked",91,Exports - Qty (Mt),2000,486506.1, 
+231,USA,28,"Rice, Husked",91,Exports - Qty (Mt),2001,409327, 
+231,USA,28,"Rice, Husked",91,Exports - Qty (Mt),2002,485297, 
+231,USA,28,"Rice, Husked",91,Exports - Qty (Mt),2003,495175, 
+231,USA,28,"Rice, Husked",91,Exports - Qty (Mt),2004,433389, 
+231,USA,28,"Rice, Husked",91,Exports - Qty (Mt),2005,327869, 
+231,USA,28,"Rice, Husked",91,Exports - Qty (Mt),2006,302602, 
+231,USA,28,"Rice, Husked",91,Exports - Qty (Mt),2007,284100, 
+231,USA,28,"Rice, Husked",91,Exports - Qty (Mt),2008,338943, 
+231,USA,28,"Rice, Husked",91,Exports - Qty (Mt),2009,214637, 
+231,USA,28,"Rice, Husked",91,Exports - Qty (Mt),2010,353626, 
+231,USA,28,"Rice, Husked",91,Exports - Qty (Mt),2011,301323, 
+231,USA,28,"Rice, Husked",141,Food (Mt),2000,380.4,B
+231,USA,28,"Rice, Husked",141,Food (Mt),2001,349,B
+231,USA,28,"Rice, Husked",141,Food (Mt),2002,337,B
+231,USA,28,"Rice, Husked",141,Food (Mt),2003,233,B
+231,USA,28,"Rice, Husked",141,Food (Mt),2004,260,B
+231,USA,28,"Rice, Husked",141,Food (Mt),2005,292,B
+231,USA,28,"Rice, Husked",141,Food (Mt),2006,234,B
+231,USA,28,"Rice, Husked",141,Food (Mt),2007,252,B
+231,USA,28,"Rice, Husked",141,Food (Mt),2008,246,B
+231,USA,28,"Rice, Husked",141,Food (Mt),2009,246,B
+231,USA,28,"Rice, Husked",141,Food (Mt),2010,0,B
+231,USA,28,"Rice, Husked",141,Food (Mt),2011,0,B
+231,USA,28,"Rice, Husked",181,Statistic Discrepancies (Mt),2000,0,M
+231,USA,28,"Rice, Husked",181,Statistic Discrepancies (Mt),2001,0,M
+231,USA,28,"Rice, Husked",181,Statistic Discrepancies (Mt),2002,0,M
+231,USA,28,"Rice, Husked",181,Statistic Discrepancies (Mt),2003,0,M
+231,USA,28,"Rice, Husked",181,Statistic Discrepancies (Mt),2004,0,M
+231,USA,28,"Rice, Husked",181,Statistic Discrepancies (Mt),2005,0,M
+231,USA,28,"Rice, Husked",181,Statistic Discrepancies (Mt),2006,0,M
+231,USA,28,"Rice, Husked",181,Statistic Discrepancies (Mt),2007,0,M
+231,USA,28,"Rice, Husked",181,Statistic Discrepancies (Mt),2008,0,M
+231,USA,28,"Rice, Husked",181,Statistic Discrepancies (Mt),2009,0,M
+231,USA,28,"Rice, Husked",181,Statistic Discrepancies (Mt),2010,-36364,B
+231,USA,28,"Rice, Husked",181,Statistic Discrepancies (Mt),2011,-90231,B
+231,USA,31,Milled Paddy Rice,31,Input (Mt),2000,6156640,*
+231,USA,31,Milled Paddy Rice,31,Input (Mt),2001,6192000,*
+231,USA,31,Milled Paddy Rice,31,Input (Mt),2002,6430550,*
+231,USA,31,Milled Paddy Rice,31,Input (Mt),2003,5664795,*
+231,USA,31,Milled Paddy Rice,31,Input (Mt),2004,5952800,*
+231,USA,31,Milled Paddy Rice,31,Input (Mt),2005,6617400,*
+231,USA,31,Milled Paddy Rice,31,Input (Mt),2006,6450000,F
+231,USA,31,Milled Paddy Rice,31,Input (Mt),2007,6500000,F
+231,USA,31,Milled Paddy Rice,31,Input (Mt),2008,6600000,F
+231,USA,31,Milled Paddy Rice,31,Input (Mt),2009,6650000,F
+231,USA,31,Milled Paddy Rice,31,Input (Mt),2010,6650000,F
+231,USA,31,Milled Paddy Rice,31,Input (Mt),2011,6650000,F
+231,USA,31,Milled Paddy Rice,51,Production (Mt),2000,4224686.368,C
+231,USA,31,Milled Paddy Rice,51,Production (Mt),2001,4257619.2,C
+231,USA,31,Milled Paddy Rice,51,Production (Mt),2002,4390136.5,C
+231,USA,31,Milled Paddy Rice,51,Production (Mt),2003,4010108.38,C
+231,USA,31,Milled Paddy Rice,51,Production (Mt),2004,4214582.4,C
+231,USA,31,Milled Paddy Rice,51,Production (Mt),2005,4648723.5,C
+231,USA,31,Milled Paddy Rice,51,Production (Mt),2006,4531125,C
+231,USA,31,Milled Paddy Rice,51,Production (Mt),2007,4566250,C
+231,USA,31,Milled Paddy Rice,51,Production (Mt),2008,4636500,C
+231,USA,31,Milled Paddy Rice,51,Production (Mt),2009,4671625,C
+231,USA,31,Milled Paddy Rice,51,Production (Mt),2010,4671625,C
+231,USA,31,Milled Paddy Rice,51,Production (Mt),2011,4671625,C
+231,USA,31,Milled Paddy Rice,61,Imports - Qty (Mt),2000,270340.2, 
+231,USA,31,Milled Paddy Rice,61,Imports - Qty (Mt),2001,375132, 
+231,USA,31,Milled Paddy Rice,61,Imports - Qty (Mt),2002,384799, 
+231,USA,31,Milled Paddy Rice,61,Imports - Qty (Mt),2003,403918, 
+231,USA,31,Milled Paddy Rice,61,Imports - Qty (Mt),2004,447728, 
+231,USA,31,Milled Paddy Rice,61,Imports - Qty (Mt),2005,369778, 
+231,USA,31,Milled Paddy Rice,61,Imports - Qty (Mt),2006,558809, 
+231,USA,31,Milled Paddy Rice,61,Imports - Qty (Mt),2007,582053, 
+231,USA,31,Milled Paddy Rice,61,Imports - Qty (Mt),2008,532571, 
+231,USA,31,Milled Paddy Rice,61,Imports - Qty (Mt),2009,539069, 
+231,USA,31,Milled Paddy Rice,61,Imports - Qty (Mt),2010,489423, 
+231,USA,31,Milled Paddy Rice,61,Imports - Qty (Mt),2011,539027, 
+231,USA,31,Milled Paddy Rice,71,Stock Variation (Mt),2000,-151305.568,B
+231,USA,31,Milled Paddy Rice,71,Stock Variation (Mt),2001,-282384.2,B
+231,USA,31,Milled Paddy Rice,71,Stock Variation (Mt),2002,-98984.485,B
+231,USA,31,Milled Paddy Rice,71,Stock Variation (Mt),2003,309143.62,B
+231,USA,31,Milled Paddy Rice,71,Stock Variation (Mt),2004,-19646.4,B
+231,USA,31,Milled Paddy Rice,71,Stock Variation (Mt),2005,234718.5,B
+231,USA,31,Milled Paddy Rice,71,Stock Variation (Mt),2006,-39944,B
+231,USA,31,Milled Paddy Rice,71,Stock Variation (Mt),2007,-330056,B
+231,USA,31,Milled Paddy Rice,71,Stock Variation (Mt),2008,-367515,B
+231,USA,31,Milled Paddy Rice,71,Stock Variation (Mt),2009,-370109,B
+231,USA,31,Milled Paddy Rice,71,Stock Variation (Mt),2010,15036,B
+231,USA,31,Milled Paddy Rice,71,Stock Variation (Mt),2011,-56847,B
+231,USA,31,Milled Paddy Rice,91,Exports - Qty (Mt),2000,1359597, 
+231,USA,31,Milled Paddy Rice,91,Exports - Qty (Mt),2001,1448694, 
+231,USA,31,Milled Paddy Rice,91,Exports - Qty (Mt),2002,1665475, 
+231,USA,31,Milled Paddy Rice,91,Exports - Qty (Mt),2003,1899975, 
+231,USA,31,Milled Paddy Rice,91,Exports - Qty (Mt),2004,1675042, 
+231,USA,31,Milled Paddy Rice,91,Exports - Qty (Mt),2005,2281182, 
+231,USA,31,Milled Paddy Rice,91,Exports - Qty (Mt),2006,1948490, 
+231,USA,31,Milled Paddy Rice,91,Exports - Qty (Mt),2007,1693347, 
+231,USA,31,Milled Paddy Rice,91,Exports - Qty (Mt),2008,1705756, 
+231,USA,31,Milled Paddy Rice,91,Exports - Qty (Mt),2009,1705585, 
+231,USA,31,Milled Paddy Rice,91,Exports - Qty (Mt),2010,2036084, 
+231,USA,31,Milled Paddy Rice,91,Exports - Qty (Mt),2011,1915805, 
+231,USA,31,Milled Paddy Rice,131,Processed (Mt),2000,770124,*
+231,USA,31,Milled Paddy Rice,131,Processed (Mt),2001,667673,*
+231,USA,31,Milled Paddy Rice,131,Processed (Mt),2002,695476,*
+231,USA,31,Milled Paddy Rice,131,Processed (Mt),2003,739195,*
+231,USA,31,Milled Paddy Rice,131,Processed (Mt),2004,759622,*
+231,USA,31,Milled Paddy Rice,131,Processed (Mt),2005,697038,*
+231,USA,31,Milled Paddy Rice,131,Processed (Mt),2006,766500,F
+231,USA,31,Milled Paddy Rice,131,Processed (Mt),2007,759900,F
+231,USA,31,Milled Paddy Rice,131,Processed (Mt),2008,730800,F
+231,USA,31,Milled Paddy Rice,131,Processed (Mt),2009,755000,F
+231,USA,31,Milled Paddy Rice,131,Processed (Mt),2010,760000,F
+231,USA,31,Milled Paddy Rice,131,Processed (Mt),2011,760000,F
+231,USA,31,Milled Paddy Rice,141,Food (Mt),2000,2064000,F
+231,USA,31,Milled Paddy Rice,141,Food (Mt),2001,2084000,F
+231,USA,31,Milled Paddy Rice,141,Food (Mt),2002,2165000,F
+231,USA,31,Milled Paddy Rice,141,Food (Mt),2003,1934000,F
+231,USA,31,Milled Paddy Rice,141,Food (Mt),2004,2058000,F
+231,USA,31,Milled Paddy Rice,141,Food (Mt),2005,2125000,F
+231,USA,31,Milled Paddy Rice,141,Food (Mt),2006,2185000,F
+231,USA,31,Milled Paddy Rice,141,Food (Mt),2007,2215000,F
+231,USA,31,Milled Paddy Rice,141,Food (Mt),2008,2215000,F
+231,USA,31,Milled Paddy Rice,141,Food (Mt),2009,2230000,F
+231,USA,31,Milled Paddy Rice,141,Food (Mt),2010,2230000,F
+231,USA,31,Milled Paddy Rice,141,Food (Mt),2011,2328000,F
+231,USA,31,Milled Paddy Rice,151,Other Util (Mt),2000,150000,F
+231,USA,31,Milled Paddy Rice,151,Other Util (Mt),2001,150000,F
+231,USA,31,Milled Paddy Rice,151,Other Util (Mt),2002,150000,F
+231,USA,31,Milled Paddy Rice,151,Other Util (Mt),2003,150000,F
+231,USA,31,Milled Paddy Rice,151,Other Util (Mt),2004,150000,F
+231,USA,31,Milled Paddy Rice,151,Other Util (Mt),2005,150000,F
+231,USA,31,Milled Paddy Rice,151,Other Util (Mt),2006,150000,F
+231,USA,31,Milled Paddy Rice,151,Other Util (Mt),2007,150000,F
+231,USA,31,Milled Paddy Rice,151,Other Util (Mt),2008,150000,F
+231,USA,31,Milled Paddy Rice,151,Other Util (Mt),2009,150000,F
+231,USA,31,Milled Paddy Rice,151,Other Util (Mt),2010,150000,F
+231,USA,31,Milled Paddy Rice,151,Other Util (Mt),2011,150000,F
+231,USA,32,"Rice, Broken",31,Input (Mt),2000,630824,F
+231,USA,32,"Rice, Broken",31,Input (Mt),2001,587273,*
+231,USA,32,"Rice, Broken",31,Input (Mt),2002,604476,*
+231,USA,32,"Rice, Broken",31,Input (Mt),2003,608195,*
+231,USA,32,"Rice, Broken",31,Input (Mt),2004,571522,*
+231,USA,32,"Rice, Broken",31,Input (Mt),2005,520238,*
+231,USA,32,"Rice, Broken",31,Input (Mt),2006,505000,F
+231,USA,32,"Rice, Broken",31,Input (Mt),2007,495000,F
+231,USA,32,"Rice, Broken",31,Input (Mt),2008,500000,F
+231,USA,32,"Rice, Broken",31,Input (Mt),2009,510000,F
+231,USA,32,"Rice, Broken",31,Input (Mt),2010,510000,F
+231,USA,32,"Rice, Broken",31,Input (Mt),2011,510000,F
+231,USA,32,"Rice, Broken",51,Production (Mt),2000,630824,C
+231,USA,32,"Rice, Broken",51,Production (Mt),2001,587273,C
+231,USA,32,"Rice, Broken",51,Production (Mt),2002,604476,C
+231,USA,32,"Rice, Broken",51,Production (Mt),2003,608195,C
+231,USA,32,"Rice, Broken",51,Production (Mt),2004,571522,C
+231,USA,32,"Rice, Broken",51,Production (Mt),2005,520238,C
+231,USA,32,"Rice, Broken",51,Production (Mt),2006,505000,C
+231,USA,32,"Rice, Broken",51,Production (Mt),2007,495000,C
+231,USA,32,"Rice, Broken",51,Production (Mt),2008,500000,C
+231,USA,32,"Rice, Broken",51,Production (Mt),2009,510000,C
+231,USA,32,"Rice, Broken",51,Production (Mt),2010,510000,C
+231,USA,32,"Rice, Broken",51,Production (Mt),2011,510000,C
+231,USA,32,"Rice, Broken",61,Imports - Qty (Mt),2000,1528.614,*
+231,USA,32,"Rice, Broken",61,Imports - Qty (Mt),2001,1773, 
+231,USA,32,"Rice, Broken",61,Imports - Qty (Mt),2002,2755, 
+231,USA,32,"Rice, Broken",61,Imports - Qty (Mt),2003,2569, 
+231,USA,32,"Rice, Broken",61,Imports - Qty (Mt),2004,4244, 
+231,USA,32,"Rice, Broken",61,Imports - Qty (Mt),2005,4278, 
+231,USA,32,"Rice, Broken",61,Imports - Qty (Mt),2006,31183, 
+231,USA,32,"Rice, Broken",61,Imports - Qty (Mt),2007,72300, 
+231,USA,32,"Rice, Broken",61,Imports - Qty (Mt),2008,71742, 
+231,USA,32,"Rice, Broken",61,Imports - Qty (Mt),2009,86090, 
+231,USA,32,"Rice, Broken",61,Imports - Qty (Mt),2010,12433, 
+231,USA,32,"Rice, Broken",61,Imports - Qty (Mt),2011,10260, 
+231,USA,32,"Rice, Broken",91,Exports - Qty (Mt),2000,122352.9, 
+231,USA,32,"Rice, Broken",91,Exports - Qty (Mt),2001,71046, 
+231,USA,32,"Rice, Broken",91,Exports - Qty (Mt),2002,85231, 
+231,USA,32,"Rice, Broken",91,Exports - Qty (Mt),2003,83764, 
+231,USA,32,"Rice, Broken",91,Exports - Qty (Mt),2004,95766, 
+231,USA,32,"Rice, Broken",91,Exports - Qty (Mt),2005,77516, 
+231,USA,32,"Rice, Broken",91,Exports - Qty (Mt),2006,45379, 
+231,USA,32,"Rice, Broken",91,Exports - Qty (Mt),2007,65836, 
+231,USA,32,"Rice, Broken",91,Exports - Qty (Mt),2008,100771, 
+231,USA,32,"Rice, Broken",91,Exports - Qty (Mt),2009,72772, 
+231,USA,32,"Rice, Broken",91,Exports - Qty (Mt),2010,58513, 
+231,USA,32,"Rice, Broken",91,Exports - Qty (Mt),2011,77684, 
+231,USA,32,"Rice, Broken",131,Processed (Mt),2000,509999.714,B
+231,USA,32,"Rice, Broken",131,Processed (Mt),2001,518000,B
+231,USA,32,"Rice, Broken",131,Processed (Mt),2002,522000,B
+231,USA,32,"Rice, Broken",131,Processed (Mt),2003,527000,B
+231,USA,32,"Rice, Broken",131,Processed (Mt),2004,480000,B
+231,USA,32,"Rice, Broken",131,Processed (Mt),2005,447000,B
+231,USA,32,"Rice, Broken",131,Processed (Mt),2006,490804,B
+231,USA,32,"Rice, Broken",131,Processed (Mt),2007,501464,B
+231,USA,32,"Rice, Broken",131,Processed (Mt),2008,470971,B
+231,USA,32,"Rice, Broken",131,Processed (Mt),2009,523318,B
+231,USA,32,"Rice, Broken",131,Processed (Mt),2010,463920,B
+231,USA,32,"Rice, Broken",131,Processed (Mt),2011,442576,B
+231,USA,34,"Rice, Starch",61,Imports - Qty (Mt),2000,0, 
+231,USA,34,"Rice, Starch",61,Imports - Qty (Mt),2001,0, 
+231,USA,34,"Rice, Starch",61,Imports - Qty (Mt),2002,0, 
+231,USA,34,"Rice, Starch",61,Imports - Qty (Mt),2003,0, 
+231,USA,34,"Rice, Starch",61,Imports - Qty (Mt),2004,0, 
+231,USA,34,"Rice, Starch",61,Imports - Qty (Mt),2005,0, 
+231,USA,34,"Rice, Starch",61,Imports - Qty (Mt),2006,0, 
+231,USA,34,"Rice, Starch",61,Imports - Qty (Mt),2007,0, 
+231,USA,34,"Rice, Starch",61,Imports - Qty (Mt),2008,0, 
+231,USA,34,"Rice, Starch",61,Imports - Qty (Mt),2009,0, 
+231,USA,34,"Rice, Starch",61,Imports - Qty (Mt),2010,0, 
+231,USA,34,"Rice, Starch",61,Imports - Qty (Mt),2011,0, 
+231,USA,34,"Rice, Starch",91,Exports - Qty (Mt),2000,0,M
+231,USA,34,"Rice, Starch",91,Exports - Qty (Mt),2001,0, 
+231,USA,34,"Rice, Starch",91,Exports - Qty (Mt),2002,0,M
+231,USA,34,"Rice, Starch",91,Exports - Qty (Mt),2003,0,M
+231,USA,34,"Rice, Starch",91,Exports - Qty (Mt),2004,0,M
+231,USA,34,"Rice, Starch",91,Exports - Qty (Mt),2005,0,M
+231,USA,34,"Rice, Starch",91,Exports - Qty (Mt),2006,0,M
+231,USA,34,"Rice, Starch",91,Exports - Qty (Mt),2007,0, 
+231,USA,34,"Rice, Starch",91,Exports - Qty (Mt),2008,0, 
+231,USA,34,"Rice, Starch",91,Exports - Qty (Mt),2009,0, 
+231,USA,34,"Rice, Starch",91,Exports - Qty (Mt),2010,0, 
+231,USA,34,"Rice, Starch",91,Exports - Qty (Mt),2011,0, 
+231,USA,34,"Rice, Starch",151,Other Util (Mt),2000,0,B
+231,USA,34,"Rice, Starch",151,Other Util (Mt),2001,0,B
+231,USA,34,"Rice, Starch",151,Other Util (Mt),2002,0,B
+231,USA,34,"Rice, Starch",151,Other Util (Mt),2003,0,B
+231,USA,34,"Rice, Starch",151,Other Util (Mt),2004,0,B
+231,USA,34,"Rice, Starch",151,Other Util (Mt),2005,0,B
+231,USA,34,"Rice, Starch",151,Other Util (Mt),2006,0,B
+231,USA,34,"Rice, Starch",151,Other Util (Mt),2007,0,B
+231,USA,34,"Rice, Starch",151,Other Util (Mt),2008,0,B
+231,USA,34,"Rice, Starch",151,Other Util (Mt),2009,0,B
+231,USA,34,"Rice, Starch",151,Other Util (Mt),2010,0,B
+231,USA,34,"Rice, Starch",151,Other Util (Mt),2011,0,B
+231,USA,35,Bran of Rice,31,Input (Mt),2000,6156640,*
+231,USA,35,Bran of Rice,31,Input (Mt),2001,6192000,*
+231,USA,35,Bran of Rice,31,Input (Mt),2002,6430550,*
+231,USA,35,Bran of Rice,31,Input (Mt),2003,5664795,*
+231,USA,35,Bran of Rice,31,Input (Mt),2004,5952800,*
+231,USA,35,Bran of Rice,31,Input (Mt),2005,6617400,*
+231,USA,35,Bran of Rice,31,Input (Mt),2006,6450000,F
+231,USA,35,Bran of Rice,31,Input (Mt),2007,6500000,F
+231,USA,35,Bran of Rice,31,Input (Mt),2008,6600000,F
+231,USA,35,Bran of Rice,31,Input (Mt),2009,6650000,F
+231,USA,35,Bran of Rice,31,Input (Mt),2010,6650000,F
+231,USA,35,Bran of Rice,31,Input (Mt),2011,6650000,F
+231,USA,35,Bran of Rice,51,Production (Mt),2000,517157.737,C
+231,USA,35,Bran of Rice,51,Production (Mt),2001,520127.976,C
+231,USA,35,Bran of Rice,51,Production (Mt),2002,540166.176,C
+231,USA,35,Bran of Rice,51,Production (Mt),2003,475842.758,C
+231,USA,35,Bran of Rice,51,Production (Mt),2004,500035.177,C
+231,USA,35,Bran of Rice,51,Production (Mt),2005,555861.575,C
+231,USA,35,Bran of Rice,51,Production (Mt),2006,541799.976,C
+231,USA,35,Bran of Rice,51,Production (Mt),2007,545999.975,C
+231,USA,35,Bran of Rice,51,Production (Mt),2008,554399.975,C
+231,USA,35,Bran of Rice,51,Production (Mt),2009,558599.975,C
+231,USA,35,Bran of Rice,51,Production (Mt),2010,558599.975,C
+231,USA,35,Bran of Rice,51,Production (Mt),2011,558599.975,C
+231,USA,35,Bran of Rice,61,Imports - Qty (Mt),2000,9450, 
+231,USA,35,Bran of Rice,61,Imports - Qty (Mt),2001,188,*
+231,USA,35,Bran of Rice,61,Imports - Qty (Mt),2002,2171,*
+231,USA,35,Bran of Rice,61,Imports - Qty (Mt),2003,14211,*
+231,USA,35,Bran of Rice,61,Imports - Qty (Mt),2004,2150, 
+231,USA,35,Bran of Rice,61,Imports - Qty (Mt),2005,223,*
+231,USA,35,Bran of Rice,61,Imports - Qty (Mt),2006,552,*
+231,USA,35,Bran of Rice,61,Imports - Qty (Mt),2007,0,*
+231,USA,35,Bran of Rice,61,Imports - Qty (Mt),2008,0,T
+231,USA,35,Bran of Rice,61,Imports - Qty (Mt),2009,0,T
+231,USA,35,Bran of Rice,61,Imports - Qty (Mt),2010,0,T
+231,USA,35,Bran of Rice,61,Imports - Qty (Mt),2011,0,T
+231,USA,35,Bran of Rice,91,Exports - Qty (Mt),2000,57755, 
+231,USA,35,Bran of Rice,91,Exports - Qty (Mt),2001,48948, 
+231,USA,35,Bran of Rice,91,Exports - Qty (Mt),2002,58111, 
+231,USA,35,Bran of Rice,91,Exports - Qty (Mt),2003,80457, 
+231,USA,35,Bran of Rice,91,Exports - Qty (Mt),2004,84695, 
+231,USA,35,Bran of Rice,91,Exports - Qty (Mt),2005,91521, 
+231,USA,35,Bran of Rice,91,Exports - Qty (Mt),2006,114314, 
+231,USA,35,Bran of Rice,91,Exports - Qty (Mt),2007,0,*
+231,USA,35,Bran of Rice,91,Exports - Qty (Mt),2008,0,T
+231,USA,35,Bran of Rice,91,Exports - Qty (Mt),2009,0,T
+231,USA,35,Bran of Rice,91,Exports - Qty (Mt),2010,0,T
+231,USA,35,Bran of Rice,91,Exports - Qty (Mt),2011,0,T
+231,USA,35,Bran of Rice,101,Feed (Mt),2000,468852.737,B
+231,USA,35,Bran of Rice,101,Feed (Mt),2001,471367.976,B
+231,USA,35,Bran of Rice,101,Feed (Mt),2002,484226.176,B
+231,USA,35,Bran of Rice,101,Feed (Mt),2003,409596.758,B
+231,USA,35,Bran of Rice,101,Feed (Mt),2004,417490.177,B
+231,USA,35,Bran of Rice,101,Feed (Mt),2005,464563.575,B
+231,USA,35,Bran of Rice,101,Feed (Mt),2006,428037.976,B
+231,USA,35,Bran of Rice,101,Feed (Mt),2007,545999.975,B
+231,USA,35,Bran of Rice,101,Feed (Mt),2008,554399.975,B
+231,USA,35,Bran of Rice,101,Feed (Mt),2009,558599.975,B
+231,USA,35,Bran of Rice,101,Feed (Mt),2010,558599.975,B
+231,USA,35,Bran of Rice,101,Feed (Mt),2011,558599.975,B
+231,USA,38,Rice Flour,61,Imports - Qty (Mt),2000,7120.543, 
+231,USA,38,Rice Flour,61,Imports - Qty (Mt),2001,10287, 
+231,USA,38,Rice Flour,61,Imports - Qty (Mt),2002,12093, 
+231,USA,38,Rice Flour,61,Imports - Qty (Mt),2003,13304, 
+231,USA,38,Rice Flour,61,Imports - Qty (Mt),2004,13378, 
+231,USA,38,Rice Flour,61,Imports - Qty (Mt),2005,14636, 
+231,USA,38,Rice Flour,61,Imports - Qty (Mt),2006,14804, 
+231,USA,38,Rice Flour,61,Imports - Qty (Mt),2007,221, 
+231,USA,38,Rice Flour,61,Imports - Qty (Mt),2008,1382, 
+231,USA,38,Rice Flour,61,Imports - Qty (Mt),2009,343, 
+231,USA,38,Rice Flour,61,Imports - Qty (Mt),2010,648, 
+231,USA,38,Rice Flour,61,Imports - Qty (Mt),2011,435, 
+231,USA,38,Rice Flour,71,Stock Variation (Mt),2000,3201,F
+231,USA,38,Rice Flour,71,Stock Variation (Mt),2001,0,F
+231,USA,38,Rice Flour,71,Stock Variation (Mt),2002,0,F
+231,USA,38,Rice Flour,71,Stock Variation (Mt),2003,0,M
+231,USA,38,Rice Flour,71,Stock Variation (Mt),2004,0,M
+231,USA,38,Rice Flour,71,Stock Variation (Mt),2005,-2000,F
+231,USA,38,Rice Flour,71,Stock Variation (Mt),2006,-2200,F
+231,USA,38,Rice Flour,71,Stock Variation (Mt),2007,300,F
+231,USA,38,Rice Flour,71,Stock Variation (Mt),2008,0,F
+231,USA,38,Rice Flour,71,Stock Variation (Mt),2009,1150,F
+231,USA,38,Rice Flour,71,Stock Variation (Mt),2010,1500,F
+231,USA,38,Rice Flour,71,Stock Variation (Mt),2011,1200,F
+231,USA,38,Rice Flour,91,Exports - Qty (Mt),2000,10321.48, 
+231,USA,38,Rice Flour,91,Exports - Qty (Mt),2001,6672, 
+231,USA,38,Rice Flour,91,Exports - Qty (Mt),2002,7433, 
+231,USA,38,Rice Flour,91,Exports - Qty (Mt),2003,8432, 
+231,USA,38,Rice Flour,91,Exports - Qty (Mt),2004,9537, 
+231,USA,38,Rice Flour,91,Exports - Qty (Mt),2005,9799, 
+231,USA,38,Rice Flour,91,Exports - Qty (Mt),2006,10243, 
+231,USA,38,Rice Flour,91,Exports - Qty (Mt),2007,498, 
+231,USA,38,Rice Flour,91,Exports - Qty (Mt),2008,625, 
+231,USA,38,Rice Flour,91,Exports - Qty (Mt),2009,1452, 
+231,USA,38,Rice Flour,91,Exports - Qty (Mt),2010,2110, 
+231,USA,38,Rice Flour,91,Exports - Qty (Mt),2011,1610, 
+231,USA,38,Rice Flour,141,Food (Mt),2000,0.063,B
+231,USA,38,Rice Flour,141,Food (Mt),2001,3615,B
+231,USA,38,Rice Flour,141,Food (Mt),2002,4660,B
+231,USA,38,Rice Flour,141,Food (Mt),2003,4872,B
+231,USA,38,Rice Flour,141,Food (Mt),2004,3841,B
+231,USA,38,Rice Flour,141,Food (Mt),2005,2837,B
+231,USA,38,Rice Flour,141,Food (Mt),2006,2361,B
+231,USA,38,Rice Flour,141,Food (Mt),2007,23,B
+231,USA,38,Rice Flour,141,Food (Mt),2008,757,B
+231,USA,38,Rice Flour,141,Food (Mt),2009,41,B
+231,USA,38,Rice Flour,141,Food (Mt),2010,38,B
+231,USA,38,Rice Flour,141,Food (Mt),2011,25,B
+231,USA,38,Rice Flour,181,Statistic Discrepancies (Mt),2000,0,M
+231,USA,38,Rice Flour,181,Statistic Discrepancies (Mt),2001,0,M
+231,USA,38,Rice Flour,181,Statistic Discrepancies (Mt),2002,0,M
+231,USA,38,Rice Flour,181,Statistic Discrepancies (Mt),2003,0,M
+231,USA,38,Rice Flour,181,Statistic Discrepancies (Mt),2004,0,M
+231,USA,38,Rice Flour,181,Statistic Discrepancies (Mt),2005,0,M
+231,USA,38,Rice Flour,181,Statistic Discrepancies (Mt),2006,0,M
+231,USA,38,Rice Flour,181,Statistic Discrepancies (Mt),2007,0,M
+231,USA,38,Rice Flour,181,Statistic Discrepancies (Mt),2008,0,M
+231,USA,38,Rice Flour,181,Statistic Discrepancies (Mt),2009,0,M
+231,USA,38,Rice Flour,181,Statistic Discrepancies (Mt),2010,0,M
+231,USA,38,Rice Flour,181,Statistic Discrepancies (Mt),2011,0,M
+231,USA,39,Rice Fermented Beverages,61,Imports - Qty (Mt),2000,2811.921, 
+231,USA,39,Rice Fermented Beverages,61,Imports - Qty (Mt),2001,2868, 
+231,USA,39,Rice Fermented Beverages,61,Imports - Qty (Mt),2002,3578, 
+231,USA,39,Rice Fermented Beverages,61,Imports - Qty (Mt),2003,4301, 
+231,USA,39,Rice Fermented Beverages,61,Imports - Qty (Mt),2004,4602, 
+231,USA,39,Rice Fermented Beverages,61,Imports - Qty (Mt),2005,4764, 
+231,USA,39,Rice Fermented Beverages,61,Imports - Qty (Mt),2006,5236, 
+231,USA,39,Rice Fermented Beverages,61,Imports - Qty (Mt),2007,5571, 
+231,USA,39,Rice Fermented Beverages,61,Imports - Qty (Mt),2008,5714, 
+231,USA,39,Rice Fermented Beverages,61,Imports - Qty (Mt),2009,5682, 
+231,USA,39,Rice Fermented Beverages,61,Imports - Qty (Mt),2010,7287, 
+231,USA,39,Rice Fermented Beverages,61,Imports - Qty (Mt),2011,7478, 
+231,USA,39,Rice Fermented Beverages,141,Food (Mt),2000,2811.921,B
+231,USA,39,Rice Fermented Beverages,141,Food (Mt),2001,2868,B
+231,USA,39,Rice Fermented Beverages,141,Food (Mt),2002,3578,B
+231,USA,39,Rice Fermented Beverages,141,Food (Mt),2003,4301,B
+231,USA,39,Rice Fermented Beverages,141,Food (Mt),2004,4602,B
+231,USA,39,Rice Fermented Beverages,141,Food (Mt),2005,4764,B
+231,USA,39,Rice Fermented Beverages,141,Food (Mt),2006,5236,B
+231,USA,39,Rice Fermented Beverages,141,Food (Mt),2007,5571,B
+231,USA,39,Rice Fermented Beverages,141,Food (Mt),2008,5714,B
+231,USA,39,Rice Fermented Beverages,141,Food (Mt),2009,5682,B
+231,USA,39,Rice Fermented Beverages,141,Food (Mt),2010,7287,B
+231,USA,39,Rice Fermented Beverages,141,Food (Mt),2011,7478,B
 231,USA,41,Breakfast Cereals,31,Input (Mt),2000,139300,F
 231,USA,41,Breakfast Cereals,31,Input (Mt),2001,80400,F
 231,USA,41,Breakfast Cereals,31,Input (Mt),2002,91000,F
@@ -575,6 +1091,318 @@ Area Code,Area Name,Item Code,Item Name,Element Code,Element Name,Year,Num,Symb
 231,USA,41,Breakfast Cereals,141,Food (Mt),2009,85,B
 231,USA,41,Breakfast Cereals,141,Food (Mt),2010,63274,B
 231,USA,41,Breakfast Cereals,141,Food (Mt),2011,98127,B
+231,USA,44,Barley,31,Area Harv (Ha),2000,2104388, 
+231,USA,44,Barley,31,Area Harv (Ha),2001,1729240, 
+231,USA,44,Barley,31,Area Harv (Ha),2002,1668537, 
+231,USA,44,Barley,31,Area Harv (Ha),2003,1912970, 
+231,USA,44,Barley,31,Area Harv (Ha),2004,1627260, 
+231,USA,44,Barley,31,Area Harv (Ha),2005,1322930, 
+231,USA,44,Barley,31,Area Harv (Ha),2006,1194240, 
+231,USA,44,Barley,31,Area Harv (Ha),2007,1417224, 
+231,USA,44,Barley,31,Area Harv (Ha),2008,1529324, 
+231,USA,44,Barley,31,Area Harv (Ha),2009,1259800, 
+231,USA,44,Barley,31,Area Harv (Ha),2010,997560, 
+231,USA,44,Barley,31,Area Harv (Ha),2011,906100, 
+231,USA,44,Barley,51,Production (Mt),2000,6919229, 
+231,USA,44,Barley,51,Production (Mt),2001,5406619, 
+231,USA,44,Barley,51,Production (Mt),2002,4940197, 
+231,USA,44,Barley,51,Production (Mt),2003,6058777, 
+231,USA,44,Barley,51,Production (Mt),2004,6090565, 
+231,USA,44,Barley,51,Production (Mt),2005,4613400, 
+231,USA,44,Barley,51,Production (Mt),2006,3922552, 
+231,USA,44,Barley,51,Production (Mt),2007,4574520, 
+231,USA,44,Barley,51,Production (Mt),2008,5229590, 
+231,USA,44,Barley,51,Production (Mt),2009,4949370, 
+231,USA,44,Barley,51,Production (Mt),2010,3924870, 
+231,USA,44,Barley,51,Production (Mt),2011,3391710, 
+231,USA,44,Barley,61,Imports - Qty (Mt),2000,581305.1, 
+231,USA,44,Barley,61,Imports - Qty (Mt),2001,644208, 
+231,USA,44,Barley,61,Imports - Qty (Mt),2002,476440, 
+231,USA,44,Barley,61,Imports - Qty (Mt),2003,308067, 
+231,USA,44,Barley,61,Imports - Qty (Mt),2004,453532, 
+231,USA,44,Barley,61,Imports - Qty (Mt),2005,119585, 
+231,USA,44,Barley,61,Imports - Qty (Mt),2006,191259, 
+231,USA,44,Barley,61,Imports - Qty (Mt),2007,458134, 
+231,USA,44,Barley,61,Imports - Qty (Mt),2008,756289, 
+231,USA,44,Barley,61,Imports - Qty (Mt),2009,473613, 
+231,USA,44,Barley,61,Imports - Qty (Mt),2010,268598, 
+231,USA,44,Barley,61,Imports - Qty (Mt),2011,188564, 
+231,USA,44,Barley,71,Stock Variation (Mt),2000,-28711.1,B
+231,USA,44,Barley,71,Stock Variation (Mt),2001,342887,B
+231,USA,44,Barley,71,Stock Variation (Mt),2002,28316,B
+231,USA,44,Barley,71,Stock Variation (Mt),2003,-1007800,B
+231,USA,44,Barley,71,Stock Variation (Mt),2004,-883692,B
+231,USA,44,Barley,71,Stock Variation (Mt),2005,318578,B
+231,USA,44,Barley,71,Stock Variation (Mt),2006,657872,B
+231,USA,44,Barley,71,Stock Variation (Mt),2007,-138712,B
+231,USA,44,Barley,71,Stock Variation (Mt),2008,-296036,B
+231,USA,44,Barley,71,Stock Variation (Mt),2009,-686419,B
+231,USA,44,Barley,71,Stock Variation (Mt),2010,410658,B
+231,USA,44,Barley,71,Stock Variation (Mt),2011,785208.64,B
+231,USA,44,Barley,91,Exports - Qty (Mt),2000,1060289,*
+231,USA,44,Barley,91,Exports - Qty (Mt),2001,829297,*
+231,USA,44,Barley,91,Exports - Qty (Mt),2002,482939,*
+231,USA,44,Barley,91,Exports - Qty (Mt),2003,667439,*
+231,USA,44,Barley,91,Exports - Qty (Mt),2004,269131,*
+231,USA,44,Barley,91,Exports - Qty (Mt),2005,743129,*
+231,USA,44,Barley,91,Exports - Qty (Mt),2006,378681,*
+231,USA,44,Barley,91,Exports - Qty (Mt),2007,733225,*
+231,USA,44,Barley,91,Exports - Qty (Mt),2008,591644,*
+231,USA,44,Barley,91,Exports - Qty (Mt),2009,120347,*
+231,USA,44,Barley,91,Exports - Qty (Mt),2010,161238,*
+231,USA,44,Barley,91,Exports - Qty (Mt),2011,158118,*
+231,USA,44,Barley,101,Feed (Mt),2000,2683000, 
+231,USA,44,Barley,101,Feed (Mt),2001,2271000, 
+231,USA,44,Barley,101,Feed (Mt),2002,1819000, 
+231,USA,44,Barley,101,Feed (Mt),2003,1617000, 
+231,USA,44,Barley,101,Feed (Mt),2004,2238000, 
+231,USA,44,Barley,101,Feed (Mt),2005,1034954, 
+231,USA,44,Barley,101,Feed (Mt),2006,1070682, 
+231,USA,44,Barley,101,Feed (Mt),2007,653291, 
+231,USA,44,Barley,101,Feed (Mt),2008,1415180, 
+231,USA,44,Barley,101,Feed (Mt),2009,1057466, 
+231,USA,44,Barley,101,Feed (Mt),2010,1088600, 
+231,USA,44,Barley,101,Feed (Mt),2011,827000, 
+231,USA,44,Barley,111,Seed (Mt),2000,178534, 
+231,USA,44,Barley,111,Seed (Mt),2001,181100, 
+231,USA,44,Barley,111,Seed (Mt),2002,188900, 
+231,USA,44,Barley,111,Seed (Mt),2003,161900, 
+231,USA,44,Barley,111,Seed (Mt),2004,139300, 
+231,USA,44,Barley,111,Seed (Mt),2005,124536, 
+231,USA,44,Barley,111,Seed (Mt),2006,143020, 
+231,USA,44,Barley,111,Seed (Mt),2007,152426, 
+231,USA,44,Barley,111,Seed (Mt),2008,128019, 
+231,USA,44,Barley,111,Seed (Mt),2009,108751, 
+231,USA,44,Barley,111,Seed (Mt),2010,104288, 
+231,USA,44,Barley,111,Seed (Mt),2011,130364.64, 
+231,USA,44,Barley,131,Processed (Mt),2000,3402000,F
+231,USA,44,Barley,131,Processed (Mt),2001,2963317,*
+231,USA,44,Barley,131,Processed (Mt),2002,2806114,*
+231,USA,44,Barley,131,Processed (Mt),2003,2763705,*
+231,USA,44,Barley,131,Processed (Mt),2004,2863974,*
+231,USA,44,Barley,131,Processed (Mt),2005,2998944,*
+231,USA,44,Barley,131,Processed (Mt),2006,3029300,F
+231,USA,44,Barley,131,Processed (Mt),2007,3205000,F
+231,USA,44,Barley,131,Processed (Mt),2008,3405000,F
+231,USA,44,Barley,131,Processed (Mt),2009,3300000,F
+231,USA,44,Barley,131,Processed (Mt),2010,3100000,F
+231,USA,44,Barley,131,Processed (Mt),2011,3100000,F
+231,USA,44,Barley,141,Food (Mt),2000,148000,F
+231,USA,44,Barley,141,Food (Mt),2001,149000,F
+231,USA,44,Barley,141,Food (Mt),2002,148000,F
+231,USA,44,Barley,141,Food (Mt),2003,149000,F
+231,USA,44,Barley,141,Food (Mt),2004,150000,F
+231,USA,44,Barley,141,Food (Mt),2005,150000,F
+231,USA,44,Barley,141,Food (Mt),2006,150000,F
+231,USA,44,Barley,141,Food (Mt),2007,150000,F
+231,USA,44,Barley,141,Food (Mt),2008,150000,F
+231,USA,44,Barley,141,Food (Mt),2009,150000,F
+231,USA,44,Barley,141,Food (Mt),2010,150000,F
+231,USA,44,Barley,141,Food (Mt),2011,150000,F
+231,USA,44,Barley,151,Other Util (Mt),2000,0,M
+231,USA,44,Barley,151,Other Util (Mt),2001,0,M
+231,USA,44,Barley,151,Other Util (Mt),2002,0,M
+231,USA,44,Barley,151,Other Util (Mt),2003,0,M
+231,USA,44,Barley,151,Other Util (Mt),2004,0,M
+231,USA,44,Barley,151,Other Util (Mt),2005,0,M
+231,USA,44,Barley,151,Other Util (Mt),2006,0,M
+231,USA,44,Barley,151,Other Util (Mt),2007,0,M
+231,USA,44,Barley,151,Other Util (Mt),2008,0,M
+231,USA,44,Barley,151,Other Util (Mt),2009,0,M
+231,USA,44,Barley,151,Other Util (Mt),2010,0,M
+231,USA,44,Barley,151,Other Util (Mt),2011,0,M
+231,USA,45,Pot Barley,31,Input (Mt),2000,6600,F
+231,USA,45,Pot Barley,31,Input (Mt),2001,17300,F
+231,USA,45,Pot Barley,31,Input (Mt),2002,10000,F
+231,USA,45,Pot Barley,31,Input (Mt),2003,7900,F
+231,USA,45,Pot Barley,31,Input (Mt),2004,7900,F
+231,USA,45,Pot Barley,31,Input (Mt),2005,4300,F
+231,USA,45,Pot Barley,31,Input (Mt),2006,4300,F
+231,USA,45,Pot Barley,31,Input (Mt),2007,0,F
+231,USA,45,Pot Barley,31,Input (Mt),2008,0,F
+231,USA,45,Pot Barley,31,Input (Mt),2009,0,F
+231,USA,45,Pot Barley,31,Input (Mt),2010,0,C
+231,USA,45,Pot Barley,31,Input (Mt),2011,0,C
+231,USA,45,Pot Barley,51,Production (Mt),2000,4620,C
+231,USA,45,Pot Barley,51,Production (Mt),2001,12110,C
+231,USA,45,Pot Barley,51,Production (Mt),2002,7000,C
+231,USA,45,Pot Barley,51,Production (Mt),2003,5530,C
+231,USA,45,Pot Barley,51,Production (Mt),2004,5530,C
+231,USA,45,Pot Barley,51,Production (Mt),2005,3010,C
+231,USA,45,Pot Barley,51,Production (Mt),2006,3010,C
+231,USA,45,Pot Barley,51,Production (Mt),2007,0,C
+231,USA,45,Pot Barley,51,Production (Mt),2008,0,C
+231,USA,45,Pot Barley,51,Production (Mt),2009,0,C
+231,USA,45,Pot Barley,51,Production (Mt),2010,0,T
+231,USA,45,Pot Barley,51,Production (Mt),2011,0,T
+231,USA,45,Pot Barley,131,Processed (Mt),2000,4620,B
+231,USA,45,Pot Barley,131,Processed (Mt),2001,12110,B
+231,USA,45,Pot Barley,131,Processed (Mt),2002,7000,B
+231,USA,45,Pot Barley,131,Processed (Mt),2003,5530,B
+231,USA,45,Pot Barley,131,Processed (Mt),2004,5530,B
+231,USA,45,Pot Barley,131,Processed (Mt),2005,3010,B
+231,USA,45,Pot Barley,131,Processed (Mt),2006,3010,B
+231,USA,45,Pot Barley,131,Processed (Mt),2007,0,B
+231,USA,45,Pot Barley,131,Processed (Mt),2008,0,B
+231,USA,45,Pot Barley,131,Processed (Mt),2009,0,B
+231,USA,45,Pot Barley,131,Processed (Mt),2010,0,B
+231,USA,45,Pot Barley,131,Processed (Mt),2011,0,B
+231,USA,46,"Barley, Pearled",31,Input (Mt),2000,4620,C
+231,USA,46,"Barley, Pearled",31,Input (Mt),2001,12110,C
+231,USA,46,"Barley, Pearled",31,Input (Mt),2002,7000,C
+231,USA,46,"Barley, Pearled",31,Input (Mt),2003,5530,C
+231,USA,46,"Barley, Pearled",31,Input (Mt),2004,5530,C
+231,USA,46,"Barley, Pearled",31,Input (Mt),2005,3010,C
+231,USA,46,"Barley, Pearled",31,Input (Mt),2006,3010,C
+231,USA,46,"Barley, Pearled",31,Input (Mt),2007,0,C
+231,USA,46,"Barley, Pearled",31,Input (Mt),2008,0,C
+231,USA,46,"Barley, Pearled",31,Input (Mt),2009,0,C
+231,USA,46,"Barley, Pearled",31,Input (Mt),2010,0,C
+231,USA,46,"Barley, Pearled",31,Input (Mt),2011,0,C
+231,USA,46,"Barley, Pearled",51,Production (Mt),2000,2402.4,C
+231,USA,46,"Barley, Pearled",51,Production (Mt),2001,6297.2,C
+231,USA,46,"Barley, Pearled",51,Production (Mt),2002,3640,C
+231,USA,46,"Barley, Pearled",51,Production (Mt),2003,2875.6,C
+231,USA,46,"Barley, Pearled",51,Production (Mt),2004,2875.6,C
+231,USA,46,"Barley, Pearled",51,Production (Mt),2005,1565.2,C
+231,USA,46,"Barley, Pearled",51,Production (Mt),2006,1565.2,C
+231,USA,46,"Barley, Pearled",51,Production (Mt),2007,0,C
+231,USA,46,"Barley, Pearled",51,Production (Mt),2008,0,C
+231,USA,46,"Barley, Pearled",51,Production (Mt),2009,0,C
+231,USA,46,"Barley, Pearled",51,Production (Mt),2010,0,C
+231,USA,46,"Barley, Pearled",51,Production (Mt),2011,0,C
+231,USA,46,"Barley, Pearled",61,Imports - Qty (Mt),2000,2776.088, 
+231,USA,46,"Barley, Pearled",61,Imports - Qty (Mt),2001,2263, 
+231,USA,46,"Barley, Pearled",61,Imports - Qty (Mt),2002,2182, 
+231,USA,46,"Barley, Pearled",61,Imports - Qty (Mt),2003,1255, 
+231,USA,46,"Barley, Pearled",61,Imports - Qty (Mt),2004,1220, 
+231,USA,46,"Barley, Pearled",61,Imports - Qty (Mt),2005,716, 
+231,USA,46,"Barley, Pearled",61,Imports - Qty (Mt),2006,1808, 
+231,USA,46,"Barley, Pearled",61,Imports - Qty (Mt),2007,9454, 
+231,USA,46,"Barley, Pearled",61,Imports - Qty (Mt),2008,10734, 
+231,USA,46,"Barley, Pearled",61,Imports - Qty (Mt),2009,9384, 
+231,USA,46,"Barley, Pearled",61,Imports - Qty (Mt),2010,9524, 
+231,USA,46,"Barley, Pearled",61,Imports - Qty (Mt),2011,7896, 
+231,USA,46,"Barley, Pearled",91,Exports - Qty (Mt),2000,5087.671, 
+231,USA,46,"Barley, Pearled",91,Exports - Qty (Mt),2001,8510, 
+231,USA,46,"Barley, Pearled",91,Exports - Qty (Mt),2002,1688, 
+231,USA,46,"Barley, Pearled",91,Exports - Qty (Mt),2003,4031, 
+231,USA,46,"Barley, Pearled",91,Exports - Qty (Mt),2004,1009, 
+231,USA,46,"Barley, Pearled",91,Exports - Qty (Mt),2005,2192, 
+231,USA,46,"Barley, Pearled",91,Exports - Qty (Mt),2006,1405, 
+231,USA,46,"Barley, Pearled",91,Exports - Qty (Mt),2007,480, 
+231,USA,46,"Barley, Pearled",91,Exports - Qty (Mt),2008,1271, 
+231,USA,46,"Barley, Pearled",91,Exports - Qty (Mt),2009,436, 
+231,USA,46,"Barley, Pearled",91,Exports - Qty (Mt),2010,1436, 
+231,USA,46,"Barley, Pearled",91,Exports - Qty (Mt),2011,706, 
+231,USA,46,"Barley, Pearled",141,Food (Mt),2000,90.817,B
+231,USA,46,"Barley, Pearled",141,Food (Mt),2001,50.2,B
+231,USA,46,"Barley, Pearled",141,Food (Mt),2002,4134,B
+231,USA,46,"Barley, Pearled",141,Food (Mt),2003,99.6,B
+231,USA,46,"Barley, Pearled",141,Food (Mt),2004,3086.6,B
+231,USA,46,"Barley, Pearled",141,Food (Mt),2005,89.2,B
+231,USA,46,"Barley, Pearled",141,Food (Mt),2006,1968.2,B
+231,USA,46,"Barley, Pearled",141,Food (Mt),2007,8974,B
+231,USA,46,"Barley, Pearled",141,Food (Mt),2008,9463,B
+231,USA,46,"Barley, Pearled",141,Food (Mt),2009,8948,B
+231,USA,46,"Barley, Pearled",141,Food (Mt),2010,8088,B
+231,USA,46,"Barley, Pearled",141,Food (Mt),2011,7190,B
+231,USA,47,Bran of Barley,31,Input (Mt),2000,6600,F
+231,USA,47,Bran of Barley,31,Input (Mt),2001,17300,F
+231,USA,47,Bran of Barley,31,Input (Mt),2002,10000,F
+231,USA,47,Bran of Barley,31,Input (Mt),2003,7900,F
+231,USA,47,Bran of Barley,31,Input (Mt),2004,7900,F
+231,USA,47,Bran of Barley,31,Input (Mt),2005,4300,F
+231,USA,47,Bran of Barley,31,Input (Mt),2006,4300,F
+231,USA,47,Bran of Barley,31,Input (Mt),2007,0,F
+231,USA,47,Bran of Barley,31,Input (Mt),2008,0,F
+231,USA,47,Bran of Barley,31,Input (Mt),2009,0,F
+231,USA,47,Bran of Barley,31,Input (Mt),2010,0,C
+231,USA,47,Bran of Barley,31,Input (Mt),2011,0,C
+231,USA,47,Bran of Barley,51,Production (Mt),2000,1518,C
+231,USA,47,Bran of Barley,51,Production (Mt),2001,3979,C
+231,USA,47,Bran of Barley,51,Production (Mt),2002,2300,C
+231,USA,47,Bran of Barley,51,Production (Mt),2003,1817,C
+231,USA,47,Bran of Barley,51,Production (Mt),2004,1817,C
+231,USA,47,Bran of Barley,51,Production (Mt),2005,989,C
+231,USA,47,Bran of Barley,51,Production (Mt),2006,989,C
+231,USA,47,Bran of Barley,51,Production (Mt),2007,0,C
+231,USA,47,Bran of Barley,51,Production (Mt),2008,0,C
+231,USA,47,Bran of Barley,51,Production (Mt),2009,0,C
+231,USA,47,Bran of Barley,51,Production (Mt),2010,0,T
+231,USA,47,Bran of Barley,51,Production (Mt),2011,0,T
+231,USA,47,Bran of Barley,61,Imports - Qty (Mt),2000,0, 
+231,USA,47,Bran of Barley,61,Imports - Qty (Mt),2001,0, 
+231,USA,47,Bran of Barley,61,Imports - Qty (Mt),2002,0, 
+231,USA,47,Bran of Barley,61,Imports - Qty (Mt),2003,0, 
+231,USA,47,Bran of Barley,61,Imports - Qty (Mt),2004,0, 
+231,USA,47,Bran of Barley,61,Imports - Qty (Mt),2005,0, 
+231,USA,47,Bran of Barley,61,Imports - Qty (Mt),2006,0,T
+231,USA,47,Bran of Barley,61,Imports - Qty (Mt),2007,0,T
+231,USA,47,Bran of Barley,61,Imports - Qty (Mt),2008,0,T
+231,USA,47,Bran of Barley,61,Imports - Qty (Mt),2009,0,T
+231,USA,47,Bran of Barley,61,Imports - Qty (Mt),2010,0,T
+231,USA,47,Bran of Barley,61,Imports - Qty (Mt),2011,0,T
+231,USA,47,Bran of Barley,101,Feed (Mt),2000,1518,B
+231,USA,47,Bran of Barley,101,Feed (Mt),2001,3979,B
+231,USA,47,Bran of Barley,101,Feed (Mt),2002,2300,B
+231,USA,47,Bran of Barley,101,Feed (Mt),2003,1817,B
+231,USA,47,Bran of Barley,101,Feed (Mt),2004,1817,B
+231,USA,47,Bran of Barley,101,Feed (Mt),2005,989,B
+231,USA,47,Bran of Barley,101,Feed (Mt),2006,989,B
+231,USA,47,Bran of Barley,101,Feed (Mt),2007,0,B
+231,USA,47,Bran of Barley,101,Feed (Mt),2008,0,B
+231,USA,47,Bran of Barley,101,Feed (Mt),2009,0,B
+231,USA,47,Bran of Barley,101,Feed (Mt),2010,0,B
+231,USA,47,Bran of Barley,101,Feed (Mt),2011,0,B
+231,USA,48,Barley Flour and Grits,31,Input (Mt),2000,4620,C
+231,USA,48,Barley Flour and Grits,31,Input (Mt),2001,12110,C
+231,USA,48,Barley Flour and Grits,31,Input (Mt),2002,7000,C
+231,USA,48,Barley Flour and Grits,31,Input (Mt),2003,5530,C
+231,USA,48,Barley Flour and Grits,31,Input (Mt),2004,5530,C
+231,USA,48,Barley Flour and Grits,31,Input (Mt),2005,3010,C
+231,USA,48,Barley Flour and Grits,31,Input (Mt),2006,3010,C
+231,USA,48,Barley Flour and Grits,31,Input (Mt),2007,0,C
+231,USA,48,Barley Flour and Grits,31,Input (Mt),2008,0,C
+231,USA,48,Barley Flour and Grits,31,Input (Mt),2009,0,C
+231,USA,48,Barley Flour and Grits,31,Input (Mt),2010,0,C
+231,USA,48,Barley Flour and Grits,31,Input (Mt),2011,0,C
+231,USA,48,Barley Flour and Grits,51,Production (Mt),2000,1986.6,C
+231,USA,48,Barley Flour and Grits,51,Production (Mt),2001,5207.3,C
+231,USA,48,Barley Flour and Grits,51,Production (Mt),2002,3010,C
+231,USA,48,Barley Flour and Grits,51,Production (Mt),2003,2377.9,C
+231,USA,48,Barley Flour and Grits,51,Production (Mt),2004,2377.9,C
+231,USA,48,Barley Flour and Grits,51,Production (Mt),2005,1294.3,C
+231,USA,48,Barley Flour and Grits,51,Production (Mt),2006,1294.3,C
+231,USA,48,Barley Flour and Grits,51,Production (Mt),2007,0,C
+231,USA,48,Barley Flour and Grits,51,Production (Mt),2008,0,C
+231,USA,48,Barley Flour and Grits,51,Production (Mt),2009,0,C
+231,USA,48,Barley Flour and Grits,51,Production (Mt),2010,0,C
+231,USA,48,Barley Flour and Grits,51,Production (Mt),2011,0,C
+231,USA,48,Barley Flour and Grits,61,Imports - Qty (Mt),2000,0, 
+231,USA,48,Barley Flour and Grits,61,Imports - Qty (Mt),2001,0, 
+231,USA,48,Barley Flour and Grits,61,Imports - Qty (Mt),2002,0, 
+231,USA,48,Barley Flour and Grits,61,Imports - Qty (Mt),2003,0, 
+231,USA,48,Barley Flour and Grits,61,Imports - Qty (Mt),2004,0, 
+231,USA,48,Barley Flour and Grits,61,Imports - Qty (Mt),2005,0, 
+231,USA,48,Barley Flour and Grits,61,Imports - Qty (Mt),2006,0,T
+231,USA,48,Barley Flour and Grits,61,Imports - Qty (Mt),2007,0,T
+231,USA,48,Barley Flour and Grits,61,Imports - Qty (Mt),2008,0,T
+231,USA,48,Barley Flour and Grits,61,Imports - Qty (Mt),2009,0,T
+231,USA,48,Barley Flour and Grits,61,Imports - Qty (Mt),2010,0,T
+231,USA,48,Barley Flour and Grits,61,Imports - Qty (Mt),2011,0,T
+231,USA,48,Barley Flour and Grits,141,Food (Mt),2000,1986.6,B
+231,USA,48,Barley Flour and Grits,141,Food (Mt),2001,5207.3,B
+231,USA,48,Barley Flour and Grits,141,Food (Mt),2002,3010,B
+231,USA,48,Barley Flour and Grits,141,Food (Mt),2003,2377.9,B
+231,USA,48,Barley Flour and Grits,141,Food (Mt),2004,2377.9,B
+231,USA,48,Barley Flour and Grits,141,Food (Mt),2005,1294.3,B
+231,USA,48,Barley Flour and Grits,141,Food (Mt),2006,1294.3,B
+231,USA,48,Barley Flour and Grits,141,Food (Mt),2007,0,B
+231,USA,48,Barley Flour and Grits,141,Food (Mt),2008,0,B
+231,USA,48,Barley Flour and Grits,141,Food (Mt),2009,0,B
+231,USA,48,Barley Flour and Grits,141,Food (Mt),2010,0,B
+231,USA,48,Barley Flour and Grits,141,Food (Mt),2011,0,B
 231,USA,49,Malt of Barley,31,Input (Mt),2000,3395400,*
 231,USA,49,Malt of Barley,31,Input (Mt),2001,2909017,*
 231,USA,49,Malt of Barley,31,Input (Mt),2002,2756914,*
@@ -755,6 +1583,1470 @@ Area Code,Area Name,Item Code,Item Name,Element Code,Element Name,Year,Num,Symb
 231,USA,51,Beer of Barley,141,Food (Mt),2009,25715072,B
 231,USA,51,Beer of Barley,141,Food (Mt),2010,25624834,B
 231,USA,51,Beer of Barley,141,Food (Mt),2011,25378830,B
+231,USA,56,Maize,31,Area Harv (Ha),2000,29315744, 
+231,USA,56,Maize,31,Area Harv (Ha),2001,27829722, 
+231,USA,56,Maize,31,Area Harv (Ha),2002,28057158, 
+231,USA,56,Maize,31,Area Harv (Ha),2003,28710327, 
+231,USA,56,Maize,31,Area Harv (Ha),2004,29797730, 
+231,USA,56,Maize,31,Area Harv (Ha),2005,30399000, 
+231,USA,56,Maize,31,Area Harv (Ha),2006,28586492, 
+231,USA,56,Maize,31,Area Harv (Ha),2007,35013779, 
+231,USA,56,Maize,31,Area Harv (Ha),2008,31796493, 
+231,USA,56,Maize,31,Area Harv (Ha),2009,32168810, 
+231,USA,56,Maize,31,Area Harv (Ha),2010,32960380, 
+231,USA,56,Maize,31,Area Harv (Ha),2011,33989510, 
+231,USA,56,Maize,51,Production (Mt),2000,251852210, 
+231,USA,56,Maize,51,Production (Mt),2001,241375035, 
+231,USA,56,Maize,51,Production (Mt),2002,227765357, 
+231,USA,56,Maize,51,Production (Mt),2003,256227304, 
+231,USA,56,Maize,51,Production (Mt),2004,299873563, 
+231,USA,56,Maize,51,Production (Mt),2005,282260662, 
+231,USA,56,Maize,51,Production (Mt),2006,267501056, 
+231,USA,56,Maize,51,Production (Mt),2007,331175072, 
+231,USA,56,Maize,51,Production (Mt),2008,307142010, 
+231,USA,56,Maize,51,Production (Mt),2009,332548610, 
+231,USA,56,Maize,51,Production (Mt),2010,316164930, 
+231,USA,56,Maize,51,Production (Mt),2011,313948610, 
+231,USA,56,Maize,61,Imports - Qty (Mt),2000,293229.8, 
+231,USA,56,Maize,61,Imports - Qty (Mt),2001,210042, 
+231,USA,56,Maize,61,Imports - Qty (Mt),2002,300316, 
+231,USA,56,Maize,61,Imports - Qty (Mt),2003,337316, 
+231,USA,56,Maize,61,Imports - Qty (Mt),2004,325243, 
+231,USA,56,Maize,61,Imports - Qty (Mt),2005,282360, 
+231,USA,56,Maize,61,Imports - Qty (Mt),2006,204455, 
+231,USA,56,Maize,61,Imports - Qty (Mt),2007,334398, 
+231,USA,56,Maize,61,Imports - Qty (Mt),2008,539642, 
+231,USA,56,Maize,61,Imports - Qty (Mt),2009,276619, 
+231,USA,56,Maize,61,Imports - Qty (Mt),2010,380583, 
+231,USA,56,Maize,61,Imports - Qty (Mt),2011,640500, 
+231,USA,56,Maize,71,Stock Variation (Mt),2000,-6080862.6,B
+231,USA,56,Maize,71,Stock Variation (Mt),2001,7288788.6,B
+231,USA,56,Maize,71,Stock Variation (Mt),2002,20358862.6,B
+231,USA,56,Maize,71,Stock Variation (Mt),2003,-1567488.8,B
+231,USA,56,Maize,71,Stock Variation (Mt),2004,-26858778.4,B
+231,USA,56,Maize,71,Stock Variation (Mt),2005,-5170358.8,B
+231,USA,56,Maize,71,Stock Variation (Mt),2006,20842326.4,B
+231,USA,56,Maize,71,Stock Variation (Mt),2007,-12875278.6,B
+231,USA,56,Maize,71,Stock Variation (Mt),2008,5672323,B
+231,USA,56,Maize,71,Stock Variation (Mt),2009,-3409572.8,B
+231,USA,56,Maize,71,Stock Variation (Mt),2010,19471132.2,B
+231,USA,56,Maize,71,Stock Variation (Mt),2011,10319813,B
+231,USA,56,Maize,91,Exports - Qty (Mt),2000,47970790,*
+231,USA,56,Maize,91,Exports - Qty (Mt),2001,47943762,*
+231,USA,56,Maize,91,Exports - Qty (Mt),2002,47685821, 
+231,USA,56,Maize,91,Exports - Qty (Mt),2003,43411753, 
+231,USA,56,Maize,91,Exports - Qty (Mt),2004,48741188, 
+231,USA,56,Maize,91,Exports - Qty (Mt),2005,45369241, 
+231,USA,56,Maize,91,Exports - Qty (Mt),2006,57884062, 
+231,USA,56,Maize,91,Exports - Qty (Mt),2007,57014420, 
+231,USA,56,Maize,91,Exports - Qty (Mt),2008,54094397, 
+231,USA,56,Maize,91,Exports - Qty (Mt),2009,47813400, 
+231,USA,56,Maize,91,Exports - Qty (Mt),2010,50906268, 
+231,USA,56,Maize,91,Exports - Qty (Mt),2011,45888272, 
+231,USA,56,Maize,101,Feed (Mt),2000,147880171.6, 
+231,USA,56,Maize,101,Feed (Mt),2001,148558173.8, 
+231,USA,56,Maize,101,Feed (Mt),2002,140927124.8, 
+231,USA,56,Maize,101,Feed (Mt),2003,146843496, 
+231,USA,56,Maize,101,Feed (Mt),2004,155830905, 
+231,USA,56,Maize,101,Feed (Mt),2005,155322574.8, 
+231,USA,56,Maize,101,Feed (Mt),2006,140719352.8, 
+231,USA,56,Maize,101,Feed (Mt),2007,148786596, 
+231,USA,56,Maize,101,Feed (Mt),2008,131619117, 
+231,USA,56,Maize,101,Feed (Mt),2009,130192780, 
+231,USA,56,Maize,101,Feed (Mt),2010,121902118.4, 
+231,USA,56,Maize,101,Feed (Mt),2011,115738757.6, 
+231,USA,56,Maize,111,Seed (Mt),2000,490169.2, 
+231,USA,56,Maize,111,Seed (Mt),2001,509397, 
+231,USA,56,Maize,111,Seed (Mt),2002,507314.2, 
+231,USA,56,Maize,111,Seed (Mt),2003,522198.6, 
+231,USA,56,Maize,111,Seed (Mt),2004,528091.4, 
+231,USA,56,Maize,111,Seed (Mt),2005,505333, 
+231,USA,56,Maize,111,Seed (Mt),2006,603123, 
+231,USA,56,Maize,111,Seed (Mt),2007,554761.4, 
+231,USA,56,Maize,111,Seed (Mt),2008,557403, 
+231,USA,56,Maize,111,Seed (Mt),2009,567359.8, 
+231,USA,56,Maize,111,Seed (Mt),2010,584200, 
+231,USA,56,Maize,111,Seed (Mt),2011,623011.2, 
+231,USA,56,Maize,131,Processed (Mt),2000,33725835.52, 
+231,USA,56,Maize,131,Processed (Mt),2001,33898675.88, 
+231,USA,56,Maize,131,Processed (Mt),2002,34018475.6, 
+231,USA,56,Maize,131,Processed (Mt),2003,34563971.33, 
+231,USA,56,Maize,131,Processed (Mt),2004,34630244.98, 
+231,USA,56,Maize,131,Processed (Mt),2005,35451073.51, 
+231,USA,56,Maize,131,Processed (Mt),2006,35506155.76, 
+231,USA,56,Maize,131,Processed (Mt),2007,34828376.52, 
+231,USA,56,Maize,131,Processed (Mt),2008,32877276.38, 
+231,USA,56,Maize,131,Processed (Mt),2009,34226728.6, 
+231,USA,56,Maize,131,Processed (Mt),2010,35148037.4, 
+231,USA,56,Maize,131,Processed (Mt),2011,35658069.4, 
+231,USA,56,Maize,151,Other Util (Mt),2000,15997610.88, 
+231,USA,56,Maize,151,Other Util (Mt),2001,17963856.92, 
+231,USA,56,Maize,151,Other Util (Mt),2002,25285800, 
+231,USA,56,Maize,151,Other Util (Mt),2003,29655712.27, 
+231,USA,56,Maize,151,Other Util (Mt),2004,33609598.22, 
+231,USA,56,Maize,151,Other Util (Mt),2005,40724440.89, 
+231,USA,56,Maize,151,Other Util (Mt),2006,53835143.84, 
+231,USA,56,Maize,151,Other Util (Mt),2007,77450037.48, 
+231,USA,56,Maize,151,Other Util (Mt),2008,94205781.62, 
+231,USA,56,Maize,151,Other Util (Mt),2009,116615387.8, 
+231,USA,56,Maize,151,Other Util (Mt),2010,127476021.4, 
+231,USA,56,Maize,151,Other Util (Mt),2011,127000812.8, 
+231,USA,57,Germ of Maize,31,Input (Mt),2000,30423835.52, 
+231,USA,57,Germ of Maize,31,Input (Mt),2001,30571275.88, 
+231,USA,57,Germ of Maize,31,Input (Mt),2002,30691075.6, 
+231,USA,57,Germ of Maize,31,Input (Mt),2003,31211171.33, 
+231,USA,57,Germ of Maize,31,Input (Mt),2004,31257124.98, 
+231,USA,57,Germ of Maize,31,Input (Mt),2005,32022073.51, 
+231,USA,57,Germ of Maize,31,Input (Mt),2006,32056327.76, 
+231,USA,57,Germ of Maize,31,Input (Mt),2007,31389219.89, 
+231,USA,57,Germ of Maize,31,Input (Mt),2008,29473676.38, 
+231,USA,57,Germ of Maize,31,Input (Mt),2009,30823128.6, 
+231,USA,57,Germ of Maize,31,Input (Mt),2010,31719037.4, 
+231,USA,57,Germ of Maize,31,Input (Mt),2011,32190969.4, 
+231,USA,57,Germ of Maize,51,Production (Mt),2000,2129668.486,C
+231,USA,57,Germ of Maize,51,Production (Mt),2001,2139989.312,C
+231,USA,57,Germ of Maize,51,Production (Mt),2002,2148375.292,C
+231,USA,57,Germ of Maize,51,Production (Mt),2003,2184781.993,C
+231,USA,57,Germ of Maize,51,Production (Mt),2004,2187998.749,C
+231,USA,57,Germ of Maize,51,Production (Mt),2005,2241545.146,C
+231,USA,57,Germ of Maize,51,Production (Mt),2006,2243942.943,C
+231,USA,57,Germ of Maize,51,Production (Mt),2007,2197245.392,C
+231,USA,57,Germ of Maize,51,Production (Mt),2008,2063157.347,C
+231,USA,57,Germ of Maize,51,Production (Mt),2009,2157619.002,C
+231,USA,57,Germ of Maize,51,Production (Mt),2010,2220332.618,C
+231,USA,57,Germ of Maize,51,Production (Mt),2011,2253367.858,C
+231,USA,57,Germ of Maize,61,Imports - Qty (Mt),2000,36401.96, 
+231,USA,57,Germ of Maize,61,Imports - Qty (Mt),2001,32244, 
+231,USA,57,Germ of Maize,61,Imports - Qty (Mt),2002,41912, 
+231,USA,57,Germ of Maize,61,Imports - Qty (Mt),2003,39449, 
+231,USA,57,Germ of Maize,61,Imports - Qty (Mt),2004,45077, 
+231,USA,57,Germ of Maize,61,Imports - Qty (Mt),2005,39822, 
+231,USA,57,Germ of Maize,61,Imports - Qty (Mt),2006,44220, 
+231,USA,57,Germ of Maize,61,Imports - Qty (Mt),2007,46393, 
+231,USA,57,Germ of Maize,61,Imports - Qty (Mt),2008,46420, 
+231,USA,57,Germ of Maize,61,Imports - Qty (Mt),2009,34416, 
+231,USA,57,Germ of Maize,61,Imports - Qty (Mt),2010,40368, 
+231,USA,57,Germ of Maize,61,Imports - Qty (Mt),2011,36203, 
+231,USA,57,Germ of Maize,71,Stock Variation (Mt),2000,41000,F
+231,USA,57,Germ of Maize,71,Stock Variation (Mt),2001,71000,F
+231,USA,57,Germ of Maize,71,Stock Variation (Mt),2002,73000,F
+231,USA,57,Germ of Maize,71,Stock Variation (Mt),2003,-17000,F
+231,USA,57,Germ of Maize,71,Stock Variation (Mt),2004,-50000,F
+231,USA,57,Germ of Maize,71,Stock Variation (Mt),2005,34000,F
+231,USA,57,Germ of Maize,71,Stock Variation (Mt),2006,50000,F
+231,USA,57,Germ of Maize,71,Stock Variation (Mt),2007,81000,F
+231,USA,57,Germ of Maize,71,Stock Variation (Mt),2008,196000,F
+231,USA,57,Germ of Maize,71,Stock Variation (Mt),2009,80000,F
+231,USA,57,Germ of Maize,71,Stock Variation (Mt),2010,10000,F
+231,USA,57,Germ of Maize,71,Stock Variation (Mt),2011,0,M
+231,USA,57,Germ of Maize,91,Exports - Qty (Mt),2000,2372, 
+231,USA,57,Germ of Maize,91,Exports - Qty (Mt),2001,2323, 
+231,USA,57,Germ of Maize,91,Exports - Qty (Mt),2002,3629, 
+231,USA,57,Germ of Maize,91,Exports - Qty (Mt),2003,2885, 
+231,USA,57,Germ of Maize,91,Exports - Qty (Mt),2004,1852, 
+231,USA,57,Germ of Maize,91,Exports - Qty (Mt),2005,2028, 
+231,USA,57,Germ of Maize,91,Exports - Qty (Mt),2006,2363, 
+231,USA,57,Germ of Maize,91,Exports - Qty (Mt),2007,3397, 
+231,USA,57,Germ of Maize,91,Exports - Qty (Mt),2008,2250, 
+231,USA,57,Germ of Maize,91,Exports - Qty (Mt),2009,3387, 
+231,USA,57,Germ of Maize,91,Exports - Qty (Mt),2010,3180, 
+231,USA,57,Germ of Maize,91,Exports - Qty (Mt),2011,3329, 
+231,USA,57,Germ of Maize,101,Feed (Mt),2000,14698.446,B
+231,USA,57,Germ of Maize,101,Feed (Mt),2001,910.312,B
+231,USA,57,Germ of Maize,101,Feed (Mt),2002,26658.292,B
+231,USA,57,Germ of Maize,101,Feed (Mt),2003,22345.993,B
+231,USA,57,Germ of Maize,101,Feed (Mt),2004,39223.749,B
+231,USA,57,Germ of Maize,101,Feed (Mt),2005,53339.146,B
+231,USA,57,Germ of Maize,101,Feed (Mt),2006,4799.943,B
+231,USA,57,Germ of Maize,101,Feed (Mt),2007,241.392,B
+231,USA,57,Germ of Maize,101,Feed (Mt),2008,327.347,B
+231,USA,57,Germ of Maize,101,Feed (Mt),2009,5648.002,B
+231,USA,57,Germ of Maize,101,Feed (Mt),2010,2520.618,B
+231,USA,57,Germ of Maize,101,Feed (Mt),2011,21241.858,B
+231,USA,57,Germ of Maize,131,Processed (Mt),2000,2190000,F
+231,USA,57,Germ of Maize,131,Processed (Mt),2001,2240000,F
+231,USA,57,Germ of Maize,131,Processed (Mt),2002,2233000,F
+231,USA,57,Germ of Maize,131,Processed (Mt),2003,2182000,F
+231,USA,57,Germ of Maize,131,Processed (Mt),2004,2142000,F
+231,USA,57,Germ of Maize,131,Processed (Mt),2005,2260000,F
+231,USA,57,Germ of Maize,131,Processed (Mt),2006,2331000,F
+231,USA,57,Germ of Maize,131,Processed (Mt),2007,2321000,F
+231,USA,57,Germ of Maize,131,Processed (Mt),2008,2303000,F
+231,USA,57,Germ of Maize,131,Processed (Mt),2009,2263000,F
+231,USA,57,Germ of Maize,131,Processed (Mt),2010,2265000,F
+231,USA,57,Germ of Maize,131,Processed (Mt),2011,2265000,F
+231,USA,58,Flour of Maize,31,Input (Mt),2000,30423835.52, 
+231,USA,58,Flour of Maize,31,Input (Mt),2001,30571275.88, 
+231,USA,58,Flour of Maize,31,Input (Mt),2002,30691075.6, 
+231,USA,58,Flour of Maize,31,Input (Mt),2003,31211171.33, 
+231,USA,58,Flour of Maize,31,Input (Mt),2004,31257124.98, 
+231,USA,58,Flour of Maize,31,Input (Mt),2005,32022073.51, 
+231,USA,58,Flour of Maize,31,Input (Mt),2006,32056327.76, 
+231,USA,58,Flour of Maize,31,Input (Mt),2007,31389219.89, 
+231,USA,58,Flour of Maize,31,Input (Mt),2008,29473676.38, 
+231,USA,58,Flour of Maize,31,Input (Mt),2009,30823128.6, 
+231,USA,58,Flour of Maize,31,Input (Mt),2010,31719037.4, 
+231,USA,58,Flour of Maize,31,Input (Mt),2011,32190969.4, 
+231,USA,58,Flour of Maize,51,Production (Mt),2000,24339068.42,C
+231,USA,58,Flour of Maize,51,Production (Mt),2001,24457020.7,C
+231,USA,58,Flour of Maize,51,Production (Mt),2002,24552860.48,C
+231,USA,58,Flour of Maize,51,Production (Mt),2003,24968937.06,C
+231,USA,58,Flour of Maize,51,Production (Mt),2004,25005699.98,C
+231,USA,58,Flour of Maize,51,Production (Mt),2005,25617658.81,C
+231,USA,58,Flour of Maize,51,Production (Mt),2006,25645062.21,C
+231,USA,58,Flour of Maize,51,Production (Mt),2007,25111375.91,C
+231,USA,58,Flour of Maize,51,Production (Mt),2008,23578941.1,C
+231,USA,58,Flour of Maize,51,Production (Mt),2009,24658502.88,C
+231,USA,58,Flour of Maize,51,Production (Mt),2010,25375229.92,C
+231,USA,58,Flour of Maize,51,Production (Mt),2011,25752775.52,C
+231,USA,58,Flour of Maize,61,Imports - Qty (Mt),2000,18370.06, 
+231,USA,58,Flour of Maize,61,Imports - Qty (Mt),2001,26084, 
+231,USA,58,Flour of Maize,61,Imports - Qty (Mt),2002,49195, 
+231,USA,58,Flour of Maize,61,Imports - Qty (Mt),2003,70856, 
+231,USA,58,Flour of Maize,61,Imports - Qty (Mt),2004,108354, 
+231,USA,58,Flour of Maize,61,Imports - Qty (Mt),2005,97072, 
+231,USA,58,Flour of Maize,61,Imports - Qty (Mt),2006,77967, 
+231,USA,58,Flour of Maize,61,Imports - Qty (Mt),2007,96593, 
+231,USA,58,Flour of Maize,61,Imports - Qty (Mt),2008,92830, 
+231,USA,58,Flour of Maize,61,Imports - Qty (Mt),2009,87047, 
+231,USA,58,Flour of Maize,61,Imports - Qty (Mt),2010,84492, 
+231,USA,58,Flour of Maize,61,Imports - Qty (Mt),2011,79751, 
+231,USA,58,Flour of Maize,91,Exports - Qty (Mt),2000,352284.3, 
+231,USA,58,Flour of Maize,91,Exports - Qty (Mt),2001,288267, 
+231,USA,58,Flour of Maize,91,Exports - Qty (Mt),2002,396257, 
+231,USA,58,Flour of Maize,91,Exports - Qty (Mt),2003,330235, 
+231,USA,58,Flour of Maize,91,Exports - Qty (Mt),2004,335019, 
+231,USA,58,Flour of Maize,91,Exports - Qty (Mt),2005,266172, 
+231,USA,58,Flour of Maize,91,Exports - Qty (Mt),2006,471675, 
+231,USA,58,Flour of Maize,91,Exports - Qty (Mt),2007,544458, 
+231,USA,58,Flour of Maize,91,Exports - Qty (Mt),2008,418030, 
+231,USA,58,Flour of Maize,91,Exports - Qty (Mt),2009,408962, 
+231,USA,58,Flour of Maize,91,Exports - Qty (Mt),2010,294002, 
+231,USA,58,Flour of Maize,91,Exports - Qty (Mt),2011,277078, 
+231,USA,58,Flour of Maize,131,Processed (Mt),2000,21625154.18,B
+231,USA,58,Flour of Maize,131,Processed (Mt),2001,21804837.7,B
+231,USA,58,Flour of Maize,131,Processed (Mt),2002,21805798.48,B
+231,USA,58,Flour of Maize,131,Processed (Mt),2003,22304558.06,B
+231,USA,58,Flour of Maize,131,Processed (Mt),2004,22374034.98,B
+231,USA,58,Flour of Maize,131,Processed (Mt),2005,23038558.81,B
+231,USA,58,Flour of Maize,131,Processed (Mt),2006,22841354.21,B
+231,USA,58,Flour of Maize,131,Processed (Mt),2007,22253510.91,B
+231,USA,58,Flour of Maize,131,Processed (Mt),2008,20843741.1,B
+231,USA,58,Flour of Maize,131,Processed (Mt),2009,21906587.88,B
+231,USA,58,Flour of Maize,131,Processed (Mt),2010,22730719.92,B
+231,USA,58,Flour of Maize,131,Processed (Mt),2011,23120448.52,B
+231,USA,58,Flour of Maize,141,Food (Mt),2000,2380000,F
+231,USA,58,Flour of Maize,141,Food (Mt),2001,2390000,F
+231,USA,58,Flour of Maize,141,Food (Mt),2002,2400000,F
+231,USA,58,Flour of Maize,141,Food (Mt),2003,2405000,F
+231,USA,58,Flour of Maize,141,Food (Mt),2004,2405000,F
+231,USA,58,Flour of Maize,141,Food (Mt),2005,2410000,F
+231,USA,58,Flour of Maize,141,Food (Mt),2006,2410000,F
+231,USA,58,Flour of Maize,141,Food (Mt),2007,2410000,F
+231,USA,58,Flour of Maize,141,Food (Mt),2008,2410000,F
+231,USA,58,Flour of Maize,141,Food (Mt),2009,2430000,F
+231,USA,58,Flour of Maize,141,Food (Mt),2010,2435000,F
+231,USA,58,Flour of Maize,141,Food (Mt),2011,2435000,F
+231,USA,59,Bran of Maize,31,Input (Mt),2000,30423835.52, 
+231,USA,59,Bran of Maize,31,Input (Mt),2001,30571275.88, 
+231,USA,59,Bran of Maize,31,Input (Mt),2002,30691075.6, 
+231,USA,59,Bran of Maize,31,Input (Mt),2003,31211171.33, 
+231,USA,59,Bran of Maize,31,Input (Mt),2004,31257124.98, 
+231,USA,59,Bran of Maize,31,Input (Mt),2005,32022073.51, 
+231,USA,59,Bran of Maize,31,Input (Mt),2006,32056327.76, 
+231,USA,59,Bran of Maize,31,Input (Mt),2007,31389219.89, 
+231,USA,59,Bran of Maize,31,Input (Mt),2008,29473676.38, 
+231,USA,59,Bran of Maize,31,Input (Mt),2009,30823128.6, 
+231,USA,59,Bran of Maize,31,Input (Mt),2010,31719037.4, 
+231,USA,59,Bran of Maize,31,Input (Mt),2011,32190969.4, 
+231,USA,59,Bran of Maize,51,Production (Mt),2000,3650860.262,C
+231,USA,59,Bran of Maize,51,Production (Mt),2001,3668553.106,C
+231,USA,59,Bran of Maize,51,Production (Mt),2002,3682929.072,C
+231,USA,59,Bran of Maize,51,Production (Mt),2003,3745340.56,C
+231,USA,59,Bran of Maize,51,Production (Mt),2004,3750854.998,C
+231,USA,59,Bran of Maize,51,Production (Mt),2005,3842648.821,C
+231,USA,59,Bran of Maize,51,Production (Mt),2006,3846759.331,C
+231,USA,59,Bran of Maize,51,Production (Mt),2007,3766706.387,C
+231,USA,59,Bran of Maize,51,Production (Mt),2008,3536841.166,C
+231,USA,59,Bran of Maize,51,Production (Mt),2009,3698775.432,C
+231,USA,59,Bran of Maize,51,Production (Mt),2010,3806284.488,C
+231,USA,59,Bran of Maize,51,Production (Mt),2011,3862916.328,C
+231,USA,59,Bran of Maize,61,Imports - Qty (Mt),2000,106236, 
+231,USA,59,Bran of Maize,61,Imports - Qty (Mt),2001,31872, 
+231,USA,59,Bran of Maize,61,Imports - Qty (Mt),2002,52417, 
+231,USA,59,Bran of Maize,61,Imports - Qty (Mt),2003,42688, 
+231,USA,59,Bran of Maize,61,Imports - Qty (Mt),2004,35005, 
+231,USA,59,Bran of Maize,61,Imports - Qty (Mt),2005,19650, 
+231,USA,59,Bran of Maize,61,Imports - Qty (Mt),2006,2989, 
+231,USA,59,Bran of Maize,61,Imports - Qty (Mt),2007,7320, 
+231,USA,59,Bran of Maize,61,Imports - Qty (Mt),2008,5054, 
+231,USA,59,Bran of Maize,61,Imports - Qty (Mt),2009,3996, 
+231,USA,59,Bran of Maize,61,Imports - Qty (Mt),2010,4429, 
+231,USA,59,Bran of Maize,61,Imports - Qty (Mt),2011,2539, 
+231,USA,59,Bran of Maize,91,Exports - Qty (Mt),2000,60916, 
+231,USA,59,Bran of Maize,91,Exports - Qty (Mt),2001,79595, 
+231,USA,59,Bran of Maize,91,Exports - Qty (Mt),2002,123661, 
+231,USA,59,Bran of Maize,91,Exports - Qty (Mt),2003,63311, 
+231,USA,59,Bran of Maize,91,Exports - Qty (Mt),2004,70088, 
+231,USA,59,Bran of Maize,91,Exports - Qty (Mt),2005,97440, 
+231,USA,59,Bran of Maize,91,Exports - Qty (Mt),2006,143973, 
+231,USA,59,Bran of Maize,91,Exports - Qty (Mt),2007,199022, 
+231,USA,59,Bran of Maize,91,Exports - Qty (Mt),2008,198850, 
+231,USA,59,Bran of Maize,91,Exports - Qty (Mt),2009,140603, 
+231,USA,59,Bran of Maize,91,Exports - Qty (Mt),2010,178211, 
+231,USA,59,Bran of Maize,91,Exports - Qty (Mt),2011,170690, 
+231,USA,59,Bran of Maize,131,Processed (Mt),2000,3696180.262,B
+231,USA,59,Bran of Maize,131,Processed (Mt),2001,3620830.106,B
+231,USA,59,Bran of Maize,131,Processed (Mt),2002,3611685.072,B
+231,USA,59,Bran of Maize,131,Processed (Mt),2003,3724717.56,B
+231,USA,59,Bran of Maize,131,Processed (Mt),2004,3715771.998,B
+231,USA,59,Bran of Maize,131,Processed (Mt),2005,3764858.821,B
+231,USA,59,Bran of Maize,131,Processed (Mt),2006,3705775.331,B
+231,USA,59,Bran of Maize,131,Processed (Mt),2007,3575004.387,B
+231,USA,59,Bran of Maize,131,Processed (Mt),2008,3343045.166,B
+231,USA,59,Bran of Maize,131,Processed (Mt),2009,3562168.432,B
+231,USA,59,Bran of Maize,131,Processed (Mt),2010,3632502.488,B
+231,USA,59,Bran of Maize,131,Processed (Mt),2011,3694765.328,B
+231,USA,60,Oil of Maize,31,Input (Mt),2000,2190000,C
+231,USA,60,Oil of Maize,31,Input (Mt),2001,2240000,C
+231,USA,60,Oil of Maize,31,Input (Mt),2002,2233000,C
+231,USA,60,Oil of Maize,31,Input (Mt),2003,2182000,C
+231,USA,60,Oil of Maize,31,Input (Mt),2004,2142000,C
+231,USA,60,Oil of Maize,31,Input (Mt),2005,2260000,C
+231,USA,60,Oil of Maize,31,Input (Mt),2006,2331000,C
+231,USA,60,Oil of Maize,31,Input (Mt),2007,2321000,C
+231,USA,60,Oil of Maize,31,Input (Mt),2008,2303000,C
+231,USA,60,Oil of Maize,31,Input (Mt),2009,2263000,C
+231,USA,60,Oil of Maize,31,Input (Mt),2010,2265000,C
+231,USA,60,Oil of Maize,31,Input (Mt),2011,2265000,C
+231,USA,60,Oil of Maize,51,Production (Mt),2000,1134614.914, 
+231,USA,60,Oil of Maize,51,Production (Mt),2001,1090069.862, 
+231,USA,60,Oil of Maize,51,Production (Mt),2002,1116497.976, 
+231,USA,60,Oil of Maize,51,Production (Mt),2003,1112682.356, 
+231,USA,60,Oil of Maize,51,Production (Mt),2004,1087012.649, 
+231,USA,60,Oil of Maize,51,Production (Mt),2005,1086855.252, 
+231,USA,60,Oil of Maize,51,Production (Mt),2006,1126149.517, 
+231,USA,60,Oil of Maize,51,Production (Mt),2007,1161312.461, 
+231,USA,60,Oil of Maize,51,Production (Mt),2008,1137083.84, 
+231,USA,60,Oil of Maize,51,Production (Mt),2009,1096993.385, 
+231,USA,60,Oil of Maize,51,Production (Mt),2010,1127244.943, 
+231,USA,60,Oil of Maize,51,Production (Mt),2011,1140785.132, 
+231,USA,60,Oil of Maize,61,Imports - Qty (Mt),2000,5384.783, 
+231,USA,60,Oil of Maize,61,Imports - Qty (Mt),2001,19509, 
+231,USA,60,Oil of Maize,61,Imports - Qty (Mt),2002,27180, 
+231,USA,60,Oil of Maize,61,Imports - Qty (Mt),2003,30628, 
+231,USA,60,Oil of Maize,61,Imports - Qty (Mt),2004,28142, 
+231,USA,60,Oil of Maize,61,Imports - Qty (Mt),2005,20630, 
+231,USA,60,Oil of Maize,61,Imports - Qty (Mt),2006,20264, 
+231,USA,60,Oil of Maize,61,Imports - Qty (Mt),2007,19874, 
+231,USA,60,Oil of Maize,61,Imports - Qty (Mt),2008,20948, 
+231,USA,60,Oil of Maize,61,Imports - Qty (Mt),2009,18417, 
+231,USA,60,Oil of Maize,61,Imports - Qty (Mt),2010,16689, 
+231,USA,60,Oil of Maize,61,Imports - Qty (Mt),2011,22788, 
+231,USA,60,Oil of Maize,71,Stock Variation (Mt),2000,-50000,F
+231,USA,60,Oil of Maize,71,Stock Variation (Mt),2001,0,M
+231,USA,60,Oil of Maize,71,Stock Variation (Mt),2002,-50000,F
+231,USA,60,Oil of Maize,71,Stock Variation (Mt),2003,-100000,F
+231,USA,60,Oil of Maize,71,Stock Variation (Mt),2004,150000,F
+231,USA,60,Oil of Maize,71,Stock Variation (Mt),2005,50000,F
+231,USA,60,Oil of Maize,71,Stock Variation (Mt),2006,0,M
+231,USA,60,Oil of Maize,71,Stock Variation (Mt),2007,0,M
+231,USA,60,Oil of Maize,71,Stock Variation (Mt),2008,0,M
+231,USA,60,Oil of Maize,71,Stock Variation (Mt),2009,0,M
+231,USA,60,Oil of Maize,71,Stock Variation (Mt),2010,0,M
+231,USA,60,Oil of Maize,71,Stock Variation (Mt),2011,20000,F
+231,USA,60,Oil of Maize,91,Exports - Qty (Mt),2000,433193.9, 
+231,USA,60,Oil of Maize,91,Exports - Qty (Mt),2001,441054, 
+231,USA,60,Oil of Maize,91,Exports - Qty (Mt),2002,533288, 
+231,USA,60,Oil of Maize,91,Exports - Qty (Mt),2003,384140, 
+231,USA,60,Oil of Maize,91,Exports - Qty (Mt),2004,360588, 
+231,USA,60,Oil of Maize,91,Exports - Qty (Mt),2005,353241, 
+231,USA,60,Oil of Maize,91,Exports - Qty (Mt),2006,357122, 
+231,USA,60,Oil of Maize,91,Exports - Qty (Mt),2007,348770, 
+231,USA,60,Oil of Maize,91,Exports - Qty (Mt),2008,349226, 
+231,USA,60,Oil of Maize,91,Exports - Qty (Mt),2009,380579, 
+231,USA,60,Oil of Maize,91,Exports - Qty (Mt),2010,331334, 
+231,USA,60,Oil of Maize,91,Exports - Qty (Mt),2011,394687, 
+231,USA,60,Oil of Maize,131,Processed (Mt),2000,69000, 
+231,USA,60,Oil of Maize,131,Processed (Mt),2001,155000, 
+231,USA,60,Oil of Maize,131,Processed (Mt),2002,71000,F
+231,USA,60,Oil of Maize,131,Processed (Mt),2003,71000,F
+231,USA,60,Oil of Maize,131,Processed (Mt),2004,90000,F
+231,USA,60,Oil of Maize,131,Processed (Mt),2005,90000,F
+231,USA,60,Oil of Maize,131,Processed (Mt),2006,90000,F
+231,USA,60,Oil of Maize,131,Processed (Mt),2007,90000,F
+231,USA,60,Oil of Maize,131,Processed (Mt),2008,90000,F
+231,USA,60,Oil of Maize,131,Processed (Mt),2009,90000,F
+231,USA,60,Oil of Maize,131,Processed (Mt),2010,90000,F
+231,USA,60,Oil of Maize,131,Processed (Mt),2011,90000,F
+231,USA,60,Oil of Maize,141,Food (Mt),2000,227000, 
+231,USA,60,Oil of Maize,141,Food (Mt),2001,434000, 
+231,USA,60,Oil of Maize,141,Food (Mt),2002,360000,F
+231,USA,60,Oil of Maize,141,Food (Mt),2003,360000,F
+231,USA,60,Oil of Maize,141,Food (Mt),2004,665000, 
+231,USA,60,Oil of Maize,141,Food (Mt),2005,638000, 
+231,USA,60,Oil of Maize,141,Food (Mt),2006,638000,F
+231,USA,60,Oil of Maize,141,Food (Mt),2007,638000,F
+231,USA,60,Oil of Maize,141,Food (Mt),2008,643000,F
+231,USA,60,Oil of Maize,141,Food (Mt),2009,643000,F
+231,USA,60,Oil of Maize,141,Food (Mt),2010,648000,F
+231,USA,60,Oil of Maize,141,Food (Mt),2011,698000,F
+231,USA,60,Oil of Maize,151,Other Util (Mt),2000,360805.797,B
+231,USA,60,Oil of Maize,151,Other Util (Mt),2001,79524.862,B
+231,USA,60,Oil of Maize,151,Other Util (Mt),2002,129389.976,B
+231,USA,60,Oil of Maize,151,Other Util (Mt),2003,228170.356,B
+231,USA,60,Oil of Maize,151,Other Util (Mt),2004,149566.649,B
+231,USA,60,Oil of Maize,151,Other Util (Mt),2005,76244.252,B
+231,USA,60,Oil of Maize,151,Other Util (Mt),2006,61291.517,B
+231,USA,60,Oil of Maize,151,Other Util (Mt),2007,104416.461,B
+231,USA,60,Oil of Maize,151,Other Util (Mt),2008,75805.84,B
+231,USA,60,Oil of Maize,151,Other Util (Mt),2009,1831.385,B
+231,USA,60,Oil of Maize,151,Other Util (Mt),2010,74599.943,B
+231,USA,60,Oil of Maize,151,Other Util (Mt),2011,886.132,B
+231,USA,60,Oil of Maize,181,Statistic Discrepancies (Mt),2000,0,M
+231,USA,60,Oil of Maize,181,Statistic Discrepancies (Mt),2001,0,M
+231,USA,60,Oil of Maize,181,Statistic Discrepancies (Mt),2002,0,M
+231,USA,60,Oil of Maize,181,Statistic Discrepancies (Mt),2003,0,M
+231,USA,60,Oil of Maize,181,Statistic Discrepancies (Mt),2004,0,M
+231,USA,60,Oil of Maize,181,Statistic Discrepancies (Mt),2005,0,M
+231,USA,60,Oil of Maize,181,Statistic Discrepancies (Mt),2006,0,M
+231,USA,60,Oil of Maize,181,Statistic Discrepancies (Mt),2007,0,M
+231,USA,60,Oil of Maize,181,Statistic Discrepancies (Mt),2008,0,M
+231,USA,60,Oil of Maize,181,Statistic Discrepancies (Mt),2009,0,M
+231,USA,60,Oil of Maize,181,Statistic Discrepancies (Mt),2010,0,M
+231,USA,60,Oil of Maize,181,Statistic Discrepancies (Mt),2011,0,M
+231,USA,61,Cake of Maize,31,Input (Mt),2000,2190000,C
+231,USA,61,Cake of Maize,31,Input (Mt),2001,2240000,C
+231,USA,61,Cake of Maize,31,Input (Mt),2002,2233000,C
+231,USA,61,Cake of Maize,31,Input (Mt),2003,2182000,C
+231,USA,61,Cake of Maize,31,Input (Mt),2004,2142000,C
+231,USA,61,Cake of Maize,31,Input (Mt),2005,2260000,C
+231,USA,61,Cake of Maize,31,Input (Mt),2006,2331000,C
+231,USA,61,Cake of Maize,31,Input (Mt),2007,2321000,C
+231,USA,61,Cake of Maize,31,Input (Mt),2008,2303000,C
+231,USA,61,Cake of Maize,31,Input (Mt),2009,2263000,C
+231,USA,61,Cake of Maize,31,Input (Mt),2010,2265000,C
+231,USA,61,Cake of Maize,31,Input (Mt),2011,2265000,C
+231,USA,61,Cake of Maize,51,Production (Mt),2000,1095000,C
+231,USA,61,Cake of Maize,51,Production (Mt),2001,1120000,C
+231,USA,61,Cake of Maize,51,Production (Mt),2002,1116500,C
+231,USA,61,Cake of Maize,51,Production (Mt),2003,1091000,C
+231,USA,61,Cake of Maize,51,Production (Mt),2004,1071000,C
+231,USA,61,Cake of Maize,51,Production (Mt),2005,1130000,C
+231,USA,61,Cake of Maize,51,Production (Mt),2006,1165500,C
+231,USA,61,Cake of Maize,51,Production (Mt),2007,1160500,C
+231,USA,61,Cake of Maize,51,Production (Mt),2008,1151500,C
+231,USA,61,Cake of Maize,51,Production (Mt),2009,1131500,C
+231,USA,61,Cake of Maize,51,Production (Mt),2010,1132500,C
+231,USA,61,Cake of Maize,51,Production (Mt),2011,1132500,C
+231,USA,61,Cake of Maize,61,Imports - Qty (Mt),2000,1583.435, 
+231,USA,61,Cake of Maize,61,Imports - Qty (Mt),2001,1252, 
+231,USA,61,Cake of Maize,61,Imports - Qty (Mt),2002,92, 
+231,USA,61,Cake of Maize,61,Imports - Qty (Mt),2003,139, 
+231,USA,61,Cake of Maize,61,Imports - Qty (Mt),2004,59, 
+231,USA,61,Cake of Maize,61,Imports - Qty (Mt),2005,902, 
+231,USA,61,Cake of Maize,61,Imports - Qty (Mt),2006,375, 
+231,USA,61,Cake of Maize,61,Imports - Qty (Mt),2007,0,*
+231,USA,61,Cake of Maize,61,Imports - Qty (Mt),2008,0,T
+231,USA,61,Cake of Maize,61,Imports - Qty (Mt),2009,0,T
+231,USA,61,Cake of Maize,61,Imports - Qty (Mt),2010,0,T
+231,USA,61,Cake of Maize,61,Imports - Qty (Mt),2011,0,T
+231,USA,61,Cake of Maize,71,Stock Variation (Mt),2000,0,M
+231,USA,61,Cake of Maize,71,Stock Variation (Mt),2001,0,M
+231,USA,61,Cake of Maize,71,Stock Variation (Mt),2002,0,M
+231,USA,61,Cake of Maize,71,Stock Variation (Mt),2003,0,F
+231,USA,61,Cake of Maize,71,Stock Variation (Mt),2004,0,F
+231,USA,61,Cake of Maize,71,Stock Variation (Mt),2005,0,M
+231,USA,61,Cake of Maize,71,Stock Variation (Mt),2006,0,M
+231,USA,61,Cake of Maize,71,Stock Variation (Mt),2007,0,M
+231,USA,61,Cake of Maize,71,Stock Variation (Mt),2008,0,M
+231,USA,61,Cake of Maize,71,Stock Variation (Mt),2009,0,M
+231,USA,61,Cake of Maize,71,Stock Variation (Mt),2010,0,M
+231,USA,61,Cake of Maize,71,Stock Variation (Mt),2011,0,M
+231,USA,61,Cake of Maize,91,Exports - Qty (Mt),2000,39178.72, 
+231,USA,61,Cake of Maize,91,Exports - Qty (Mt),2001,19703, 
+231,USA,61,Cake of Maize,91,Exports - Qty (Mt),2002,8481, 
+231,USA,61,Cake of Maize,91,Exports - Qty (Mt),2003,1671, 
+231,USA,61,Cake of Maize,91,Exports - Qty (Mt),2004,3100, 
+231,USA,61,Cake of Maize,91,Exports - Qty (Mt),2005,3364, 
+231,USA,61,Cake of Maize,91,Exports - Qty (Mt),2006,10310, 
+231,USA,61,Cake of Maize,91,Exports - Qty (Mt),2007,0,*
+231,USA,61,Cake of Maize,91,Exports - Qty (Mt),2008,0,T
+231,USA,61,Cake of Maize,91,Exports - Qty (Mt),2009,0,T
+231,USA,61,Cake of Maize,91,Exports - Qty (Mt),2010,0,T
+231,USA,61,Cake of Maize,91,Exports - Qty (Mt),2011,0,T
+231,USA,61,Cake of Maize,101,Feed (Mt),2000,1057404.715,B
+231,USA,61,Cake of Maize,101,Feed (Mt),2001,1101549,B
+231,USA,61,Cake of Maize,101,Feed (Mt),2002,1108111,B
+231,USA,61,Cake of Maize,101,Feed (Mt),2003,1089468,B
+231,USA,61,Cake of Maize,101,Feed (Mt),2004,1067959,B
+231,USA,61,Cake of Maize,101,Feed (Mt),2005,1127538,B
+231,USA,61,Cake of Maize,101,Feed (Mt),2006,1155565,B
+231,USA,61,Cake of Maize,101,Feed (Mt),2007,1160500,B
+231,USA,61,Cake of Maize,101,Feed (Mt),2008,1151500,B
+231,USA,61,Cake of Maize,101,Feed (Mt),2009,1131500,B
+231,USA,61,Cake of Maize,101,Feed (Mt),2010,1132500,B
+231,USA,61,Cake of Maize,101,Feed (Mt),2011,1132500,B
+231,USA,61,Cake of Maize,181,Statistic Discrepancies (Mt),2000,0,M
+231,USA,61,Cake of Maize,181,Statistic Discrepancies (Mt),2001,0,M
+231,USA,61,Cake of Maize,181,Statistic Discrepancies (Mt),2002,0,M
+231,USA,61,Cake of Maize,181,Statistic Discrepancies (Mt),2003,0,M
+231,USA,61,Cake of Maize,181,Statistic Discrepancies (Mt),2004,0,M
+231,USA,61,Cake of Maize,181,Statistic Discrepancies (Mt),2005,0,M
+231,USA,61,Cake of Maize,181,Statistic Discrepancies (Mt),2006,0,M
+231,USA,61,Cake of Maize,181,Statistic Discrepancies (Mt),2007,0,M
+231,USA,61,Cake of Maize,181,Statistic Discrepancies (Mt),2008,0,M
+231,USA,61,Cake of Maize,181,Statistic Discrepancies (Mt),2009,0,M
+231,USA,61,Cake of Maize,181,Statistic Discrepancies (Mt),2010,0,M
+231,USA,61,Cake of Maize,181,Statistic Discrepancies (Mt),2011,0,M
+231,USA,63,Maize Gluten,31,Input (Mt),2000,21625154.18,C
+231,USA,63,Maize Gluten,31,Input (Mt),2001,21804837.7,C
+231,USA,63,Maize Gluten,31,Input (Mt),2002,21805798.48,C
+231,USA,63,Maize Gluten,31,Input (Mt),2003,22304558.06,C
+231,USA,63,Maize Gluten,31,Input (Mt),2004,22374034.98,C
+231,USA,63,Maize Gluten,31,Input (Mt),2005,23038558.81,C
+231,USA,63,Maize Gluten,31,Input (Mt),2006,22841354.21,C
+231,USA,63,Maize Gluten,31,Input (Mt),2007,22253510.91,C
+231,USA,63,Maize Gluten,31,Input (Mt),2008,20843741.1,C
+231,USA,63,Maize Gluten,31,Input (Mt),2009,21906587.88,C
+231,USA,63,Maize Gluten,31,Input (Mt),2010,22730719.92,C
+231,USA,63,Maize Gluten,31,Input (Mt),2011,23120448.52,C
+231,USA,63,Maize Gluten,51,Production (Mt),2000,1708387.202,C
+231,USA,63,Maize Gluten,51,Production (Mt),2001,1722582.2,C
+231,USA,63,Maize Gluten,51,Production (Mt),2002,1722658.102,C
+231,USA,63,Maize Gluten,51,Production (Mt),2003,1762060.109,C
+231,USA,63,Maize Gluten,51,Production (Mt),2004,1767548.786,C
+231,USA,63,Maize Gluten,51,Production (Mt),2005,1820046.169,C
+231,USA,63,Maize Gluten,51,Production (Mt),2006,1804467.005,C
+231,USA,63,Maize Gluten,51,Production (Mt),2007,1758027.384,C
+231,USA,63,Maize Gluten,51,Production (Mt),2008,1646655.568,C
+231,USA,63,Maize Gluten,51,Production (Mt),2009,1730620.464,C
+231,USA,63,Maize Gluten,51,Production (Mt),2010,1795726.896,C
+231,USA,63,Maize Gluten,51,Production (Mt),2011,1826515.456,C
+231,USA,63,Maize Gluten,131,Processed (Mt),2000,1708387.202,B
+231,USA,63,Maize Gluten,131,Processed (Mt),2001,1722582.2,B
+231,USA,63,Maize Gluten,131,Processed (Mt),2002,1722658.102,B
+231,USA,63,Maize Gluten,131,Processed (Mt),2003,1762060.109,B
+231,USA,63,Maize Gluten,131,Processed (Mt),2004,1767548.786,B
+231,USA,63,Maize Gluten,131,Processed (Mt),2005,1820046.169,B
+231,USA,63,Maize Gluten,131,Processed (Mt),2006,1804467.005,B
+231,USA,63,Maize Gluten,131,Processed (Mt),2007,1758027.384,B
+231,USA,63,Maize Gluten,131,Processed (Mt),2008,1646655.568,B
+231,USA,63,Maize Gluten,131,Processed (Mt),2009,1730620.464,B
+231,USA,63,Maize Gluten,131,Processed (Mt),2010,1795726.896,B
+231,USA,63,Maize Gluten,131,Processed (Mt),2011,1826515.456,B
+231,USA,64,Starch of Maize,31,Input (Mt),2000,21625154.18,C
+231,USA,64,Starch of Maize,31,Input (Mt),2001,21804837.7,C
+231,USA,64,Starch of Maize,31,Input (Mt),2002,21805798.48,C
+231,USA,64,Starch of Maize,31,Input (Mt),2003,22304558.06,C
+231,USA,64,Starch of Maize,31,Input (Mt),2004,22374034.98,C
+231,USA,64,Starch of Maize,31,Input (Mt),2005,23038558.81,C
+231,USA,64,Starch of Maize,31,Input (Mt),2006,22841354.21,C
+231,USA,64,Starch of Maize,31,Input (Mt),2007,22253510.91,C
+231,USA,64,Starch of Maize,31,Input (Mt),2008,20843741.1,C
+231,USA,64,Starch of Maize,31,Input (Mt),2009,21906587.88,C
+231,USA,64,Starch of Maize,31,Input (Mt),2010,22730719.92,C
+231,USA,64,Starch of Maize,31,Input (Mt),2011,23120448.52,C
+231,USA,64,Starch of Maize,51,Production (Mt),2000,15894488.32,C
+231,USA,64,Starch of Maize,51,Production (Mt),2001,16026555.71,C
+231,USA,64,Starch of Maize,51,Production (Mt),2002,16027261.88,C
+231,USA,64,Starch of Maize,51,Production (Mt),2003,16393850.18,C
+231,USA,64,Starch of Maize,51,Production (Mt),2004,16444915.71,C
+231,USA,64,Starch of Maize,51,Production (Mt),2005,16933340.72,C
+231,USA,64,Starch of Maize,51,Production (Mt),2006,16788395.34,C
+231,USA,64,Starch of Maize,51,Production (Mt),2007,16356330.52,C
+231,USA,64,Starch of Maize,51,Production (Mt),2008,15320149.71,C
+231,USA,64,Starch of Maize,51,Production (Mt),2009,16101342.09,C
+231,USA,64,Starch of Maize,51,Production (Mt),2010,16707079.14,C
+231,USA,64,Starch of Maize,51,Production (Mt),2011,16993529.66,C
+231,USA,64,Starch of Maize,61,Imports - Qty (Mt),2000,55098.2, 
+231,USA,64,Starch of Maize,61,Imports - Qty (Mt),2001,54163, 
+231,USA,64,Starch of Maize,61,Imports - Qty (Mt),2002,51582, 
+231,USA,64,Starch of Maize,61,Imports - Qty (Mt),2003,56987, 
+231,USA,64,Starch of Maize,61,Imports - Qty (Mt),2004,59882, 
+231,USA,64,Starch of Maize,61,Imports - Qty (Mt),2005,56929, 
+231,USA,64,Starch of Maize,61,Imports - Qty (Mt),2006,58042, 
+231,USA,64,Starch of Maize,61,Imports - Qty (Mt),2007,61806, 
+231,USA,64,Starch of Maize,61,Imports - Qty (Mt),2008,72542, 
+231,USA,64,Starch of Maize,61,Imports - Qty (Mt),2009,55145, 
+231,USA,64,Starch of Maize,61,Imports - Qty (Mt),2010,50225, 
+231,USA,64,Starch of Maize,61,Imports - Qty (Mt),2011,57137, 
+231,USA,64,Starch of Maize,91,Exports - Qty (Mt),2000,90008.55, 
+231,USA,64,Starch of Maize,91,Exports - Qty (Mt),2001,101388, 
+231,USA,64,Starch of Maize,91,Exports - Qty (Mt),2002,107695, 
+231,USA,64,Starch of Maize,91,Exports - Qty (Mt),2003,88310, 
+231,USA,64,Starch of Maize,91,Exports - Qty (Mt),2004,93086, 
+231,USA,64,Starch of Maize,91,Exports - Qty (Mt),2005,138608, 
+231,USA,64,Starch of Maize,91,Exports - Qty (Mt),2006,134507, 
+231,USA,64,Starch of Maize,91,Exports - Qty (Mt),2007,131840, 
+231,USA,64,Starch of Maize,91,Exports - Qty (Mt),2008,112402, 
+231,USA,64,Starch of Maize,91,Exports - Qty (Mt),2009,100642, 
+231,USA,64,Starch of Maize,91,Exports - Qty (Mt),2010,162788, 
+231,USA,64,Starch of Maize,91,Exports - Qty (Mt),2011,130131, 
+231,USA,64,Starch of Maize,131,Processed (Mt),2000,11171000,*
+231,USA,64,Starch of Maize,131,Processed (Mt),2001,11316000,*
+231,USA,64,Starch of Maize,131,Processed (Mt),2002,11218000,*
+231,USA,64,Starch of Maize,131,Processed (Mt),2003,11322000,*
+231,USA,64,Starch of Maize,131,Processed (Mt),2004,11090000,*
+231,USA,64,Starch of Maize,131,Processed (Mt),2005,11320000,*
+231,USA,64,Starch of Maize,131,Processed (Mt),2006,11570000,F
+231,USA,64,Starch of Maize,131,Processed (Mt),2007,11565000,F
+231,USA,64,Starch of Maize,131,Processed (Mt),2008,11180000,F
+231,USA,64,Starch of Maize,131,Processed (Mt),2009,10738000,F
+231,USA,64,Starch of Maize,131,Processed (Mt),2010,10650000,F
+231,USA,64,Starch of Maize,131,Processed (Mt),2011,10650000,F
+231,USA,64,Starch of Maize,141,Food (Mt),2000,510000,F
+231,USA,64,Starch of Maize,141,Food (Mt),2001,512000,F
+231,USA,64,Starch of Maize,141,Food (Mt),2002,512000,F
+231,USA,64,Starch of Maize,141,Food (Mt),2003,513000,F
+231,USA,64,Starch of Maize,141,Food (Mt),2004,513000,T
+231,USA,64,Starch of Maize,141,Food (Mt),2005,514000,F
+231,USA,64,Starch of Maize,141,Food (Mt),2006,514000,F
+231,USA,64,Starch of Maize,141,Food (Mt),2007,514000,F
+231,USA,64,Starch of Maize,141,Food (Mt),2008,514000,F
+231,USA,64,Starch of Maize,141,Food (Mt),2009,515000,F
+231,USA,64,Starch of Maize,141,Food (Mt),2010,515000,F
+231,USA,64,Starch of Maize,141,Food (Mt),2011,515000,F
+231,USA,64,Starch of Maize,151,Other Util (Mt),2000,4178577.969,B
+231,USA,64,Starch of Maize,151,Other Util (Mt),2001,4151330.712,B
+231,USA,64,Starch of Maize,151,Other Util (Mt),2002,4241148.883,B
+231,USA,64,Starch of Maize,151,Other Util (Mt),2003,4527527.177,B
+231,USA,64,Starch of Maize,151,Other Util (Mt),2004,4808711.713,B
+231,USA,64,Starch of Maize,151,Other Util (Mt),2005,5017661.724,B
+231,USA,64,Starch of Maize,151,Other Util (Mt),2006,4627930.343,B
+231,USA,64,Starch of Maize,151,Other Util (Mt),2007,4207296.52,B
+231,USA,64,Starch of Maize,151,Other Util (Mt),2008,3586289.711,B
+231,USA,64,Starch of Maize,151,Other Util (Mt),2009,4802845.092,B
+231,USA,64,Starch of Maize,151,Other Util (Mt),2010,5429516.141,B
+231,USA,64,Starch of Maize,151,Other Util (Mt),2011,5755535.662,B
+231,USA,68,Pop Corn,31,Area Harv (Ha),2000,0,M
+231,USA,68,Pop Corn,31,Area Harv (Ha),2001,0,M
+231,USA,68,Pop Corn,31,Area Harv (Ha),2002,0,M
+231,USA,68,Pop Corn,31,Area Harv (Ha),2003,0,M
+231,USA,68,Pop Corn,31,Area Harv (Ha),2004,0,M
+231,USA,68,Pop Corn,31,Area Harv (Ha),2005,0,M
+231,USA,68,Pop Corn,31,Area Harv (Ha),2006,0,M
+231,USA,68,Pop Corn,31,Area Harv (Ha),2007,0,M
+231,USA,68,Pop Corn,31,Area Harv (Ha),2008,0,M
+231,USA,68,Pop Corn,31,Area Harv (Ha),2009,0,M
+231,USA,68,Pop Corn,31,Area Harv (Ha),2010,0,M
+231,USA,68,Pop Corn,31,Area Harv (Ha),2011,0,M
+231,USA,68,Pop Corn,51,Production (Mt),2000,0,M
+231,USA,68,Pop Corn,51,Production (Mt),2001,0,M
+231,USA,68,Pop Corn,51,Production (Mt),2002,0,M
+231,USA,68,Pop Corn,51,Production (Mt),2003,0,M
+231,USA,68,Pop Corn,51,Production (Mt),2004,0,M
+231,USA,68,Pop Corn,51,Production (Mt),2005,0,M
+231,USA,68,Pop Corn,51,Production (Mt),2006,0,M
+231,USA,68,Pop Corn,51,Production (Mt),2007,0,M
+231,USA,68,Pop Corn,51,Production (Mt),2008,0,M
+231,USA,68,Pop Corn,51,Production (Mt),2009,0,M
+231,USA,68,Pop Corn,51,Production (Mt),2010,0,M
+231,USA,68,Pop Corn,51,Production (Mt),2011,0,M
+231,USA,68,Pop Corn,141,Food (Mt),2000,0,B
+231,USA,68,Pop Corn,141,Food (Mt),2001,0,B
+231,USA,68,Pop Corn,141,Food (Mt),2002,0,B
+231,USA,68,Pop Corn,141,Food (Mt),2003,0,B
+231,USA,68,Pop Corn,141,Food (Mt),2004,0,B
+231,USA,68,Pop Corn,141,Food (Mt),2005,0,B
+231,USA,68,Pop Corn,141,Food (Mt),2006,0,B
+231,USA,68,Pop Corn,141,Food (Mt),2007,0,B
+231,USA,68,Pop Corn,141,Food (Mt),2008,0,B
+231,USA,68,Pop Corn,141,Food (Mt),2009,0,B
+231,USA,68,Pop Corn,141,Food (Mt),2010,0,B
+231,USA,68,Pop Corn,141,Food (Mt),2011,0,B
+231,USA,71,Rye,31,Area Harv (Ha),2000,119788, 
+231,USA,71,Rye,31,Area Harv (Ha),2001,101173, 
+231,USA,71,Rye,31,Area Harv (Ha),2002,106433, 
+231,USA,71,Rye,31,Area Harv (Ha),2003,129096, 
+231,USA,71,Rye,31,Area Harv (Ha),2004,121407, 
+231,USA,71,Rye,31,Area Harv (Ha),2005,112909, 
+231,USA,71,Rye,31,Area Harv (Ha),2006,110885, 
+231,USA,71,Rye,31,Area Harv (Ha),2007,101982, 
+231,USA,71,Rye,31,Area Harv (Ha),2008,108862, 
+231,USA,71,Rye,31,Area Harv (Ha),2009,101980, 
+231,USA,71,Rye,31,Area Harv (Ha),2010,107240, 
+231,USA,71,Rye,31,Area Harv (Ha),2011,97930, 
+231,USA,71,Rye,51,Production (Mt),2000,213013, 
+231,USA,71,Rye,51,Production (Mt),2001,175165, 
+231,USA,71,Rye,51,Production (Mt),2002,164802, 
+231,USA,71,Rye,51,Production (Mt),2003,219312, 
+231,USA,71,Rye,51,Production (Mt),2004,209685, 
+231,USA,71,Rye,51,Production (Mt),2005,191447, 
+231,USA,71,Rye,51,Production (Mt),2006,182709, 
+231,USA,71,Rye,51,Production (Mt),2007,160306, 
+231,USA,71,Rye,51,Production (Mt),2008,202675, 
+231,USA,71,Rye,51,Production (Mt),2009,177630, 
+231,USA,71,Rye,51,Production (Mt),2010,188760, 
+231,USA,71,Rye,51,Production (Mt),2011,160690, 
+231,USA,71,Rye,61,Imports - Qty (Mt),2000,83385.08, 
+231,USA,71,Rye,61,Imports - Qty (Mt),2001,131965, 
+231,USA,71,Rye,61,Imports - Qty (Mt),2002,128638, 
+231,USA,71,Rye,61,Imports - Qty (Mt),2003,93638, 
+231,USA,71,Rye,61,Imports - Qty (Mt),2004,161839, 
+231,USA,71,Rye,61,Imports - Qty (Mt),2005,123556, 
+231,USA,71,Rye,61,Imports - Qty (Mt),2006,141862, 
+231,USA,71,Rye,61,Imports - Qty (Mt),2007,139035, 
+231,USA,71,Rye,61,Imports - Qty (Mt),2008,143784, 
+231,USA,71,Rye,61,Imports - Qty (Mt),2009,120081, 
+231,USA,71,Rye,61,Imports - Qty (Mt),2010,120366, 
+231,USA,71,Rye,61,Imports - Qty (Mt),2011,171025, 
+231,USA,71,Rye,71,Stock Variation (Mt),2000,15555.92,B
+231,USA,71,Rye,71,Stock Variation (Mt),2001,9776,B
+231,USA,71,Rye,71,Stock Variation (Mt),2002,33358,B
+231,USA,71,Rye,71,Stock Variation (Mt),2003,-13641,B
+231,USA,71,Rye,71,Stock Variation (Mt),2004,-24442,B
+231,USA,71,Rye,71,Stock Variation (Mt),2005,18190,B
+231,USA,71,Rye,71,Stock Variation (Mt),2006,-63193,B
+231,USA,71,Rye,71,Stock Variation (Mt),2007,-36324,B
+231,USA,71,Rye,71,Stock Variation (Mt),2008,-64742,B
+231,USA,71,Rye,71,Stock Variation (Mt),2009,-96916,B
+231,USA,71,Rye,71,Stock Variation (Mt),2010,-52115,B
+231,USA,71,Rye,71,Stock Variation (Mt),2011,-96685,B
+231,USA,71,Rye,91,Exports - Qty (Mt),2000,11307, 
+231,USA,71,Rye,91,Exports - Qty (Mt),2001,5306, 
+231,USA,71,Rye,91,Exports - Qty (Mt),2002,5998, 
+231,USA,71,Rye,91,Exports - Qty (Mt),2003,2109, 
+231,USA,71,Rye,91,Exports - Qty (Mt),2004,3482, 
+231,USA,71,Rye,91,Exports - Qty (Mt),2005,693, 
+231,USA,71,Rye,91,Exports - Qty (Mt),2006,1078, 
+231,USA,71,Rye,91,Exports - Qty (Mt),2007,3717, 
+231,USA,71,Rye,91,Exports - Qty (Mt),2008,65817, 
+231,USA,71,Rye,91,Exports - Qty (Mt),2009,3995, 
+231,USA,71,Rye,91,Exports - Qty (Mt),2010,3941, 
+231,USA,71,Rye,91,Exports - Qty (Mt),2011,4037, 
+231,USA,71,Rye,101,Feed (Mt),2000,59000, 
+231,USA,71,Rye,101,Feed (Mt),2001,75400, 
+231,USA,71,Rye,101,Feed (Mt),2002,84600, 
+231,USA,71,Rye,101,Feed (Mt),2003,61000, 
+231,USA,71,Rye,101,Feed (Mt),2004,107400, 
+231,USA,71,Rye,101,Feed (Mt),2005,96300, 
+231,USA,71,Rye,101,Feed (Mt),2006,100300, 
+231,USA,71,Rye,101,Feed (Mt),2007,99300, 
+231,USA,71,Rye,101,Feed (Mt),2008,55900, 
+231,USA,71,Rye,101,Feed (Mt),2009,36800, 
+231,USA,71,Rye,101,Feed (Mt),2010,93070, 
+231,USA,71,Rye,101,Feed (Mt),2011,70793, 
+231,USA,71,Rye,111,Seed (Mt),2000,81647, 
+231,USA,71,Rye,111,Seed (Mt),2001,76200, 
+231,USA,71,Rye,111,Seed (Mt),2002,76200, 
+231,USA,71,Rye,111,Seed (Mt),2003,76200, 
+231,USA,71,Rye,111,Seed (Mt),2004,76200, 
+231,USA,71,Rye,111,Seed (Mt),2005,76200, 
+231,USA,71,Rye,111,Seed (Mt),2006,76200, 
+231,USA,71,Rye,111,Seed (Mt),2007,76200, 
+231,USA,71,Rye,111,Seed (Mt),2008,76200, 
+231,USA,71,Rye,111,Seed (Mt),2009,76200, 
+231,USA,71,Rye,111,Seed (Mt),2010,76200, 
+231,USA,71,Rye,111,Seed (Mt),2011,76200, 
+231,USA,71,Rye,131,Processed (Mt),2000,83800, 
+231,USA,71,Rye,131,Processed (Mt),2001,83800, 
+231,USA,71,Rye,131,Processed (Mt),2002,83800, 
+231,USA,71,Rye,131,Processed (Mt),2003,83800, 
+231,USA,71,Rye,131,Processed (Mt),2004,83800, 
+231,USA,71,Rye,131,Processed (Mt),2005,83800, 
+231,USA,71,Rye,131,Processed (Mt),2006,83800, 
+231,USA,71,Rye,131,Processed (Mt),2007,83800, 
+231,USA,71,Rye,131,Processed (Mt),2008,83800, 
+231,USA,71,Rye,131,Processed (Mt),2009,83800, 
+231,USA,71,Rye,131,Processed (Mt),2010,83800, 
+231,USA,71,Rye,131,Processed (Mt),2011,84000, 
+231,USA,71,Rye,151,Other Util (Mt),2000,76200, 
+231,USA,71,Rye,151,Other Util (Mt),2001,76200, 
+231,USA,71,Rye,151,Other Util (Mt),2002,76200, 
+231,USA,71,Rye,151,Other Util (Mt),2003,76200, 
+231,USA,71,Rye,151,Other Util (Mt),2004,76200, 
+231,USA,71,Rye,151,Other Util (Mt),2005,76200, 
+231,USA,71,Rye,151,Other Util (Mt),2006,0,F
+231,USA,71,Rye,151,Other Util (Mt),2007,0,F
+231,USA,71,Rye,151,Other Util (Mt),2008,0,F
+231,USA,71,Rye,151,Other Util (Mt),2009,0,F
+231,USA,71,Rye,151,Other Util (Mt),2010,0,F
+231,USA,71,Rye,151,Other Util (Mt),2011,0,F
+231,USA,72,Flour of Rye,31,Input (Mt),2000,83800,/
+231,USA,72,Flour of Rye,31,Input (Mt),2001,83800,/
+231,USA,72,Flour of Rye,31,Input (Mt),2002,83800,/
+231,USA,72,Flour of Rye,31,Input (Mt),2003,83800,/
+231,USA,72,Flour of Rye,31,Input (Mt),2004,83800,/
+231,USA,72,Flour of Rye,31,Input (Mt),2005,83800,/
+231,USA,72,Flour of Rye,31,Input (Mt),2006,83800,/
+231,USA,72,Flour of Rye,31,Input (Mt),2007,83800,/
+231,USA,72,Flour of Rye,31,Input (Mt),2008,83800,/
+231,USA,72,Flour of Rye,31,Input (Mt),2009,83800,/
+231,USA,72,Flour of Rye,31,Input (Mt),2010,83800,/
+231,USA,72,Flour of Rye,31,Input (Mt),2011,84000,/
+231,USA,72,Flour of Rye,51,Production (Mt),2000,67040,C
+231,USA,72,Flour of Rye,51,Production (Mt),2001,67040,C
+231,USA,72,Flour of Rye,51,Production (Mt),2002,67040,C
+231,USA,72,Flour of Rye,51,Production (Mt),2003,67040,C
+231,USA,72,Flour of Rye,51,Production (Mt),2004,67040,C
+231,USA,72,Flour of Rye,51,Production (Mt),2005,67040,C
+231,USA,72,Flour of Rye,51,Production (Mt),2006,67040,C
+231,USA,72,Flour of Rye,51,Production (Mt),2007,67040,C
+231,USA,72,Flour of Rye,51,Production (Mt),2008,67040,C
+231,USA,72,Flour of Rye,51,Production (Mt),2009,67040,C
+231,USA,72,Flour of Rye,51,Production (Mt),2010,67040,C
+231,USA,72,Flour of Rye,51,Production (Mt),2011,67200,C
+231,USA,72,Flour of Rye,61,Imports - Qty (Mt),2000,170.422, 
+231,USA,72,Flour of Rye,61,Imports - Qty (Mt),2001,113, 
+231,USA,72,Flour of Rye,61,Imports - Qty (Mt),2002,264, 
+231,USA,72,Flour of Rye,61,Imports - Qty (Mt),2003,237, 
+231,USA,72,Flour of Rye,61,Imports - Qty (Mt),2004,21, 
+231,USA,72,Flour of Rye,61,Imports - Qty (Mt),2005,915, 
+231,USA,72,Flour of Rye,61,Imports - Qty (Mt),2006,2053, 
+231,USA,72,Flour of Rye,61,Imports - Qty (Mt),2007,2091, 
+231,USA,72,Flour of Rye,61,Imports - Qty (Mt),2008,2158, 
+231,USA,72,Flour of Rye,61,Imports - Qty (Mt),2009,2060, 
+231,USA,72,Flour of Rye,61,Imports - Qty (Mt),2010,2210, 
+231,USA,72,Flour of Rye,61,Imports - Qty (Mt),2011,1987, 
+231,USA,72,Flour of Rye,91,Exports - Qty (Mt),2000,1424.671, 
+231,USA,72,Flour of Rye,91,Exports - Qty (Mt),2001,1123, 
+231,USA,72,Flour of Rye,91,Exports - Qty (Mt),2002,816, 
+231,USA,72,Flour of Rye,91,Exports - Qty (Mt),2003,621, 
+231,USA,72,Flour of Rye,91,Exports - Qty (Mt),2004,874, 
+231,USA,72,Flour of Rye,91,Exports - Qty (Mt),2005,789, 
+231,USA,72,Flour of Rye,91,Exports - Qty (Mt),2006,1697, 
+231,USA,72,Flour of Rye,91,Exports - Qty (Mt),2007,1038, 
+231,USA,72,Flour of Rye,91,Exports - Qty (Mt),2008,2204, 
+231,USA,72,Flour of Rye,91,Exports - Qty (Mt),2009,2827, 
+231,USA,72,Flour of Rye,91,Exports - Qty (Mt),2010,4794, 
+231,USA,72,Flour of Rye,91,Exports - Qty (Mt),2011,1177, 
+231,USA,72,Flour of Rye,141,Food (Mt),2000,65785.751,B
+231,USA,72,Flour of Rye,141,Food (Mt),2001,66030,B
+231,USA,72,Flour of Rye,141,Food (Mt),2002,66488,B
+231,USA,72,Flour of Rye,141,Food (Mt),2003,66656,B
+231,USA,72,Flour of Rye,141,Food (Mt),2004,66187,B
+231,USA,72,Flour of Rye,141,Food (Mt),2005,67166,B
+231,USA,72,Flour of Rye,141,Food (Mt),2006,67396,B
+231,USA,72,Flour of Rye,141,Food (Mt),2007,68093,B
+231,USA,72,Flour of Rye,141,Food (Mt),2008,66994,B
+231,USA,72,Flour of Rye,141,Food (Mt),2009,66273,B
+231,USA,72,Flour of Rye,141,Food (Mt),2010,64456,B
+231,USA,72,Flour of Rye,141,Food (Mt),2011,68010,B
+231,USA,73,Bran of Rye,31,Input (Mt),2000,83800,/
+231,USA,73,Bran of Rye,31,Input (Mt),2001,83800,/
+231,USA,73,Bran of Rye,31,Input (Mt),2002,83800,/
+231,USA,73,Bran of Rye,31,Input (Mt),2003,83800,/
+231,USA,73,Bran of Rye,31,Input (Mt),2004,83800,/
+231,USA,73,Bran of Rye,31,Input (Mt),2005,83800,/
+231,USA,73,Bran of Rye,31,Input (Mt),2006,83800,/
+231,USA,73,Bran of Rye,31,Input (Mt),2007,83800,/
+231,USA,73,Bran of Rye,31,Input (Mt),2008,83800,/
+231,USA,73,Bran of Rye,31,Input (Mt),2009,83800,/
+231,USA,73,Bran of Rye,31,Input (Mt),2010,83800,/
+231,USA,73,Bran of Rye,31,Input (Mt),2011,84000,/
+231,USA,73,Bran of Rye,51,Production (Mt),2000,13408,C
+231,USA,73,Bran of Rye,51,Production (Mt),2001,13408,C
+231,USA,73,Bran of Rye,51,Production (Mt),2002,13408,C
+231,USA,73,Bran of Rye,51,Production (Mt),2003,13408,C
+231,USA,73,Bran of Rye,51,Production (Mt),2004,13408,C
+231,USA,73,Bran of Rye,51,Production (Mt),2005,13408,C
+231,USA,73,Bran of Rye,51,Production (Mt),2006,13408,C
+231,USA,73,Bran of Rye,51,Production (Mt),2007,13408,C
+231,USA,73,Bran of Rye,51,Production (Mt),2008,13408,C
+231,USA,73,Bran of Rye,51,Production (Mt),2009,13408,C
+231,USA,73,Bran of Rye,51,Production (Mt),2010,13408,C
+231,USA,73,Bran of Rye,51,Production (Mt),2011,13440,C
+231,USA,73,Bran of Rye,61,Imports - Qty (Mt),2000,0, 
+231,USA,73,Bran of Rye,61,Imports - Qty (Mt),2001,0, 
+231,USA,73,Bran of Rye,61,Imports - Qty (Mt),2002,0, 
+231,USA,73,Bran of Rye,61,Imports - Qty (Mt),2003,0, 
+231,USA,73,Bran of Rye,61,Imports - Qty (Mt),2004,0, 
+231,USA,73,Bran of Rye,61,Imports - Qty (Mt),2005,0, 
+231,USA,73,Bran of Rye,61,Imports - Qty (Mt),2006,0,T
+231,USA,73,Bran of Rye,61,Imports - Qty (Mt),2007,0,T
+231,USA,73,Bran of Rye,61,Imports - Qty (Mt),2008,0,T
+231,USA,73,Bran of Rye,61,Imports - Qty (Mt),2009,0,T
+231,USA,73,Bran of Rye,61,Imports - Qty (Mt),2010,0,T
+231,USA,73,Bran of Rye,61,Imports - Qty (Mt),2011,0,T
+231,USA,73,Bran of Rye,101,Feed (Mt),2000,13408,B
+231,USA,73,Bran of Rye,101,Feed (Mt),2001,13408,B
+231,USA,73,Bran of Rye,101,Feed (Mt),2002,13408,B
+231,USA,73,Bran of Rye,101,Feed (Mt),2003,13408,B
+231,USA,73,Bran of Rye,101,Feed (Mt),2004,13408,B
+231,USA,73,Bran of Rye,101,Feed (Mt),2005,13408,B
+231,USA,73,Bran of Rye,101,Feed (Mt),2006,13408,B
+231,USA,73,Bran of Rye,101,Feed (Mt),2007,13408,B
+231,USA,73,Bran of Rye,101,Feed (Mt),2008,13408,B
+231,USA,73,Bran of Rye,101,Feed (Mt),2009,13408,B
+231,USA,73,Bran of Rye,101,Feed (Mt),2010,13408,B
+231,USA,73,Bran of Rye,101,Feed (Mt),2011,13440,B
+231,USA,75,Oats,31,Area Harv (Ha),2000,940904, 
+231,USA,75,Oats,31,Area Harv (Ha),2001,773363, 
+231,USA,75,Oats,31,Area Harv (Ha),2002,832852, 
+231,USA,75,Oats,31,Area Harv (Ha),2003,898410, 
+231,USA,75,Oats,31,Area Harv (Ha),2004,723180, 
+231,USA,75,Oats,31,Area Harv (Ha),2005,737750, 
+231,USA,75,Oats,31,Area Harv (Ha),2006,632935, 
+231,USA,75,Oats,31,Area Harv (Ha),2007,608654, 
+231,USA,75,Oats,31,Area Harv (Ha),2008,566566, 
+231,USA,75,Oats,31,Area Harv (Ha),2009,558070, 
+231,USA,75,Oats,31,Area Harv (Ha),2010,511120, 
+231,USA,75,Oats,31,Area Harv (Ha),2011,380000, 
+231,USA,75,Oats,51,Production (Mt),2000,2165130, 
+231,USA,75,Oats,51,Production (Mt),2001,1706993, 
+231,USA,75,Oats,51,Production (Mt),2002,1683769, 
+231,USA,75,Oats,51,Production (Mt),2003,2095719, 
+231,USA,75,Oats,51,Production (Mt),2004,1679310, 
+231,USA,75,Oats,51,Production (Mt),2005,1667178, 
+231,USA,75,Oats,51,Production (Mt),2006,1357472, 
+231,USA,75,Oats,51,Production (Mt),2007,1312590, 
+231,USA,75,Oats,51,Production (Mt),2008,1293795, 
+231,USA,75,Oats,51,Production (Mt),2009,1351070, 
+231,USA,75,Oats,51,Production (Mt),2010,1178470, 
+231,USA,75,Oats,51,Production (Mt),2011,778710, 
+231,USA,75,Oats,61,Imports - Qty (Mt),2000,1730201, 
+231,USA,75,Oats,61,Imports - Qty (Mt),2001,1962472, 
+231,USA,75,Oats,61,Imports - Qty (Mt),2002,1452953, 
+231,USA,75,Oats,61,Imports - Qty (Mt),2003,1554565, 
+231,USA,75,Oats,61,Imports - Qty (Mt),2004,1438996, 
+231,USA,75,Oats,61,Imports - Qty (Mt),2005,1685546, 
+231,USA,75,Oats,61,Imports - Qty (Mt),2006,1809008, 
+231,USA,75,Oats,61,Imports - Qty (Mt),2007,1882199, 
+231,USA,75,Oats,61,Imports - Qty (Mt),2008,2168701, 
+231,USA,75,Oats,61,Imports - Qty (Mt),2009,1661395, 
+231,USA,75,Oats,61,Imports - Qty (Mt),2010,1579712, 
+231,USA,75,Oats,61,Imports - Qty (Mt),2011,1609272, 
+231,USA,75,Oats,71,Stock Variation (Mt),2000,159320,B
+231,USA,75,Oats,71,Stock Variation (Mt),2001,-434263,B
+231,USA,75,Oats,71,Stock Variation (Mt),2002,124238,B
+231,USA,75,Oats,71,Stock Variation (Mt),2003,-462748,B
+231,USA,75,Oats,71,Stock Variation (Mt),2004,-31857,B
+231,USA,75,Oats,71,Stock Variation (Mt),2005,-278778,B
+231,USA,75,Oats,71,Stock Variation (Mt),2006,-259946,B
+231,USA,75,Oats,71,Stock Variation (Mt),2007,-378231,B
+231,USA,75,Oats,71,Stock Variation (Mt),2008,-790761,B
+231,USA,75,Oats,71,Stock Variation (Mt),2009,-270777,B
+231,USA,75,Oats,71,Stock Variation (Mt),2010,-108385,B
+231,USA,75,Oats,71,Stock Variation (Mt),2011,109246,B
+231,USA,75,Oats,91,Exports - Qty (Mt),2000,29232,*
+231,USA,75,Oats,91,Exports - Qty (Mt),2001,39202,*
+231,USA,75,Oats,91,Exports - Qty (Mt),2002,35980,*
+231,USA,75,Oats,91,Exports - Qty (Mt),2003,43836,*
+231,USA,75,Oats,91,Exports - Qty (Mt),2004,36049,*
+231,USA,75,Oats,91,Exports - Qty (Mt),2005,35499,*
+231,USA,75,Oats,91,Exports - Qty (Mt),2006,40057,*
+231,USA,75,Oats,91,Exports - Qty (Mt),2007,34392,*
+231,USA,75,Oats,91,Exports - Qty (Mt),2008,56859,*
+231,USA,75,Oats,91,Exports - Qty (Mt),2009,34805,*
+231,USA,75,Oats,91,Exports - Qty (Mt),2010,38291,*
+231,USA,75,Oats,91,Exports - Qty (Mt),2011,41888,*
+231,USA,75,Oats,101,Feed (Mt),2000,3034000, 
+231,USA,75,Oats,101,Feed (Mt),2001,2148000, 
+231,USA,75,Oats,101,Feed (Mt),2002,2177000, 
+231,USA,75,Oats,101,Feed (Mt),2003,2086000, 
+231,USA,75,Oats,101,Feed (Mt),2004,1977000, 
+231,USA,75,Oats,101,Feed (Mt),2005,1969000, 
+231,USA,75,Oats,101,Feed (Mt),2006,1813606, 
+231,USA,75,Oats,101,Feed (Mt),2007,1744064, 
+231,USA,75,Oats,101,Feed (Mt),2008,1568215, 
+231,USA,75,Oats,101,Feed (Mt),2009,1666017, 
+231,USA,75,Oats,101,Feed (Mt),2010,1480530, 
+231,USA,75,Oats,101,Feed (Mt),2011,1264000, 
+231,USA,75,Oats,111,Seed (Mt),2000,164019, 
+231,USA,75,Oats,111,Seed (Mt),2001,188700, 
+231,USA,75,Oats,111,Seed (Mt),2002,174180, 
+231,USA,75,Oats,111,Seed (Mt),2003,152000, 
+231,USA,75,Oats,111,Seed (Mt),2004,159000, 
+231,USA,75,Oats,111,Seed (Mt),2005,156747, 
+231,USA,75,Oats,111,Seed (Mt),2006,140171, 
+231,USA,75,Oats,111,Seed (Mt),2007,123102, 
+231,USA,75,Oats,111,Seed (Mt),2008,128661, 
+231,USA,75,Oats,111,Seed (Mt),2009,120866, 
+231,USA,75,Oats,111,Seed (Mt),2010,97976, 
+231,USA,75,Oats,111,Seed (Mt),2011,127340, 
+231,USA,75,Oats,131,Processed (Mt),2000,827400,*
+231,USA,75,Oats,131,Processed (Mt),2001,859300,*
+231,USA,75,Oats,131,Processed (Mt),2002,873800,*
+231,USA,75,Oats,131,Processed (Mt),2003,905700,*
+231,USA,75,Oats,131,Processed (Mt),2004,914400,*
+231,USA,75,Oats,131,Processed (Mt),2005,912700,*
+231,USA,75,Oats,131,Processed (Mt),2006,912700,F
+231,USA,75,Oats,131,Processed (Mt),2007,915000,F
+231,USA,75,Oats,131,Processed (Mt),2008,918000,F
+231,USA,75,Oats,131,Processed (Mt),2009,920000,F
+231,USA,75,Oats,131,Processed (Mt),2010,1033000, 
+231,USA,75,Oats,131,Processed (Mt),2011,1064000, 
+231,USA,76,"Oats, Rolled",31,Input (Mt),2000,827400,X
+231,USA,76,"Oats, Rolled",31,Input (Mt),2001,859300,X
+231,USA,76,"Oats, Rolled",31,Input (Mt),2002,873800,X
+231,USA,76,"Oats, Rolled",31,Input (Mt),2003,905700,X
+231,USA,76,"Oats, Rolled",31,Input (Mt),2004,914400,X
+231,USA,76,"Oats, Rolled",31,Input (Mt),2005,912700,X
+231,USA,76,"Oats, Rolled",31,Input (Mt),2006,912700,C
+231,USA,76,"Oats, Rolled",31,Input (Mt),2007,915000,C
+231,USA,76,"Oats, Rolled",31,Input (Mt),2008,918000,C
+231,USA,76,"Oats, Rolled",31,Input (Mt),2009,920000,C
+231,USA,76,"Oats, Rolled",31,Input (Mt),2010,1033000,/
+231,USA,76,"Oats, Rolled",31,Input (Mt),2011,1064000,/
+231,USA,76,"Oats, Rolled",51,Production (Mt),2000,376467,C
+231,USA,76,"Oats, Rolled",51,Production (Mt),2001,390981.5,C
+231,USA,76,"Oats, Rolled",51,Production (Mt),2002,397579,C
+231,USA,76,"Oats, Rolled",51,Production (Mt),2003,412093.5,C
+231,USA,76,"Oats, Rolled",51,Production (Mt),2004,416052,C
+231,USA,76,"Oats, Rolled",51,Production (Mt),2005,415278.5,C
+231,USA,76,"Oats, Rolled",51,Production (Mt),2006,415278.5,C
+231,USA,76,"Oats, Rolled",51,Production (Mt),2007,416325,C
+231,USA,76,"Oats, Rolled",51,Production (Mt),2008,417690,C
+231,USA,76,"Oats, Rolled",51,Production (Mt),2009,418600,C
+231,USA,76,"Oats, Rolled",51,Production (Mt),2010,470015,C
+231,USA,76,"Oats, Rolled",51,Production (Mt),2011,484120,C
+231,USA,76,"Oats, Rolled",61,Imports - Qty (Mt),2000,63261.75, 
+231,USA,76,"Oats, Rolled",61,Imports - Qty (Mt),2001,86622, 
+231,USA,76,"Oats, Rolled",61,Imports - Qty (Mt),2002,90792, 
+231,USA,76,"Oats, Rolled",61,Imports - Qty (Mt),2003,110013, 
+231,USA,76,"Oats, Rolled",61,Imports - Qty (Mt),2004,117938, 
+231,USA,76,"Oats, Rolled",61,Imports - Qty (Mt),2005,140782, 
+231,USA,76,"Oats, Rolled",61,Imports - Qty (Mt),2006,160773, 
+231,USA,76,"Oats, Rolled",61,Imports - Qty (Mt),2007,140704, 
+231,USA,76,"Oats, Rolled",61,Imports - Qty (Mt),2008,141351, 
+231,USA,76,"Oats, Rolled",61,Imports - Qty (Mt),2009,135149, 
+231,USA,76,"Oats, Rolled",61,Imports - Qty (Mt),2010,152856, 
+231,USA,76,"Oats, Rolled",61,Imports - Qty (Mt),2011,155694, 
+231,USA,76,"Oats, Rolled",91,Exports - Qty (Mt),2000,13364.17, 
+231,USA,76,"Oats, Rolled",91,Exports - Qty (Mt),2001,14239, 
+231,USA,76,"Oats, Rolled",91,Exports - Qty (Mt),2002,27515, 
+231,USA,76,"Oats, Rolled",91,Exports - Qty (Mt),2003,31786, 
+231,USA,76,"Oats, Rolled",91,Exports - Qty (Mt),2004,34695, 
+231,USA,76,"Oats, Rolled",91,Exports - Qty (Mt),2005,31578, 
+231,USA,76,"Oats, Rolled",91,Exports - Qty (Mt),2006,21843, 
+231,USA,76,"Oats, Rolled",91,Exports - Qty (Mt),2007,21302, 
+231,USA,76,"Oats, Rolled",91,Exports - Qty (Mt),2008,20869, 
+231,USA,76,"Oats, Rolled",91,Exports - Qty (Mt),2009,35376, 
+231,USA,76,"Oats, Rolled",91,Exports - Qty (Mt),2010,26119, 
+231,USA,76,"Oats, Rolled",91,Exports - Qty (Mt),2011,20678, 
+231,USA,76,"Oats, Rolled",141,Food (Mt),2000,426364.58,B
+231,USA,76,"Oats, Rolled",141,Food (Mt),2001,463364.5,B
+231,USA,76,"Oats, Rolled",141,Food (Mt),2002,460856,B
+231,USA,76,"Oats, Rolled",141,Food (Mt),2003,490320.5,B
+231,USA,76,"Oats, Rolled",141,Food (Mt),2004,499295,B
+231,USA,76,"Oats, Rolled",141,Food (Mt),2005,524482.5,B
+231,USA,76,"Oats, Rolled",141,Food (Mt),2006,554208.5,B
+231,USA,76,"Oats, Rolled",141,Food (Mt),2007,535727,B
+231,USA,76,"Oats, Rolled",141,Food (Mt),2008,538172,B
+231,USA,76,"Oats, Rolled",141,Food (Mt),2009,518373,B
+231,USA,76,"Oats, Rolled",141,Food (Mt),2010,596752,B
+231,USA,76,"Oats, Rolled",141,Food (Mt),2011,619136,B
+231,USA,77,Bran of Oats,31,Input (Mt),2000,827400,X
+231,USA,77,Bran of Oats,31,Input (Mt),2001,859300,X
+231,USA,77,Bran of Oats,31,Input (Mt),2002,873800,X
+231,USA,77,Bran of Oats,31,Input (Mt),2003,905700,X
+231,USA,77,Bran of Oats,31,Input (Mt),2004,914400,X
+231,USA,77,Bran of Oats,31,Input (Mt),2005,912700,X
+231,USA,77,Bran of Oats,31,Input (Mt),2006,912700,C
+231,USA,77,Bran of Oats,31,Input (Mt),2007,915000,C
+231,USA,77,Bran of Oats,31,Input (Mt),2008,918000,C
+231,USA,77,Bran of Oats,31,Input (Mt),2009,920000,C
+231,USA,77,Bran of Oats,31,Input (Mt),2010,1033000,/
+231,USA,77,Bran of Oats,31,Input (Mt),2011,1064000,/
+231,USA,77,Bran of Oats,51,Production (Mt),2000,165480,C
+231,USA,77,Bran of Oats,51,Production (Mt),2001,171860,C
+231,USA,77,Bran of Oats,51,Production (Mt),2002,174760,C
+231,USA,77,Bran of Oats,51,Production (Mt),2003,181140,C
+231,USA,77,Bran of Oats,51,Production (Mt),2004,182880,C
+231,USA,77,Bran of Oats,51,Production (Mt),2005,182540,C
+231,USA,77,Bran of Oats,51,Production (Mt),2006,182540,C
+231,USA,77,Bran of Oats,51,Production (Mt),2007,183000,C
+231,USA,77,Bran of Oats,51,Production (Mt),2008,183600,C
+231,USA,77,Bran of Oats,51,Production (Mt),2009,184000,C
+231,USA,77,Bran of Oats,51,Production (Mt),2010,206600,C
+231,USA,77,Bran of Oats,51,Production (Mt),2011,212800,C
+231,USA,77,Bran of Oats,61,Imports - Qty (Mt),2000,0, 
+231,USA,77,Bran of Oats,61,Imports - Qty (Mt),2001,0, 
+231,USA,77,Bran of Oats,61,Imports - Qty (Mt),2002,0, 
+231,USA,77,Bran of Oats,61,Imports - Qty (Mt),2003,0, 
+231,USA,77,Bran of Oats,61,Imports - Qty (Mt),2004,0, 
+231,USA,77,Bran of Oats,61,Imports - Qty (Mt),2005,0, 
+231,USA,77,Bran of Oats,61,Imports - Qty (Mt),2006,0,T
+231,USA,77,Bran of Oats,61,Imports - Qty (Mt),2007,0,T
+231,USA,77,Bran of Oats,61,Imports - Qty (Mt),2008,0,T
+231,USA,77,Bran of Oats,61,Imports - Qty (Mt),2009,0,T
+231,USA,77,Bran of Oats,61,Imports - Qty (Mt),2010,0,T
+231,USA,77,Bran of Oats,61,Imports - Qty (Mt),2011,0,T
+231,USA,77,Bran of Oats,101,Feed (Mt),2000,165480,B
+231,USA,77,Bran of Oats,101,Feed (Mt),2001,171860,B
+231,USA,77,Bran of Oats,101,Feed (Mt),2002,174760,B
+231,USA,77,Bran of Oats,101,Feed (Mt),2003,181140,B
+231,USA,77,Bran of Oats,101,Feed (Mt),2004,182880,B
+231,USA,77,Bran of Oats,101,Feed (Mt),2005,182540,B
+231,USA,77,Bran of Oats,101,Feed (Mt),2006,182540,B
+231,USA,77,Bran of Oats,101,Feed (Mt),2007,183000,B
+231,USA,77,Bran of Oats,101,Feed (Mt),2008,183600,B
+231,USA,77,Bran of Oats,101,Feed (Mt),2009,184000,B
+231,USA,77,Bran of Oats,101,Feed (Mt),2010,206600,B
+231,USA,77,Bran of Oats,101,Feed (Mt),2011,212800,B
+231,USA,79,Millet,31,Area Harv (Ha),2000,149735, 
+231,USA,79,Millet,31,Area Harv (Ha),2001,236744, 
+231,USA,79,Millet,31,Area Harv (Ha),2002,111290, 
+231,USA,79,Millet,31,Area Harv (Ha),2003,250908, 
+231,USA,79,Millet,31,Area Harv (Ha),2004,240791, 
+231,USA,79,Millet,31,Area Harv (Ha),2005,208415, 
+231,USA,79,Millet,31,Area Harv (Ha),2006,192228, 
+231,USA,79,Millet,31,Area Harv (Ha),2007,210439, 
+231,USA,79,Millet,31,Area Harv (Ha),2008,186157, 
+231,USA,79,Millet,31,Area Harv (Ha),2009,107240, 
+231,USA,79,Millet,31,Area Harv (Ha),2010,146900, 
+231,USA,79,Millet,31,Area Harv (Ha),2011,136790, 
+231,USA,79,Millet,51,Production (Mt),2000,164612, 
+231,USA,79,Millet,51,Production (Mt),2001,436380, 
+231,USA,79,Millet,51,Production (Mt),2002,82486, 
+231,USA,79,Millet,51,Production (Mt),2003,257488, 
+231,USA,79,Millet,51,Production (Mt),2004,338782, 
+231,USA,79,Millet,51,Production (Mt),2005,307411, 
+231,USA,79,Millet,51,Production (Mt),2006,229265, 
+231,USA,79,Millet,51,Production (Mt),2007,380047, 
+231,USA,79,Millet,51,Production (Mt),2008,334621, 
+231,USA,79,Millet,51,Production (Mt),2009,201280, 
+231,USA,79,Millet,51,Production (Mt),2010,261610, 
+231,USA,79,Millet,51,Production (Mt),2011,207500, 
+231,USA,79,Millet,61,Imports - Qty (Mt),2000,464.458, 
+231,USA,79,Millet,61,Imports - Qty (Mt),2001,1056, 
+231,USA,79,Millet,61,Imports - Qty (Mt),2002,2840, 
+231,USA,79,Millet,61,Imports - Qty (Mt),2003,3205, 
+231,USA,79,Millet,61,Imports - Qty (Mt),2004,2092, 
+231,USA,79,Millet,61,Imports - Qty (Mt),2005,1566, 
+231,USA,79,Millet,61,Imports - Qty (Mt),2006,1505, 
+231,USA,79,Millet,61,Imports - Qty (Mt),2007,2215, 
+231,USA,79,Millet,61,Imports - Qty (Mt),2008,1502, 
+231,USA,79,Millet,61,Imports - Qty (Mt),2009,942, 
+231,USA,79,Millet,61,Imports - Qty (Mt),2010,955, 
+231,USA,79,Millet,61,Imports - Qty (Mt),2011,1401, 
+231,USA,79,Millet,91,Exports - Qty (Mt),2000,44259.31, 
+231,USA,79,Millet,91,Exports - Qty (Mt),2001,27566, 
+231,USA,79,Millet,91,Exports - Qty (Mt),2002,34322, 
+231,USA,79,Millet,91,Exports - Qty (Mt),2003,18938, 
+231,USA,79,Millet,91,Exports - Qty (Mt),2004,39580, 
+231,USA,79,Millet,91,Exports - Qty (Mt),2005,49429, 
+231,USA,79,Millet,91,Exports - Qty (Mt),2006,34504, 
+231,USA,79,Millet,91,Exports - Qty (Mt),2007,34224, 
+231,USA,79,Millet,91,Exports - Qty (Mt),2008,36428, 
+231,USA,79,Millet,91,Exports - Qty (Mt),2009,40804, 
+231,USA,79,Millet,91,Exports - Qty (Mt),2010,45583, 
+231,USA,79,Millet,91,Exports - Qty (Mt),2011,60861, 
+231,USA,79,Millet,101,Feed (Mt),2000,112563.325,B
+231,USA,79,Millet,101,Feed (Mt),2001,387998.2,B
+231,USA,79,Millet,101,Feed (Mt),2002,46737.7,B
+231,USA,79,Millet,101,Feed (Mt),2003,228720.35,B
+231,USA,79,Millet,101,Feed (Mt),2004,284250.3,B
+231,USA,79,Millet,101,Feed (Mt),2005,244099.15,B
+231,USA,79,Millet,101,Feed (Mt),2006,184727.5,B
+231,USA,79,Millet,101,Feed (Mt),2007,328924.9,B
+231,USA,79,Millet,101,Feed (Mt),2008,282888.85,B
+231,USA,79,Millet,101,Feed (Mt),2009,151306.9,B
+231,USA,79,Millet,101,Feed (Mt),2010,203853.75,B
+231,USA,79,Millet,101,Feed (Mt),2011,137594.95,B
+231,USA,79,Millet,121,Waste (Mt),2000,8253.823,C
+231,USA,79,Millet,121,Waste (Mt),2001,21871.8,C
+231,USA,79,Millet,121,Waste (Mt),2002,4266.3,C
+231,USA,79,Millet,121,Waste (Mt),2003,13034.65,C
+231,USA,79,Millet,121,Waste (Mt),2004,17043.7,C
+231,USA,79,Millet,121,Waste (Mt),2005,15448.85,C
+231,USA,79,Millet,121,Waste (Mt),2006,11538.5,C
+231,USA,79,Millet,121,Waste (Mt),2007,19113.1,C
+231,USA,79,Millet,121,Waste (Mt),2008,16806.15,C
+231,USA,79,Millet,121,Waste (Mt),2009,10111.1,C
+231,USA,79,Millet,121,Waste (Mt),2010,13128.25,C
+231,USA,79,Millet,121,Waste (Mt),2011,10445.05,C
+231,USA,83,Sorghum,31,Area Harv (Ha),2000,3126630, 
+231,USA,83,Sorghum,31,Area Harv (Ha),2001,3472000, 
+231,USA,83,Sorghum,31,Area Harv (Ha),2002,2883000, 
+231,USA,83,Sorghum,31,Area Harv (Ha),2003,3155770, 
+231,USA,83,Sorghum,31,Area Harv (Ha),2004,2637360, 
+231,USA,83,Sorghum,31,Area Harv (Ha),2005,2321300, 
+231,USA,83,Sorghum,31,Area Harv (Ha),2006,1999220, 
+231,USA,83,Sorghum,31,Area Harv (Ha),2007,2747910, 
+231,USA,83,Sorghum,31,Area Harv (Ha),2008,2942500, 
+231,USA,83,Sorghum,31,Area Harv (Ha),2009,2233890, 
+231,USA,83,Sorghum,31,Area Harv (Ha),2010,1947770, 
+231,USA,83,Sorghum,31,Area Harv (Ha),2011,1590030, 
+231,USA,83,Sorghum,51,Production (Mt),2000,11951910, 
+231,USA,83,Sorghum,51,Production (Mt),2001,13057000, 
+231,USA,83,Sorghum,51,Production (Mt),2002,9163000, 
+231,USA,83,Sorghum,51,Production (Mt),2003,10445900, 
+231,USA,83,Sorghum,51,Production (Mt),2004,11523340, 
+231,USA,83,Sorghum,51,Production (Mt),2005,9980960, 
+231,USA,83,Sorghum,51,Production (Mt),2006,7031505, 
+231,USA,83,Sorghum,51,Production (Mt),2007,12635730, 
+231,USA,83,Sorghum,51,Production (Mt),2008,11998040, 
+231,USA,83,Sorghum,51,Production (Mt),2009,9728220, 
+231,USA,83,Sorghum,51,Production (Mt),2010,8779280, 
+231,USA,83,Sorghum,51,Production (Mt),2011,5447100, 
+231,USA,83,Sorghum,61,Imports - Qty (Mt),2000,9.888,*
+231,USA,83,Sorghum,61,Imports - Qty (Mt),2001,48, 
+231,USA,83,Sorghum,61,Imports - Qty (Mt),2002,17,*
+231,USA,83,Sorghum,61,Imports - Qty (Mt),2003,589, 
+231,USA,83,Sorghum,61,Imports - Qty (Mt),2004,14, 
+231,USA,83,Sorghum,61,Imports - Qty (Mt),2005,624, 
+231,USA,83,Sorghum,61,Imports - Qty (Mt),2006,65, 
+231,USA,83,Sorghum,61,Imports - Qty (Mt),2007,2514, 
+231,USA,83,Sorghum,61,Imports - Qty (Mt),2008,3634, 
+231,USA,83,Sorghum,61,Imports - Qty (Mt),2009,138, 
+231,USA,83,Sorghum,61,Imports - Qty (Mt),2010,312, 
+231,USA,83,Sorghum,61,Imports - Qty (Mt),2011,884, 
+231,USA,83,Sorghum,71,Stock Variation (Mt),2000,1560788.112,B
+231,USA,83,Sorghum,71,Stock Variation (Mt),2001,-444329,B
+231,USA,83,Sorghum,71,Stock Variation (Mt),2002,1331084,B
+231,USA,83,Sorghum,71,Stock Variation (Mt),2003,166727,B
+231,USA,83,Sorghum,71,Stock Variation (Mt),2004,-741751,B
+231,USA,83,Sorghum,71,Stock Variation (Mt),2005,-596878,B
+231,USA,83,Sorghum,71,Stock Variation (Mt),2006,1671527,B
+231,USA,83,Sorghum,71,Stock Variation (Mt),2007,-1571971,B
+231,USA,83,Sorghum,71,Stock Variation (Mt),2008,-749793,B
+231,USA,83,Sorghum,71,Stock Variation (Mt),2009,-1324951,B
+231,USA,83,Sorghum,71,Stock Variation (Mt),2010,634564,B
+231,USA,83,Sorghum,71,Stock Variation (Mt),2011,2076449,B
+231,USA,83,Sorghum,91,Exports - Qty (Mt),2000,6577186,*
+231,USA,83,Sorghum,91,Exports - Qty (Mt),2001,6187519,*
+231,USA,83,Sorghum,91,Exports - Qty (Mt),2002,5557201,*
+231,USA,83,Sorghum,91,Exports - Qty (Mt),2003,5003816,*
+231,USA,83,Sorghum,91,Exports - Qty (Mt),2004,4585303,*
+231,USA,83,Sorghum,91,Exports - Qty (Mt),2005,4644221,*
+231,USA,83,Sorghum,91,Exports - Qty (Mt),2006,4709720,*
+231,USA,83,Sorghum,91,Exports - Qty (Mt),2007,5704053,*
+231,USA,83,Sorghum,91,Exports - Qty (Mt),2008,5306091,*
+231,USA,83,Sorghum,91,Exports - Qty (Mt),2009,3751394,*
+231,USA,83,Sorghum,91,Exports - Qty (Mt),2010,3877520,*
+231,USA,83,Sorghum,91,Exports - Qty (Mt),2011,3362653,*
+231,USA,83,Sorghum,101,Feed (Mt),2000,5651000, 
+231,USA,83,Sorghum,101,Feed (Mt),2001,5842000, 
+231,USA,83,Sorghum,101,Feed (Mt),2002,4328000, 
+231,USA,83,Sorghum,101,Feed (Mt),2003,4624000, 
+231,USA,83,Sorghum,101,Feed (Mt),2004,4860000, 
+231,USA,83,Sorghum,101,Feed (Mt),2005,3548012, 
+231,USA,83,Sorghum,101,Feed (Mt),2006,2868306, 
+231,USA,83,Sorghum,101,Feed (Mt),2007,4188422, 
+231,USA,83,Sorghum,101,Feed (Mt),2008,4826190, 
+231,USA,83,Sorghum,101,Feed (Mt),2009,3556140, 
+231,USA,83,Sorghum,101,Feed (Mt),2010,3175125, 
+231,USA,83,Sorghum,101,Feed (Mt),2011,1803000, 
+231,USA,83,Sorghum,111,Seed (Mt),2000,33022, 
+231,USA,83,Sorghum,111,Seed (Mt),2001,30200, 
+231,USA,83,Sorghum,111,Seed (Mt),2002,29900, 
+231,USA,83,Sorghum,111,Seed (Mt),2003,23400, 
+231,USA,83,Sorghum,111,Seed (Mt),2004,20300, 
+231,USA,83,Sorghum,111,Seed (Mt),2005,20473, 
+231,USA,83,Sorghum,111,Seed (Mt),2006,25071, 
+231,USA,83,Sorghum,111,Seed (Mt),2007,26798, 
+231,USA,83,Sorghum,111,Seed (Mt),2008,20600, 
+231,USA,83,Sorghum,111,Seed (Mt),2009,18873, 
+231,USA,83,Sorghum,111,Seed (Mt),2010,16511, 
+231,USA,83,Sorghum,111,Seed (Mt),2011,17780, 
+231,USA,83,Sorghum,131,Processed (Mt),2000,943500,*
+231,USA,83,Sorghum,131,Processed (Mt),2001,245000,*
+231,USA,83,Sorghum,131,Processed (Mt),2002,271000,*
+231,USA,83,Sorghum,131,Processed (Mt),2003,682000,*
+231,USA,83,Sorghum,131,Processed (Mt),2004,1066000,*
+231,USA,83,Sorghum,131,Processed (Mt),2005,942000,*
+231,USA,83,Sorghum,131,Processed (Mt),2006,865000,F
+231,USA,83,Sorghum,131,Processed (Mt),2007,900000,F
+231,USA,83,Sorghum,131,Processed (Mt),2008,845000,F
+231,USA,83,Sorghum,131,Processed (Mt),2009,850000,F
+231,USA,83,Sorghum,131,Processed (Mt),2010,2133000, 
+231,USA,83,Sorghum,131,Processed (Mt),2011,2133000, 
+231,USA,83,Sorghum,141,Food (Mt),2000,308000,*
+231,USA,83,Sorghum,141,Food (Mt),2001,308000,F
+231,USA,83,Sorghum,141,Food (Mt),2002,308000,*
+231,USA,83,Sorghum,141,Food (Mt),2003,280000,F
+231,USA,83,Sorghum,141,Food (Mt),2004,250000,F
+231,USA,83,Sorghum,141,Food (Mt),2005,230000,F
+231,USA,83,Sorghum,141,Food (Mt),2006,235000,F
+231,USA,83,Sorghum,141,Food (Mt),2007,247000,F
+231,USA,83,Sorghum,141,Food (Mt),2008,254000,F
+231,USA,83,Sorghum,141,Food (Mt),2009,227000,F
+231,USA,83,Sorghum,141,Food (Mt),2010,212000,F
+231,USA,83,Sorghum,141,Food (Mt),2011,208000,F
+231,USA,89,Buckwheat,31,Area Harv (Ha),2000,65000,F
+231,USA,89,Buckwheat,31,Area Harv (Ha),2001,61263,E
+231,USA,89,Buckwheat,31,Area Harv (Ha),2002,59486,E
+231,USA,89,Buckwheat,31,Area Harv (Ha),2003,64203,E
+231,USA,89,Buckwheat,31,Area Harv (Ha),2004,63059,E
+231,USA,89,Buckwheat,31,Area Harv (Ha),2005,63087,E
+231,USA,89,Buckwheat,31,Area Harv (Ha),2006,66000,F
+231,USA,89,Buckwheat,31,Area Harv (Ha),2007,68000,F
+231,USA,89,Buckwheat,31,Area Harv (Ha),2008,83000,F
+231,USA,89,Buckwheat,31,Area Harv (Ha),2009,78912,E
+231,USA,89,Buckwheat,31,Area Harv (Ha),2010,78269,E
+231,USA,89,Buckwheat,31,Area Harv (Ha),2011,77244,E
+231,USA,89,Buckwheat,51,Production (Mt),2000,65000,F
+231,USA,89,Buckwheat,51,Production (Mt),2001,61653,E
+231,USA,89,Buckwheat,51,Production (Mt),2002,56369,E
+231,USA,89,Buckwheat,51,Production (Mt),2003,66066,E
+231,USA,89,Buckwheat,51,Production (Mt),2004,73803,E
+231,USA,89,Buckwheat,51,Production (Mt),2005,69518,E
+231,USA,89,Buckwheat,51,Production (Mt),2006,66000,F
+231,USA,89,Buckwheat,51,Production (Mt),2007,68000,F
+231,USA,89,Buckwheat,51,Production (Mt),2008,83000,F
+231,USA,89,Buckwheat,51,Production (Mt),2009,86258,E
+231,USA,89,Buckwheat,51,Production (Mt),2010,82615,E
+231,USA,89,Buckwheat,51,Production (Mt),2011,79554,E
+231,USA,89,Buckwheat,61,Imports - Qty (Mt),2000,5489.067, 
+231,USA,89,Buckwheat,61,Imports - Qty (Mt),2001,6227, 
+231,USA,89,Buckwheat,61,Imports - Qty (Mt),2002,2917, 
+231,USA,89,Buckwheat,61,Imports - Qty (Mt),2003,2624, 
+231,USA,89,Buckwheat,61,Imports - Qty (Mt),2004,4339, 
+231,USA,89,Buckwheat,61,Imports - Qty (Mt),2005,3205, 
+231,USA,89,Buckwheat,61,Imports - Qty (Mt),2006,4174, 
+231,USA,89,Buckwheat,61,Imports - Qty (Mt),2007,5301, 
+231,USA,89,Buckwheat,61,Imports - Qty (Mt),2008,5065, 
+231,USA,89,Buckwheat,61,Imports - Qty (Mt),2009,5120, 
+231,USA,89,Buckwheat,61,Imports - Qty (Mt),2010,5570, 
+231,USA,89,Buckwheat,61,Imports - Qty (Mt),2011,9109, 
+231,USA,89,Buckwheat,71,Stock Variation (Mt),2000,0,M
+231,USA,89,Buckwheat,71,Stock Variation (Mt),2001,0,M
+231,USA,89,Buckwheat,71,Stock Variation (Mt),2002,0,M
+231,USA,89,Buckwheat,71,Stock Variation (Mt),2003,0,M
+231,USA,89,Buckwheat,71,Stock Variation (Mt),2004,0,M
+231,USA,89,Buckwheat,71,Stock Variation (Mt),2005,0,M
+231,USA,89,Buckwheat,71,Stock Variation (Mt),2006,0,M
+231,USA,89,Buckwheat,71,Stock Variation (Mt),2007,0,M
+231,USA,89,Buckwheat,71,Stock Variation (Mt),2008,0,M
+231,USA,89,Buckwheat,71,Stock Variation (Mt),2009,0,M
+231,USA,89,Buckwheat,71,Stock Variation (Mt),2010,0,M
+231,USA,89,Buckwheat,71,Stock Variation (Mt),2011,0,M
+231,USA,89,Buckwheat,91,Exports - Qty (Mt),2000,12189.64, 
+231,USA,89,Buckwheat,91,Exports - Qty (Mt),2001,17317, 
+231,USA,89,Buckwheat,91,Exports - Qty (Mt),2002,7261, 
+231,USA,89,Buckwheat,91,Exports - Qty (Mt),2003,9781, 
+231,USA,89,Buckwheat,91,Exports - Qty (Mt),2004,10693, 
+231,USA,89,Buckwheat,91,Exports - Qty (Mt),2005,13241, 
+231,USA,89,Buckwheat,91,Exports - Qty (Mt),2006,11813, 
+231,USA,89,Buckwheat,91,Exports - Qty (Mt),2007,11929, 
+231,USA,89,Buckwheat,91,Exports - Qty (Mt),2008,22400, 
+231,USA,89,Buckwheat,91,Exports - Qty (Mt),2009,28091, 
+231,USA,89,Buckwheat,91,Exports - Qty (Mt),2010,23131, 
+231,USA,89,Buckwheat,91,Exports - Qty (Mt),2011,25449, 
+231,USA,89,Buckwheat,101,Feed (Mt),2000,53699.427,B
+231,USA,89,Buckwheat,101,Feed (Mt),2001,45963,B
+231,USA,89,Buckwheat,101,Feed (Mt),2002,47425,B
+231,USA,89,Buckwheat,101,Feed (Mt),2003,54309,B
+231,USA,89,Buckwheat,101,Feed (Mt),2004,62849,B
+231,USA,89,Buckwheat,101,Feed (Mt),2005,54882,B
+231,USA,89,Buckwheat,101,Feed (Mt),2006,53761,B
+231,USA,89,Buckwheat,101,Feed (Mt),2007,56172,B
+231,USA,89,Buckwheat,101,Feed (Mt),2008,60465,B
+231,USA,89,Buckwheat,101,Feed (Mt),2009,58087,B
+231,USA,89,Buckwheat,101,Feed (Mt),2010,59854,B
+231,USA,89,Buckwheat,101,Feed (Mt),2011,58014,B
+231,USA,89,Buckwheat,111,Seed (Mt),2000,2600,F
+231,USA,89,Buckwheat,111,Seed (Mt),2001,2600,F
+231,USA,89,Buckwheat,111,Seed (Mt),2002,2600,F
+231,USA,89,Buckwheat,111,Seed (Mt),2003,2600,F
+231,USA,89,Buckwheat,111,Seed (Mt),2004,2600,F
+231,USA,89,Buckwheat,111,Seed (Mt),2005,2600,F
+231,USA,89,Buckwheat,111,Seed (Mt),2006,2600,F
+231,USA,89,Buckwheat,111,Seed (Mt),2007,3200,F
+231,USA,89,Buckwheat,111,Seed (Mt),2008,3200,F
+231,USA,89,Buckwheat,111,Seed (Mt),2009,3200,F
+231,USA,89,Buckwheat,111,Seed (Mt),2010,3200,F
+231,USA,89,Buckwheat,111,Seed (Mt),2011,3200,F
+231,USA,89,Buckwheat,131,Processed (Mt),2000,2000,F
+231,USA,89,Buckwheat,131,Processed (Mt),2001,2000,F
+231,USA,89,Buckwheat,131,Processed (Mt),2002,2000,F
+231,USA,89,Buckwheat,131,Processed (Mt),2003,2000,F
+231,USA,89,Buckwheat,131,Processed (Mt),2004,2000,F
+231,USA,89,Buckwheat,131,Processed (Mt),2005,2000,F
+231,USA,89,Buckwheat,131,Processed (Mt),2006,2000,F
+231,USA,89,Buckwheat,131,Processed (Mt),2007,2000,F
+231,USA,89,Buckwheat,131,Processed (Mt),2008,2000,F
+231,USA,89,Buckwheat,131,Processed (Mt),2009,2000,F
+231,USA,89,Buckwheat,131,Processed (Mt),2010,2000,F
+231,USA,89,Buckwheat,131,Processed (Mt),2011,2000,F
+231,USA,90,Flour of Buckwheat,31,Input (Mt),2000,2000,C
+231,USA,90,Flour of Buckwheat,31,Input (Mt),2001,2000,C
+231,USA,90,Flour of Buckwheat,31,Input (Mt),2002,2000,C
+231,USA,90,Flour of Buckwheat,31,Input (Mt),2003,2000,C
+231,USA,90,Flour of Buckwheat,31,Input (Mt),2004,2000,C
+231,USA,90,Flour of Buckwheat,31,Input (Mt),2005,2000,C
+231,USA,90,Flour of Buckwheat,31,Input (Mt),2006,2000,C
+231,USA,90,Flour of Buckwheat,31,Input (Mt),2007,2000,C
+231,USA,90,Flour of Buckwheat,31,Input (Mt),2008,2000,C
+231,USA,90,Flour of Buckwheat,31,Input (Mt),2009,2000,C
+231,USA,90,Flour of Buckwheat,31,Input (Mt),2010,2000,C
+231,USA,90,Flour of Buckwheat,31,Input (Mt),2011,2000,C
+231,USA,90,Flour of Buckwheat,51,Production (Mt),2000,1200,C
+231,USA,90,Flour of Buckwheat,51,Production (Mt),2001,1200,C
+231,USA,90,Flour of Buckwheat,51,Production (Mt),2002,1200,C
+231,USA,90,Flour of Buckwheat,51,Production (Mt),2003,1200,C
+231,USA,90,Flour of Buckwheat,51,Production (Mt),2004,1200,C
+231,USA,90,Flour of Buckwheat,51,Production (Mt),2005,1200,C
+231,USA,90,Flour of Buckwheat,51,Production (Mt),2006,1200,C
+231,USA,90,Flour of Buckwheat,51,Production (Mt),2007,1200,C
+231,USA,90,Flour of Buckwheat,51,Production (Mt),2008,1200,C
+231,USA,90,Flour of Buckwheat,51,Production (Mt),2009,1200,C
+231,USA,90,Flour of Buckwheat,51,Production (Mt),2010,1200,C
+231,USA,90,Flour of Buckwheat,51,Production (Mt),2011,1200,C
+231,USA,90,Flour of Buckwheat,61,Imports - Qty (Mt),2000,34.09,*
+231,USA,90,Flour of Buckwheat,61,Imports - Qty (Mt),2001,154, 
+231,USA,90,Flour of Buckwheat,61,Imports - Qty (Mt),2002,137, 
+231,USA,90,Flour of Buckwheat,61,Imports - Qty (Mt),2003,209, 
+231,USA,90,Flour of Buckwheat,61,Imports - Qty (Mt),2004,464, 
+231,USA,90,Flour of Buckwheat,61,Imports - Qty (Mt),2005,533, 
+231,USA,90,Flour of Buckwheat,61,Imports - Qty (Mt),2006,634, 
+231,USA,90,Flour of Buckwheat,61,Imports - Qty (Mt),2007,798, 
+231,USA,90,Flour of Buckwheat,61,Imports - Qty (Mt),2008,1512, 
+231,USA,90,Flour of Buckwheat,61,Imports - Qty (Mt),2009,606, 
+231,USA,90,Flour of Buckwheat,61,Imports - Qty (Mt),2010,583, 
+231,USA,90,Flour of Buckwheat,61,Imports - Qty (Mt),2011,572, 
+231,USA,90,Flour of Buckwheat,141,Food (Mt),2000,1234.09,B
+231,USA,90,Flour of Buckwheat,141,Food (Mt),2001,1354,B
+231,USA,90,Flour of Buckwheat,141,Food (Mt),2002,1337,B
+231,USA,90,Flour of Buckwheat,141,Food (Mt),2003,1409,B
+231,USA,90,Flour of Buckwheat,141,Food (Mt),2004,1664,B
+231,USA,90,Flour of Buckwheat,141,Food (Mt),2005,1733,B
+231,USA,90,Flour of Buckwheat,141,Food (Mt),2006,1834,B
+231,USA,90,Flour of Buckwheat,141,Food (Mt),2007,1998,B
+231,USA,90,Flour of Buckwheat,141,Food (Mt),2008,2712,B
+231,USA,90,Flour of Buckwheat,141,Food (Mt),2009,1806,B
+231,USA,90,Flour of Buckwheat,141,Food (Mt),2010,1783,B
+231,USA,90,Flour of Buckwheat,141,Food (Mt),2011,1772,B
+231,USA,91,Bran of Buckwheat,31,Input (Mt),2000,2000,C
+231,USA,91,Bran of Buckwheat,31,Input (Mt),2001,2000,C
+231,USA,91,Bran of Buckwheat,31,Input (Mt),2002,2000,C
+231,USA,91,Bran of Buckwheat,31,Input (Mt),2003,2000,C
+231,USA,91,Bran of Buckwheat,31,Input (Mt),2004,2000,C
+231,USA,91,Bran of Buckwheat,31,Input (Mt),2005,2000,C
+231,USA,91,Bran of Buckwheat,31,Input (Mt),2006,2000,C
+231,USA,91,Bran of Buckwheat,31,Input (Mt),2007,2000,C
+231,USA,91,Bran of Buckwheat,31,Input (Mt),2008,2000,C
+231,USA,91,Bran of Buckwheat,31,Input (Mt),2009,2000,C
+231,USA,91,Bran of Buckwheat,31,Input (Mt),2010,2000,C
+231,USA,91,Bran of Buckwheat,31,Input (Mt),2011,2000,C
+231,USA,91,Bran of Buckwheat,51,Production (Mt),2000,400,C
+231,USA,91,Bran of Buckwheat,51,Production (Mt),2001,400,C
+231,USA,91,Bran of Buckwheat,51,Production (Mt),2002,400,C
+231,USA,91,Bran of Buckwheat,51,Production (Mt),2003,400,C
+231,USA,91,Bran of Buckwheat,51,Production (Mt),2004,400,C
+231,USA,91,Bran of Buckwheat,51,Production (Mt),2005,400,C
+231,USA,91,Bran of Buckwheat,51,Production (Mt),2006,400,C
+231,USA,91,Bran of Buckwheat,51,Production (Mt),2007,400,C
+231,USA,91,Bran of Buckwheat,51,Production (Mt),2008,400,C
+231,USA,91,Bran of Buckwheat,51,Production (Mt),2009,400,C
+231,USA,91,Bran of Buckwheat,51,Production (Mt),2010,400,C
+231,USA,91,Bran of Buckwheat,51,Production (Mt),2011,400,C
+231,USA,91,Bran of Buckwheat,61,Imports - Qty (Mt),2000,0, 
+231,USA,91,Bran of Buckwheat,61,Imports - Qty (Mt),2001,0, 
+231,USA,91,Bran of Buckwheat,61,Imports - Qty (Mt),2002,0, 
+231,USA,91,Bran of Buckwheat,61,Imports - Qty (Mt),2003,0, 
+231,USA,91,Bran of Buckwheat,61,Imports - Qty (Mt),2004,0, 
+231,USA,91,Bran of Buckwheat,61,Imports - Qty (Mt),2005,0, 
+231,USA,91,Bran of Buckwheat,61,Imports - Qty (Mt),2006,0,T
+231,USA,91,Bran of Buckwheat,61,Imports - Qty (Mt),2007,0,T
+231,USA,91,Bran of Buckwheat,61,Imports - Qty (Mt),2008,0,T
+231,USA,91,Bran of Buckwheat,61,Imports - Qty (Mt),2009,0,T
+231,USA,91,Bran of Buckwheat,61,Imports - Qty (Mt),2010,0,T
+231,USA,91,Bran of Buckwheat,61,Imports - Qty (Mt),2011,0,T
+231,USA,91,Bran of Buckwheat,101,Feed (Mt),2000,400,B
+231,USA,91,Bran of Buckwheat,101,Feed (Mt),2001,400,B
+231,USA,91,Bran of Buckwheat,101,Feed (Mt),2002,400,B
+231,USA,91,Bran of Buckwheat,101,Feed (Mt),2003,400,B
+231,USA,91,Bran of Buckwheat,101,Feed (Mt),2004,400,B
+231,USA,91,Bran of Buckwheat,101,Feed (Mt),2005,400,B
+231,USA,91,Bran of Buckwheat,101,Feed (Mt),2006,400,B
+231,USA,91,Bran of Buckwheat,101,Feed (Mt),2007,400,B
+231,USA,91,Bran of Buckwheat,101,Feed (Mt),2008,400,B
+231,USA,91,Bran of Buckwheat,101,Feed (Mt),2009,400,B
+231,USA,91,Bran of Buckwheat,101,Feed (Mt),2010,400,B
+231,USA,91,Bran of Buckwheat,101,Feed (Mt),2011,400,B
 231,USA,110,Wafers,61,Imports - Qty (Mt),2000,0, 
 231,USA,110,Wafers,61,Imports - Qty (Mt),2001,0, 
 231,USA,110,Wafers,61,Imports - Qty (Mt),2002,48200, 
@@ -803,6 +3095,114 @@ Area Code,Area Name,Item Code,Item Name,Element Code,Element Name,Year,Num,Symb
 231,USA,110,Wafers,181,Statistic Discrepancies (Mt),2009,0,M
 231,USA,110,Wafers,181,Statistic Discrepancies (Mt),2010,0,M
 231,USA,110,Wafers,181,Statistic Discrepancies (Mt),2011,0,M
+231,USA,111,Flour of Cereals,61,Imports - Qty (Mt),2000,50197.9, 
+231,USA,111,Flour of Cereals,61,Imports - Qty (Mt),2001,79369, 
+231,USA,111,Flour of Cereals,61,Imports - Qty (Mt),2002,95281, 
+231,USA,111,Flour of Cereals,61,Imports - Qty (Mt),2003,99722, 
+231,USA,111,Flour of Cereals,61,Imports - Qty (Mt),2004,100375, 
+231,USA,111,Flour of Cereals,61,Imports - Qty (Mt),2005,119605, 
+231,USA,111,Flour of Cereals,61,Imports - Qty (Mt),2006,116243, 
+231,USA,111,Flour of Cereals,61,Imports - Qty (Mt),2007,142480, 
+231,USA,111,Flour of Cereals,61,Imports - Qty (Mt),2008,157526, 
+231,USA,111,Flour of Cereals,61,Imports - Qty (Mt),2009,166108, 
+231,USA,111,Flour of Cereals,61,Imports - Qty (Mt),2010,178247, 
+231,USA,111,Flour of Cereals,61,Imports - Qty (Mt),2011,190463, 
+231,USA,111,Flour of Cereals,91,Exports - Qty (Mt),2000,91460.77, 
+231,USA,111,Flour of Cereals,91,Exports - Qty (Mt),2001,101834, 
+231,USA,111,Flour of Cereals,91,Exports - Qty (Mt),2002,117604, 
+231,USA,111,Flour of Cereals,91,Exports - Qty (Mt),2003,75761, 
+231,USA,111,Flour of Cereals,91,Exports - Qty (Mt),2004,53403, 
+231,USA,111,Flour of Cereals,91,Exports - Qty (Mt),2005,57766, 
+231,USA,111,Flour of Cereals,91,Exports - Qty (Mt),2006,51610, 
+231,USA,111,Flour of Cereals,91,Exports - Qty (Mt),2007,65279, 
+231,USA,111,Flour of Cereals,91,Exports - Qty (Mt),2008,55684, 
+231,USA,111,Flour of Cereals,91,Exports - Qty (Mt),2009,43352, 
+231,USA,111,Flour of Cereals,91,Exports - Qty (Mt),2010,50144, 
+231,USA,111,Flour of Cereals,91,Exports - Qty (Mt),2011,43818, 
+231,USA,111,Flour of Cereals,141,Food (Mt),2000,0,B
+231,USA,111,Flour of Cereals,141,Food (Mt),2001,0,B
+231,USA,111,Flour of Cereals,141,Food (Mt),2002,0,B
+231,USA,111,Flour of Cereals,141,Food (Mt),2003,23961,B
+231,USA,111,Flour of Cereals,141,Food (Mt),2004,46972,B
+231,USA,111,Flour of Cereals,141,Food (Mt),2005,61839,B
+231,USA,111,Flour of Cereals,141,Food (Mt),2006,64633,B
+231,USA,111,Flour of Cereals,141,Food (Mt),2007,77201,B
+231,USA,111,Flour of Cereals,141,Food (Mt),2008,101842,B
+231,USA,111,Flour of Cereals,141,Food (Mt),2009,122756,B
+231,USA,111,Flour of Cereals,141,Food (Mt),2010,128103,B
+231,USA,111,Flour of Cereals,141,Food (Mt),2011,146645,B
+231,USA,111,Flour of Cereals,181,Statistic Discrepancies (Mt),2000,-41262.87,B
+231,USA,111,Flour of Cereals,181,Statistic Discrepancies (Mt),2001,-22465,B
+231,USA,111,Flour of Cereals,181,Statistic Discrepancies (Mt),2002,-22323,B
+231,USA,111,Flour of Cereals,181,Statistic Discrepancies (Mt),2003,0,M
+231,USA,111,Flour of Cereals,181,Statistic Discrepancies (Mt),2004,0,M
+231,USA,111,Flour of Cereals,181,Statistic Discrepancies (Mt),2005,0,M
+231,USA,111,Flour of Cereals,181,Statistic Discrepancies (Mt),2006,0,M
+231,USA,111,Flour of Cereals,181,Statistic Discrepancies (Mt),2007,0,M
+231,USA,111,Flour of Cereals,181,Statistic Discrepancies (Mt),2008,0,M
+231,USA,111,Flour of Cereals,181,Statistic Discrepancies (Mt),2009,0,M
+231,USA,111,Flour of Cereals,181,Statistic Discrepancies (Mt),2010,0,M
+231,USA,111,Flour of Cereals,181,Statistic Discrepancies (Mt),2011,0,M
+231,USA,112,Bran of Cereals,61,Imports - Qty (Mt),2000,8107, 
+231,USA,112,Bran of Cereals,61,Imports - Qty (Mt),2001,12936, 
+231,USA,112,Bran of Cereals,61,Imports - Qty (Mt),2002,34728,*
+231,USA,112,Bran of Cereals,61,Imports - Qty (Mt),2003,15820, 
+231,USA,112,Bran of Cereals,61,Imports - Qty (Mt),2004,11120, 
+231,USA,112,Bran of Cereals,61,Imports - Qty (Mt),2005,23984, 
+231,USA,112,Bran of Cereals,61,Imports - Qty (Mt),2006,23878, 
+231,USA,112,Bran of Cereals,61,Imports - Qty (Mt),2007,26884, 
+231,USA,112,Bran of Cereals,61,Imports - Qty (Mt),2008,26570, 
+231,USA,112,Bran of Cereals,61,Imports - Qty (Mt),2009,19974, 
+231,USA,112,Bran of Cereals,61,Imports - Qty (Mt),2010,28006, 
+231,USA,112,Bran of Cereals,61,Imports - Qty (Mt),2011,56627, 
+231,USA,112,Bran of Cereals,71,Stock Variation (Mt),2000,50000,F
+231,USA,112,Bran of Cereals,71,Stock Variation (Mt),2001,50000,F
+231,USA,112,Bran of Cereals,71,Stock Variation (Mt),2002,55000,F
+231,USA,112,Bran of Cereals,71,Stock Variation (Mt),2003,60000,F
+231,USA,112,Bran of Cereals,71,Stock Variation (Mt),2004,80000,F
+231,USA,112,Bran of Cereals,71,Stock Variation (Mt),2005,80000,F
+231,USA,112,Bran of Cereals,71,Stock Variation (Mt),2006,0,M
+231,USA,112,Bran of Cereals,71,Stock Variation (Mt),2007,0,M
+231,USA,112,Bran of Cereals,71,Stock Variation (Mt),2008,0,M
+231,USA,112,Bran of Cereals,71,Stock Variation (Mt),2009,0,M
+231,USA,112,Bran of Cereals,71,Stock Variation (Mt),2010,0,M
+231,USA,112,Bran of Cereals,71,Stock Variation (Mt),2011,0,M
+231,USA,112,Bran of Cereals,91,Exports - Qty (Mt),2000,54213, 
+231,USA,112,Bran of Cereals,91,Exports - Qty (Mt),2001,59563, 
+231,USA,112,Bran of Cereals,91,Exports - Qty (Mt),2002,86778, 
+231,USA,112,Bran of Cereals,91,Exports - Qty (Mt),2003,70236, 
+231,USA,112,Bran of Cereals,91,Exports - Qty (Mt),2004,80816, 
+231,USA,112,Bran of Cereals,91,Exports - Qty (Mt),2005,87810, 
+231,USA,112,Bran of Cereals,91,Exports - Qty (Mt),2006,158237, 
+231,USA,112,Bran of Cereals,91,Exports - Qty (Mt),2007,196528, 
+231,USA,112,Bran of Cereals,91,Exports - Qty (Mt),2008,219708, 
+231,USA,112,Bran of Cereals,91,Exports - Qty (Mt),2009,226097, 
+231,USA,112,Bran of Cereals,91,Exports - Qty (Mt),2010,299803, 
+231,USA,112,Bran of Cereals,91,Exports - Qty (Mt),2011,217589, 
+231,USA,112,Bran of Cereals,101,Feed (Mt),2000,3894,B
+231,USA,112,Bran of Cereals,101,Feed (Mt),2001,3373,B
+231,USA,112,Bran of Cereals,101,Feed (Mt),2002,2950,B
+231,USA,112,Bran of Cereals,101,Feed (Mt),2003,5584,B
+231,USA,112,Bran of Cereals,101,Feed (Mt),2004,10304,B
+231,USA,112,Bran of Cereals,101,Feed (Mt),2005,16174,B
+231,USA,112,Bran of Cereals,101,Feed (Mt),2006,0,B
+231,USA,112,Bran of Cereals,101,Feed (Mt),2007,0,B
+231,USA,112,Bran of Cereals,101,Feed (Mt),2008,0,B
+231,USA,112,Bran of Cereals,101,Feed (Mt),2009,0,B
+231,USA,112,Bran of Cereals,101,Feed (Mt),2010,0,B
+231,USA,112,Bran of Cereals,101,Feed (Mt),2011,0,B
+231,USA,112,Bran of Cereals,181,Statistic Discrepancies (Mt),2000,0,M
+231,USA,112,Bran of Cereals,181,Statistic Discrepancies (Mt),2001,0,M
+231,USA,112,Bran of Cereals,181,Statistic Discrepancies (Mt),2002,0,M
+231,USA,112,Bran of Cereals,181,Statistic Discrepancies (Mt),2003,0,M
+231,USA,112,Bran of Cereals,181,Statistic Discrepancies (Mt),2004,0,M
+231,USA,112,Bran of Cereals,181,Statistic Discrepancies (Mt),2005,0,M
+231,USA,112,Bran of Cereals,181,Statistic Discrepancies (Mt),2006,-134359,B
+231,USA,112,Bran of Cereals,181,Statistic Discrepancies (Mt),2007,-169644,B
+231,USA,112,Bran of Cereals,181,Statistic Discrepancies (Mt),2008,-193138,B
+231,USA,112,Bran of Cereals,181,Statistic Discrepancies (Mt),2009,-206123,B
+231,USA,112,Bran of Cereals,181,Statistic Discrepancies (Mt),2010,-271797,B
+231,USA,112,Bran of Cereals,181,Statistic Discrepancies (Mt),2011,-160962,B
 231,USA,113,Cereal Prep nes,31,Input (Mt),2000,69000,F
 231,USA,113,Cereal Prep nes,31,Input (Mt),2001,325800,F
 231,USA,113,Cereal Prep nes,31,Input (Mt),2002,1112100,F
@@ -1403,6 +3803,54 @@ Area Code,Area Name,Item Code,Item Name,Element Code,Element Name,Year,Num,Symb
 231,USA,654,Dregs from Brewing+Dist.,181,Statistic Discrepancies (Mt),2009,-3755939.759,B
 231,USA,654,Dregs from Brewing+Dist.,181,Statistic Discrepancies (Mt),2010,-6661318.162,B
 231,USA,654,Dregs from Brewing+Dist.,181,Statistic Discrepancies (Mt),2011,-5189982.162,B
+231,USA,658,Coffee Subst Cont Coffee,61,Imports - Qty (Mt),2000,34.549, 
+231,USA,658,Coffee Subst Cont Coffee,61,Imports - Qty (Mt),2001,84, 
+231,USA,658,Coffee Subst Cont Coffee,61,Imports - Qty (Mt),2002,62, 
+231,USA,658,Coffee Subst Cont Coffee,61,Imports - Qty (Mt),2003,25, 
+231,USA,658,Coffee Subst Cont Coffee,61,Imports - Qty (Mt),2004,38, 
+231,USA,658,Coffee Subst Cont Coffee,61,Imports - Qty (Mt),2005,34, 
+231,USA,658,Coffee Subst Cont Coffee,61,Imports - Qty (Mt),2006,25, 
+231,USA,658,Coffee Subst Cont Coffee,61,Imports - Qty (Mt),2007,72, 
+231,USA,658,Coffee Subst Cont Coffee,61,Imports - Qty (Mt),2008,21, 
+231,USA,658,Coffee Subst Cont Coffee,61,Imports - Qty (Mt),2009,31, 
+231,USA,658,Coffee Subst Cont Coffee,61,Imports - Qty (Mt),2010,36, 
+231,USA,658,Coffee Subst Cont Coffee,61,Imports - Qty (Mt),2011,44, 
+231,USA,658,Coffee Subst Cont Coffee,91,Exports - Qty (Mt),2000,538.871, 
+231,USA,658,Coffee Subst Cont Coffee,91,Exports - Qty (Mt),2001,736, 
+231,USA,658,Coffee Subst Cont Coffee,91,Exports - Qty (Mt),2002,369, 
+231,USA,658,Coffee Subst Cont Coffee,91,Exports - Qty (Mt),2003,380, 
+231,USA,658,Coffee Subst Cont Coffee,91,Exports - Qty (Mt),2004,928, 
+231,USA,658,Coffee Subst Cont Coffee,91,Exports - Qty (Mt),2005,1571, 
+231,USA,658,Coffee Subst Cont Coffee,91,Exports - Qty (Mt),2006,1477, 
+231,USA,658,Coffee Subst Cont Coffee,91,Exports - Qty (Mt),2007,914, 
+231,USA,658,Coffee Subst Cont Coffee,91,Exports - Qty (Mt),2008,709, 
+231,USA,658,Coffee Subst Cont Coffee,91,Exports - Qty (Mt),2009,629, 
+231,USA,658,Coffee Subst Cont Coffee,91,Exports - Qty (Mt),2010,591, 
+231,USA,658,Coffee Subst Cont Coffee,91,Exports - Qty (Mt),2011,1093, 
+231,USA,658,Coffee Subst Cont Coffee,141,Food (Mt),2000,0,B
+231,USA,658,Coffee Subst Cont Coffee,141,Food (Mt),2001,0,B
+231,USA,658,Coffee Subst Cont Coffee,141,Food (Mt),2002,0,B
+231,USA,658,Coffee Subst Cont Coffee,141,Food (Mt),2003,0,B
+231,USA,658,Coffee Subst Cont Coffee,141,Food (Mt),2004,0,B
+231,USA,658,Coffee Subst Cont Coffee,141,Food (Mt),2005,0,B
+231,USA,658,Coffee Subst Cont Coffee,141,Food (Mt),2006,0,B
+231,USA,658,Coffee Subst Cont Coffee,141,Food (Mt),2007,0,B
+231,USA,658,Coffee Subst Cont Coffee,141,Food (Mt),2008,0,B
+231,USA,658,Coffee Subst Cont Coffee,141,Food (Mt),2009,0,B
+231,USA,658,Coffee Subst Cont Coffee,141,Food (Mt),2010,0,B
+231,USA,658,Coffee Subst Cont Coffee,141,Food (Mt),2011,0,B
+231,USA,658,Coffee Subst Cont Coffee,181,Statistic Discrepancies (Mt),2000,-504.322,B
+231,USA,658,Coffee Subst Cont Coffee,181,Statistic Discrepancies (Mt),2001,-652,B
+231,USA,658,Coffee Subst Cont Coffee,181,Statistic Discrepancies (Mt),2002,-307,B
+231,USA,658,Coffee Subst Cont Coffee,181,Statistic Discrepancies (Mt),2003,-355,B
+231,USA,658,Coffee Subst Cont Coffee,181,Statistic Discrepancies (Mt),2004,-890,B
+231,USA,658,Coffee Subst Cont Coffee,181,Statistic Discrepancies (Mt),2005,-1537,B
+231,USA,658,Coffee Subst Cont Coffee,181,Statistic Discrepancies (Mt),2006,-1452,B
+231,USA,658,Coffee Subst Cont Coffee,181,Statistic Discrepancies (Mt),2007,-842,B
+231,USA,658,Coffee Subst Cont Coffee,181,Statistic Discrepancies (Mt),2008,-688,B
+231,USA,658,Coffee Subst Cont Coffee,181,Statistic Discrepancies (Mt),2009,-598,B
+231,USA,658,Coffee Subst Cont Coffee,181,Statistic Discrepancies (Mt),2010,-555,B
+231,USA,658,Coffee Subst Cont Coffee,181,Statistic Discrepancies (Mt),2011,-1049,B
 231,USA,846,Gluten Feed and Meal,31,Input (Mt),2000,5493443.202,C
 231,USA,846,Gluten Feed and Meal,31,Input (Mt),2001,5423386.306,C
 231,USA,846,Gluten Feed and Meal,31,Input (Mt),2002,5442426.174,C
@@ -1475,3 +3923,195 @@ Area Code,Area Name,Item Code,Item Name,Element Code,Element Name,Year,Num,Symb
 231,USA,846,Gluten Feed and Meal,181,Statistic Discrepancies (Mt),2009,0,M
 231,USA,846,Gluten Feed and Meal,181,Statistic Discrepancies (Mt),2010,0,M
 231,USA,846,Gluten Feed and Meal,181,Statistic Discrepancies (Mt),2011,0,M
+231,USA,1241,Liquid Margarine,61,Imports - Qty (Mt),2000,4185.33, 
+231,USA,1241,Liquid Margarine,61,Imports - Qty (Mt),2001,8729, 
+231,USA,1241,Liquid Margarine,61,Imports - Qty (Mt),2002,11290, 
+231,USA,1241,Liquid Margarine,61,Imports - Qty (Mt),2003,12316, 
+231,USA,1241,Liquid Margarine,61,Imports - Qty (Mt),2004,18320, 
+231,USA,1241,Liquid Margarine,61,Imports - Qty (Mt),2005,23526, 
+231,USA,1241,Liquid Margarine,61,Imports - Qty (Mt),2006,42027, 
+231,USA,1241,Liquid Margarine,61,Imports - Qty (Mt),2007,78987,*
+231,USA,1241,Liquid Margarine,61,Imports - Qty (Mt),2008,80905, 
+231,USA,1241,Liquid Margarine,61,Imports - Qty (Mt),2009,79267, 
+231,USA,1241,Liquid Margarine,61,Imports - Qty (Mt),2010,74401, 
+231,USA,1241,Liquid Margarine,61,Imports - Qty (Mt),2011,85332, 
+231,USA,1241,Liquid Margarine,91,Exports - Qty (Mt),2000,66497.68, 
+231,USA,1241,Liquid Margarine,91,Exports - Qty (Mt),2001,75503, 
+231,USA,1241,Liquid Margarine,91,Exports - Qty (Mt),2002,70813, 
+231,USA,1241,Liquid Margarine,91,Exports - Qty (Mt),2003,67005, 
+231,USA,1241,Liquid Margarine,91,Exports - Qty (Mt),2004,64142, 
+231,USA,1241,Liquid Margarine,91,Exports - Qty (Mt),2005,80655, 
+231,USA,1241,Liquid Margarine,91,Exports - Qty (Mt),2006,68726, 
+231,USA,1241,Liquid Margarine,91,Exports - Qty (Mt),2007,108382, 
+231,USA,1241,Liquid Margarine,91,Exports - Qty (Mt),2008,106025, 
+231,USA,1241,Liquid Margarine,91,Exports - Qty (Mt),2009,77613, 
+231,USA,1241,Liquid Margarine,91,Exports - Qty (Mt),2010,92731, 
+231,USA,1241,Liquid Margarine,91,Exports - Qty (Mt),2011,105183, 
+231,USA,1241,Liquid Margarine,141,Food (Mt),2000,0,M
+231,USA,1241,Liquid Margarine,141,Food (Mt),2001,0,M
+231,USA,1241,Liquid Margarine,141,Food (Mt),2002,0,M
+231,USA,1241,Liquid Margarine,141,Food (Mt),2003,0,M
+231,USA,1241,Liquid Margarine,141,Food (Mt),2004,0,M
+231,USA,1241,Liquid Margarine,141,Food (Mt),2005,0,M
+231,USA,1241,Liquid Margarine,141,Food (Mt),2006,0,M
+231,USA,1241,Liquid Margarine,141,Food (Mt),2007,0,M
+231,USA,1241,Liquid Margarine,141,Food (Mt),2008,0,M
+231,USA,1241,Liquid Margarine,141,Food (Mt),2009,1654,B
+231,USA,1241,Liquid Margarine,141,Food (Mt),2010,1654,T
+231,USA,1241,Liquid Margarine,141,Food (Mt),2011,1654,T
+231,USA,1241,Liquid Margarine,181,Statistic Discrepancies (Mt),2000,-62312.35,B
+231,USA,1241,Liquid Margarine,181,Statistic Discrepancies (Mt),2001,-66774,B
+231,USA,1241,Liquid Margarine,181,Statistic Discrepancies (Mt),2002,-59523,B
+231,USA,1241,Liquid Margarine,181,Statistic Discrepancies (Mt),2003,-54689,B
+231,USA,1241,Liquid Margarine,181,Statistic Discrepancies (Mt),2004,-45822,B
+231,USA,1241,Liquid Margarine,181,Statistic Discrepancies (Mt),2005,-57129,B
+231,USA,1241,Liquid Margarine,181,Statistic Discrepancies (Mt),2006,-26699,B
+231,USA,1241,Liquid Margarine,181,Statistic Discrepancies (Mt),2007,-29395,B
+231,USA,1241,Liquid Margarine,181,Statistic Discrepancies (Mt),2008,-25120,B
+231,USA,1241,Liquid Margarine,181,Statistic Discrepancies (Mt),2009,0,M
+231,USA,1241,Liquid Margarine,181,Statistic Discrepancies (Mt),2010,-19984,B
+231,USA,1241,Liquid Margarine,181,Statistic Discrepancies (Mt),2011,-21505,B
+231,USA,1242,Margarine + Shortening,31,Input (Mt),2000,3613740.5,C
+231,USA,1242,Margarine + Shortening,31,Input (Mt),2001,3896833,C
+231,USA,1242,Margarine + Shortening,31,Input (Mt),2002,3817171,C
+231,USA,1242,Margarine + Shortening,31,Input (Mt),2003,3898426,C
+231,USA,1242,Margarine + Shortening,31,Input (Mt),2004,3866073,C
+231,USA,1242,Margarine + Shortening,31,Input (Mt),2005,3460156,C
+231,USA,1242,Margarine + Shortening,31,Input (Mt),2006,3776489,C
+231,USA,1242,Margarine + Shortening,31,Input (Mt),2007,3631403,C
+231,USA,1242,Margarine + Shortening,31,Input (Mt),2008,3590568,C
+231,USA,1242,Margarine + Shortening,31,Input (Mt),2009,3713132,C
+231,USA,1242,Margarine + Shortening,31,Input (Mt),2010,3719409,C
+231,USA,1242,Margarine + Shortening,31,Input (Mt),2011,3726787,C
+231,USA,1242,Margarine + Shortening,51,Production (Mt),2000,3857000, 
+231,USA,1242,Margarine + Shortening,51,Production (Mt),2001,4963000, 
+231,USA,1242,Margarine + Shortening,51,Production (Mt),2002,5035000, 
+231,USA,1242,Margarine + Shortening,51,Production (Mt),2003,4856000, 
+231,USA,1242,Margarine + Shortening,51,Production (Mt),2004,4886000, 
+231,USA,1242,Margarine + Shortening,51,Production (Mt),2005,4343000, 
+231,USA,1242,Margarine + Shortening,51,Production (Mt),2006,4690000,*
+231,USA,1242,Margarine + Shortening,51,Production (Mt),2007,4581000,*
+231,USA,1242,Margarine + Shortening,51,Production (Mt),2008,4269000,*
+231,USA,1242,Margarine + Shortening,51,Production (Mt),2009,3856100,*
+231,USA,1242,Margarine + Shortening,51,Production (Mt),2010,3900000,F
+231,USA,1242,Margarine + Shortening,51,Production (Mt),2011,3900000,F
+231,USA,1242,Margarine + Shortening,61,Imports - Qty (Mt),2000,6026.822, 
+231,USA,1242,Margarine + Shortening,61,Imports - Qty (Mt),2001,6697, 
+231,USA,1242,Margarine + Shortening,61,Imports - Qty (Mt),2002,8026, 
+231,USA,1242,Margarine + Shortening,61,Imports - Qty (Mt),2003,7631, 
+231,USA,1242,Margarine + Shortening,61,Imports - Qty (Mt),2004,5877, 
+231,USA,1242,Margarine + Shortening,61,Imports - Qty (Mt),2005,5807, 
+231,USA,1242,Margarine + Shortening,61,Imports - Qty (Mt),2006,5109, 
+231,USA,1242,Margarine + Shortening,61,Imports - Qty (Mt),2007,5359, 
+231,USA,1242,Margarine + Shortening,61,Imports - Qty (Mt),2008,5527, 
+231,USA,1242,Margarine + Shortening,61,Imports - Qty (Mt),2009,5961, 
+231,USA,1242,Margarine + Shortening,61,Imports - Qty (Mt),2010,5481, 
+231,USA,1242,Margarine + Shortening,61,Imports - Qty (Mt),2011,9001, 
+231,USA,1242,Margarine + Shortening,71,Stock Variation (Mt),2000,-40000,F
+231,USA,1242,Margarine + Shortening,71,Stock Variation (Mt),2001,-30000,F
+231,USA,1242,Margarine + Shortening,71,Stock Variation (Mt),2002,-20000,F
+231,USA,1242,Margarine + Shortening,71,Stock Variation (Mt),2003,-20000,F
+231,USA,1242,Margarine + Shortening,71,Stock Variation (Mt),2004,0,M
+231,USA,1242,Margarine + Shortening,71,Stock Variation (Mt),2005,0,M
+231,USA,1242,Margarine + Shortening,71,Stock Variation (Mt),2006,0,M
+231,USA,1242,Margarine + Shortening,71,Stock Variation (Mt),2007,0,M
+231,USA,1242,Margarine + Shortening,71,Stock Variation (Mt),2008,0,M
+231,USA,1242,Margarine + Shortening,71,Stock Variation (Mt),2009,0,M
+231,USA,1242,Margarine + Shortening,71,Stock Variation (Mt),2010,0,M
+231,USA,1242,Margarine + Shortening,71,Stock Variation (Mt),2011,90000,F
+231,USA,1242,Margarine + Shortening,91,Exports - Qty (Mt),2000,14103.24, 
+231,USA,1242,Margarine + Shortening,91,Exports - Qty (Mt),2001,14324, 
+231,USA,1242,Margarine + Shortening,91,Exports - Qty (Mt),2002,12723, 
+231,USA,1242,Margarine + Shortening,91,Exports - Qty (Mt),2003,13346, 
+231,USA,1242,Margarine + Shortening,91,Exports - Qty (Mt),2004,15042, 
+231,USA,1242,Margarine + Shortening,91,Exports - Qty (Mt),2005,19917, 
+231,USA,1242,Margarine + Shortening,91,Exports - Qty (Mt),2006,18926, 
+231,USA,1242,Margarine + Shortening,91,Exports - Qty (Mt),2007,18528, 
+231,USA,1242,Margarine + Shortening,91,Exports - Qty (Mt),2008,19525, 
+231,USA,1242,Margarine + Shortening,91,Exports - Qty (Mt),2009,22778, 
+231,USA,1242,Margarine + Shortening,91,Exports - Qty (Mt),2010,22770, 
+231,USA,1242,Margarine + Shortening,91,Exports - Qty (Mt),2011,26826, 
+231,USA,1242,Margarine + Shortening,121,Waste (Mt),2000,23923.582,B
+231,USA,1242,Margarine + Shortening,121,Waste (Mt),2001,1130373,B
+231,USA,1242,Margarine + Shortening,121,Waste (Mt),2002,1160303,B
+231,USA,1242,Margarine + Shortening,121,Waste (Mt),2003,1115285,B
+231,USA,1242,Margarine + Shortening,121,Waste (Mt),2004,1141835,B
+231,USA,1242,Margarine + Shortening,121,Waste (Mt),2005,1003890,B
+231,USA,1242,Margarine + Shortening,121,Waste (Mt),2006,1276183,B
+231,USA,1242,Margarine + Shortening,121,Waste (Mt),2007,1067831,B
+231,USA,1242,Margarine + Shortening,121,Waste (Mt),2008,705002,B
+231,USA,1242,Margarine + Shortening,121,Waste (Mt),2009,289283,B
+231,USA,1242,Margarine + Shortening,121,Waste (Mt),2010,332711,B
+231,USA,1242,Margarine + Shortening,121,Waste (Mt),2011,242175,B
+231,USA,1242,Margarine + Shortening,141,Food (Mt),2000,3785000,*
+231,USA,1242,Margarine + Shortening,141,Food (Mt),2001,3795000,F
+231,USA,1242,Margarine + Shortening,141,Food (Mt),2002,3850000,F
+231,USA,1242,Margarine + Shortening,141,Food (Mt),2003,3715000,F
+231,USA,1242,Margarine + Shortening,141,Food (Mt),2004,3735000,F
+231,USA,1242,Margarine + Shortening,141,Food (Mt),2005,3325000,F
+231,USA,1242,Margarine + Shortening,141,Food (Mt),2006,3400000,F
+231,USA,1242,Margarine + Shortening,141,Food (Mt),2007,3500000,F
+231,USA,1242,Margarine + Shortening,141,Food (Mt),2008,3550000,F
+231,USA,1242,Margarine + Shortening,141,Food (Mt),2009,3550000,F
+231,USA,1242,Margarine + Shortening,141,Food (Mt),2010,3550000,F
+231,USA,1242,Margarine + Shortening,141,Food (Mt),2011,3730000,F
+231,USA,1275,Oils Hydrogenated,31,Input (Mt),2000,367000,C
+231,USA,1275,Oils Hydrogenated,31,Input (Mt),2001,470000,C
+231,USA,1275,Oils Hydrogenated,31,Input (Mt),2002,423000,C
+231,USA,1275,Oils Hydrogenated,31,Input (Mt),2003,350000,C
+231,USA,1275,Oils Hydrogenated,31,Input (Mt),2004,372000,C
+231,USA,1275,Oils Hydrogenated,31,Input (Mt),2005,417000,C
+231,USA,1275,Oils Hydrogenated,31,Input (Mt),2006,417000,C
+231,USA,1275,Oils Hydrogenated,31,Input (Mt),2007,417000,C
+231,USA,1275,Oils Hydrogenated,31,Input (Mt),2008,417000,C
+231,USA,1275,Oils Hydrogenated,31,Input (Mt),2009,417000,C
+231,USA,1275,Oils Hydrogenated,31,Input (Mt),2010,417000,C
+231,USA,1275,Oils Hydrogenated,31,Input (Mt),2011,417000,C
+231,USA,1275,Oils Hydrogenated,51,Production (Mt),2000,367000,C
+231,USA,1275,Oils Hydrogenated,51,Production (Mt),2001,470000,C
+231,USA,1275,Oils Hydrogenated,51,Production (Mt),2002,423000,C
+231,USA,1275,Oils Hydrogenated,51,Production (Mt),2003,350000,C
+231,USA,1275,Oils Hydrogenated,51,Production (Mt),2004,372000,C
+231,USA,1275,Oils Hydrogenated,51,Production (Mt),2005,417000,C
+231,USA,1275,Oils Hydrogenated,51,Production (Mt),2006,417000,C
+231,USA,1275,Oils Hydrogenated,51,Production (Mt),2007,417000,C
+231,USA,1275,Oils Hydrogenated,51,Production (Mt),2008,417000,C
+231,USA,1275,Oils Hydrogenated,51,Production (Mt),2009,417000,C
+231,USA,1275,Oils Hydrogenated,51,Production (Mt),2010,417000,C
+231,USA,1275,Oils Hydrogenated,51,Production (Mt),2011,417000,C
+231,USA,1275,Oils Hydrogenated,61,Imports - Qty (Mt),2000,104416, 
+231,USA,1275,Oils Hydrogenated,61,Imports - Qty (Mt),2001,108277, 
+231,USA,1275,Oils Hydrogenated,61,Imports - Qty (Mt),2002,98211, 
+231,USA,1275,Oils Hydrogenated,61,Imports - Qty (Mt),2003,83950, 
+231,USA,1275,Oils Hydrogenated,61,Imports - Qty (Mt),2004,102949, 
+231,USA,1275,Oils Hydrogenated,61,Imports - Qty (Mt),2005,82338, 
+231,USA,1275,Oils Hydrogenated,61,Imports - Qty (Mt),2006,68725, 
+231,USA,1275,Oils Hydrogenated,61,Imports - Qty (Mt),2007,54627, 
+231,USA,1275,Oils Hydrogenated,61,Imports - Qty (Mt),2008,36321, 
+231,USA,1275,Oils Hydrogenated,61,Imports - Qty (Mt),2009,24400, 
+231,USA,1275,Oils Hydrogenated,61,Imports - Qty (Mt),2010,25763, 
+231,USA,1275,Oils Hydrogenated,61,Imports - Qty (Mt),2011,23367, 
+231,USA,1275,Oils Hydrogenated,91,Exports - Qty (Mt),2000,115875.5, 
+231,USA,1275,Oils Hydrogenated,91,Exports - Qty (Mt),2001,105644, 
+231,USA,1275,Oils Hydrogenated,91,Exports - Qty (Mt),2002,127740, 
+231,USA,1275,Oils Hydrogenated,91,Exports - Qty (Mt),2003,133524, 
+231,USA,1275,Oils Hydrogenated,91,Exports - Qty (Mt),2004,141876, 
+231,USA,1275,Oils Hydrogenated,91,Exports - Qty (Mt),2005,139182, 
+231,USA,1275,Oils Hydrogenated,91,Exports - Qty (Mt),2006,109236, 
+231,USA,1275,Oils Hydrogenated,91,Exports - Qty (Mt),2007,140224, 
+231,USA,1275,Oils Hydrogenated,91,Exports - Qty (Mt),2008,162753, 
+231,USA,1275,Oils Hydrogenated,91,Exports - Qty (Mt),2009,128268, 
+231,USA,1275,Oils Hydrogenated,91,Exports - Qty (Mt),2010,123354, 
+231,USA,1275,Oils Hydrogenated,91,Exports - Qty (Mt),2011,113580, 
+231,USA,1275,Oils Hydrogenated,131,Processed (Mt),2000,355540.5,B
+231,USA,1275,Oils Hydrogenated,131,Processed (Mt),2001,472633,B
+231,USA,1275,Oils Hydrogenated,131,Processed (Mt),2002,393471,B
+231,USA,1275,Oils Hydrogenated,131,Processed (Mt),2003,300426,B
+231,USA,1275,Oils Hydrogenated,131,Processed (Mt),2004,333073,B
+231,USA,1275,Oils Hydrogenated,131,Processed (Mt),2005,360156,B
+231,USA,1275,Oils Hydrogenated,131,Processed (Mt),2006,376489,B
+231,USA,1275,Oils Hydrogenated,131,Processed (Mt),2007,331403,B
+231,USA,1275,Oils Hydrogenated,131,Processed (Mt),2008,290568,B
+231,USA,1275,Oils Hydrogenated,131,Processed (Mt),2009,313132,B
+231,USA,1275,Oils Hydrogenated,131,Processed (Mt),2010,319409,B
+231,USA,1275,Oils Hydrogenated,131,Processed (Mt),2011,326787,B
