@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Implementation}{8}{0}{2}
+\beamer@sectionintoc {3}{Framework for Standardization}{15}{0}{3}
+\beamer@subsectionintoc {3}{1}{Traditional Accounting Standardization}{16}{0}{3}
+\beamer@subsectionintoc {3}{2}{Probabilistic Convolution Standardization}{17}{0}{3}
+\beamer@sectionintoc {4}{Implications}{24}{0}{4}
+\beamer@sectionintoc {5}{Further Work}{28}{0}{5}
