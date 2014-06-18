@@ -13,7 +13,7 @@ Pre-Standardization Methodology.
 ### Presentation
 
 A presentation on the methodology can be found at
-[Slides](presentation/draft_presentation.pdf)
+[Slides](presentation/draft_presentation.pdf?raw=TRUE)
 
 ### Demo
 
