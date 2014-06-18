@@ -7,7 +7,7 @@ Pre-Standardization Methodology.
 
 ==============================================================================
 
-![test2](https://raw.github.com/mkao006/sws_standardization/item_tree_network.pdf "Test")
+![test2](https://github.com/mkao006/sws_standardization/item_tree_network.pdf "Test")
 
 
 **Documentation**
