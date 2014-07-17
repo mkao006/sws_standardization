@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.9)  16 JUN 2014 20:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.9)  18 JUN 2014 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1146,7 +1146,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 455.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 455.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 455.
 Package rerunfilecheck Info: File `draft_presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 2036A1DCA71739DBA83799BFC042D263;433.
+(rerunfilecheck)             Checksum: 22CCAF3867A310466B7E458FF6BAA319;435.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1177,7 +1177,7 @@ blic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy8.pfb>
-Output written on draft_presentation.pdf (30 pages, 268259 bytes).
+Output written on draft_presentation.pdf (30 pages, 268301 bytes).
 PDF statistics:
  1162 PDF objects out of 1200 (max. 8388607)
  1076 compressed objects within 11 object streams
