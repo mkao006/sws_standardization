@@ -3,15 +3,75 @@
 ## Date: 2014-06-17
 ########################################################################
 
+## NOTE (Michael): Need to get population data for per capita supply.
+##
+## NOTE (Michael): The potential differences in the computation and
+##                 FBS may be that of the share.
 
+## NOTE (Michael): Item worth investigation.
+##
+##     Sweetner2543 (small) - the difference is maple sugar which is
+##                            marked "X"
+##
+##     groundnut2556 (medium) - I think the tree from Rafik and Marten
+##                              is wrong, the ground nut shelled (243)
+##                              should be the target, not groung nut
+##                              (242).
+##
+##     whole oil group (medium) - I think this is country specific
+##                                standardization. Margarine +
+##                                shortening is aggregated into oil
+##                                crops oil, other (2586) but the FBS
+##                                on faostat doesn't appear to do so.
+##
+##     vegetablesother2605 (large)
+##
+##     apples and product2617 (large) - This is fixed, the reason was
+##                                      due to the fact that the item
+##                                      apple juice concentrated had
+##                                      extraction rate of zero from
+##                                      computation. Removing this and
+##                                      use the default rate gives the
+##                                      right number.
+##
+##     pineaple and prod 2618 (medium) - Extraction rates are default,
+##                                       does not appear to be
+##                                       difference in item. No clue.
+##
+##     fruits other 2625 (medium) - Looks like USA excludes watermelon
+##                                  and melon in this group.
+##
+##     tea 2635 (small) - All of tea were marked "X", same as sweetner.
+##
+##     butter ghee 2740 (large) - If we don't apply extraction rate,
+##                                then the number will be correct.
+##
+##     dermesel fish 2762 (large) - actually has no idea what is going
+##                                  on.
+##
+##     Rice 2805 (medium) - Milled rice (31) should be a target, since
+##                          the FBS item (2805) is milled
+##                          equivalent. Thus no extraction should be
+##                          applied. However, the amount of milled
+##                          rice (31) is still higher than the FBS.
 
 ## load libraries
 library(data.table)
 library(igraph)
 library(reshape2)
 currentYear = 2009
-target = na.omit(unique(usaNetwork.dt$FBS.Code))
-plotGraph = FALSE
+target = as.character(sort(read.csv(file = "fbs_table.csv")$FBS.Code))
+plotGraph = TRUE
+standardizeElementCode = c(51, 61, 71, 91, 141, 101, 111, 121, 151)
+standardizeElementName = c("Production", "Import", "DStock", "Export",
+            "Food", "Feed", "Seed", "Waste", "Other Util")
+
+standardizedElements.df =
+    data.frame(standardizeElementCode =
+               c(51, 61, 71, 91, 141, 101, 111, 121, 151),
+               standardizeElementName = c("Production", "Import",
+                   "DStock", "Export", "Food", "Feed", "Seed", "Waste",
+                   "Other Util"))
 
 
 ## Read the graph for usa
@@ -19,9 +79,16 @@ usaNetwork.dt = data.table(read.csv(file = "usa_demo_network.csv",
   stringsAsFactors = FALSE))
 
 ## Read specific extraction rate
-extract.dt = data.table(read.csv(file = "usa_demo_extract_data.csv",
+extract.dt = data.table(read.csv(file = "usa_demo_extract_data_full.csv",
     stringsAsFactors = FALSE))
-extract.dt[Element.Name == "Yield (Hg/Ha)", Num := 10000]
+
+## Change the extraction rates to 10000 if the item is a target
+## extract.dt[grepl("Yield", Element.Name), Num := 10000]
+## targets = usaNetwork.dt[Aggregate.Method == "T", Item.Code]
+## extract.dt[Item.Code %in% targets, Num := 10000]
+
+## This is a hack to fix the zero extraction rate when calculated
+extract.dt[Num == 0 & Symb == "C", Num := NA]
 
 ## Merge and obtain the final extraction rates
 usaNetwork.dt = merge(usaNetwork.dt,
@@ -29,9 +96,12 @@ usaNetwork.dt = merge(usaNetwork.dt,
     by = "Item.Code", all.x = TRUE)
 setnames(usaNetwork.dt, old = "Num", new = "Specific.Rates")
 usaNetwork.dt[, finalExtractRate :=
-                  ifelse(!is.na(Specific.Rates), Specific.Rates,
-                         ifelse(!is.na(Default.Extraction.Rates),
-                                Default.Extraction.Rates, NA))]
+              ifelse(Aggregate.Method == "T", 10000,
+                     ifelse(Aggregate.Method == "X", 0,
+                            ifelse(!is.na(Specific.Rates),
+                                   Specific.Rates,
+                                   ifelse(!is.na(Default.Extraction.Rates),
+                                          Default.Extraction.Rates, NA))))]
 
 ## This create the vertex table, need to think about how to handle the
 ## fcl and fbs classification together.
@@ -58,6 +128,14 @@ usaNetwork.graph =
         vertices = nodesTable.dt
         )
 
+getSubgraph = function(terminalNode, graph){
+    dist = shortest.paths(graph, to = terminalNode, weights = NA)
+    subsetNodes = names(dist[which(is.finite(dist)), ])
+    induced.subgraph(graph, v = subsetNodes)
+}
+## E(usaNetwork.graph)['951'%->%'2848']$weight
+## E(usaNetwork.graph)['882'%->%'2848']$weight
+
 ## Assign extraction rates to the graph
 E(usaNetwork.graph)$weight =
     usaNetwork.dt[, finalExtractRate]
@@ -76,55 +154,32 @@ add.reverse.edges = function(graph, ..., attr = list()){
 
 ## The final full graph
 standardization.graph = add.reverse.edges(usaNetwork.graph)
+## standardization.graph = getSubgraph("2805", standardization.graph)
 
-## Plot of the network assuming the FBS item 2511 is the root.
-if(plotGraph){
-    plot.igraph(standardization.graph,
-                vertex.color =
-                ifelse(V(standardization.graph)$name %in% target,
-                       "steelblue", "white"),
-                vertex.frame.color =
-                ifelse(V(standardization.graph)$name %in% target,
-                       "darkblue", "steelblue"),
-                vertex.size = 20,
-                vertex.label = gsub(" |,", "\n",
-                    V(standardization.graph)$Item.Name),
-                vertex.label.family = "sans", vertex.label.cex = 0.5,
-                vertex.label.color = 
-                ifelse(V(standardization.graph)$name %in% target,
-                       "white", "steelblue"),            
-                edge.arrow.size = 0.5,
-                edge.label =
-                round(E(standardization.graph)$weight, 4),
-                edge.label.cex = 0.8,
-                edge.label.family = "sans",
-                edge.lty = ifelse(E(standardization.graph)$calorieOnly,
-                    2, 1),
-                edge.arrow.mode = 1,
-                edge.curved = 0.5,
-                layout = layout.auto
-                )
-}
+
+
+
 
 ## Read the SUA data
-sua.dt = data.table(read.csv(file = "usa_demo_sua_data.csv",
+sua.dt = data.table(read.csv(file = "usa_demo_sua_data_full.csv",
     stringsAsFactors = FALSE))
 sua.dt = sua.dt[Year == currentYear, ]
 
-## Read nutrient data, check why there is food in FBS selection
-nutrient.dt = data.table(read.csv(file = "usa_demo_nutrient_data.csv",
+## Read nutrient data, inspect why there is food in FBS selection
+nutrient.dt =
+    data.table(read.csv(file = "usa_demo_nutrient_data_full.csv",
     stringsAsFactors = FALSE))
 nutrient.dt = nutrient.dt[Year == currentYear & Element.Code != 141, ]
 
 fbs.dt = rbind(sua.dt, nutrient.dt)
 
-## attributes of vertexes
-standardizeElementCode = c(61, 71, 91, 101, 111, 141, 261, 271, 281)
 
 ## Assign attributes to the vertex
 for(i in standardizeElementCode){
     standardization.graph =
-        with(fbs.dt[Element.Code == i, ],
+        with(fbs.dt[Element.Code == i &
+                    as.character(Item.Code) %in%
+                    V(standardization.graph)$name, ],
              set.vertex.attribute(standardization.graph,
                                   name = as.character(i),
                                   index = V(standardization.graph)[as.character(Item.Code)],
@@ -135,6 +190,8 @@ for(i in standardizeElementCode){
 
 ## Function for computing the direct distance to a certain commodity
 computeDirectWeight = function(graph, target, weights, calorieOnly){
+    ## hack zero weights
+    weights[weights == 0] = NA
     ## Need to think about how to deal with zero weights
     minWeight = min(weights, na.rm = TRUE)
     ## print(minWeight)
@@ -167,13 +224,115 @@ directWeights = computeDirectWeight(standardization.graph,
 
 ## Compute the whole FBS
 directWeights = ifelse(is.finite(directWeights), directWeights, 0)
-tmp = data.matrix(dcast(sua.dt[, list(Item.Code, Element.Code, Num)],
-    Item.Code ~ Element.Code, value.var = "Num"))
-rownames(tmp) = tmp[, 1]
-tmp = tmp[, -1]
-tmp[is.na(tmp)] = 0
-FBS = t(t(tmp) %*% directWeights[rownames(directWeights) %in%
-    rownames(tmp), ]/1000)
+
+## Compute the quantity of the FBS
+suaCast.mat =
+    data.matrix(dcast(sua.dt[, list(Item.Code, Element.Code, Num)],
+                      Item.Code ~ Element.Code, value.var = "Num"))
+rownames(suaCast.mat) = suaCast.mat[, 1]
+suaCast.mat = suaCast.mat[, -1]
+suaCast.mat[is.na(suaCast.mat)] = 0
+suaWeightsIntersect =
+    intersect(rownames(suaCast.mat), rownames(directWeights))
+FBSQuantity =
+    t(t(suaCast.mat[suaWeightsIntersect,
+                    as.character(standardizeElementCode)]) %*%
+    directWeights[suaWeightsIntersect, ]/1000)
+colnames(FBSQuantity) = standardizeElementName
+
+## Compute the per capita supply of nutrients and calorie
+nutrientCast.mat =
+    data.matrix(dcast(nutrient.dt[, list(Item.Code, Element.Code, Num)],
+                      Item.Code ~ Element.Code, value.var = "Num"))
+rownames(nutrientCast.mat) = nutrientCast.mat[, 1]
+nutrientCast.mat = nutrientCast.mat[, -1]
+nutrientCast.mat[is.na(nutrientCast.mat)] = 0
+nutrientWeightsIntersect =
+    intersect(rownames(suaCast.mat), rownames(nutrientCast.mat))
+FBSCalorie = t(t(suaCast.mat[nutrientWeightsIntersect, ]) %*%
+    ((directWeights[nutrientWeightsIntersect, ] != 0) *
+     nutrientCast.mat[nutrientWeightsIntersect, "261"]))[, "141"]/
+    30949.2/365
+FBSProtein = t(t(suaCast.mat[nutrientWeightsIntersect, ]) %*%
+    ((directWeights[nutrientWeightsIntersect, ] != 0) *
+     nutrientCast.mat[nutrientWeightsIntersect, "271"]))[, "141"]/
+    30949.2/365/10
+FBSFat = t(t(suaCast.mat[nutrientWeightsIntersect, ]) %*%
+    ((directWeights[nutrientWeightsIntersect, ] != 0) *
+     nutrientCast.mat[nutrientWeightsIntersect, "281"]))[, "141"]/
+    30949.2/365/10
+FBS = cbind(FBSQuantity, FBSCalorie, FBSProtein, FBSFat)
+
+## Plot of the network assuming the FBS item 2511 is the root.
+if(plotGraph){
+    pdf(file = "usa_demo_standardization_graph.pdf",
+        width = 12, height = 9)
+    for(fbsItem in sort(na.omit(unique(usaNetwork.dt$FBS.Code)))){
+        sub.graph = getSubgraph(as.character(fbsItem),
+            standardization.graph)
+        plot.igraph(sub.graph,
+                    vertex.color =
+                    ifelse(V(sub.graph)$name %in% target,
+                           "steelblue", "white"),
+                    vertex.frame.color =
+                    ifelse(V(sub.graph)$name %in% target,
+                           "darkblue", "steelblue"),
+                    vertex.size = 20,
+                    vertex.label = paste0(gsub(" |,", "\n",
+                        V(sub.graph)$Item.Name), "\n",
+                        ifelse(is.na(V(sub.graph)$`141`), 0,
+                               V(sub.graph)$`141`)),
+                    vertex.label.family = "sans",
+                    vertex.label.cex = 0.5,
+                    vertex.label.color = 
+                    ifelse(V(sub.graph)$name %in% target,
+                           "white", "steelblue"),            
+                    edge.arrow.size = 0.5,
+                    edge.label =
+                    round(E(sub.graph)$weight, 4),
+                    edge.label.cex = 0.8,
+                    edge.label.family = "sans",
+                    edge.lty =
+                    ifelse(E(sub.graph)$calorieOnly, 2, 1),
+                    edge.arrow.mode = 1,
+                    edge.curved = 0.5,
+                    layout = layout.auto
+                    )
+    }
+    graphics.off()
+}
+
+check.graph = getSubgraph("2805", standardization.graph)
+pdf(file = "check_network.pdf", width = 20, height = 15)
+plot.igraph(check.graph,
+            vertex.color =
+            ifelse(V(check.graph)$name %in% target,
+                   "steelblue", "white"),
+            vertex.frame.color =
+            ifelse(V(check.graph)$name %in% target,
+                   "darkblue", "steelblue"),
+            vertex.size = 10,
+            vertex.label = paste0(gsub(" |,", "\n",
+                V(check.graph)$Item.Name), "\n",
+                ifelse(is.na(V(check.graph)$`111`), 0,
+                       V(check.graph)$`111`)),
+            vertex.label.family = "sans",
+            vertex.label.cex = 0.5,
+            vertex.label.color = 
+            ifelse(V(check.graph)$name %in% target,
+                   "white", "steelblue"),            
+            edge.arrow.size = 0.5,
+            edge.label =
+            round(E(check.graph)$weight, 4),
+            edge.label.cex = 0.8,
+            edge.label.family = "sans",
+            edge.lty =
+            ifelse(E(check.graph)$calorieOnly, 2, 1),
+            edge.arrow.mode = 1,
+            edge.curved = 0.5,
+            layout = layout.auto
+            )
+graphics.off()
 
 
 ## Output the file for examination
