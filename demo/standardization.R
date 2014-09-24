@@ -1,74 +1,42 @@
+library(RJDBC)
+library(reshape2)
 library(data.table)
 library(igraph)
 library(faoswsExtra)
 library(FAOSTAT)
 source("algorithm.R")
 
-currentYear = 2005
-## countryCode = 231
-## inputData =
-##     readInputFile(treeData = "usa_demo_network.csv",
-##                   extractionRateData = "usa_demo_extract_data_full.csv",
-##                   inputData = "usa_demo_input_data.csv",
-##                   suaData = "usa_demo_sua_data_full.csv",
-##                   year = currentYear)
+drv = JDBC(driverClass = "oracle.jdbc.driver.OracleDriver",
+    classPath = "ojdbc14.jar")
+conn = dbConnect(drv, "jdbc:oracle:thin:@lprdbwo1:3310:fstp",
+    user = "demo", password = "demo")
 
+currentYear = 2005
 countryCode = 106
 inputData =
-    readInputFile(treeData = "italy_demo_network.csv",
-                  extractionRateData = "italy_demo_extract_data_full.csv",
-                  inputData = "italy_demo_input_data.csv",
-                  suaData = "italy_demo_sua_data_full.csv",
-                  year = currentYear)
+    getInputFile(conn = conn, countryCode = countryCode,
+                 year = currentYear, treeData = "italy_demo_network.csv",
+                 postWeightData = "postProcessWeight.csv")
 
-standardize = with(inputData,
+standardized = with(inputData,
     computeStandardization(suaData = sua,
                            directWeights = directWeights,
+                           postConversion = postConversion,
                            element = "141")
     )
          
-setnames(standardize, "root", "itemCode")
-postProcessConversion =
-    data.table(
-        read.csv(file = "postProcessWeight.csv",
-                 header = FALSE)
-        )
-setnames(postProcessConversion, old = c("V1", "V2", "V3"),
-         new = c("fbsCode", "itemCode", "conversion"))
-finalConversion = merge(standardize, postProcessConversion,
-    by = "itemCode", all = TRUE, allow.cartesian = TRUE)
-standardized =
-    finalConversion[, sum(standardizedValue * conversion, na.rm = TRUE),
-                    by = "fbsCode"]
-setnames(standardized, old = c("fbsCode", "V1"),
-         new = c("itemCode", "standardizedValue"))
-
-
-## load("FBSfoodQuery.RData")
-## FBSdisseminate = getFAOtoSYB(query = FBSfoodQuery,
-##     outputFormat = "long", yearRange = 2000:2011)
 
 check =
-    checkStandardization(disseminatedData =
-                         data.table(FBSdisseminate$entity),
-                         standardizedData = standardized,
+    checkStandardization(standardizedData = standardized,
                          currentYear = currentYear,
-                         countryCode = countryCode)
-check[pctDifference >= 5, list(itemName, disseminatedValue,
-          standardizedValue = round(standardizedValue), pctDifference)]
+                         countryCode = countryCode,
+                         element = "5142")
 
 check[pctDifference >= 5, list(itemCode, itemName, disseminatedValue,
           standardizedValue = round(standardizedValue), pctDifference)]
 
-## This is for check
-postProcessConversion =
-    data.table(
-        read.csv(file = "postProcessWeight.csv",
-                 header = FALSE)
-        )
-setnames(postProcessConversion, old = c("V1", "V2", "V3"),
-         new = c("fbsCode", "itemCode", "conversion"))
-final = merge(standardize, postProcessConversion,
+## This is for individual fbs item check
+final = merge(standardized, inputData$postConversion,
     by = "itemCode", all = TRUE, allow.cartesian = TRUE)
 final[, standardizedValue := round(standardizedValue)]
 final[fbsCode == 2513, ]
