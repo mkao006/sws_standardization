@@ -350,6 +350,8 @@ getInputFile = function(conn, countryCode, year,
     extractionRate = data.table(standardizationData$extractionRateData)
     input = data.table(standardizationData$inputData)
     sua.dt = data.table(standardizationData$suaData)
+    setnames(sua.dt, old = c("Area.Code", "Item.Code", "Element.Code"),
+             new = c("areaCode", "itemCode", "elementCode"))
     
     extractionRate[(Num == 0 & Symb == "C") | Symb == "M", Num := NA]
     ## This is temporary before we move on multiple years
@@ -402,11 +404,15 @@ getInputFile = function(conn, countryCode, year,
 
     nodes.dt[, Default.Extraction.Rates := NULL]
     nodes.dt[, Num := NULL]
+    setnames(nodes.dt, old = c("Item.Code", "Item.Name", "Aggregate.Method",
+                           "Weight", "Target", "Use.Calorie"),
+             new = c("itemCode", "itemName", "aggregateMethod",
+                 "weight", "target", "useCalorie"))
     
     targets =
-        nodes.dt[Target == "Target" |
-                 (Aggregate.Method == "B" & Weight == 0),
-                 Item.Code]
+        nodes.dt[target == "Target" |
+                 (aggregateMethod == "B" & weight == 0),
+                 itemCode]
     ## Construct Edge Table
     ## --------------------
     ##
@@ -469,8 +475,8 @@ getInputFile = function(conn, countryCode, year,
     ## * parent
     ## * finalRate
     
-    subNodes.dt = nodes.dt[, list(Item.Code, finalExtractionRate)]
-    setnames(subNodes.dt, old = "Item.Code", new = "child")
+    subNodes.dt = nodes.dt[, list(itemCode, finalExtractionRate)]
+    setnames(subNodes.dt, old = "itemCode", new = "child")
     graph.dt = merge(edges.dt, subNodes.dt, by = "child")
 
     ## Remove if the parent code is zero, it is a placeholder for no
@@ -563,19 +569,25 @@ getInputFile = function(conn, countryCode, year,
     setkeyv(directWeight.dt, c("leaves", "root"))
     ## directWeight.dt = directWeight.dt[leaves != root, ]
 
-    
+    tmp = copy(sua.dt)
+    setnames(tmp, c("itemCode", "Num"), c("leaves", "Value"))
+    suaWeight = merge(tmp, directWeight.dt, by = "leaves", all = TRUE, allow.cartesian = TRUE)
+    setnames(suaWeight, "root", "itemCode")
+    preStandard = merge(suaWeight, postProcessConversion.dt, by = "itemCode", all = TRUE, allow.cartesian = TRUE)
+    preStandard[, targetValue := (Value * directWeight * conversion)/1000]
 
     list(nodes = nodes.dt, edge = edges.dt,
          directWeights = directWeight.dt,
          sua = sua.dt,
-         postConversion = postProcessConversion.dt)
+         postConversion = postProcessConversion.dt,
+         preStandard = preStandard)
 }
 
 
 computeStandardization = function(suaData, directWeights,
-    postConversion, element){
-    element.dt = suaData[Element.Code == element, list(Item.Code, Num)]
-    setnames(element.dt, c("Item.Code", "Num"), c("leaves", "Value"))  
+    postConversion, fbsElementSuaCode, fbsElementFbsCode){
+    element.dt = suaData[elementCode == fbsElementSuaCode, list(itemCode, Num)]
+    setnames(element.dt, c("itemCode", "Num"), c("leaves", "Value"))  
 
     standardization.dt =
         merge(element.dt, directWeights, by = "leaves", all = TRUE,
@@ -599,19 +611,43 @@ computeStandardization = function(suaData, directWeights,
     standardized =
         finalConversion[, sum(standardizedValue * conversion,
                               na.rm = TRUE), by = "fbsCode"]
+
     ## print(finalConversion)
     setnames(standardized, old = c("fbsCode", "V1"),
-             new = c("itemCode", "standardizedValue"))
+             new = c("itemCode", paste0("standardized_", fbsElementFbsCode)))
     standardized
 }
 
-    
+
+constructFbsElement = function(fbsElementSuaCode,
+    fbsElementFbsCode, fbsElementName){
+    n.element = length(fbsElementName)
+    fbsElement = vector(mode = "list", length = n.element)
+    for(i in 1:n.element){
+        fbsElement[[i]]$fbsElementFbsCode = fbsElementFbsCode[i]
+        fbsElement[[i]]$fbsElementSuaCode = fbsElementSuaCode[i]
+    }
+    names(fbsElement) = fbsElementName
+    fbsElement
+}
+
+computeStandardizedFbs = function(inputData, fbsElements){
+    Reduce(function(...) merge(..., all = TRUE, by = "itemCode"),
+           lapply(fbsElements, FUN = function(x){
+               with(inputData,
+                    computeStandardization(suaData = sua,
+                                           directWeights = directWeights,
+                                           postConversion = postConversion,
+                                           fbsElementSuaCode = x$fbsElementSuaCode,
+                                           fbsElementFbsCode = x$fbsElementFbsCode)
+                    )
+           }
+                  )
+           )
+}
 
 
-
-checkStandardization = function(standardizedData,
-    currentYear, countryCode, element){
-
+getDisseminatedFbs = function(countryCode, fbsElements){
     ## Construct the query for downloading the disseminated data
     fbsItemCode = FAOmetaTable$itemTable[
         FAOmetaTable$itemTable$domainCode == "FBS" &
@@ -620,33 +656,71 @@ checkStandardization = function(standardizedData,
         FAOmetaTable$elementTable$domainCode == "FBS", ]
     fbsElementCode = fbsElementCode[nchar(fbsElementCode$elementCode) > 3,]
     fbsQuery = merge(fbsItemCode, fbsElementCode)
-    fbsQuery$name = paste(fbsQuery$itemName, fbsQuery$elementName, sep = "_")
-    ## save(fbsQuery, file = "fbsQuery.Rdata")
-    ## load("fbsQuery.Rdata")
+    fbsQuery$name = paste0("disseminated_", fbsQuery$elementCode)
+    
     FBSdisseminate =
         data.table(getFAOtoSYB(query = fbsQuery,
                                outputFormat = "long",
-                               yearRange = currentYear,
+                               yearRange = NULL,
                                countrySet = countryCode)$entity)
     disseminated =
-        FBSdisseminate[elementCode == element,
-                       list(itemCode, name, Value)]
-
-    setnames(disseminated, old = "Value", new = "disseminatedValue")
-    disseminated[, itemCode := as.numeric(itemCode)]
-    disseminated[, itemName :=
-                gsub("Food Balance Sheets_|_Food\\(1000 tonnes\\)", "",
-                     name)]
-    disseminated[, name := NULL]
-
-    check.dt =
-        merge(disseminated, standardizedData,
-              by = "itemCode", all.x = TRUE)
-    check.dt[, pctDifference :=
-             abs(disseminatedValue - round(standardizedValue))/
-                 disseminatedValue * 100]
-    check.dt[disseminatedValue == 0 & round(standardizedValue) == 0,
-             pctDifference := 0]
-    check.dt
+        FBSdisseminate[!itemCode %in% as.character(2761:2775) &
+                       elementCode %in% sapply(fbsElements, function(x) x$fbsElementFbsCode),
+                       list(Year, itemCode, name, Value)]
+    disseminated[, itemCode := as.integer(itemCode)]
+    data.table(dcast(disseminated, Year + itemCode ~ name, value.var = "Value"))
 }
+
+checkStandardization = function(standardizedFbs, disseminatedFbs,
+    currentYear, fbsElementFbsCode){
+    bothFbs =
+        merge(standardizedFbs, disseminatedFbs[Year == currentYear, ],
+              by = "itemCode")
+
+    for(i in fbsElementFbsCode){
+        calculateDifferenceText =
+            paste0("differenced_", i, " := ", "round(standardized_", i, ")/",
+                   "disseminated_", i)
+        bothFbs[, eval(parse(text = calculateDifferenceText))]
+    }
+    sortedFbs =
+        bothFbs[, c("itemCode",
+                    paste0(c("standardized_", "disseminated_",
+                             "differenced_"),
+                           rep(fbsElementFbsCode, each = 3))),
+                with = FALSE]
+    diffFbs = sortedFbs[, c("itemCode",
+        paste0("differenced_", fbsElementFbsCode)), with = FALSE]
+    list(fullCheck = sortedFbs, diffFbs = diffFbs)
+}    
+
+
+
+
+
+
+
+
+## checkStandardization = function(standardizedData,
+##     currentYear, countryCode, fbsElementFbsCode, fbsElementSuaCode){
+##     setnames(disseminated, old = "Value", new = "disseminatedValue")
+##     disseminated[, itemCode := as.numeric(itemCode)]
+##     disseminated[, itemName :=
+##                 gsub("Food Balance Sheets_|_Food\\(1000 tonnes\\)", "",
+##                      name)]
+##     disseminated[, name := NULL]
+##     check.dt =
+##         merge(disseminated, standardizedData,
+##               by = "itemCode", all.x = TRUE)
+##     setnames(check.dt, old = paste0("standardized_", fbsElementSuaCode),
+##              new = "standardizedValue")
+##     check.dt[, pctDifference :=
+##              abs(disseminatedValue - round(standardizedValue))/
+##                  disseminatedValue * 100]
+##     check.dt[, absDifference :=
+##              disseminatedValue - round(standardizedValue)]    
+##     check.dt[disseminatedValue == 0 & round(standardizedValue) == 0,
+##              pctDifference := 0]
+##     check.dt
+## }
 
