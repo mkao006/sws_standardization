@@ -11,8 +11,21 @@ drv = JDBC(driverClass = "oracle.jdbc.driver.OracleDriver",
 conn = dbConnect(drv, "jdbc:oracle:thin:@lprdbwo1:3310:fstp",
     user = "demo", password = "demo")
 
+fbsElementName = c("production", "import", "stock_variation", "export",
+    "food", "feed", "seed", "waste", "other")
+fbsElementSuaCode = c("51", "61" , "71", "91", "141", "101", "111",
+    "121", "151")
+fbsElementFbsCode = c("5511", "5611", "5072", "5911", "5142", "5521",
+    "5527", "5123", "5154")
+
+fbsElements =
+    constructFbsElement(fbsElementSuaCode = fbsElementSuaCode,
+                        fbsElementFbsCode = fbsElementFbsCode,
+                        fbsElementName = fbsElementName)
+    
+
 currentYear = 2005
-countryCode = 106
+countryCode = 100
 inputData =
     getInputFile(conn = conn, countryCode = countryCode,
                  year = currentYear, treeData = "italy_demo_network.csv",
@@ -22,52 +35,51 @@ standardized = with(inputData,
     computeStandardization(suaData = sua,
                            directWeights = directWeights,
                            postConversion = postConversion,
-                           element = "141")
+                           fbsElementSuaCode = "141",
+                           fbsElementFbsCode = "5142")
     )
-         
+
+
+standardizedFbs =
+    computeStandardizedFbs(inputData = inputData,
+                           fbsElements = fbsElements)
+
+
+disseminatedFbs =
+    getDisseminatedFbs(countryCode = countryCode,
+                       fbsElements = fbsElements)
+
+
+check = checkStandardization(standardizedFbs, disseminatedFbs,
+    currentYear, fbsElementFbsCode)
+write.csv(check$fullCheck, file = "check.csv", row.names = FALSE,
+          na = "0")
+
+## It's more efficient to just check item by item
 
 check =
     checkStandardization(standardizedData = standardized,
                          currentYear = currentYear,
                          countryCode = countryCode,
-                         element = "5142")
+                         fbsElementFbsCode = "5142",
+                         fbsElementSuaCode = "141")
 
 check[pctDifference >= 5, list(itemCode, itemName, disseminatedValue,
-          standardizedValue = round(standardizedValue), pctDifference)]
+          standardizedValue = round(standardizedValue),
+          absDifference)]
 
-## This is for individual fbs item check
-final = merge(standardized, inputData$postConversion,
-    by = "itemCode", all = TRUE, allow.cartesian = TRUE)
-final[, standardizedValue := round(standardizedValue)]
-final[fbsCode == 2513, ]
-final[is.na(fbsCode) & !is.na(standardizedValue), ]
+## Check item by item
+checkItem = 2612
+check[pctDifference >= 5, list(itemCode, itemName, -absDifference,
+          disseminatedValue)]
+inputData$preStandard[fbsCode ==  checkItem & elementCode == 141,
+                      list(itemCode, leaves, Value, directWeight,
+                           conversion, targetValue)]
 
-
-## USA
-## 2005
-## There is still difference in the disseminated Barley (2513),
-## however, since item (48) is non-zero the difference became smaller.
-## 
-## 2009
-## The disseminated Barley (2513) had weights calculated wrongly.
-## 
-## 2010
-## The disseminated Barley (2513) had weights calculated wrongly.
-## For fruits (2625), FRUIT PR NES (623) seems to be excluded
-## For citurs other (2614), citrus juice conc (514) seems to be excluded
-## 2011
-## The disseminated Barley (2513) had weights calculated wrongly.
-## For citurs other (2614), citrus juice conc (514) seems to be excluded
+## Need to identify the items that were not included in the
+## standardization.
+## inputData$preStandard[is.na(fbsCode) & !is.na(Value) & Value != 0 &
+##                       elementCode == 141]
 
 
-
-## China41
-## 2007
-## Cereal Prep Nes (113) should be excluded from cereals, other (2520)
-## FLOUR RT TUB (151) should be excluded from roots, other (2534)
-## 2009
-## Cereal Prep Nes (113) should be excluded from cereals, other (2520)
-## FLOUR RT TUB (151) should be excluded from roots, other (2534)
-## 2011
-## Cereal Prep Nes (113) should be excluded from cereals, other (2520)
-## FLOUR RT TUB (151) should be excluded from roots, other (2534)
+fbs = computeStandardizedFbs(inputData, suaElements)
