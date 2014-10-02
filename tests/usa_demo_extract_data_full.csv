@@ -1,0 +1,2339 @@
+Area Code,Area Name,Item Code,Item Name,Element Code,Element Name,Year,Num,Symb
+231,USA,15,Wheat,41,Yield (Hg/Ha),2005,28230.583,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2006,25985.935,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2007,27046.34,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2008,30174.624,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2009,29897.049,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2010,31167.365,C
+231,USA,15,Wheat,41,Yield (Hg/Ha),2011,29418.388,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2005,7445.95,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2006,7515.917,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2007,7556.621,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2008,7630.957,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2009,7702.467,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2010,7703.418,C
+231,USA,16,Flour of Wheat,41,Extr Rate (Hg/Mt),2011,7655.263,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2005,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2006,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2007,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2008,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2009,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2010,2480,C
+231,USA,17,Bran of Wheat,41,Extr Rate (Hg/Mt),2011,2480,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2005,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2006,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2007,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2008,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2009,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2010,11000,C
+231,USA,20,Bread,41,Extr Rate (Hg/Mt),2011,11000,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2005,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2006,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2007,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2008,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2009,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2010,9500,C
+231,USA,21,"Bulgur, Wholemeal",41,Extr Rate (Hg/Mt),2011,9500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2005,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2006,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2007,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2008,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2009,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2010,8500,C
+231,USA,23,Wheat Starch,41,Extr Rate (Hg/Mt),2011,8500,C
+231,USA,27,"Rice, Paddy",41,Yield (Hg/Ha),2005,74244.773,C
+231,USA,27,"Rice, Paddy",41,Yield (Hg/Ha),2006,77312.501,C
+231,USA,27,"Rice, Paddy",41,Yield (Hg/Ha),2007,80917.409,C
+231,USA,27,"Rice, Paddy",41,Yield (Hg/Ha),2008,76731.177,C
+231,USA,27,"Rice, Paddy",41,Yield (Hg/Ha),2009,79412.542,C
+231,USA,27,"Rice, Paddy",41,Yield (Hg/Ha),2010,75375.167,C
+231,USA,27,"Rice, Paddy",41,Yield (Hg/Ha),2011,79208.929,C
+231,USA,28,"Rice, Husked",41,Extr Rate (Hg/Mt),2005,7900,C
+231,USA,28,"Rice, Husked",41,Extr Rate (Hg/Mt),2006,7900,C
+231,USA,28,"Rice, Husked",41,Extr Rate (Hg/Mt),2007,7900,C
+231,USA,28,"Rice, Husked",41,Extr Rate (Hg/Mt),2008,7900,C
+231,USA,28,"Rice, Husked",41,Extr Rate (Hg/Mt),2009,7900,C
+231,USA,28,"Rice, Husked",41,Extr Rate (Hg/Mt),2010,7900,C
+231,USA,28,"Rice, Husked",41,Extr Rate (Hg/Mt),2011,7900,C
+231,USA,31,Milled Paddy Rice,41,Extr Rate (Hg/Mt),2005,7025, 
+231,USA,31,Milled Paddy Rice,41,Extr Rate (Hg/Mt),2006,7025,F
+231,USA,31,Milled Paddy Rice,41,Extr Rate (Hg/Mt),2007,7025,F
+231,USA,31,Milled Paddy Rice,41,Extr Rate (Hg/Mt),2008,7025,F
+231,USA,31,Milled Paddy Rice,41,Extr Rate (Hg/Mt),2009,7025,F
+231,USA,31,Milled Paddy Rice,41,Extr Rate (Hg/Mt),2010,7025,F
+231,USA,31,Milled Paddy Rice,41,Extr Rate (Hg/Mt),2011,7025,F
+231,USA,32,"Rice, Broken",41,Extr Rate (Hg/Mt),2005,10000,C
+231,USA,32,"Rice, Broken",41,Extr Rate (Hg/Mt),2006,10000,C
+231,USA,32,"Rice, Broken",41,Extr Rate (Hg/Mt),2007,10000,C
+231,USA,32,"Rice, Broken",41,Extr Rate (Hg/Mt),2008,10000,C
+231,USA,32,"Rice, Broken",41,Extr Rate (Hg/Mt),2009,10000,C
+231,USA,32,"Rice, Broken",41,Extr Rate (Hg/Mt),2010,10000,C
+231,USA,32,"Rice, Broken",41,Extr Rate (Hg/Mt),2011,10000,C
+231,USA,35,Bran of Rice,41,Extr Rate (Hg/Mt),2005,840,C
+231,USA,35,Bran of Rice,41,Extr Rate (Hg/Mt),2006,840,C
+231,USA,35,Bran of Rice,41,Extr Rate (Hg/Mt),2007,840,C
+231,USA,35,Bran of Rice,41,Extr Rate (Hg/Mt),2008,840,C
+231,USA,35,Bran of Rice,41,Extr Rate (Hg/Mt),2009,840,C
+231,USA,35,Bran of Rice,41,Extr Rate (Hg/Mt),2010,840,C
+231,USA,35,Bran of Rice,41,Extr Rate (Hg/Mt),2011,840,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2005,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2006,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2007,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2008,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2009,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2010,6600,C
+231,USA,41,Breakfast Cereals,41,Extr Rate (Hg/Mt),2011,6600,C
+231,USA,44,Barley,41,Yield (Hg/Ha),2005,34872.593,C
+231,USA,44,Barley,41,Yield (Hg/Ha),2006,32845.592,C
+231,USA,44,Barley,41,Yield (Hg/Ha),2007,32278.031,C
+231,USA,44,Barley,41,Yield (Hg/Ha),2008,34195.435,C
+231,USA,44,Barley,41,Yield (Hg/Ha),2009,39286.95,C
+231,USA,44,Barley,41,Yield (Hg/Ha),2010,39344.701,C
+231,USA,44,Barley,41,Yield (Hg/Ha),2011,37431.961,C
+231,USA,45,Pot Barley,41,Extr Rate (Hg/Mt),2005,7000,C
+231,USA,45,Pot Barley,41,Extr Rate (Hg/Mt),2006,7000,C
+231,USA,45,Pot Barley,41,Extr Rate (Hg/Mt),2007,7000,C
+231,USA,45,Pot Barley,41,Extr Rate (Hg/Mt),2008,7000,C
+231,USA,45,Pot Barley,41,Extr Rate (Hg/Mt),2009,7000,C
+231,USA,45,Pot Barley,41,Extr Rate (Hg/Mt),2010,7000,C
+231,USA,45,Pot Barley,41,Extr Rate (Hg/Mt),2011,7000,C
+231,USA,46,"Barley, Pearled",41,Extr Rate (Hg/Mt),2005,5200,C
+231,USA,46,"Barley, Pearled",41,Extr Rate (Hg/Mt),2006,5200,C
+231,USA,46,"Barley, Pearled",41,Extr Rate (Hg/Mt),2007,5200,C
+231,USA,46,"Barley, Pearled",41,Extr Rate (Hg/Mt),2008,5200,C
+231,USA,46,"Barley, Pearled",41,Extr Rate (Hg/Mt),2009,5200,C
+231,USA,46,"Barley, Pearled",41,Extr Rate (Hg/Mt),2010,5200,C
+231,USA,46,"Barley, Pearled",41,Extr Rate (Hg/Mt),2011,5200,C
+231,USA,47,Bran of Barley,41,Extr Rate (Hg/Mt),2005,2300,C
+231,USA,47,Bran of Barley,41,Extr Rate (Hg/Mt),2006,2300,C
+231,USA,47,Bran of Barley,41,Extr Rate (Hg/Mt),2007,2300,C
+231,USA,47,Bran of Barley,41,Extr Rate (Hg/Mt),2008,2300,C
+231,USA,47,Bran of Barley,41,Extr Rate (Hg/Mt),2009,2300,C
+231,USA,47,Bran of Barley,41,Extr Rate (Hg/Mt),2010,2300,C
+231,USA,47,Bran of Barley,41,Extr Rate (Hg/Mt),2011,2300,C
+231,USA,48,Barley Flour and Grits,41,Extr Rate (Hg/Mt),2005,4300,C
+231,USA,48,Barley Flour and Grits,41,Extr Rate (Hg/Mt),2006,4300,C
+231,USA,48,Barley Flour and Grits,41,Extr Rate (Hg/Mt),2007,4300,C
+231,USA,48,Barley Flour and Grits,41,Extr Rate (Hg/Mt),2008,4300,C
+231,USA,48,Barley Flour and Grits,41,Extr Rate (Hg/Mt),2009,4300,C
+231,USA,48,Barley Flour and Grits,41,Extr Rate (Hg/Mt),2010,4300,C
+231,USA,48,Barley Flour and Grits,41,Extr Rate (Hg/Mt),2011,4300,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2005,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2006,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2007,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2008,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2009,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2010,7080,C
+231,USA,49,Malt of Barley,41,Extr Rate (Hg/Mt),2011,7080,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2005,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2006,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2007,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2008,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2009,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2010,8000,C
+231,USA,50,Malt Extracts,41,Extr Rate (Hg/Mt),2011,8000,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2005,86217.829,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2006,87544.486,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2007,79289.092,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2008,80004.142,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2009,80353.862,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2010,79943.158,C
+231,USA,51,Beer of Barley,41,Extr Rate (Hg/Mt),2011,80477.5,C
+231,USA,56,Maize,41,Yield (Hg/Ha),2005,92851.956,C
+231,USA,56,Maize,41,Yield (Hg/Ha),2006,93576.034,C
+231,USA,56,Maize,41,Yield (Hg/Ha),2007,94584.213,C
+231,USA,56,Maize,41,Yield (Hg/Ha),2008,96596.191,C
+231,USA,56,Maize,41,Yield (Hg/Ha),2009,103376.099,C
+231,USA,56,Maize,41,Yield (Hg/Ha),2010,95922.72,C
+231,USA,56,Maize,41,Yield (Hg/Ha),2011,92366.324,C
+231,USA,57,Germ of Maize,41,Extr Rate (Hg/Mt),2005,700,C
+231,USA,57,Germ of Maize,41,Extr Rate (Hg/Mt),2006,700,C
+231,USA,57,Germ of Maize,41,Extr Rate (Hg/Mt),2007,700,C
+231,USA,57,Germ of Maize,41,Extr Rate (Hg/Mt),2008,700,C
+231,USA,57,Germ of Maize,41,Extr Rate (Hg/Mt),2009,700,C
+231,USA,57,Germ of Maize,41,Extr Rate (Hg/Mt),2010,700,C
+231,USA,57,Germ of Maize,41,Extr Rate (Hg/Mt),2011,700,C
+231,USA,58,Flour of Maize,41,Extr Rate (Hg/Mt),2005,8000,C
+231,USA,58,Flour of Maize,41,Extr Rate (Hg/Mt),2006,8000,C
+231,USA,58,Flour of Maize,41,Extr Rate (Hg/Mt),2007,8000,C
+231,USA,58,Flour of Maize,41,Extr Rate (Hg/Mt),2008,8000,C
+231,USA,58,Flour of Maize,41,Extr Rate (Hg/Mt),2009,8000,C
+231,USA,58,Flour of Maize,41,Extr Rate (Hg/Mt),2010,8000,C
+231,USA,58,Flour of Maize,41,Extr Rate (Hg/Mt),2011,8000,C
+231,USA,59,Bran of Maize,41,Extr Rate (Hg/Mt),2005,1200,C
+231,USA,59,Bran of Maize,41,Extr Rate (Hg/Mt),2006,1200,C
+231,USA,59,Bran of Maize,41,Extr Rate (Hg/Mt),2007,1200,C
+231,USA,59,Bran of Maize,41,Extr Rate (Hg/Mt),2008,1200,C
+231,USA,59,Bran of Maize,41,Extr Rate (Hg/Mt),2009,1200,C
+231,USA,59,Bran of Maize,41,Extr Rate (Hg/Mt),2010,1200,C
+231,USA,59,Bran of Maize,41,Extr Rate (Hg/Mt),2011,1200,C
+231,USA,60,Oil of Maize,41,Extr Rate (Hg/Mt),2005,4809.094,C
+231,USA,60,Oil of Maize,41,Extr Rate (Hg/Mt),2006,4831.186,C
+231,USA,60,Oil of Maize,41,Extr Rate (Hg/Mt),2007,5003.5,C
+231,USA,60,Oil of Maize,41,Extr Rate (Hg/Mt),2008,4937.403,C
+231,USA,60,Oil of Maize,41,Extr Rate (Hg/Mt),2009,4847.518,C
+231,USA,60,Oil of Maize,41,Extr Rate (Hg/Mt),2010,4976.799,C
+231,USA,60,Oil of Maize,41,Extr Rate (Hg/Mt),2011,5036.579,C
+231,USA,61,Cake of Maize,41,Extr Rate (Hg/Mt),2005,5000,C
+231,USA,61,Cake of Maize,41,Extr Rate (Hg/Mt),2006,5000,C
+231,USA,61,Cake of Maize,41,Extr Rate (Hg/Mt),2007,5000,C
+231,USA,61,Cake of Maize,41,Extr Rate (Hg/Mt),2008,5000,C
+231,USA,61,Cake of Maize,41,Extr Rate (Hg/Mt),2009,5000,C
+231,USA,61,Cake of Maize,41,Extr Rate (Hg/Mt),2010,5000,C
+231,USA,61,Cake of Maize,41,Extr Rate (Hg/Mt),2011,5000,C
+231,USA,63,Maize Gluten,41,Extr Rate (Hg/Mt),2005,790,C
+231,USA,63,Maize Gluten,41,Extr Rate (Hg/Mt),2006,790,C
+231,USA,63,Maize Gluten,41,Extr Rate (Hg/Mt),2007,790,C
+231,USA,63,Maize Gluten,41,Extr Rate (Hg/Mt),2008,790,C
+231,USA,63,Maize Gluten,41,Extr Rate (Hg/Mt),2009,790,C
+231,USA,63,Maize Gluten,41,Extr Rate (Hg/Mt),2010,790,C
+231,USA,63,Maize Gluten,41,Extr Rate (Hg/Mt),2011,790,C
+231,USA,64,Starch of Maize,41,Extr Rate (Hg/Mt),2005,7350,C
+231,USA,64,Starch of Maize,41,Extr Rate (Hg/Mt),2006,7350,C
+231,USA,64,Starch of Maize,41,Extr Rate (Hg/Mt),2007,7350,C
+231,USA,64,Starch of Maize,41,Extr Rate (Hg/Mt),2008,7350,C
+231,USA,64,Starch of Maize,41,Extr Rate (Hg/Mt),2009,7350,C
+231,USA,64,Starch of Maize,41,Extr Rate (Hg/Mt),2010,7350,C
+231,USA,64,Starch of Maize,41,Extr Rate (Hg/Mt),2011,7350,C
+231,USA,67,White Maize,41,Yield (Hg/Ha),2005,0,M
+231,USA,67,White Maize,41,Yield (Hg/Ha),2006,0,M
+231,USA,67,White Maize,41,Yield (Hg/Ha),2007,0,M
+231,USA,67,White Maize,41,Yield (Hg/Ha),2008,0,M
+231,USA,67,White Maize,41,Yield (Hg/Ha),2009,0,M
+231,USA,67,White Maize,41,Yield (Hg/Ha),2010,0,M
+231,USA,67,White Maize,41,Yield (Hg/Ha),2011,0,M
+231,USA,68,Pop Corn,41,Yield (Hg/Ha),2005,0,M
+231,USA,68,Pop Corn,41,Yield (Hg/Ha),2006,0,M
+231,USA,68,Pop Corn,41,Yield (Hg/Ha),2007,0,M
+231,USA,68,Pop Corn,41,Yield (Hg/Ha),2008,0,M
+231,USA,68,Pop Corn,41,Yield (Hg/Ha),2009,0,M
+231,USA,68,Pop Corn,41,Yield (Hg/Ha),2010,0,M
+231,USA,68,Pop Corn,41,Yield (Hg/Ha),2011,0,M
+231,USA,71,Rye,41,Yield (Hg/Ha),2005,16955.867,C
+231,USA,71,Rye,41,Yield (Hg/Ha),2006,16477.341,C
+231,USA,71,Rye,41,Yield (Hg/Ha),2007,15719.048,C
+231,USA,71,Rye,41,Yield (Hg/Ha),2008,18617.608,C
+231,USA,71,Rye,41,Yield (Hg/Ha),2009,17418.121,C
+231,USA,71,Rye,41,Yield (Hg/Ha),2010,17601.641,C
+231,USA,71,Rye,41,Yield (Hg/Ha),2011,16408.659,C
+231,USA,72,Flour of Rye,41,Extr Rate (Hg/Mt),2005,8000,F
+231,USA,72,Flour of Rye,41,Extr Rate (Hg/Mt),2006,8000,F
+231,USA,72,Flour of Rye,41,Extr Rate (Hg/Mt),2007,8000,F
+231,USA,72,Flour of Rye,41,Extr Rate (Hg/Mt),2008,8000,F
+231,USA,72,Flour of Rye,41,Extr Rate (Hg/Mt),2009,8000,F
+231,USA,72,Flour of Rye,41,Extr Rate (Hg/Mt),2010,8000,F
+231,USA,72,Flour of Rye,41,Extr Rate (Hg/Mt),2011,8000,F
+231,USA,73,Bran of Rye,41,Extr Rate (Hg/Mt),2005,1600,C
+231,USA,73,Bran of Rye,41,Extr Rate (Hg/Mt),2006,1600,C
+231,USA,73,Bran of Rye,41,Extr Rate (Hg/Mt),2007,1600,C
+231,USA,73,Bran of Rye,41,Extr Rate (Hg/Mt),2008,1600,C
+231,USA,73,Bran of Rye,41,Extr Rate (Hg/Mt),2009,1600,C
+231,USA,73,Bran of Rye,41,Extr Rate (Hg/Mt),2010,1600,C
+231,USA,73,Bran of Rye,41,Extr Rate (Hg/Mt),2011,1600,C
+231,USA,75,Oats,41,Yield (Hg/Ha),2005,22598.143,C
+231,USA,75,Oats,41,Yield (Hg/Ha),2006,21447.258,C
+231,USA,75,Oats,41,Yield (Hg/Ha),2007,21565.454,C
+231,USA,75,Oats,41,Yield (Hg/Ha),2008,22835.733,C
+231,USA,75,Oats,41,Yield (Hg/Ha),2009,24209.687,C
+231,USA,75,Oats,41,Yield (Hg/Ha),2010,23056.621,C
+231,USA,75,Oats,41,Yield (Hg/Ha),2011,20492.368,C
+231,USA,76,"Oats, Rolled",41,Extr Rate (Hg/Mt),2005,4550,F
+231,USA,76,"Oats, Rolled",41,Extr Rate (Hg/Mt),2006,4550,F
+231,USA,76,"Oats, Rolled",41,Extr Rate (Hg/Mt),2007,4550,F
+231,USA,76,"Oats, Rolled",41,Extr Rate (Hg/Mt),2008,4550,F
+231,USA,76,"Oats, Rolled",41,Extr Rate (Hg/Mt),2009,4550,F
+231,USA,76,"Oats, Rolled",41,Extr Rate (Hg/Mt),2010,4550,F
+231,USA,76,"Oats, Rolled",41,Extr Rate (Hg/Mt),2011,4550,F
+231,USA,77,Bran of Oats,41,Extr Rate (Hg/Mt),2005,2000,C
+231,USA,77,Bran of Oats,41,Extr Rate (Hg/Mt),2006,2000,C
+231,USA,77,Bran of Oats,41,Extr Rate (Hg/Mt),2007,2000,C
+231,USA,77,Bran of Oats,41,Extr Rate (Hg/Mt),2008,2000,C
+231,USA,77,Bran of Oats,41,Extr Rate (Hg/Mt),2009,2000,C
+231,USA,77,Bran of Oats,41,Extr Rate (Hg/Mt),2010,2000,C
+231,USA,77,Bran of Oats,41,Extr Rate (Hg/Mt),2011,2000,C
+231,USA,79,Millet,41,Yield (Hg/Ha),2005,14749.946,C
+231,USA,79,Millet,41,Yield (Hg/Ha),2006,11926.722,C
+231,USA,79,Millet,41,Yield (Hg/Ha),2007,18059.723,C
+231,USA,79,Millet,41,Yield (Hg/Ha),2008,17975.204,C
+231,USA,79,Millet,41,Yield (Hg/Ha),2009,18769.116,C
+231,USA,79,Millet,41,Yield (Hg/Ha),2010,17808.713,C
+231,USA,79,Millet,41,Yield (Hg/Ha),2011,15169.238,C
+231,USA,83,Sorghum,41,Yield (Hg/Ha),2005,42997.286,C
+231,USA,83,Sorghum,41,Yield (Hg/Ha),2006,35171.242,C
+231,USA,83,Sorghum,41,Yield (Hg/Ha),2007,45983.056,C
+231,USA,83,Sorghum,41,Yield (Hg/Ha),2008,40774.987,C
+231,USA,83,Sorghum,41,Yield (Hg/Ha),2009,43548.339,C
+231,USA,83,Sorghum,41,Yield (Hg/Ha),2010,45073.494,C
+231,USA,83,Sorghum,41,Yield (Hg/Ha),2011,34257.844,C
+231,USA,89,Buckwheat,41,Yield (Hg/Ha),2005,11019.386,C
+231,USA,89,Buckwheat,41,Yield (Hg/Ha),2006,10000,C
+231,USA,89,Buckwheat,41,Yield (Hg/Ha),2007,10000,C
+231,USA,89,Buckwheat,41,Yield (Hg/Ha),2008,10000,C
+231,USA,89,Buckwheat,41,Yield (Hg/Ha),2009,10930.91,C
+231,USA,89,Buckwheat,41,Yield (Hg/Ha),2010,10555.265,C
+231,USA,89,Buckwheat,41,Yield (Hg/Ha),2011,10299.052,C
+231,USA,90,Flour of Buckwheat,41,Extr Rate (Hg/Mt),2005,6000,C
+231,USA,90,Flour of Buckwheat,41,Extr Rate (Hg/Mt),2006,6000,C
+231,USA,90,Flour of Buckwheat,41,Extr Rate (Hg/Mt),2007,6000,C
+231,USA,90,Flour of Buckwheat,41,Extr Rate (Hg/Mt),2008,6000,C
+231,USA,90,Flour of Buckwheat,41,Extr Rate (Hg/Mt),2009,6000,C
+231,USA,90,Flour of Buckwheat,41,Extr Rate (Hg/Mt),2010,6000,C
+231,USA,90,Flour of Buckwheat,41,Extr Rate (Hg/Mt),2011,6000,C
+231,USA,91,Bran of Buckwheat,41,Extr Rate (Hg/Mt),2005,2000,C
+231,USA,91,Bran of Buckwheat,41,Extr Rate (Hg/Mt),2006,2000,C
+231,USA,91,Bran of Buckwheat,41,Extr Rate (Hg/Mt),2007,2000,C
+231,USA,91,Bran of Buckwheat,41,Extr Rate (Hg/Mt),2008,2000,C
+231,USA,91,Bran of Buckwheat,41,Extr Rate (Hg/Mt),2009,2000,C
+231,USA,91,Bran of Buckwheat,41,Extr Rate (Hg/Mt),2010,2000,C
+231,USA,91,Bran of Buckwheat,41,Extr Rate (Hg/Mt),2011,2000,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2005,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2006,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2007,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2008,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2009,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2010,9500,C
+231,USA,113,Cereal Prep nes,41,Extr Rate (Hg/Mt),2011,9500,C
+231,USA,116,Potatoes,41,Yield (Hg/Ha),2005,437302.934,C
+231,USA,116,Potatoes,41,Yield (Hg/Ha),2006,440949.168,C
+231,USA,116,Potatoes,41,Yield (Hg/Ha),2007,444335.617,C
+231,USA,116,Potatoes,41,Yield (Hg/Ha),2008,444373.115,C
+231,USA,116,Potatoes,41,Yield (Hg/Ha),2009,464446.072,C
+231,USA,116,Potatoes,41,Yield (Hg/Ha),2010,452767.512,C
+231,USA,116,Potatoes,41,Yield (Hg/Ha),2011,447139.937,C
+231,USA,117,Flour of Potatoes,41,Extr Rate (Hg/Mt),2005,2100,C
+231,USA,117,Flour of Potatoes,41,Extr Rate (Hg/Mt),2006,2100,C
+231,USA,117,Flour of Potatoes,41,Extr Rate (Hg/Mt),2007,2100,C
+231,USA,117,Flour of Potatoes,41,Extr Rate (Hg/Mt),2008,2100,C
+231,USA,117,Flour of Potatoes,41,Extr Rate (Hg/Mt),2009,2100,C
+231,USA,117,Flour of Potatoes,41,Extr Rate (Hg/Mt),2010,2100,C
+231,USA,117,Flour of Potatoes,41,Extr Rate (Hg/Mt),2011,2100,C
+231,USA,118,"Potatoes, frozen",41,Extr Rate (Hg/Mt),2005,4000,C
+231,USA,118,"Potatoes, frozen",41,Extr Rate (Hg/Mt),2006,4000,C
+231,USA,118,"Potatoes, frozen",41,Extr Rate (Hg/Mt),2007,4000,C
+231,USA,118,"Potatoes, frozen",41,Extr Rate (Hg/Mt),2008,4000,C
+231,USA,118,"Potatoes, frozen",41,Extr Rate (Hg/Mt),2009,4000,C
+231,USA,118,"Potatoes, frozen",41,Extr Rate (Hg/Mt),2010,4000,C
+231,USA,118,"Potatoes, frozen",41,Extr Rate (Hg/Mt),2011,4000,C
+231,USA,120,Potato Offals,41,Extr Rate (Hg/Mt),2005,3500,C
+231,USA,120,Potato Offals,41,Extr Rate (Hg/Mt),2006,3500,C
+231,USA,120,Potato Offals,41,Extr Rate (Hg/Mt),2007,3500,C
+231,USA,120,Potato Offals,41,Extr Rate (Hg/Mt),2008,3500,C
+231,USA,120,Potato Offals,41,Extr Rate (Hg/Mt),2009,3500,C
+231,USA,120,Potato Offals,41,Extr Rate (Hg/Mt),2010,3500,C
+231,USA,120,Potato Offals,41,Extr Rate (Hg/Mt),2011,3500,C
+231,USA,122,Sweet Potatoes,41,Yield (Hg/Ha),2005,199440.95,C
+231,USA,122,Sweet Potatoes,41,Yield (Hg/Ha),2006,210574.033,C
+231,USA,122,Sweet Potatoes,41,Yield (Hg/Ha),2007,207940.99,C
+231,USA,122,Sweet Potatoes,41,Yield (Hg/Ha),2008,212454.287,C
+231,USA,122,Sweet Potatoes,41,Yield (Hg/Ha),2009,225200.184,C
+231,USA,122,Sweet Potatoes,41,Yield (Hg/Ha),2010,228627.716,C
+231,USA,122,Sweet Potatoes,41,Yield (Hg/Ha),2011,233018.595,C
+231,USA,136,Taro (Coco Yam),41,Yield (Hg/Ha),2005,120666.667,C
+231,USA,136,Taro (Coco Yam),41,Yield (Hg/Ha),2006,136000,C
+231,USA,136,Taro (Coco Yam),41,Yield (Hg/Ha),2007,111728.395,C
+231,USA,136,Taro (Coco Yam),41,Yield (Hg/Ha),2008,121875,C
+231,USA,136,Taro (Coco Yam),41,Yield (Hg/Ha),2009,100555.556,C
+231,USA,136,Taro (Coco Yam),41,Yield (Hg/Ha),2010,93157.895,C
+231,USA,136,Taro (Coco Yam),41,Yield (Hg/Ha),2011,93000,C
+231,USA,156,Sugar Cane,41,Yield (Hg/Ha),2005,713136.988,C
+231,USA,156,Sugar Cane,41,Yield (Hg/Ha),2006,813785.13,C
+231,USA,156,Sugar Cane,41,Yield (Hg/Ha),2007,779587.881,C
+231,USA,156,Sugar Cane,41,Yield (Hg/Ha),2008,712868.982,C
+231,USA,156,Sugar Cane,41,Yield (Hg/Ha),2009,780623.425,C
+231,USA,156,Sugar Cane,41,Yield (Hg/Ha),2010,698950.585,C
+231,USA,156,Sugar Cane,41,Yield (Hg/Ha),2011,754844.108,C
+231,USA,157,Sugar Beets,41,Yield (Hg/Ha),2005,545398.517,C
+231,USA,157,Sugar Beets,41,Yield (Hg/Ha),2006,645696.933,C
+231,USA,157,Sugar Beets,41,Yield (Hg/Ha),2007,632463.082,C
+231,USA,157,Sugar Beets,41,Yield (Hg/Ha),2008,599886.104,C
+231,USA,157,Sugar Beets,41,Yield (Hg/Ha),2009,581309.409,C
+231,USA,157,Sugar Beets,41,Yield (Hg/Ha),2010,621142.136,C
+231,USA,157,Sugar Beets,41,Yield (Hg/Ha),2011,533922.847,C
+231,USA,158,Cane Sugar,41,Extr Rate (Hg/Mt),2005,1067.499,C
+231,USA,158,Cane Sugar,41,Extr Rate (Hg/Mt),2006,1114.376,C
+231,USA,158,Cane Sugar,41,Extr Rate (Hg/Mt),2007,1192.936,C
+231,USA,158,Cane Sugar,41,Extr Rate (Hg/Mt),2008,1460.469,C
+231,USA,158,Cane Sugar,41,Extr Rate (Hg/Mt),2009,1288.296,C
+231,USA,158,Cane Sugar,41,Extr Rate (Hg/Mt),2010,1465.103,C
+231,USA,158,Cane Sugar,41,Extr Rate (Hg/Mt),2011,1258.138,C
+231,USA,159,Beet Sugar,41,Extr Rate (Hg/Mt),2005,1469.429,C
+231,USA,159,Beet Sugar,41,Extr Rate (Hg/Mt),2006,1333.71,C
+231,USA,159,Beet Sugar,41,Extr Rate (Hg/Mt),2007,1342.17,C
+231,USA,159,Beet Sugar,41,Extr Rate (Hg/Mt),2008,1868.976,C
+231,USA,159,Beet Sugar,41,Extr Rate (Hg/Mt),2009,1605.939,C
+231,USA,159,Beet Sugar,41,Extr Rate (Hg/Mt),2010,1637.368,C
+231,USA,159,Beet Sugar,41,Extr Rate (Hg/Mt),2011,1727.112,C
+231,USA,164,Sugar Refined,41,Extr Rate (Hg/Mt),2005,9346,C
+231,USA,164,Sugar Refined,41,Extr Rate (Hg/Mt),2006,9346,C
+231,USA,164,Sugar Refined,41,Extr Rate (Hg/Mt),2007,9346,C
+231,USA,164,Sugar Refined,41,Extr Rate (Hg/Mt),2008,9346,C
+231,USA,164,Sugar Refined,41,Extr Rate (Hg/Mt),2009,9346,C
+231,USA,164,Sugar Refined,41,Extr Rate (Hg/Mt),2010,9346,C
+231,USA,164,Sugar Refined,41,Extr Rate (Hg/Mt),2011,9346,C
+231,USA,165,Molasses,41,Extr Rate (Hg/Mt),2005,384.036,C
+231,USA,165,Molasses,41,Extr Rate (Hg/Mt),2006,368.081,C
+231,USA,165,Molasses,41,Extr Rate (Hg/Mt),2007,383.407,C
+231,USA,165,Molasses,41,Extr Rate (Hg/Mt),2008,428.831,C
+231,USA,165,Molasses,41,Extr Rate (Hg/Mt),2009,397.389,C
+231,USA,165,Molasses,41,Extr Rate (Hg/Mt),2010,411.631,C
+231,USA,165,Molasses,41,Extr Rate (Hg/Mt),2011,426.914,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2005,10602.913,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2006,10631.25,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2007,10648.512,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2008,10602.108,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2009,10600.355,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2010,10933.333,C
+231,USA,166,Other Fructose and Syrup,41,Extr Rate (Hg/Mt),2011,10933.333,C
+231,USA,167,Sugar and Syrups nes,41,Extr Rate (Hg/Mt),2005,10000,C
+231,USA,167,Sugar and Syrups nes,41,Extr Rate (Hg/Mt),2006,10000,C
+231,USA,167,Sugar and Syrups nes,41,Extr Rate (Hg/Mt),2007,10000,C
+231,USA,167,Sugar and Syrups nes,41,Extr Rate (Hg/Mt),2008,10000,C
+231,USA,167,Sugar and Syrups nes,41,Extr Rate (Hg/Mt),2009,10000,C
+231,USA,167,Sugar and Syrups nes,41,Extr Rate (Hg/Mt),2010,10000,C
+231,USA,167,Sugar and Syrups nes,41,Extr Rate (Hg/Mt),2011,10000,C
+231,USA,169,"Beet Pulp, Dry",41,Extr Rate (Hg/Mt),2005,700,C
+231,USA,169,"Beet Pulp, Dry",41,Extr Rate (Hg/Mt),2006,700,C
+231,USA,169,"Beet Pulp, Dry",41,Extr Rate (Hg/Mt),2007,700,C
+231,USA,169,"Beet Pulp, Dry",41,Extr Rate (Hg/Mt),2008,700,C
+231,USA,169,"Beet Pulp, Dry",41,Extr Rate (Hg/Mt),2009,700,C
+231,USA,169,"Beet Pulp, Dry",41,Extr Rate (Hg/Mt),2010,700,C
+231,USA,169,"Beet Pulp, Dry",41,Extr Rate (Hg/Mt),2011,700,C
+231,USA,170,Bagasse,41,Extr Rate (Hg/Mt),2005,2500,C
+231,USA,170,Bagasse,41,Extr Rate (Hg/Mt),2006,2500,C
+231,USA,170,Bagasse,41,Extr Rate (Hg/Mt),2007,2500,C
+231,USA,170,Bagasse,41,Extr Rate (Hg/Mt),2008,2500,C
+231,USA,170,Bagasse,41,Extr Rate (Hg/Mt),2009,2500,C
+231,USA,170,Bagasse,41,Extr Rate (Hg/Mt),2010,2500,C
+231,USA,170,Bagasse,41,Extr Rate (Hg/Mt),2011,2500,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2005,10201.46,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2006,10596.639,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2007,10577.657,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2008,10584.958,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2009,10598.416,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2010,11603.175,C
+231,USA,172,Glucose and Dextrose,41,Extr Rate (Hg/Mt),2011,11603.175,C
+231,USA,173,Lactose,41,Extr Rate (Hg/Mt),2005,460,C
+231,USA,173,Lactose,41,Extr Rate (Hg/Mt),2006,459.941,C
+231,USA,173,Lactose,41,Extr Rate (Hg/Mt),2007,460.035,C
+231,USA,173,Lactose,41,Extr Rate (Hg/Mt),2008,459.941,C
+231,USA,173,Lactose,41,Extr Rate (Hg/Mt),2009,459.921,C
+231,USA,173,Lactose,41,Extr Rate (Hg/Mt),2010,540.758,C
+231,USA,173,Lactose,41,Extr Rate (Hg/Mt),2011,595.389,C
+231,USA,176,"Beans, Dry",41,Yield (Hg/Ha),2005,19512.253,C
+231,USA,176,"Beans, Dry",41,Yield (Hg/Ha),2006,17676.853,C
+231,USA,176,"Beans, Dry",41,Yield (Hg/Ha),2007,19387.371,C
+231,USA,176,"Beans, Dry",41,Yield (Hg/Ha),2008,19821.667,C
+231,USA,176,"Beans, Dry",41,Yield (Hg/Ha),2009,19428.91,C
+231,USA,176,"Beans, Dry",41,Yield (Hg/Ha),2010,19343.319,C
+231,USA,176,"Beans, Dry",41,Yield (Hg/Ha),2011,19231.476,C
+231,USA,187,"Peas, Dry",41,Yield (Hg/Ha),2005,20492.367,C
+231,USA,187,"Peas, Dry",41,Yield (Hg/Ha),2006,16738.497,C
+231,USA,187,"Peas, Dry",41,Yield (Hg/Ha),2007,22501.058,C
+231,USA,187,"Peas, Dry",41,Yield (Hg/Ha),2008,16231.255,C
+231,USA,187,"Peas, Dry",41,Yield (Hg/Ha),2009,22923.708,C
+231,USA,187,"Peas, Dry",41,Yield (Hg/Ha),2010,22405.349,C
+231,USA,187,"Peas, Dry",41,Yield (Hg/Ha),2011,18391.84,C
+231,USA,191,Chick-Peas,41,Yield (Hg/Ha),2005,13779.814,C
+231,USA,191,Chick-Peas,41,Yield (Hg/Ha),2006,12979.566,C
+231,USA,191,Chick-Peas,41,Yield (Hg/Ha),2007,13998.859,C
+231,USA,191,Chick-Peas,41,Yield (Hg/Ha),2008,15263.205,C
+231,USA,191,Chick-Peas,41,Yield (Hg/Ha),2009,17236.579,C
+231,USA,191,Chick-Peas,41,Yield (Hg/Ha),2010,15082.226,C
+231,USA,191,Chick-Peas,41,Yield (Hg/Ha),2011,18350.358,C
+231,USA,195,"Cow Peas, Dry",41,Yield (Hg/Ha),2005,14044.377,C
+231,USA,195,"Cow Peas, Dry",41,Yield (Hg/Ha),2006,12901.384,C
+231,USA,195,"Cow Peas, Dry",41,Yield (Hg/Ha),2007,13224.611,C
+231,USA,195,"Cow Peas, Dry",41,Yield (Hg/Ha),2008,15072.953,C
+231,USA,195,"Cow Peas, Dry",41,Yield (Hg/Ha),2009,19035.489,C
+231,USA,195,"Cow Peas, Dry",41,Yield (Hg/Ha),2010,20052.142,C
+231,USA,195,"Cow Peas, Dry",41,Yield (Hg/Ha),2011,16211.687,C
+231,USA,201,Lentils,41,Yield (Hg/Ha),2005,13396.45,C
+231,USA,201,Lentils,41,Yield (Hg/Ha),2006,8933.634,C
+231,USA,201,Lentils,41,Yield (Hg/Ha),2007,13867.939,C
+231,USA,201,Lentils,41,Yield (Hg/Ha),2008,10276.547,C
+231,USA,201,Lentils,41,Yield (Hg/Ha),2009,16133.644,C
+231,USA,201,Lentils,41,Yield (Hg/Ha),2010,15304.73,C
+231,USA,201,Lentils,41,Yield (Hg/Ha),2011,12904.467,C
+231,USA,221,Almonds,41,Yield (Hg/Ha),2005,29969.197,C
+231,USA,221,Almonds,41,Yield (Hg/Ha),2006,36048.833,C
+231,USA,221,Almonds,41,Yield (Hg/Ha),2007,46829.754,C
+231,USA,221,Almonds,41,Yield (Hg/Ha),2008,51237.513,C
+231,USA,221,Almonds,41,Yield (Hg/Ha),2009,39886.881,C
+231,USA,221,Almonds,41,Yield (Hg/Ha),2010,48521.998,C
+231,USA,221,Almonds,41,Yield (Hg/Ha),2011,23775.249,C
+231,USA,222,Walnuts,41,Yield (Hg/Ha),2005,37014.378,C
+231,USA,222,Walnuts,41,Yield (Hg/Ha),2006,36493.041,C
+231,USA,222,Walnuts,41,Yield (Hg/Ha),2007,33727.982,C
+231,USA,222,Walnuts,41,Yield (Hg/Ha),2008,43827.981,C
+231,USA,222,Walnuts,41,Yield (Hg/Ha),2009,43155.569,C
+231,USA,222,Walnuts,41,Yield (Hg/Ha),2010,47671.383,C
+231,USA,222,Walnuts,41,Yield (Hg/Ha),2011,42180.579,C
+231,USA,223,Pistachios,41,Yield (Hg/Ha),2005,30209.687,C
+231,USA,223,Pistachios,41,Yield (Hg/Ha),2006,24251.376,C
+231,USA,223,Pistachios,41,Yield (Hg/Ha),2007,40545.779,C
+231,USA,223,Pistachios,41,Yield (Hg/Ha),2008,26406.718,C
+231,USA,223,Pistachios,41,Yield (Hg/Ha),2009,31579.722,C
+231,USA,223,Pistachios,41,Yield (Hg/Ha),2010,42706.793,C
+231,USA,223,Pistachios,41,Yield (Hg/Ha),2011,32526.608,C
+231,USA,225,Hazelnuts (Filberts),41,Yield (Hg/Ha),2005,21861.521,C
+231,USA,225,Hazelnuts (Filberts),41,Yield (Hg/Ha),2006,32476.207,C
+231,USA,225,Hazelnuts (Filberts),41,Yield (Hg/Ha),2007,29002.938,C
+231,USA,225,Hazelnuts (Filberts),41,Yield (Hg/Ha),2008,25258.853,C
+231,USA,225,Hazelnuts (Filberts),41,Yield (Hg/Ha),2009,36712.588,C
+231,USA,225,Hazelnuts (Filberts),41,Yield (Hg/Ha),2010,21643.661,C
+231,USA,225,Hazelnuts (Filberts),41,Yield (Hg/Ha),2011,29256.994,C
+231,USA,231,Almonds Shelled,41,Extr Rate (Hg/Mt),2005,6000,C
+231,USA,231,Almonds Shelled,41,Extr Rate (Hg/Mt),2006,6000,C
+231,USA,231,Almonds Shelled,41,Extr Rate (Hg/Mt),2007,6000,C
+231,USA,231,Almonds Shelled,41,Extr Rate (Hg/Mt),2008,6000,C
+231,USA,231,Almonds Shelled,41,Extr Rate (Hg/Mt),2009,6000,C
+231,USA,231,Almonds Shelled,41,Extr Rate (Hg/Mt),2010,6000,C
+231,USA,231,Almonds Shelled,41,Extr Rate (Hg/Mt),2011,6000,C
+231,USA,232,Walnuts Shelled,41,Extr Rate (Hg/Mt),2005,4000,C
+231,USA,232,Walnuts Shelled,41,Extr Rate (Hg/Mt),2006,4000,C
+231,USA,232,Walnuts Shelled,41,Extr Rate (Hg/Mt),2007,4000,C
+231,USA,232,Walnuts Shelled,41,Extr Rate (Hg/Mt),2008,4000,C
+231,USA,232,Walnuts Shelled,41,Extr Rate (Hg/Mt),2009,4000,C
+231,USA,232,Walnuts Shelled,41,Extr Rate (Hg/Mt),2010,4000,C
+231,USA,232,Walnuts Shelled,41,Extr Rate (Hg/Mt),2011,4000,C
+231,USA,233,Hazelnuts Shelled,41,Extr Rate (Hg/Mt),2005,4000,C
+231,USA,233,Hazelnuts Shelled,41,Extr Rate (Hg/Mt),2006,4000,C
+231,USA,233,Hazelnuts Shelled,41,Extr Rate (Hg/Mt),2007,4000,C
+231,USA,233,Hazelnuts Shelled,41,Extr Rate (Hg/Mt),2008,4000,C
+231,USA,233,Hazelnuts Shelled,41,Extr Rate (Hg/Mt),2009,4000,C
+231,USA,233,Hazelnuts Shelled,41,Extr Rate (Hg/Mt),2010,4000,C
+231,USA,233,Hazelnuts Shelled,41,Extr Rate (Hg/Mt),2011,4000,C
+231,USA,234,Nuts nes,41,Yield (Hg/Ha),2005,25765.864,C
+231,USA,234,Nuts nes,41,Yield (Hg/Ha),2006,25081.579,C
+231,USA,234,Nuts nes,41,Yield (Hg/Ha),2007,25565,C
+231,USA,234,Nuts nes,41,Yield (Hg/Ha),2008,25625,C
+231,USA,234,Nuts nes,41,Yield (Hg/Ha),2009,23219.322,C
+231,USA,234,Nuts nes,41,Yield (Hg/Ha),2010,22154.271,C
+231,USA,234,Nuts nes,41,Yield (Hg/Ha),2011,19236.418,C
+231,USA,235,Preprd Nuts(Excl.Grnuts),41,Extr Rate (Hg/Mt),2005,10000,C
+231,USA,235,Preprd Nuts(Excl.Grnuts),41,Extr Rate (Hg/Mt),2006,10000,C
+231,USA,235,Preprd Nuts(Excl.Grnuts),41,Extr Rate (Hg/Mt),2007,10000,C
+231,USA,235,Preprd Nuts(Excl.Grnuts),41,Extr Rate (Hg/Mt),2008,10000,C
+231,USA,235,Preprd Nuts(Excl.Grnuts),41,Extr Rate (Hg/Mt),2009,10000,C
+231,USA,235,Preprd Nuts(Excl.Grnuts),41,Extr Rate (Hg/Mt),2010,10000,C
+231,USA,235,Preprd Nuts(Excl.Grnuts),41,Extr Rate (Hg/Mt),2011,10000,C
+231,USA,236,Soybeans,41,Yield (Hg/Ha),2005,28960.005,C
+231,USA,236,Soybeans,41,Yield (Hg/Ha),2006,28816.475,C
+231,USA,236,Soybeans,41,Yield (Hg/Ha),2007,28066.201,C
+231,USA,236,Soybeans,41,Yield (Hg/Ha),2008,26717.938,C
+231,USA,236,Soybeans,41,Yield (Hg/Ha),2009,29578.205,C
+231,USA,236,Soybeans,41,Yield (Hg/Ha),2010,29224.457,C
+231,USA,236,Soybeans,41,Yield (Hg/Ha),2011,28198.946,C
+231,USA,237,Oil of Soya Beans,41,Extr Rate (Hg/Mt),2005,1954.735,C
+231,USA,237,Oil of Soya Beans,41,Extr Rate (Hg/Mt),2006,1884.257,C
+231,USA,237,Oil of Soya Beans,41,Extr Rate (Hg/Mt),2007,1902.384,C
+231,USA,237,Oil of Soya Beans,41,Extr Rate (Hg/Mt),2008,1879.822,C
+231,USA,237,Oil of Soya Beans,41,Extr Rate (Hg/Mt),2009,1926.167,C
+231,USA,237,Oil of Soya Beans,41,Extr Rate (Hg/Mt),2010,1852.004,C
+231,USA,237,Oil of Soya Beans,41,Extr Rate (Hg/Mt),2011,1882.915,C
+231,USA,238,Cake of Soya Beans,41,Extr Rate (Hg/Mt),2005,7906.426,C
+231,USA,238,Cake of Soya Beans,41,Extr Rate (Hg/Mt),2006,7942.505,C
+231,USA,238,Cake of Soya Beans,41,Extr Rate (Hg/Mt),2007,7817.404,C
+231,USA,238,Cake of Soya Beans,41,Extr Rate (Hg/Mt),2008,7842.283,C
+231,USA,238,Cake of Soya Beans,41,Extr Rate (Hg/Mt),2009,8008.107,C
+231,USA,238,Cake of Soya Beans,41,Extr Rate (Hg/Mt),2010,8038.42,C
+231,USA,238,Cake of Soya Beans,41,Extr Rate (Hg/Mt),2011,7772.11,C
+231,USA,242,Groundnuts in Shell,41,Yield (Hg/Ha),2005,33507.22,C
+231,USA,242,Groundnuts in Shell,41,Yield (Hg/Ha),2006,32210.845,C
+231,USA,242,Groundnuts in Shell,41,Yield (Hg/Ha),2007,35085.432,C
+231,USA,242,Groundnuts in Shell,41,Yield (Hg/Ha),2008,38395.56,C
+231,USA,242,Groundnuts in Shell,41,Yield (Hg/Ha),2009,38347.914,C
+231,USA,242,Groundnuts in Shell,41,Yield (Hg/Ha),2010,37124.377,C
+231,USA,242,Groundnuts in Shell,41,Yield (Hg/Ha),2011,37948.137,C
+231,USA,243,Groundnuts Shelled,41,Extr Rate (Hg/Mt),2005,7500,C
+231,USA,243,Groundnuts Shelled,41,Extr Rate (Hg/Mt),2006,7500,C
+231,USA,243,Groundnuts Shelled,41,Extr Rate (Hg/Mt),2007,7500,C
+231,USA,243,Groundnuts Shelled,41,Extr Rate (Hg/Mt),2008,7500,C
+231,USA,243,Groundnuts Shelled,41,Extr Rate (Hg/Mt),2009,7500,C
+231,USA,243,Groundnuts Shelled,41,Extr Rate (Hg/Mt),2010,7500,C
+231,USA,243,Groundnuts Shelled,41,Extr Rate (Hg/Mt),2011,7500,C
+231,USA,244,Oil of Groundnuts,41,Extr Rate (Hg/Mt),2005,4444.444,C
+231,USA,244,Oil of Groundnuts,41,Extr Rate (Hg/Mt),2006,4334.975,C
+231,USA,244,Oil of Groundnuts,41,Extr Rate (Hg/Mt),2007,4240,C
+231,USA,244,Oil of Groundnuts,41,Extr Rate (Hg/Mt),2008,4284.866,C
+231,USA,244,Oil of Groundnuts,41,Extr Rate (Hg/Mt),2009,4289.474,C
+231,USA,244,Oil of Groundnuts,41,Extr Rate (Hg/Mt),2010,4294.118,C
+231,USA,244,Oil of Groundnuts,41,Extr Rate (Hg/Mt),2011,4185.366,C
+231,USA,245,Cake of Groundnuts,41,Extr Rate (Hg/Mt),2005,5132.791,C
+231,USA,245,Cake of Groundnuts,41,Extr Rate (Hg/Mt),2006,5591.133,C
+231,USA,245,Cake of Groundnuts,41,Extr Rate (Hg/Mt),2007,5637.333,C
+231,USA,245,Cake of Groundnuts,41,Extr Rate (Hg/Mt),2008,5691.395,C
+231,USA,245,Cake of Groundnuts,41,Extr Rate (Hg/Mt),2009,5677.632,C
+231,USA,245,Cake of Groundnuts,41,Extr Rate (Hg/Mt),2010,5635.294,C
+231,USA,245,Cake of Groundnuts,41,Extr Rate (Hg/Mt),2011,5609.756,C
+231,USA,246,Prepared Groundnuts,41,Extr Rate (Hg/Mt),2005,10000,C
+231,USA,246,Prepared Groundnuts,41,Extr Rate (Hg/Mt),2006,10000,C
+231,USA,246,Prepared Groundnuts,41,Extr Rate (Hg/Mt),2007,10000,C
+231,USA,246,Prepared Groundnuts,41,Extr Rate (Hg/Mt),2008,10000,C
+231,USA,246,Prepared Groundnuts,41,Extr Rate (Hg/Mt),2009,10000,C
+231,USA,246,Prepared Groundnuts,41,Extr Rate (Hg/Mt),2010,10000,C
+231,USA,246,Prepared Groundnuts,41,Extr Rate (Hg/Mt),2011,10000,C
+231,USA,247,Peanut Butter,41,Extr Rate (Hg/Mt),2005,9500,C
+231,USA,247,Peanut Butter,41,Extr Rate (Hg/Mt),2006,9500,C
+231,USA,247,Peanut Butter,41,Extr Rate (Hg/Mt),2007,9500,C
+231,USA,247,Peanut Butter,41,Extr Rate (Hg/Mt),2008,9500,C
+231,USA,247,Peanut Butter,41,Extr Rate (Hg/Mt),2009,9500,C
+231,USA,247,Peanut Butter,41,Extr Rate (Hg/Mt),2010,9500,C
+231,USA,247,Peanut Butter,41,Extr Rate (Hg/Mt),2011,9500,C
+231,USA,253,Cake of Coconuts,41,Extr Rate (Hg/Mt),2005,3400,C
+231,USA,253,Cake of Coconuts,41,Extr Rate (Hg/Mt),2006,3400,C
+231,USA,253,Cake of Coconuts,41,Extr Rate (Hg/Mt),2007,3400,C
+231,USA,253,Cake of Coconuts,41,Extr Rate (Hg/Mt),2008,3400,C
+231,USA,253,Cake of Coconuts,41,Extr Rate (Hg/Mt),2009,3400,C
+231,USA,253,Cake of Coconuts,41,Extr Rate (Hg/Mt),2010,3400,C
+231,USA,253,Cake of Coconuts,41,Extr Rate (Hg/Mt),2011,3400,C
+231,USA,260,Olives,41,Yield (Hg/Ha),2005,99474.903,C
+231,USA,260,Olives,41,Yield (Hg/Ha),2006,16994.819,C
+231,USA,260,Olives,41,Yield (Hg/Ha),2007,99003.377,C
+231,USA,260,Olives,41,Yield (Hg/Ha),2008,49913.516,C
+231,USA,260,Olives,41,Yield (Hg/Ha),2009,33481.865,C
+231,USA,260,Olives,41,Yield (Hg/Ha),2010,128272.359,C
+231,USA,260,Olives,41,Yield (Hg/Ha),2011,38461.355,C
+231,USA,261,Oil of Olive,41,Extr Rate (Hg/Mt),2005,1496.063,C
+231,USA,261,Oil of Olive,41,Extr Rate (Hg/Mt),2006,1494.253,C
+231,USA,261,Oil of Olive,41,Extr Rate (Hg/Mt),2007,1470.588,C
+231,USA,261,Oil of Olive,41,Extr Rate (Hg/Mt),2008,1479.29,C
+231,USA,261,Oil of Olive,41,Extr Rate (Hg/Mt),2009,1492.537,C
+231,USA,261,Oil of Olive,41,Extr Rate (Hg/Mt),2010,1500,C
+231,USA,261,Oil of Olive,41,Extr Rate (Hg/Mt),2011,2136.364,C
+231,USA,265,Castor Beans,41,Yield (Hg/Ha),2005,0,M
+231,USA,265,Castor Beans,41,Yield (Hg/Ha),2006,0,M
+231,USA,265,Castor Beans,41,Yield (Hg/Ha),2007,0,M
+231,USA,265,Castor Beans,41,Yield (Hg/Ha),2008,0,M
+231,USA,265,Castor Beans,41,Yield (Hg/Ha),2009,0,M
+231,USA,265,Castor Beans,41,Yield (Hg/Ha),2010,0,M
+231,USA,265,Castor Beans,41,Yield (Hg/Ha),2011,0,M
+231,USA,266,Oil of Castor Beans,41,Extr Rate (Hg/Mt),2005,0,M
+231,USA,266,Oil of Castor Beans,41,Extr Rate (Hg/Mt),2006,0,M
+231,USA,266,Oil of Castor Beans,41,Extr Rate (Hg/Mt),2007,0,M
+231,USA,266,Oil of Castor Beans,41,Extr Rate (Hg/Mt),2008,0,M
+231,USA,266,Oil of Castor Beans,41,Extr Rate (Hg/Mt),2009,0,M
+231,USA,266,Oil of Castor Beans,41,Extr Rate (Hg/Mt),2010,0,M
+231,USA,266,Oil of Castor Beans,41,Extr Rate (Hg/Mt),2011,0,M
+231,USA,267,Sunflower Seed,41,Yield (Hg/Ha),2005,17251.297,C
+231,USA,267,Sunflower Seed,41,Yield (Hg/Ha),2006,13574.34,C
+231,USA,267,Sunflower Seed,41,Yield (Hg/Ha),2007,15981.828,C
+231,USA,267,Sunflower Seed,41,Yield (Hg/Ha),2008,16011.819,C
+231,USA,267,Sunflower Seed,41,Yield (Hg/Ha),2009,17422.081,C
+231,USA,267,Sunflower Seed,41,Yield (Hg/Ha),2010,16363.097,C
+231,USA,267,Sunflower Seed,41,Yield (Hg/Ha),2011,15671.401,C
+231,USA,268,Oil of Sunflower Seed,41,Extr Rate (Hg/Mt),2005,4363.958,C
+231,USA,268,Oil of Sunflower Seed,41,Extr Rate (Hg/Mt),2006,3918.058,C
+231,USA,268,Oil of Sunflower Seed,41,Extr Rate (Hg/Mt),2007,3686.676,C
+231,USA,268,Oil of Sunflower Seed,41,Extr Rate (Hg/Mt),2008,4054.463,C
+231,USA,268,Oil of Sunflower Seed,41,Extr Rate (Hg/Mt),2009,3812.046,C
+231,USA,268,Oil of Sunflower Seed,41,Extr Rate (Hg/Mt),2010,4267.387,C
+231,USA,268,Oil of Sunflower Seed,41,Extr Rate (Hg/Mt),2011,4300.404,C
+231,USA,269,Cake of Sunflower Seed,41,Extr Rate (Hg/Mt),2005,4904.576,C
+231,USA,269,Cake of Sunflower Seed,41,Extr Rate (Hg/Mt),2006,4900.728,C
+231,USA,269,Cake of Sunflower Seed,41,Extr Rate (Hg/Mt),2007,4555.842,C
+231,USA,269,Cake of Sunflower Seed,41,Extr Rate (Hg/Mt),2008,4899.622,C
+231,USA,269,Cake of Sunflower Seed,41,Extr Rate (Hg/Mt),2009,4436.68,C
+231,USA,269,Cake of Sunflower Seed,41,Extr Rate (Hg/Mt),2010,5142.857,C
+231,USA,269,Cake of Sunflower Seed,41,Extr Rate (Hg/Mt),2011,4226.923,C
+231,USA,270,Rapeseed,41,Yield (Hg/Ha),2005,15908.545,C
+231,USA,270,Rapeseed,41,Yield (Hg/Ha),2006,15303.644,C
+231,USA,270,Rapeseed,41,Yield (Hg/Ha),2007,13876.536,C
+231,USA,270,Rapeseed,41,Yield (Hg/Ha),2008,16383.697,C
+231,USA,270,Rapeseed,41,Yield (Hg/Ha),2009,20296.561,C
+231,USA,270,Rapeseed,41,Yield (Hg/Ha),2010,19200.352,C
+231,USA,270,Rapeseed,41,Yield (Hg/Ha),2011,16537.551,C
+231,USA,271,Oil of Rapeseed,41,Extr Rate (Hg/Mt),2005,4000,C
+231,USA,271,Oil of Rapeseed,41,Extr Rate (Hg/Mt),2006,4402.908,C
+231,USA,271,Oil of Rapeseed,41,Extr Rate (Hg/Mt),2007,3753.098,C
+231,USA,271,Oil of Rapeseed,41,Extr Rate (Hg/Mt),2008,3453.574,C
+231,USA,271,Oil of Rapeseed,41,Extr Rate (Hg/Mt),2009,4267.016,C
+231,USA,271,Oil of Rapeseed,41,Extr Rate (Hg/Mt),2010,3989.778,C
+231,USA,271,Oil of Rapeseed,41,Extr Rate (Hg/Mt),2011,4204.97,C
+231,USA,272,Cake of Rapeseed,41,Extr Rate (Hg/Mt),2005,5700,C
+231,USA,272,Cake of Rapeseed,41,Extr Rate (Hg/Mt),2006,5600,C
+231,USA,272,Cake of Rapeseed,41,Extr Rate (Hg/Mt),2007,5700,C
+231,USA,272,Cake of Rapeseed,41,Extr Rate (Hg/Mt),2008,5700,C
+231,USA,272,Cake of Rapeseed,41,Extr Rate (Hg/Mt),2009,5700,C
+231,USA,272,Cake of Rapeseed,41,Extr Rate (Hg/Mt),2010,5700,C
+231,USA,272,Cake of Rapeseed,41,Extr Rate (Hg/Mt),2011,5700,C
+231,USA,273,Olive Residues,41,Extr Rate (Hg/Mt),2005,2500,C
+231,USA,273,Olive Residues,41,Extr Rate (Hg/Mt),2006,2500,C
+231,USA,273,Olive Residues,41,Extr Rate (Hg/Mt),2007,2500,C
+231,USA,273,Olive Residues,41,Extr Rate (Hg/Mt),2008,2500,C
+231,USA,273,Olive Residues,41,Extr Rate (Hg/Mt),2009,2500,C
+231,USA,273,Olive Residues,41,Extr Rate (Hg/Mt),2010,2500,C
+231,USA,273,Olive Residues,41,Extr Rate (Hg/Mt),2011,2500,C
+231,USA,274,Oil of Olive Residues,41,Extr Rate (Hg/Mt),2005,2500,C
+231,USA,274,Oil of Olive Residues,41,Extr Rate (Hg/Mt),2006,2500,C
+231,USA,274,Oil of Olive Residues,41,Extr Rate (Hg/Mt),2007,2500,C
+231,USA,274,Oil of Olive Residues,41,Extr Rate (Hg/Mt),2008,2500,C
+231,USA,274,Oil of Olive Residues,41,Extr Rate (Hg/Mt),2009,2500,C
+231,USA,274,Oil of Olive Residues,41,Extr Rate (Hg/Mt),2010,2500,C
+231,USA,274,Oil of Olive Residues,41,Extr Rate (Hg/Mt),2011,2500,C
+231,USA,276,Oil of Tung,41,Extr Rate (Hg/Mt),2005,0,M
+231,USA,276,Oil of Tung,41,Extr Rate (Hg/Mt),2006,0,M
+231,USA,276,Oil of Tung,41,Extr Rate (Hg/Mt),2007,0,M
+231,USA,276,Oil of Tung,41,Extr Rate (Hg/Mt),2008,0,M
+231,USA,276,Oil of Tung,41,Extr Rate (Hg/Mt),2009,0,M
+231,USA,276,Oil of Tung,41,Extr Rate (Hg/Mt),2010,0,M
+231,USA,276,Oil of Tung,41,Extr Rate (Hg/Mt),2011,0,M
+231,USA,280,Safflower Seed,41,Yield (Hg/Ha),2005,15012.62,C
+231,USA,280,Safflower Seed,41,Yield (Hg/Ha),2006,12332.551,C
+231,USA,280,Safflower Seed,41,Yield (Hg/Ha),2007,13766.786,C
+231,USA,280,Safflower Seed,41,Yield (Hg/Ha),2008,17843.249,C
+231,USA,280,Safflower Seed,41,Yield (Hg/Ha),2009,16386.981,C
+231,USA,280,Safflower Seed,41,Yield (Hg/Ha),2010,14792.987,C
+231,USA,280,Safflower Seed,41,Yield (Hg/Ha),2011,14937.888,C
+231,USA,281,Oil of Safflower,41,Extr Rate (Hg/Mt),2005,3099.402,C
+231,USA,281,Oil of Safflower,41,Extr Rate (Hg/Mt),2006,3516.834,C
+231,USA,281,Oil of Safflower,41,Extr Rate (Hg/Mt),2007,3250.997,C
+231,USA,281,Oil of Safflower,41,Extr Rate (Hg/Mt),2008,3600,C
+231,USA,281,Oil of Safflower,41,Extr Rate (Hg/Mt),2009,3600,C
+231,USA,281,Oil of Safflower,41,Extr Rate (Hg/Mt),2010,3600,C
+231,USA,281,Oil of Safflower,41,Extr Rate (Hg/Mt),2011,3600,C
+231,USA,282,Cake of Safflower,41,Extr Rate (Hg/Mt),2005,5000,C
+231,USA,282,Cake of Safflower,41,Extr Rate (Hg/Mt),2006,5000,C
+231,USA,282,Cake of Safflower,41,Extr Rate (Hg/Mt),2007,5000,C
+231,USA,282,Cake of Safflower,41,Extr Rate (Hg/Mt),2008,5000,C
+231,USA,282,Cake of Safflower,41,Extr Rate (Hg/Mt),2009,5000,C
+231,USA,282,Cake of Safflower,41,Extr Rate (Hg/Mt),2010,5000,C
+231,USA,282,Cake of Safflower,41,Extr Rate (Hg/Mt),2011,5000,C
+231,USA,289,Sesame Seed,41,Yield (Hg/Ha),2005,0,M
+231,USA,289,Sesame Seed,41,Yield (Hg/Ha),2006,0,M
+231,USA,289,Sesame Seed,41,Yield (Hg/Ha),2007,0,M
+231,USA,289,Sesame Seed,41,Yield (Hg/Ha),2008,0,M
+231,USA,289,Sesame Seed,41,Yield (Hg/Ha),2009,0,M
+231,USA,289,Sesame Seed,41,Yield (Hg/Ha),2010,0,M
+231,USA,289,Sesame Seed,41,Yield (Hg/Ha),2011,0,M
+231,USA,292,Mustard Seed,41,Yield (Hg/Ha),2005,8824.312,C
+231,USA,292,Mustard Seed,41,Yield (Hg/Ha),2006,8068.583,C
+231,USA,292,Mustard Seed,41,Yield (Hg/Ha),2007,6817.532,C
+231,USA,292,Mustard Seed,41,Yield (Hg/Ha),2008,6467.254,C
+231,USA,292,Mustard Seed,41,Yield (Hg/Ha),2009,11111.663,C
+231,USA,292,Mustard Seed,41,Yield (Hg/Ha),2010,9753.467,C
+231,USA,292,Mustard Seed,41,Yield (Hg/Ha),2011,8049.887,C
+231,USA,328,Seed Cotton,41,Yield (Hg/Ha),2005,23051.755,C
+231,USA,328,Seed Cotton,41,Yield (Hg/Ha),2006,22618.619,C
+231,USA,328,Seed Cotton,41,Yield (Hg/Ha),2007,23932.603,C
+231,USA,328,Seed Cotton,41,Yield (Hg/Ha),2008,21845.947,C
+231,USA,328,Seed Cotton,41,Yield (Hg/Ha),2009,21062.331,C
+231,USA,328,Seed Cotton,41,Yield (Hg/Ha),2010,21881.164,C
+231,USA,328,Seed Cotton,41,Yield (Hg/Ha),2011,21579.584,C
+231,USA,329,Cottonseed,41,Extr Rate (Hg/Mt),2005,5757.608,C
+231,USA,329,Cottonseed,41,Extr Rate (Hg/Mt),2006,5940.705,C
+231,USA,329,Cottonseed,41,Extr Rate (Hg/Mt),2007,5876.572,C
+231,USA,329,Cottonseed,41,Extr Rate (Hg/Mt),2008,5830.151,C
+231,USA,329,Cottonseed,41,Extr Rate (Hg/Mt),2009,5865.02,C
+231,USA,329,Cottonseed,41,Extr Rate (Hg/Mt),2010,5839.368,C
+231,USA,329,Cottonseed,41,Extr Rate (Hg/Mt),2011,5896.198,C
+231,USA,331,Oil of Cotton Seed,41,Extr Rate (Hg/Mt),2005,1577.599,C
+231,USA,331,Oil of Cotton Seed,41,Extr Rate (Hg/Mt),2006,1584.122,C
+231,USA,331,Oil of Cotton Seed,41,Extr Rate (Hg/Mt),2007,1581.67,C
+231,USA,331,Oil of Cotton Seed,41,Extr Rate (Hg/Mt),2008,1493.602,C
+231,USA,331,Oil of Cotton Seed,41,Extr Rate (Hg/Mt),2009,1623.55,C
+231,USA,331,Oil of Cotton Seed,41,Extr Rate (Hg/Mt),2010,1801.214,C
+231,USA,331,Oil of Cotton Seed,41,Extr Rate (Hg/Mt),2011,1683.332,C
+231,USA,332,Cake of Cotton Seed,41,Extr Rate (Hg/Mt),2005,4557.101,C
+231,USA,332,Cake of Cotton Seed,41,Extr Rate (Hg/Mt),2006,4631.839,C
+231,USA,332,Cake of Cotton Seed,41,Extr Rate (Hg/Mt),2007,4663.951,C
+231,USA,332,Cake of Cotton Seed,41,Extr Rate (Hg/Mt),2008,4187.992,C
+231,USA,332,Cake of Cotton Seed,41,Extr Rate (Hg/Mt),2009,4646.172,C
+231,USA,332,Cake of Cotton Seed,41,Extr Rate (Hg/Mt),2010,4167.619,C
+231,USA,332,Cake of Cotton Seed,41,Extr Rate (Hg/Mt),2011,4735.556,C
+231,USA,333,Linseed,41,Yield (Hg/Ha),2005,12944.344,C
+231,USA,333,Linseed,41,Yield (Hg/Ha),2006,9017.291,C
+231,USA,333,Linseed,41,Yield (Hg/Ha),2007,10603.737,C
+231,USA,333,Linseed,41,Yield (Hg/Ha),2008,10552.128,C
+231,USA,333,Linseed,41,Yield (Hg/Ha),2009,14838.278,C
+231,USA,333,Linseed,41,Yield (Hg/Ha),2010,13598.368,C
+231,USA,333,Linseed,41,Yield (Hg/Ha),2011,10125.696,C
+231,USA,334,Oil of Linseed,41,Extr Rate (Hg/Mt),2005,3489.183,C
+231,USA,334,Oil of Linseed,41,Extr Rate (Hg/Mt),2006,3839.947,C
+231,USA,334,Oil of Linseed,41,Extr Rate (Hg/Mt),2007,4444.276,C
+231,USA,334,Oil of Linseed,41,Extr Rate (Hg/Mt),2008,4996.087,C
+231,USA,334,Oil of Linseed,41,Extr Rate (Hg/Mt),2009,2364.623,C
+231,USA,334,Oil of Linseed,41,Extr Rate (Hg/Mt),2010,3216.394,C
+231,USA,334,Oil of Linseed,41,Extr Rate (Hg/Mt),2011,3550.517,C
+231,USA,335,Cake of Linseed,41,Extr Rate (Hg/Mt),2005,6418.269,C
+231,USA,335,Cake of Linseed,41,Extr Rate (Hg/Mt),2006,6428.571,C
+231,USA,335,Cake of Linseed,41,Extr Rate (Hg/Mt),2007,6430.976,C
+231,USA,335,Cake of Linseed,41,Extr Rate (Hg/Mt),2008,6425.121,C
+231,USA,335,Cake of Linseed,41,Extr Rate (Hg/Mt),2009,6655.738,C
+231,USA,335,Cake of Linseed,41,Extr Rate (Hg/Mt),2010,6630.303,C
+231,USA,335,Cake of Linseed,41,Extr Rate (Hg/Mt),2011,6334.483,C
+231,USA,358,Cabbages,41,Yield (Hg/Ha),2005,367152.384,C
+231,USA,358,Cabbages,41,Yield (Hg/Ha),2006,390838.645,C
+231,USA,358,Cabbages,41,Yield (Hg/Ha),2007,326130.995,C
+231,USA,358,Cabbages,41,Yield (Hg/Ha),2008,417895.528,C
+231,USA,358,Cabbages,41,Yield (Hg/Ha),2009,385576.996,C
+231,USA,358,Cabbages,41,Yield (Hg/Ha),2010,390533.531,C
+231,USA,358,Cabbages,41,Yield (Hg/Ha),2011,386217.304,C
+231,USA,366,Artichokes,41,Yield (Hg/Ha),2005,123187.5,C
+231,USA,366,Artichokes,41,Yield (Hg/Ha),2006,96761.364,C
+231,USA,366,Artichokes,41,Yield (Hg/Ha),2007,123136.247,C
+231,USA,366,Artichokes,41,Yield (Hg/Ha),2008,145758.427,C
+231,USA,366,Artichokes,41,Yield (Hg/Ha),2009,140114.942,C
+231,USA,366,Artichokes,41,Yield (Hg/Ha),2010,134673.54,C
+231,USA,366,Artichokes,41,Yield (Hg/Ha),2011,151538.462,C
+231,USA,367,Asparagus,41,Yield (Hg/Ha),2005,34875.946,C
+231,USA,367,Asparagus,41,Yield (Hg/Ha),2006,29914.202,C
+231,USA,367,Asparagus,41,Yield (Hg/Ha),2007,38416.235,C
+231,USA,367,Asparagus,41,Yield (Hg/Ha),2008,33138.91,C
+231,USA,367,Asparagus,41,Yield (Hg/Ha),2009,34500.846,C
+231,USA,367,Asparagus,41,Yield (Hg/Ha),2010,31985.878,C
+231,USA,367,Asparagus,41,Yield (Hg/Ha),2011,34479.638,C
+231,USA,372,Lettuce,41,Yield (Hg/Ha),2005,376137.033,C
+231,USA,372,Lettuce,41,Yield (Hg/Ha),2006,357129.038,C
+231,USA,372,Lettuce,41,Yield (Hg/Ha),2007,360571.448,C
+231,USA,372,Lettuce,41,Yield (Hg/Ha),2008,356314.014,C
+231,USA,372,Lettuce,41,Yield (Hg/Ha),2009,363474.834,C
+231,USA,372,Lettuce,41,Yield (Hg/Ha),2010,386480.279,C
+231,USA,372,Lettuce,41,Yield (Hg/Ha),2011,387213.926,C
+231,USA,373,Spinach,41,Yield (Hg/Ha),2005,199254.885,C
+231,USA,373,Spinach,41,Yield (Hg/Ha),2006,185064.334,C
+231,USA,373,Spinach,41,Yield (Hg/Ha),2007,182103.521,C
+231,USA,373,Spinach,41,Yield (Hg/Ha),2008,190323.102,C
+231,USA,373,Spinach,41,Yield (Hg/Ha),2009,209613.757,C
+231,USA,373,Spinach,41,Yield (Hg/Ha),2010,226946.347,C
+231,USA,373,Spinach,41,Yield (Hg/Ha),2011,236351.039,C
+231,USA,388,Tomatoes,41,Yield (Hg/Ha),2005,725485.026,C
+231,USA,388,Tomatoes,41,Yield (Hg/Ha),2006,721825.356,C
+231,USA,388,Tomatoes,41,Yield (Hg/Ha),2007,831205.1,C
+231,USA,388,Tomatoes,41,Yield (Hg/Ha),2008,783314.676,C
+231,USA,388,Tomatoes,41,Yield (Hg/Ha),2009,802791.962,C
+231,USA,388,Tomatoes,41,Yield (Hg/Ha),2010,810812.157,C
+231,USA,388,Tomatoes,41,Yield (Hg/Ha),2011,854963.484,C
+231,USA,390,Tomatojuice Single-Stren,41,Extr Rate (Hg/Mt),2005,6500,C
+231,USA,390,Tomatojuice Single-Stren,41,Extr Rate (Hg/Mt),2006,6500,C
+231,USA,390,Tomatojuice Single-Stren,41,Extr Rate (Hg/Mt),2007,6500,C
+231,USA,390,Tomatojuice Single-Stren,41,Extr Rate (Hg/Mt),2008,6500,C
+231,USA,390,Tomatojuice Single-Stren,41,Extr Rate (Hg/Mt),2009,6500,C
+231,USA,390,Tomatojuice Single-Stren,41,Extr Rate (Hg/Mt),2010,6500,C
+231,USA,390,Tomatojuice Single-Stren,41,Extr Rate (Hg/Mt),2011,6500,C
+231,USA,391,Tomato Paste,41,Extr Rate (Hg/Mt),2005,3000,C
+231,USA,391,Tomato Paste,41,Extr Rate (Hg/Mt),2006,3000,C
+231,USA,391,Tomato Paste,41,Extr Rate (Hg/Mt),2007,3000,C
+231,USA,391,Tomato Paste,41,Extr Rate (Hg/Mt),2008,3000,C
+231,USA,391,Tomato Paste,41,Extr Rate (Hg/Mt),2009,3000,C
+231,USA,391,Tomato Paste,41,Extr Rate (Hg/Mt),2010,3000,C
+231,USA,391,Tomato Paste,41,Extr Rate (Hg/Mt),2011,3000,C
+231,USA,392,Peeled Tomatoes,41,Extr Rate (Hg/Mt),2005,9000,C
+231,USA,392,Peeled Tomatoes,41,Extr Rate (Hg/Mt),2006,9000,C
+231,USA,392,Peeled Tomatoes,41,Extr Rate (Hg/Mt),2007,9000,C
+231,USA,392,Peeled Tomatoes,41,Extr Rate (Hg/Mt),2008,8985.507,C
+231,USA,392,Peeled Tomatoes,41,Extr Rate (Hg/Mt),2009,8928.571,C
+231,USA,392,Peeled Tomatoes,41,Extr Rate (Hg/Mt),2010,8928.571,C
+231,USA,392,Peeled Tomatoes,41,Extr Rate (Hg/Mt),2011,9464.286,C
+231,USA,393,Cauliflower,41,Yield (Hg/Ha),2005,195449.767,C
+231,USA,393,Cauliflower,41,Yield (Hg/Ha),2006,198384.301,C
+231,USA,393,Cauliflower,41,Yield (Hg/Ha),2007,208644.234,C
+231,USA,393,Cauliflower,41,Yield (Hg/Ha),2008,203063.973,C
+231,USA,393,Cauliflower,41,Yield (Hg/Ha),2009,208124.2,C
+231,USA,393,Cauliflower,41,Yield (Hg/Ha),2010,206593.83,C
+231,USA,393,Cauliflower,41,Yield (Hg/Ha),2011,204606.513,C
+231,USA,394,"Pumpkins, Squash, Gourds",41,Yield (Hg/Ha),2005,221191.842,C
+231,USA,394,"Pumpkins, Squash, Gourds",41,Yield (Hg/Ha),2006,224777.769,C
+231,USA,394,"Pumpkins, Squash, Gourds",41,Yield (Hg/Ha),2007,227039.537,C
+231,USA,394,"Pumpkins, Squash, Gourds",41,Yield (Hg/Ha),2008,226664.746,C
+231,USA,394,"Pumpkins, Squash, Gourds",41,Yield (Hg/Ha),2009,210522.179,C
+231,USA,394,"Pumpkins, Squash, Gourds",41,Yield (Hg/Ha),2010,210824.468,C
+231,USA,394,"Pumpkins, Squash, Gourds",41,Yield (Hg/Ha),2011,219910.883,C
+231,USA,397,Cucumbers and Gherkins,41,Yield (Hg/Ha),2005,146058.251,C
+231,USA,397,Cucumbers and Gherkins,41,Yield (Hg/Ha),2006,147388.495,C
+231,USA,397,Cucumbers and Gherkins,41,Yield (Hg/Ha),2007,150888.993,C
+231,USA,397,Cucumbers and Gherkins,41,Yield (Hg/Ha),2008,157693.766,C
+231,USA,397,Cucumbers and Gherkins,41,Yield (Hg/Ha),2009,158186.964,C
+231,USA,397,Cucumbers and Gherkins,41,Yield (Hg/Ha),2010,164708.193,C
+231,USA,397,Cucumbers and Gherkins,41,Yield (Hg/Ha),2011,154327.941,C
+231,USA,399,Eggplants,41,Yield (Hg/Ha),2005,350213.954,C
+231,USA,399,Eggplants,41,Yield (Hg/Ha),2006,347117.371,C
+231,USA,399,Eggplants,41,Yield (Hg/Ha),2007,340909.091,C
+231,USA,399,Eggplants,41,Yield (Hg/Ha),2008,339807.962,C
+231,USA,399,Eggplants,41,Yield (Hg/Ha),2009,337656.904,C
+231,USA,399,Eggplants,41,Yield (Hg/Ha),2010,320000,C
+231,USA,399,Eggplants,41,Yield (Hg/Ha),2011,324209.157,C
+231,USA,401,"Chillies&Peppers, Green",41,Yield (Hg/Ha),2005,264790.171,C
+231,USA,401,"Chillies&Peppers, Green",41,Yield (Hg/Ha),2006,303407.295,C
+231,USA,401,"Chillies&Peppers, Green",41,Yield (Hg/Ha),2007,283789.54,C
+231,USA,401,"Chillies&Peppers, Green",41,Yield (Hg/Ha),2008,296162.109,C
+231,USA,401,"Chillies&Peppers, Green",41,Yield (Hg/Ha),2009,307193.037,C
+231,USA,401,"Chillies&Peppers, Green",41,Yield (Hg/Ha),2010,304764.706,C
+231,USA,401,"Chillies&Peppers, Green",41,Yield (Hg/Ha),2011,329249.419,C
+231,USA,403,"Onions, Dry",41,Yield (Hg/Ha),2005,498664.375,C
+231,USA,403,"Onions, Dry",41,Yield (Hg/Ha),2006,492704.67,C
+231,USA,403,"Onions, Dry",41,Yield (Hg/Ha),2007,557625.812,C
+231,USA,403,"Onions, Dry",41,Yield (Hg/Ha),2008,548514.166,C
+231,USA,403,"Onions, Dry",41,Yield (Hg/Ha),2009,560952.069,C
+231,USA,403,"Onions, Dry",41,Yield (Hg/Ha),2010,552620.427,C
+231,USA,403,"Onions, Dry",41,Yield (Hg/Ha),2011,562599.598,C
+231,USA,406,Garlic,41,Yield (Hg/Ha),2005,178851.24,C
+231,USA,406,Garlic,41,Yield (Hg/Ha),2006,187849.372,C
+231,USA,406,Garlic,41,Yield (Hg/Ha),2007,185408.366,C
+231,USA,406,Garlic,41,Yield (Hg/Ha),2008,188572.816,C
+231,USA,406,Garlic,41,Yield (Hg/Ha),2009,195444.444,C
+231,USA,406,Garlic,41,Yield (Hg/Ha),2010,183989.189,C
+231,USA,406,Garlic,41,Yield (Hg/Ha),2011,187318.271,C
+231,USA,414,"Beans, Green",41,Yield (Hg/Ha),2005,61172.023,C
+231,USA,414,"Beans, Green",41,Yield (Hg/Ha),2006,55453.502,C
+231,USA,414,"Beans, Green",41,Yield (Hg/Ha),2007,30257.538,C
+231,USA,414,"Beans, Green",41,Yield (Hg/Ha),2008,28786.314,C
+231,USA,414,"Beans, Green",41,Yield (Hg/Ha),2009,30988.62,C
+231,USA,414,"Beans, Green",41,Yield (Hg/Ha),2010,32877.111,C
+231,USA,414,"Beans, Green",41,Yield (Hg/Ha),2011,31763.741,C
+231,USA,417,"Peas, Green",41,Yield (Hg/Ha),2005,100382.638,C
+231,USA,417,"Peas, Green",41,Yield (Hg/Ha),2006,114841.24,C
+231,USA,417,"Peas, Green",41,Yield (Hg/Ha),2007,120938.838,C
+231,USA,417,"Peas, Green",41,Yield (Hg/Ha),2008,44020.74,C
+231,USA,417,"Peas, Green",41,Yield (Hg/Ha),2009,48205.005,C
+231,USA,417,"Peas, Green",41,Yield (Hg/Ha),2010,44890.48,C
+231,USA,417,"Peas, Green",41,Yield (Hg/Ha),2011,41551.483,C
+231,USA,420,"Broad Beans, Green",41,Yield (Hg/Ha),2005,33018.868,C
+231,USA,420,"Broad Beans, Green",41,Yield (Hg/Ha),2006,31440.799,C
+231,USA,420,"Broad Beans, Green",41,Yield (Hg/Ha),2007,31333.333,C
+231,USA,420,"Broad Beans, Green",41,Yield (Hg/Ha),2008,31229.564,C
+231,USA,420,"Broad Beans, Green",41,Yield (Hg/Ha),2009,31037.916,C
+231,USA,420,"Broad Beans, Green",41,Yield (Hg/Ha),2010,30888.936,C
+231,USA,420,"Broad Beans, Green",41,Yield (Hg/Ha),2011,31288.534,C
+231,USA,423,String Beans,41,Yield (Hg/Ha),2005,87509.412,C
+231,USA,423,String Beans,41,Yield (Hg/Ha),2006,88795.593,C
+231,USA,423,String Beans,41,Yield (Hg/Ha),2007,81931.655,C
+231,USA,423,String Beans,41,Yield (Hg/Ha),2008,85352.221,C
+231,USA,423,String Beans,41,Yield (Hg/Ha),2009,83919.313,C
+231,USA,423,String Beans,41,Yield (Hg/Ha),2010,81136.463,C
+231,USA,423,String Beans,41,Yield (Hg/Ha),2011,82272.858,C
+231,USA,426,Carrots,41,Yield (Hg/Ha),2005,421108.166,C
+231,USA,426,Carrots,41,Yield (Hg/Ha),2006,400139.819,C
+231,USA,426,Carrots,41,Yield (Hg/Ha),2007,380710.923,C
+231,USA,426,Carrots,41,Yield (Hg/Ha),2008,407574.421,C
+231,USA,426,Carrots,41,Yield (Hg/Ha),2009,397254.491,C
+231,USA,426,Carrots,41,Yield (Hg/Ha),2010,421785.602,C
+231,USA,426,Carrots,41,Yield (Hg/Ha),2011,383466.194,C
+231,USA,430,Okra,41,Yield (Hg/Ha),2005,75896,C
+231,USA,430,Okra,41,Yield (Hg/Ha),2006,76736.672,C
+231,USA,430,Okra,41,Yield (Hg/Ha),2007,76923.077,C
+231,USA,430,Okra,41,Yield (Hg/Ha),2008,76648.178,C
+231,USA,430,Okra,41,Yield (Hg/Ha),2009,76191.975,C
+231,USA,430,Okra,41,Yield (Hg/Ha),2010,70833.333,C
+231,USA,430,Okra,41,Yield (Hg/Ha),2011,71777.971,C
+231,USA,446,Green Corn (Maize),41,Yield (Hg/Ha),2005,170301.815,C
+231,USA,446,Green Corn (Maize),41,Yield (Hg/Ha),2006,174296.556,C
+231,USA,446,Green Corn (Maize),41,Yield (Hg/Ha),2007,172115.156,C
+231,USA,446,Green Corn (Maize),41,Yield (Hg/Ha),2008,161455.022,C
+231,USA,446,Green Corn (Maize),41,Yield (Hg/Ha),2009,170122.318,C
+231,USA,446,Green Corn (Maize),41,Yield (Hg/Ha),2010,159926.961,C
+231,USA,446,Green Corn (Maize),41,Yield (Hg/Ha),2011,159814.791,C
+231,USA,447,Sweet Corn Frozen,41,Extr Rate (Hg/Mt),2005,2696.078,C
+231,USA,447,Sweet Corn Frozen,41,Extr Rate (Hg/Mt),2006,2697.456,C
+231,USA,447,Sweet Corn Frozen,41,Extr Rate (Hg/Mt),2007,2698.844,C
+231,USA,447,Sweet Corn Frozen,41,Extr Rate (Hg/Mt),2008,2701.493,C
+231,USA,447,Sweet Corn Frozen,41,Extr Rate (Hg/Mt),2009,2698.21,C
+231,USA,447,Sweet Corn Frozen,41,Extr Rate (Hg/Mt),2010,2698.21,C
+231,USA,447,Sweet Corn Frozen,41,Extr Rate (Hg/Mt),2011,2698.21,C
+231,USA,448,Sweet Corn Prep. or Pres,41,Extr Rate (Hg/Mt),2005,3997.243,C
+231,USA,448,Sweet Corn Prep. or Pres,41,Extr Rate (Hg/Mt),2006,4000,C
+231,USA,448,Sweet Corn Prep. or Pres,41,Extr Rate (Hg/Mt),2007,4000,C
+231,USA,448,Sweet Corn Prep. or Pres,41,Extr Rate (Hg/Mt),2008,4000,C
+231,USA,448,Sweet Corn Prep. or Pres,41,Extr Rate (Hg/Mt),2009,4000,C
+231,USA,448,Sweet Corn Prep. or Pres,41,Extr Rate (Hg/Mt),2010,4000,C
+231,USA,448,Sweet Corn Prep. or Pres,41,Extr Rate (Hg/Mt),2011,4000,C
+231,USA,463,Vegetables Fresh nes,41,Yield (Hg/Ha),2005,781467.822,C
+231,USA,463,Vegetables Fresh nes,41,Yield (Hg/Ha),2006,778107.047,C
+231,USA,463,Vegetables Fresh nes,41,Yield (Hg/Ha),2007,789771.165,C
+231,USA,463,Vegetables Fresh nes,41,Yield (Hg/Ha),2008,793083.908,C
+231,USA,463,Vegetables Fresh nes,41,Yield (Hg/Ha),2009,774143.402,C
+231,USA,463,Vegetables Fresh nes,41,Yield (Hg/Ha),2010,770442.678,C
+231,USA,463,Vegetables Fresh nes,41,Yield (Hg/Ha),2011,780383.459,C
+231,USA,466,Juice of Vegetables nes,41,Extr Rate (Hg/Mt),2005,0,C
+231,USA,466,Juice of Vegetables nes,41,Extr Rate (Hg/Mt),2006,0,C
+231,USA,466,Juice of Vegetables nes,41,Extr Rate (Hg/Mt),2007,0,C
+231,USA,466,Juice of Vegetables nes,41,Extr Rate (Hg/Mt),2008,0,C
+231,USA,466,Juice of Vegetables nes,41,Extr Rate (Hg/Mt),2009,0,C
+231,USA,466,Juice of Vegetables nes,41,Extr Rate (Hg/Mt),2010,0,C
+231,USA,466,Juice of Vegetables nes,41,Extr Rate (Hg/Mt),2011,0,C
+231,USA,469,Vegetables Dehydrated,41,Extr Rate (Hg/Mt),2005,2000,C
+231,USA,469,Vegetables Dehydrated,41,Extr Rate (Hg/Mt),2006,2000,C
+231,USA,469,Vegetables Dehydrated,41,Extr Rate (Hg/Mt),2007,2000,C
+231,USA,469,Vegetables Dehydrated,41,Extr Rate (Hg/Mt),2008,2000,C
+231,USA,469,Vegetables Dehydrated,41,Extr Rate (Hg/Mt),2009,2000,C
+231,USA,469,Vegetables Dehydrated,41,Extr Rate (Hg/Mt),2010,2000,C
+231,USA,469,Vegetables Dehydrated,41,Extr Rate (Hg/Mt),2011,2000,C
+231,USA,471,Vegetables Pr by Vinegar,41,Extr Rate (Hg/Mt),2005,0,C
+231,USA,471,Vegetables Pr by Vinegar,41,Extr Rate (Hg/Mt),2006,0,C
+231,USA,471,Vegetables Pr by Vinegar,41,Extr Rate (Hg/Mt),2007,0,C
+231,USA,471,Vegetables Pr by Vinegar,41,Extr Rate (Hg/Mt),2008,0,C
+231,USA,471,Vegetables Pr by Vinegar,41,Extr Rate (Hg/Mt),2009,0,C
+231,USA,471,Vegetables Pr by Vinegar,41,Extr Rate (Hg/Mt),2010,0,C
+231,USA,471,Vegetables Pr by Vinegar,41,Extr Rate (Hg/Mt),2011,8000,C
+231,USA,472,Vegetables Prepared nes,41,Extr Rate (Hg/Mt),2005,8000,C
+231,USA,472,Vegetables Prepared nes,41,Extr Rate (Hg/Mt),2006,8000,C
+231,USA,472,Vegetables Prepared nes,41,Extr Rate (Hg/Mt),2007,8000,C
+231,USA,472,Vegetables Prepared nes,41,Extr Rate (Hg/Mt),2008,8000,C
+231,USA,472,Vegetables Prepared nes,41,Extr Rate (Hg/Mt),2009,8000,C
+231,USA,472,Vegetables Prepared nes,41,Extr Rate (Hg/Mt),2010,8000,C
+231,USA,472,Vegetables Prepared nes,41,Extr Rate (Hg/Mt),2011,8000,C
+231,USA,473,Vegetables Frozen,41,Extr Rate (Hg/Mt),2005,0,C
+231,USA,473,Vegetables Frozen,41,Extr Rate (Hg/Mt),2006,0,C
+231,USA,473,Vegetables Frozen,41,Extr Rate (Hg/Mt),2007,0,C
+231,USA,473,Vegetables Frozen,41,Extr Rate (Hg/Mt),2008,0,C
+231,USA,473,Vegetables Frozen,41,Extr Rate (Hg/Mt),2009,0,C
+231,USA,473,Vegetables Frozen,41,Extr Rate (Hg/Mt),2010,0,C
+231,USA,473,Vegetables Frozen,41,Extr Rate (Hg/Mt),2011,8800,C
+231,USA,475,Veg.Prep or Pres.Frozen,41,Extr Rate (Hg/Mt),2005,9000,C
+231,USA,475,Veg.Prep or Pres.Frozen,41,Extr Rate (Hg/Mt),2006,9000,C
+231,USA,475,Veg.Prep or Pres.Frozen,41,Extr Rate (Hg/Mt),2007,9000,C
+231,USA,475,Veg.Prep or Pres.Frozen,41,Extr Rate (Hg/Mt),2008,9000,C
+231,USA,475,Veg.Prep or Pres.Frozen,41,Extr Rate (Hg/Mt),2009,9000,C
+231,USA,475,Veg.Prep or Pres.Frozen,41,Extr Rate (Hg/Mt),2010,9000,C
+231,USA,475,Veg.Prep or Pres.Frozen,41,Extr Rate (Hg/Mt),2011,9000,C
+231,USA,476,Homogenized Veget. Prep.,41,Extr Rate (Hg/Mt),2005,5000,C
+231,USA,476,Homogenized Veget. Prep.,41,Extr Rate (Hg/Mt),2006,5000,C
+231,USA,476,Homogenized Veget. Prep.,41,Extr Rate (Hg/Mt),2007,5000,C
+231,USA,476,Homogenized Veget. Prep.,41,Extr Rate (Hg/Mt),2008,5000,C
+231,USA,476,Homogenized Veget. Prep.,41,Extr Rate (Hg/Mt),2009,5000,C
+231,USA,476,Homogenized Veget. Prep.,41,Extr Rate (Hg/Mt),2010,5000,C
+231,USA,476,Homogenized Veget. Prep.,41,Extr Rate (Hg/Mt),2011,5000,C
+231,USA,486,Bananas,41,Yield (Hg/Ha),2005,238790.932,C
+231,USA,486,Bananas,41,Yield (Hg/Ha),2006,190370.37,C
+231,USA,486,Bananas,41,Yield (Hg/Ha),2007,220760.456,C
+231,USA,486,Bananas,41,Yield (Hg/Ha),2008,177303.371,C
+231,USA,486,Bananas,41,Yield (Hg/Ha),2009,188539.326,C
+231,USA,486,Bananas,41,Yield (Hg/Ha),2010,181438.202,C
+231,USA,486,Bananas,41,Yield (Hg/Ha),2011,194888.889,C
+231,USA,490,Oranges,41,Yield (Hg/Ha),2005,281184.4,C
+231,USA,490,Oranges,41,Yield (Hg/Ha),2006,359361.056,C
+231,USA,490,Oranges,41,Yield (Hg/Ha),2007,252366.352,C
+231,USA,490,Oranges,41,Yield (Hg/Ha),2008,340633.21,C
+231,USA,490,Oranges,41,Yield (Hg/Ha),2009,311781.051,C
+231,USA,490,Oranges,41,Yield (Hg/Ha),2010,287466.517,C
+231,USA,490,Oranges,41,Yield (Hg/Ha),2011,317466.705,C
+231,USA,491,Oranjuice Single-Strengt,41,Extr Rate (Hg/Mt),2005,5451,C
+231,USA,491,Oranjuice Single-Strengt,41,Extr Rate (Hg/Mt),2006,5451,C
+231,USA,491,Oranjuice Single-Strengt,41,Extr Rate (Hg/Mt),2007,5451,C
+231,USA,491,Oranjuice Single-Strengt,41,Extr Rate (Hg/Mt),2008,5451,C
+231,USA,491,Oranjuice Single-Strengt,41,Extr Rate (Hg/Mt),2009,5451,C
+231,USA,491,Oranjuice Single-Strengt,41,Extr Rate (Hg/Mt),2010,5451,C
+231,USA,491,Oranjuice Single-Strengt,41,Extr Rate (Hg/Mt),2011,5451,C
+231,USA,492,Oranjuice Concentrated,41,Extr Rate (Hg/Mt),2005,1741.092,C
+231,USA,492,Oranjuice Concentrated,41,Extr Rate (Hg/Mt),2006,1833.333,C
+231,USA,492,Oranjuice Concentrated,41,Extr Rate (Hg/Mt),2007,1833.333,C
+231,USA,492,Oranjuice Concentrated,41,Extr Rate (Hg/Mt),2008,1833.333,C
+231,USA,492,Oranjuice Concentrated,41,Extr Rate (Hg/Mt),2009,1737.016,C
+231,USA,492,Oranjuice Concentrated,41,Extr Rate (Hg/Mt),2010,1739.13,C
+231,USA,492,Oranjuice Concentrated,41,Extr Rate (Hg/Mt),2011,1739.13,C
+231,USA,495,Tang.Mand.Clement.Satsma,41,Yield (Hg/Ha),2005,201331.567,C
+231,USA,495,Tang.Mand.Clement.Satsma,41,Yield (Hg/Ha),2006,264823.241,C
+231,USA,495,Tang.Mand.Clement.Satsma,41,Yield (Hg/Ha),2007,219897.939,C
+231,USA,495,Tang.Mand.Clement.Satsma,41,Yield (Hg/Ha),2008,291696.156,C
+231,USA,495,Tang.Mand.Clement.Satsma,41,Yield (Hg/Ha),2009,224677.141,C
+231,USA,495,Tang.Mand.Clement.Satsma,41,Yield (Hg/Ha),2010,291708.659,C
+231,USA,495,Tang.Mand.Clement.Satsma,41,Yield (Hg/Ha),2011,304931.955,C
+231,USA,496,Tangerine Juice,41,Extr Rate (Hg/Mt),2005,1300,C
+231,USA,496,Tangerine Juice,41,Extr Rate (Hg/Mt),2006,1300,C
+231,USA,496,Tangerine Juice,41,Extr Rate (Hg/Mt),2007,1300,C
+231,USA,496,Tangerine Juice,41,Extr Rate (Hg/Mt),2008,1300,C
+231,USA,496,Tangerine Juice,41,Extr Rate (Hg/Mt),2009,1300,C
+231,USA,496,Tangerine Juice,41,Extr Rate (Hg/Mt),2010,1300,C
+231,USA,496,Tangerine Juice,41,Extr Rate (Hg/Mt),2011,1300,C
+231,USA,497,Lemons and Limes,41,Yield (Hg/Ha),2005,333382.614,C
+231,USA,497,Lemons and Limes,41,Yield (Hg/Ha),2006,367256.865,C
+231,USA,497,Lemons and Limes,41,Yield (Hg/Ha),2007,295676.36,C
+231,USA,497,Lemons and Limes,41,Yield (Hg/Ha),2008,235194.337,C
+231,USA,497,Lemons and Limes,41,Yield (Hg/Ha),2009,346519.518,C
+231,USA,497,Lemons and Limes,41,Yield (Hg/Ha),2010,346875.19,C
+231,USA,497,Lemons and Limes,41,Yield (Hg/Ha),2011,371598.397,C
+231,USA,498,Lemonjuice Single-Streng,41,Extr Rate (Hg/Mt),2005,3350,C
+231,USA,498,Lemonjuice Single-Streng,41,Extr Rate (Hg/Mt),2006,3350,C
+231,USA,498,Lemonjuice Single-Streng,41,Extr Rate (Hg/Mt),2007,3350,C
+231,USA,498,Lemonjuice Single-Streng,41,Extr Rate (Hg/Mt),2008,3350,C
+231,USA,498,Lemonjuice Single-Streng,41,Extr Rate (Hg/Mt),2009,3350,C
+231,USA,498,Lemonjuice Single-Streng,41,Extr Rate (Hg/Mt),2010,3350,C
+231,USA,498,Lemonjuice Single-Streng,41,Extr Rate (Hg/Mt),2011,3350,C
+231,USA,507,Grapefruit and Pomelos,41,Yield (Hg/Ha),2005,221555.55,C
+231,USA,507,Grapefruit and Pomelos,41,Yield (Hg/Ha),2006,303494.812,C
+231,USA,507,Grapefruit and Pomelos,41,Yield (Hg/Ha),2007,423253.932,C
+231,USA,507,Grapefruit and Pomelos,41,Yield (Hg/Ha),2008,416082.486,C
+231,USA,507,Grapefruit and Pomelos,41,Yield (Hg/Ha),2009,363576.851,C
+231,USA,507,Grapefruit and Pomelos,41,Yield (Hg/Ha),2010,364203.716,C
+231,USA,507,Grapefruit and Pomelos,41,Yield (Hg/Ha),2011,380842.937,C
+231,USA,509,Grapefruitjuice Sing-Str,41,Extr Rate (Hg/Mt),2005,4470,C
+231,USA,509,Grapefruitjuice Sing-Str,41,Extr Rate (Hg/Mt),2006,4470,C
+231,USA,509,Grapefruitjuice Sing-Str,41,Extr Rate (Hg/Mt),2007,4470,C
+231,USA,509,Grapefruitjuice Sing-Str,41,Extr Rate (Hg/Mt),2008,4470,C
+231,USA,509,Grapefruitjuice Sing-Str,41,Extr Rate (Hg/Mt),2009,4470,C
+231,USA,509,Grapefruitjuice Sing-Str,41,Extr Rate (Hg/Mt),2010,4470,C
+231,USA,509,Grapefruitjuice Sing-Str,41,Extr Rate (Hg/Mt),2011,4470,C
+231,USA,510,Grapefruitjuice Concentr,41,Extr Rate (Hg/Mt),2005,1472.135,C
+231,USA,510,Grapefruitjuice Concentr,41,Extr Rate (Hg/Mt),2006,1469.388,C
+231,USA,510,Grapefruitjuice Concentr,41,Extr Rate (Hg/Mt),2007,1460.317,C
+231,USA,510,Grapefruitjuice Concentr,41,Extr Rate (Hg/Mt),2008,1470.588,C
+231,USA,510,Grapefruitjuice Concentr,41,Extr Rate (Hg/Mt),2009,1451.613,C
+231,USA,510,Grapefruitjuice Concentr,41,Extr Rate (Hg/Mt),2010,1475.261,C
+231,USA,510,Grapefruitjuice Concentr,41,Extr Rate (Hg/Mt),2011,1570.475,C
+231,USA,512,Citrus Fruit nes,41,Yield (Hg/Ha),2005,223855.319,C
+231,USA,512,Citrus Fruit nes,41,Yield (Hg/Ha),2006,286857.708,C
+231,USA,512,Citrus Fruit nes,41,Yield (Hg/Ha),2007,228212.04,C
+231,USA,512,Citrus Fruit nes,41,Yield (Hg/Ha),2008,293203.422,C
+231,USA,512,Citrus Fruit nes,41,Yield (Hg/Ha),2009,224211.027,C
+231,USA,512,Citrus Fruit nes,41,Yield (Hg/Ha),2010,195557.308,C
+231,USA,512,Citrus Fruit nes,41,Yield (Hg/Ha),2011,271114.942,C
+231,USA,513,Citrusjuice Single-Stren,41,Extr Rate (Hg/Mt),2005,3350,C
+231,USA,513,Citrusjuice Single-Stren,41,Extr Rate (Hg/Mt),2006,3350,C
+231,USA,513,Citrusjuice Single-Stren,41,Extr Rate (Hg/Mt),2007,3350,C
+231,USA,513,Citrusjuice Single-Stren,41,Extr Rate (Hg/Mt),2008,3350,C
+231,USA,513,Citrusjuice Single-Stren,41,Extr Rate (Hg/Mt),2009,3350,C
+231,USA,513,Citrusjuice Single-Stren,41,Extr Rate (Hg/Mt),2010,3350,C
+231,USA,513,Citrusjuice Single-Stren,41,Extr Rate (Hg/Mt),2011,3350,C
+231,USA,514,Citrusjuice Concentrated,41,Extr Rate (Hg/Mt),2005,1300,C
+231,USA,514,Citrusjuice Concentrated,41,Extr Rate (Hg/Mt),2006,1300,C
+231,USA,514,Citrusjuice Concentrated,41,Extr Rate (Hg/Mt),2007,1300,C
+231,USA,514,Citrusjuice Concentrated,41,Extr Rate (Hg/Mt),2008,1300,C
+231,USA,514,Citrusjuice Concentrated,41,Extr Rate (Hg/Mt),2009,1300,C
+231,USA,514,Citrusjuice Concentrated,41,Extr Rate (Hg/Mt),2010,1300,C
+231,USA,514,Citrusjuice Concentrated,41,Extr Rate (Hg/Mt),2011,1300,C
+231,USA,515,Apples,41,Yield (Hg/Ha),2005,287032.07,C
+231,USA,515,Apples,41,Yield (Hg/Ha),2006,299062.612,C
+231,USA,515,Apples,41,Yield (Hg/Ha),2007,290339.573,C
+231,USA,515,Apples,41,Yield (Hg/Ha),2008,307980.11,C
+231,USA,515,Apples,41,Yield (Hg/Ha),2009,312758.011,C
+231,USA,515,Apples,41,Yield (Hg/Ha),2010,304560.459,C
+231,USA,515,Apples,41,Yield (Hg/Ha),2011,319541.068,C
+231,USA,518,Applejuice Single Streng,41,Extr Rate (Hg/Mt),2005,7250,C
+231,USA,518,Applejuice Single Streng,41,Extr Rate (Hg/Mt),2006,7250,C
+231,USA,518,Applejuice Single Streng,41,Extr Rate (Hg/Mt),2007,7250,C
+231,USA,518,Applejuice Single Streng,41,Extr Rate (Hg/Mt),2008,7250,C
+231,USA,518,Applejuice Single Streng,41,Extr Rate (Hg/Mt),2009,7250,C
+231,USA,518,Applejuice Single Streng,41,Extr Rate (Hg/Mt),2010,7250,C
+231,USA,518,Applejuice Single Streng,41,Extr Rate (Hg/Mt),2011,7250,C
+231,USA,519,Applejuice Concentrated,41,Extr Rate (Hg/Mt),2005,0,C
+231,USA,519,Applejuice Concentrated,41,Extr Rate (Hg/Mt),2006,0,C
+231,USA,519,Applejuice Concentrated,41,Extr Rate (Hg/Mt),2007,0,C
+231,USA,519,Applejuice Concentrated,41,Extr Rate (Hg/Mt),2008,0,C
+231,USA,519,Applejuice Concentrated,41,Extr Rate (Hg/Mt),2009,0,C
+231,USA,519,Applejuice Concentrated,41,Extr Rate (Hg/Mt),2010,0,C
+231,USA,519,Applejuice Concentrated,41,Extr Rate (Hg/Mt),2011,2200,C
+231,USA,521,Pears,41,Yield (Hg/Ha),2005,304807.378,C
+231,USA,521,Pears,41,Yield (Hg/Ha),2006,315016.515,C
+231,USA,521,Pears,41,Yield (Hg/Ha),2007,336766.255,C
+231,USA,521,Pears,41,Yield (Hg/Ha),2008,332634.996,C
+231,USA,521,Pears,41,Yield (Hg/Ha),2009,376449.906,C
+231,USA,521,Pears,41,Yield (Hg/Ha),2010,325692.79,C
+231,USA,521,Pears,41,Yield (Hg/Ha),2011,397949.58,C
+231,USA,526,Apricots,41,Yield (Hg/Ha),2005,115553.822,C
+231,USA,526,Apricots,41,Yield (Hg/Ha),2006,64445.858,C
+231,USA,526,Apricots,41,Yield (Hg/Ha),2007,156417.269,C
+231,USA,526,Apricots,41,Yield (Hg/Ha),2008,146953.156,C
+231,USA,526,Apricots,41,Yield (Hg/Ha),2009,124697.879,C
+231,USA,526,Apricots,41,Yield (Hg/Ha),2010,122471.019,C
+231,USA,526,Apricots,41,Yield (Hg/Ha),2011,122969.29,C
+231,USA,527,Dry Apricots,41,Extr Rate (Hg/Mt),2005,1246.465,C
+231,USA,527,Dry Apricots,41,Extr Rate (Hg/Mt),2006,1291.111,C
+231,USA,527,Dry Apricots,41,Extr Rate (Hg/Mt),2007,1276.429,C
+231,USA,527,Dry Apricots,41,Extr Rate (Hg/Mt),2008,857.143,C
+231,USA,527,Dry Apricots,41,Extr Rate (Hg/Mt),2009,6428.571,C
+231,USA,527,Dry Apricots,41,Extr Rate (Hg/Mt),2010,7142.857,C
+231,USA,527,Dry Apricots,41,Extr Rate (Hg/Mt),2011,8571.429,C
+231,USA,530,Sour Cherries,41,Yield (Hg/Ha),2005,81800.053,C
+231,USA,530,Sour Cherries,41,Yield (Hg/Ha),2006,79485.851,C
+231,USA,530,Sour Cherries,41,Yield (Hg/Ha),2007,81668.207,C
+231,USA,530,Sour Cherries,41,Yield (Hg/Ha),2008,69153.097,C
+231,USA,530,Sour Cherries,41,Yield (Hg/Ha),2009,113248.071,C
+231,USA,530,Sour Cherries,41,Yield (Hg/Ha),2010,59862.757,C
+231,USA,530,Sour Cherries,41,Yield (Hg/Ha),2011,72137.415,C
+231,USA,531,Cherries,41,Yield (Hg/Ha),2005,71040.684,C
+231,USA,531,Cherries,41,Yield (Hg/Ha),2006,80954.682,C
+231,USA,531,Cherries,41,Yield (Hg/Ha),2007,85280.93,C
+231,USA,531,Cherries,41,Yield (Hg/Ha),2008,67324.639,C
+231,USA,531,Cherries,41,Yield (Hg/Ha),2009,116380.489,C
+231,USA,531,Cherries,41,Yield (Hg/Ha),2010,82574.758,C
+231,USA,531,Cherries,41,Yield (Hg/Ha),2011,87352.721,C
+231,USA,534,Peaches and Nectarines,41,Yield (Hg/Ha),2005,181212.21,C
+231,USA,534,Peaches and Nectarines,41,Yield (Hg/Ha),2006,163313.337,C
+231,USA,534,Peaches and Nectarines,41,Yield (Hg/Ha),2007,200446.861,C
+231,USA,534,Peaches and Nectarines,41,Yield (Hg/Ha),2008,206214.823,C
+231,USA,534,Peaches and Nectarines,41,Yield (Hg/Ha),2009,198961.078,C
+231,USA,534,Peaches and Nectarines,41,Yield (Hg/Ha),2010,211032.105,C
+231,USA,534,Peaches and Nectarines,41,Yield (Hg/Ha),2011,207113.184,C
+231,USA,536,Plums,41,Yield (Hg/Ha),2005,100164.691,C
+231,USA,536,Plums,41,Yield (Hg/Ha),2006,149880.629,C
+231,USA,536,Plums,41,Yield (Hg/Ha),2007,93727.737,C
+231,USA,536,Plums,41,Yield (Hg/Ha),2008,125943.191,C
+231,USA,536,Plums,41,Yield (Hg/Ha),2009,149763.41,C
+231,USA,536,Plums,41,Yield (Hg/Ha),2010,70385.195,C
+231,USA,536,Plums,41,Yield (Hg/Ha),2011,80594.079,C
+231,USA,537,"Plums, Dried (Prunes)",41,Extr Rate (Hg/Mt),2005,3333.333,C
+231,USA,537,"Plums, Dried (Prunes)",41,Extr Rate (Hg/Mt),2006,3333.333,C
+231,USA,537,"Plums, Dried (Prunes)",41,Extr Rate (Hg/Mt),2007,3333.333,C
+231,USA,537,"Plums, Dried (Prunes)",41,Extr Rate (Hg/Mt),2008,3333.058,C
+231,USA,537,"Plums, Dried (Prunes)",41,Extr Rate (Hg/Mt),2009,3333.178,C
+231,USA,537,"Plums, Dried (Prunes)",41,Extr Rate (Hg/Mt),2010,5399.905,C
+231,USA,537,"Plums, Dried (Prunes)",41,Extr Rate (Hg/Mt),2011,5523.733,C
+231,USA,544,Strawberries,41,Yield (Hg/Ha),2005,498576.094,C
+231,USA,544,Strawberries,41,Yield (Hg/Ha),2006,505721.176,C
+231,USA,544,Strawberries,41,Yield (Hg/Ha),2007,525271.109,C
+231,USA,544,Strawberries,41,Yield (Hg/Ha),2008,521029.946,C
+231,USA,544,Strawberries,41,Yield (Hg/Ha),2009,540697.872,C
+231,USA,544,Strawberries,41,Yield (Hg/Ha),2010,561222.897,C
+231,USA,544,Strawberries,41,Yield (Hg/Ha),2011,564471.195,C
+231,USA,547,Raspberries,41,Yield (Hg/Ha),2005,121090.643,C
+231,USA,547,Raspberries,41,Yield (Hg/Ha),2006,111406.669,C
+231,USA,547,Raspberries,41,Yield (Hg/Ha),2007,99421.335,C
+231,USA,547,Raspberries,41,Yield (Hg/Ha),2008,56220.828,C
+231,USA,547,Raspberries,41,Yield (Hg/Ha),2009,101605.454,C
+231,USA,547,Raspberries,41,Yield (Hg/Ha),2010,86650.916,C
+231,USA,547,Raspberries,41,Yield (Hg/Ha),2011,109109.207,C
+231,USA,550,Currants,41,Yield (Hg/Ha),2005,0,C
+231,USA,550,Currants,41,Yield (Hg/Ha),2006,0,C
+231,USA,550,Currants,41,Yield (Hg/Ha),2007,0,C
+231,USA,550,Currants,41,Yield (Hg/Ha),2008,0,C
+231,USA,550,Currants,41,Yield (Hg/Ha),2009,0,C
+231,USA,550,Currants,41,Yield (Hg/Ha),2010,0,C
+231,USA,550,Currants,41,Yield (Hg/Ha),2011,0,C
+231,USA,552,Blueberries,41,Yield (Hg/Ha),2005,68753.614,C
+231,USA,552,Blueberries,41,Yield (Hg/Ha),2006,73834.771,C
+231,USA,552,Blueberries,41,Yield (Hg/Ha),2007,76455.433,C
+231,USA,552,Blueberries,41,Yield (Hg/Ha),2008,65000.821,C
+231,USA,552,Blueberries,41,Yield (Hg/Ha),2009,64645.639,C
+231,USA,552,Blueberries,41,Yield (Hg/Ha),2010,67066.383,C
+231,USA,552,Blueberries,41,Yield (Hg/Ha),2011,68518.064,C
+231,USA,554,Cranberries,41,Yield (Hg/Ha),2005,179449.408,C
+231,USA,554,Cranberries,41,Yield (Hg/Ha),2006,200885.751,C
+231,USA,554,Cranberries,41,Yield (Hg/Ha),2007,192801.09,C
+231,USA,554,Cranberries,41,Yield (Hg/Ha),2008,230801.475,C
+231,USA,554,Cranberries,41,Yield (Hg/Ha),2009,201263.8,C
+231,USA,554,Cranberries,41,Yield (Hg/Ha),2010,198212.452,C
+231,USA,554,Cranberries,41,Yield (Hg/Ha),2011,224575.096,C
+231,USA,558,Berries nes,41,Yield (Hg/Ha),2005,81627.522,C
+231,USA,558,Berries nes,41,Yield (Hg/Ha),2006,67893.548,C
+231,USA,558,Berries nes,41,Yield (Hg/Ha),2007,103338.789,C
+231,USA,558,Berries nes,41,Yield (Hg/Ha),2008,75624.382,C
+231,USA,558,Berries nes,41,Yield (Hg/Ha),2009,81901.153,C
+231,USA,558,Berries nes,41,Yield (Hg/Ha),2010,83333.333,C
+231,USA,558,Berries nes,41,Yield (Hg/Ha),2011,87167.844,C
+231,USA,560,Grapes,41,Yield (Hg/Ha),2005,187367.044,C
+231,USA,560,Grapes,41,Yield (Hg/Ha),2006,151798.239,C
+231,USA,560,Grapes,41,Yield (Hg/Ha),2007,168929.08,C
+231,USA,560,Grapes,41,Yield (Hg/Ha),2008,175305.07,C
+231,USA,560,Grapes,41,Yield (Hg/Ha),2009,173381.266,C
+231,USA,560,Grapes,41,Yield (Hg/Ha),2010,175943.965,C
+231,USA,560,Grapes,41,Yield (Hg/Ha),2011,173893.715,C
+231,USA,561,Raisins,41,Extr Rate (Hg/Mt),2005,2173.592,C
+231,USA,561,Raisins,41,Extr Rate (Hg/Mt),2006,2173.375,C
+231,USA,561,Raisins,41,Extr Rate (Hg/Mt),2007,2221.458,C
+231,USA,561,Raisins,41,Extr Rate (Hg/Mt),2008,2084.049,C
+231,USA,561,Raisins,41,Extr Rate (Hg/Mt),2009,2241.237,C
+231,USA,561,Raisins,41,Extr Rate (Hg/Mt),2010,2637.386,C
+231,USA,561,Raisins,41,Extr Rate (Hg/Mt),2011,2468.373,C
+231,USA,562,Grape Juice,41,Extr Rate (Hg/Mt),2005,7500,C
+231,USA,562,Grape Juice,41,Extr Rate (Hg/Mt),2006,7500,C
+231,USA,562,Grape Juice,41,Extr Rate (Hg/Mt),2007,7500,C
+231,USA,562,Grape Juice,41,Extr Rate (Hg/Mt),2008,7500,C
+231,USA,562,Grape Juice,41,Extr Rate (Hg/Mt),2009,7500,C
+231,USA,562,Grape Juice,41,Extr Rate (Hg/Mt),2010,7500,C
+231,USA,562,Grape Juice,41,Extr Rate (Hg/Mt),2011,7500,C
+231,USA,563,Must of Grapes,41,Extr Rate (Hg/Mt),2005,9000,C
+231,USA,563,Must of Grapes,41,Extr Rate (Hg/Mt),2006,9000,C
+231,USA,563,Must of Grapes,41,Extr Rate (Hg/Mt),2007,9000,C
+231,USA,563,Must of Grapes,41,Extr Rate (Hg/Mt),2008,9000,C
+231,USA,563,Must of Grapes,41,Extr Rate (Hg/Mt),2009,9000,C
+231,USA,563,Must of Grapes,41,Extr Rate (Hg/Mt),2010,9000,C
+231,USA,563,Must of Grapes,41,Extr Rate (Hg/Mt),2011,9000,C
+231,USA,564,Wine,41,Extr Rate (Hg/Mt),2005,6992.736,C
+231,USA,564,Wine,41,Extr Rate (Hg/Mt),2006,6984.315,C
+231,USA,564,Wine,41,Extr Rate (Hg/Mt),2007,6998.594,C
+231,USA,564,Wine,41,Extr Rate (Hg/Mt),2008,7072.966,C
+231,USA,564,Wine,41,Extr Rate (Hg/Mt),2009,6881.775,C
+231,USA,564,Wine,41,Extr Rate (Hg/Mt),2010,6680.111,C
+231,USA,564,Wine,41,Extr Rate (Hg/Mt),2011,7007.814,C
+231,USA,567,Watermelons,41,Yield (Hg/Ha),2005,311669.35,C
+231,USA,567,Watermelons,41,Yield (Hg/Ha),2006,329544.12,C
+231,USA,567,Watermelons,41,Yield (Hg/Ha),2007,324479.985,C
+231,USA,567,Watermelons,41,Yield (Hg/Ha),2008,357114.741,C
+231,USA,567,Watermelons,41,Yield (Hg/Ha),2009,352006.382,C
+231,USA,567,Watermelons,41,Yield (Hg/Ha),2010,348316.467,C
+231,USA,567,Watermelons,41,Yield (Hg/Ha),2011,343586.403,C
+231,USA,568,Cantaloupes&oth Melons,41,Yield (Hg/Ha),2005,259522.342,C
+231,USA,568,Cantaloupes&oth Melons,41,Yield (Hg/Ha),2006,247208.434,C
+231,USA,568,Cantaloupes&oth Melons,41,Yield (Hg/Ha),2007,301452.529,C
+231,USA,568,Cantaloupes&oth Melons,41,Yield (Hg/Ha),2008,289672.131,C
+231,USA,568,Cantaloupes&oth Melons,41,Yield (Hg/Ha),2009,285960.849,C
+231,USA,568,Cantaloupes&oth Melons,41,Yield (Hg/Ha),2010,280313.853,C
+231,USA,568,Cantaloupes&oth Melons,41,Yield (Hg/Ha),2011,291566.265,C
+231,USA,569,Figs,41,Yield (Hg/Ha),2005,86164.093,C
+231,USA,569,Figs,41,Yield (Hg/Ha),2006,81284.916,C
+231,USA,569,Figs,41,Yield (Hg/Ha),2007,117738.257,C
+231,USA,569,Figs,41,Yield (Hg/Ha),2008,103259.727,C
+231,USA,569,Figs,41,Yield (Hg/Ha),2009,105443.677,C
+231,USA,569,Figs,41,Yield (Hg/Ha),2010,106646.552,C
+231,USA,569,Figs,41,Yield (Hg/Ha),2011,100781.609,C
+231,USA,570,"Figs, Dried",41,Extr Rate (Hg/Mt),2005,3332.847,C
+231,USA,570,"Figs, Dried",41,Extr Rate (Hg/Mt),2006,3333.239,C
+231,USA,570,"Figs, Dried",41,Extr Rate (Hg/Mt),2007,3333.249,C
+231,USA,570,"Figs, Dried",41,Extr Rate (Hg/Mt),2008,3333.24,C
+231,USA,570,"Figs, Dried",41,Extr Rate (Hg/Mt),2009,3684.275,C
+231,USA,570,"Figs, Dried",41,Extr Rate (Hg/Mt),2010,3412.824,C
+231,USA,570,"Figs, Dried",41,Extr Rate (Hg/Mt),2011,3202.137,C
+231,USA,571,Mangoes,41,Yield (Hg/Ha),2005,44531.25,C
+231,USA,571,Mangoes,41,Yield (Hg/Ha),2006,46666.667,C
+231,USA,571,Mangoes,41,Yield (Hg/Ha),2007,44000,C
+231,USA,571,Mangoes,41,Yield (Hg/Ha),2008,42857.143,C
+231,USA,571,Mangoes,41,Yield (Hg/Ha),2009,41434.783,C
+231,USA,571,Mangoes,41,Yield (Hg/Ha),2010,125531.915,C
+231,USA,571,Mangoes,41,Yield (Hg/Ha),2011,191555.556,C
+231,USA,572,Avocados,41,Yield (Hg/Ha),2005,103595.058,C
+231,USA,572,Avocados,41,Yield (Hg/Ha),2006,84967.32,C
+231,USA,572,Avocados,41,Yield (Hg/Ha),2007,65051.88,C
+231,USA,572,Avocados,41,Yield (Hg/Ha),2008,35703.865,C
+231,USA,572,Avocados,41,Yield (Hg/Ha),2009,100978.038,C
+231,USA,572,Avocados,41,Yield (Hg/Ha),2010,65208.428,C
+231,USA,572,Avocados,41,Yield (Hg/Ha),2011,98324.059,C
+231,USA,574,Pineapples,41,Yield (Hg/Ha),2005,339433.463,C
+231,USA,574,Pineapples,41,Yield (Hg/Ha),2006,303201.778,C
+231,USA,574,Pineapples,41,Yield (Hg/Ha),2007,301754.386,C
+231,USA,574,Pineapples,41,Yield (Hg/Ha),2008,313043.478,C
+231,USA,574,Pineapples,41,Yield (Hg/Ha),2009,344827.586,C
+231,USA,574,Pineapples,41,Yield (Hg/Ha),2010,298245.614,C
+231,USA,574,Pineapples,41,Yield (Hg/Ha),2011,311952.558,C
+231,USA,575,"Pineapples, Canned",41,Extr Rate (Hg/Mt),2005,0,C
+231,USA,575,"Pineapples, Canned",41,Extr Rate (Hg/Mt),2006,0,C
+231,USA,575,"Pineapples, Canned",41,Extr Rate (Hg/Mt),2007,0,C
+231,USA,575,"Pineapples, Canned",41,Extr Rate (Hg/Mt),2008,0,C
+231,USA,575,"Pineapples, Canned",41,Extr Rate (Hg/Mt),2009,0,C
+231,USA,575,"Pineapples, Canned",41,Extr Rate (Hg/Mt),2010,0,C
+231,USA,575,"Pineapples, Canned",41,Extr Rate (Hg/Mt),2011,5000,C
+231,USA,577,Dates,41,Yield (Hg/Ha),2005,68802.727,C
+231,USA,577,Dates,41,Yield (Hg/Ha),2006,70581.236,C
+231,USA,577,Dates,41,Yield (Hg/Ha),2007,68937.063,C
+231,USA,577,Dates,41,Yield (Hg/Ha),2008,82184.655,C
+231,USA,577,Dates,41,Yield (Hg/Ha),2009,79306.529,C
+231,USA,577,Dates,41,Yield (Hg/Ha),2010,84428.755,C
+231,USA,577,Dates,41,Yield (Hg/Ha),2011,88876.14,C
+231,USA,580,Pineapplejuice Concentr.,41,Extr Rate (Hg/Mt),2005,0,C
+231,USA,580,Pineapplejuice Concentr.,41,Extr Rate (Hg/Mt),2006,0,C
+231,USA,580,Pineapplejuice Concentr.,41,Extr Rate (Hg/Mt),2007,0,C
+231,USA,580,Pineapplejuice Concentr.,41,Extr Rate (Hg/Mt),2008,0,C
+231,USA,580,Pineapplejuice Concentr.,41,Extr Rate (Hg/Mt),2009,0,C
+231,USA,580,Pineapplejuice Concentr.,41,Extr Rate (Hg/Mt),2010,0,C
+231,USA,580,Pineapplejuice Concentr.,41,Extr Rate (Hg/Mt),2011,1500,C
+231,USA,592,Kiwi Fruit,41,Yield (Hg/Ha),2005,185321.252,C
+231,USA,592,Kiwi Fruit,41,Yield (Hg/Ha),2006,131117.974,C
+231,USA,592,Kiwi Fruit,41,Yield (Hg/Ha),2007,130741.176,C
+231,USA,592,Kiwi Fruit,41,Yield (Hg/Ha),2008,122735.294,C
+231,USA,592,Kiwi Fruit,41,Yield (Hg/Ha),2009,136611.765,C
+231,USA,592,Kiwi Fruit,41,Yield (Hg/Ha),2010,174500,C
+231,USA,592,Kiwi Fruit,41,Yield (Hg/Ha),2011,201176.471,C
+231,USA,600,Papayas,41,Yield (Hg/Ha),2005,249081.803,C
+231,USA,600,Papayas,41,Yield (Hg/Ha),2006,202843.602,C
+231,USA,600,Papayas,41,Yield (Hg/Ha),2007,285849.057,C
+231,USA,600,Papayas,41,Yield (Hg/Ha),2008,273118.28,C
+231,USA,600,Papayas,41,Yield (Hg/Ha),2009,266604.478,C
+231,USA,600,Papayas,41,Yield (Hg/Ha),2010,250054.945,C
+231,USA,600,Papayas,41,Yield (Hg/Ha),2011,246634.981,C
+231,USA,619,Fruit Fresh nes,41,Yield (Hg/Ha),2005,148760,C
+231,USA,619,Fruit Fresh nes,41,Yield (Hg/Ha),2006,223800,C
+231,USA,619,Fruit Fresh nes,41,Yield (Hg/Ha),2007,288985.507,C
+231,USA,619,Fruit Fresh nes,41,Yield (Hg/Ha),2008,244307.692,C
+231,USA,619,Fruit Fresh nes,41,Yield (Hg/Ha),2009,173272.727,C
+231,USA,619,Fruit Fresh nes,41,Yield (Hg/Ha),2010,125531.915,C
+231,USA,619,Fruit Fresh nes,41,Yield (Hg/Ha),2011,122400,C
+231,USA,620,Fruit Dried nes,41,Extr Rate (Hg/Mt),2005,2000,C
+231,USA,620,Fruit Dried nes,41,Extr Rate (Hg/Mt),2006,2000,C
+231,USA,620,Fruit Dried nes,41,Extr Rate (Hg/Mt),2007,2000,C
+231,USA,620,Fruit Dried nes,41,Extr Rate (Hg/Mt),2008,2000,C
+231,USA,620,Fruit Dried nes,41,Extr Rate (Hg/Mt),2009,2000,C
+231,USA,620,Fruit Dried nes,41,Extr Rate (Hg/Mt),2010,2000,C
+231,USA,620,Fruit Dried nes,41,Extr Rate (Hg/Mt),2011,2000,C
+231,USA,622,Fruit Juice nes,41,Extr Rate (Hg/Mt),2005,5000,C
+231,USA,622,Fruit Juice nes,41,Extr Rate (Hg/Mt),2006,5000,C
+231,USA,622,Fruit Juice nes,41,Extr Rate (Hg/Mt),2007,5000,C
+231,USA,622,Fruit Juice nes,41,Extr Rate (Hg/Mt),2008,5000,C
+231,USA,622,Fruit Juice nes,41,Extr Rate (Hg/Mt),2009,5000,C
+231,USA,622,Fruit Juice nes,41,Extr Rate (Hg/Mt),2010,5000,C
+231,USA,622,Fruit Juice nes,41,Extr Rate (Hg/Mt),2011,5000,C
+231,USA,623,Fruit Prepared nes,41,Extr Rate (Hg/Mt),2005,0,C
+231,USA,623,Fruit Prepared nes,41,Extr Rate (Hg/Mt),2006,0,C
+231,USA,623,Fruit Prepared nes,41,Extr Rate (Hg/Mt),2007,0,C
+231,USA,623,Fruit Prepared nes,41,Extr Rate (Hg/Mt),2008,0,C
+231,USA,623,Fruit Prepared nes,41,Extr Rate (Hg/Mt),2009,0,C
+231,USA,623,Fruit Prepared nes,41,Extr Rate (Hg/Mt),2010,0,C
+231,USA,623,Fruit Prepared nes,41,Extr Rate (Hg/Mt),2011,0,C
+231,USA,624,Flour of Fruit,41,Extr Rate (Hg/Mt),2005,2000,C
+231,USA,624,Flour of Fruit,41,Extr Rate (Hg/Mt),2006,2000,C
+231,USA,624,Flour of Fruit,41,Extr Rate (Hg/Mt),2007,2000,C
+231,USA,624,Flour of Fruit,41,Extr Rate (Hg/Mt),2008,2000,C
+231,USA,624,Flour of Fruit,41,Extr Rate (Hg/Mt),2009,2000,C
+231,USA,624,Flour of Fruit,41,Extr Rate (Hg/Mt),2010,2000,C
+231,USA,624,Flour of Fruit,41,Extr Rate (Hg/Mt),2011,2000,C
+231,USA,628,Fruit Pulp for Feed,41,Extr Rate (Hg/Mt),2005,4000,C
+231,USA,628,Fruit Pulp for Feed,41,Extr Rate (Hg/Mt),2006,4000,C
+231,USA,628,Fruit Pulp for Feed,41,Extr Rate (Hg/Mt),2007,4000,C
+231,USA,628,Fruit Pulp for Feed,41,Extr Rate (Hg/Mt),2008,4000,C
+231,USA,628,Fruit Pulp for Feed,41,Extr Rate (Hg/Mt),2009,4000,C
+231,USA,628,Fruit Pulp for Feed,41,Extr Rate (Hg/Mt),2010,4000,C
+231,USA,628,Fruit Pulp for Feed,41,Extr Rate (Hg/Mt),2011,4000,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2005,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2006,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2007,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2008,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2009,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2010,2500,C
+231,USA,632,Alcohol Non Food Purpose,41,Extr Rate (Hg/Mt),2011,2500,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2005,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2006,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2007,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2008,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2009,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2010,50000,C
+231,USA,633,Beverages Non-Alcoholic,41,Extr Rate (Hg/Mt),2011,50000,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2005,3695.247,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2006,3678.47,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2007,3729.999,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2008,3948.582,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2009,3418.423,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2010,3400.31,C
+231,USA,634,Beverages Dist Alcoholic,41,Extr Rate (Hg/Mt),2011,3071.187,C
+231,USA,636,Maize for Forage+Silage,41,Yield (Hg/Ha),2005,402560.023,C
+231,USA,636,Maize for Forage+Silage,41,Yield (Hg/Ha),2006,362880.107,C
+231,USA,636,Maize for Forage+Silage,41,Yield (Hg/Ha),2007,392956.06,C
+231,USA,636,Maize for Forage+Silage,41,Yield (Hg/Ha),2008,419469.3,C
+231,USA,636,Maize for Forage+Silage,41,Yield (Hg/Ha),2009,432773.367,C
+231,USA,636,Maize for Forage+Silage,41,Yield (Hg/Ha),2010,432123.875,C
+231,USA,636,Maize for Forage+Silage,41,Yield (Hg/Ha),2011,412052.468,C
+231,USA,637,Sorghum for Forage+Silag,41,Yield (Hg/Ha),2005,304029.08,C
+231,USA,637,Sorghum for Forage+Silag,41,Yield (Hg/Ha),2006,299875.383,C
+231,USA,637,Sorghum for Forage+Silag,41,Yield (Hg/Ha),2007,299993.066,C
+231,USA,637,Sorghum for Forage+Silag,41,Yield (Hg/Ha),2008,310215.614,C
+231,USA,637,Sorghum for Forage+Silag,41,Yield (Hg/Ha),2009,324782.566,C
+231,USA,637,Sorghum for Forage+Silag,41,Yield (Hg/Ha),2010,281874.424,C
+231,USA,637,Sorghum for Forage+Silag,41,Yield (Hg/Ha),2011,229973.524,C
+231,USA,639,"Grasses nes,Forage+Silag",41,Yield (Hg/Ha),2005,237058.824,C
+231,USA,639,"Grasses nes,Forage+Silag",41,Yield (Hg/Ha),2006,248000,C
+231,USA,639,"Grasses nes,Forage+Silag",41,Yield (Hg/Ha),2007,253092.842,C
+231,USA,639,"Grasses nes,Forage+Silag",41,Yield (Hg/Ha),2008,248405.692,C
+231,USA,639,"Grasses nes,Forage+Silag",41,Yield (Hg/Ha),2009,244128.73,C
+231,USA,639,"Grasses nes,Forage+Silag",41,Yield (Hg/Ha),2010,91157.355,C
+231,USA,639,"Grasses nes,Forage+Silag",41,Yield (Hg/Ha),2011,85844.545,C
+231,USA,641,Alfalfa for Forage+Silag,41,Yield (Hg/Ha),2005,303460.204,C
+231,USA,641,Alfalfa for Forage+Silag,41,Yield (Hg/Ha),2006,300509.02,C
+231,USA,641,Alfalfa for Forage+Silag,41,Yield (Hg/Ha),2007,300304.255,C
+231,USA,641,Alfalfa for Forage+Silag,41,Yield (Hg/Ha),2008,422880.981,C
+231,USA,641,Alfalfa for Forage+Silag,41,Yield (Hg/Ha),2009,415273.26,C
+231,USA,641,Alfalfa for Forage+Silag,41,Yield (Hg/Ha),2010,155888.258,C
+231,USA,641,Alfalfa for Forage+Silag,41,Yield (Hg/Ha),2011,154582.311,C
+231,USA,642,Green Oilseeds fr Fodder,41,Yield (Hg/Ha),2005,140000,C
+231,USA,642,Green Oilseeds fr Fodder,41,Yield (Hg/Ha),2006,140000,C
+231,USA,642,Green Oilseeds fr Fodder,41,Yield (Hg/Ha),2007,140000,C
+231,USA,642,Green Oilseeds fr Fodder,41,Yield (Hg/Ha),2008,140000,C
+231,USA,642,Green Oilseeds fr Fodder,41,Yield (Hg/Ha),2009,140000,C
+231,USA,642,Green Oilseeds fr Fodder,41,Yield (Hg/Ha),2010,140000,C
+231,USA,642,Green Oilseeds fr Fodder,41,Yield (Hg/Ha),2011,140000,C
+231,USA,645,Mixed Grasses&Legumes,41,Yield (Hg/Ha),2005,170881.422,C
+231,USA,645,Mixed Grasses&Legumes,41,Yield (Hg/Ha),2006,170754.717,C
+231,USA,645,Mixed Grasses&Legumes,41,Yield (Hg/Ha),2007,170000,C
+231,USA,645,Mixed Grasses&Legumes,41,Yield (Hg/Ha),2008,170731.707,C
+231,USA,645,Mixed Grasses&Legumes,41,Yield (Hg/Ha),2009,170731.707,C
+231,USA,645,Mixed Grasses&Legumes,41,Yield (Hg/Ha),2010,170731.707,C
+231,USA,645,Mixed Grasses&Legumes,41,Yield (Hg/Ha),2011,170731.707,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2005,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2006,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2007,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2008,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2009,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2010,4000,C
+231,USA,654,Dregs from Brewing+Dist.,41,Extr Rate (Hg/Mt),2011,4000,C
+231,USA,656,"Coffee, Green",41,Yield (Hg/Ha),2005,15062.778,C
+231,USA,656,"Coffee, Green",41,Yield (Hg/Ha),2006,12984.314,C
+231,USA,656,"Coffee, Green",41,Yield (Hg/Ha),2007,13127.413,C
+231,USA,656,"Coffee, Green",41,Yield (Hg/Ha),2008,15490.196,C
+231,USA,656,"Coffee, Green",41,Yield (Hg/Ha),2009,15490.196,C
+231,USA,656,"Coffee, Green",41,Yield (Hg/Ha),2010,15647.059,C
+231,USA,656,"Coffee, Green",41,Yield (Hg/Ha),2011,13529.412,C
+231,USA,657,Coffee Roasted,41,Extr Rate (Hg/Mt),2005,8000,C
+231,USA,657,Coffee Roasted,41,Extr Rate (Hg/Mt),2006,8000,C
+231,USA,657,Coffee Roasted,41,Extr Rate (Hg/Mt),2007,8000,C
+231,USA,657,Coffee Roasted,41,Extr Rate (Hg/Mt),2008,8000,C
+231,USA,657,Coffee Roasted,41,Extr Rate (Hg/Mt),2009,8000,C
+231,USA,657,Coffee Roasted,41,Extr Rate (Hg/Mt),2010,8000,C
+231,USA,657,Coffee Roasted,41,Extr Rate (Hg/Mt),2011,8000,C
+231,USA,659,Coffee Extracts,41,Extr Rate (Hg/Mt),2005,0,C
+231,USA,659,Coffee Extracts,41,Extr Rate (Hg/Mt),2006,0,C
+231,USA,659,Coffee Extracts,41,Extr Rate (Hg/Mt),2007,0,C
+231,USA,659,Coffee Extracts,41,Extr Rate (Hg/Mt),2008,0,C
+231,USA,659,Coffee Extracts,41,Extr Rate (Hg/Mt),2009,0,C
+231,USA,659,Coffee Extracts,41,Extr Rate (Hg/Mt),2010,0,C
+231,USA,659,Coffee Extracts,41,Extr Rate (Hg/Mt),2011,4000,C
+231,USA,662,Cocoa Paste,41,Extr Rate (Hg/Mt),2005,8000,C
+231,USA,662,Cocoa Paste,41,Extr Rate (Hg/Mt),2006,8000,C
+231,USA,662,Cocoa Paste,41,Extr Rate (Hg/Mt),2007,8000,C
+231,USA,662,Cocoa Paste,41,Extr Rate (Hg/Mt),2008,8000,C
+231,USA,662,Cocoa Paste,41,Extr Rate (Hg/Mt),2009,8000,C
+231,USA,662,Cocoa Paste,41,Extr Rate (Hg/Mt),2010,8000,C
+231,USA,662,Cocoa Paste,41,Extr Rate (Hg/Mt),2011,8000,C
+231,USA,663,Cocoa Husks+Shell,41,Extr Rate (Hg/Mt),2005,2000,C
+231,USA,663,Cocoa Husks+Shell,41,Extr Rate (Hg/Mt),2006,2000,C
+231,USA,663,Cocoa Husks+Shell,41,Extr Rate (Hg/Mt),2007,2000,C
+231,USA,663,Cocoa Husks+Shell,41,Extr Rate (Hg/Mt),2008,2000,C
+231,USA,663,Cocoa Husks+Shell,41,Extr Rate (Hg/Mt),2009,2000,C
+231,USA,663,Cocoa Husks+Shell,41,Extr Rate (Hg/Mt),2010,2000,C
+231,USA,663,Cocoa Husks+Shell,41,Extr Rate (Hg/Mt),2011,2000,C
+231,USA,664,Cocoa Butter,41,Extr Rate (Hg/Mt),2005,4700,C
+231,USA,664,Cocoa Butter,41,Extr Rate (Hg/Mt),2006,4700,C
+231,USA,664,Cocoa Butter,41,Extr Rate (Hg/Mt),2007,4700,C
+231,USA,664,Cocoa Butter,41,Extr Rate (Hg/Mt),2008,4700,C
+231,USA,664,Cocoa Butter,41,Extr Rate (Hg/Mt),2009,4700,C
+231,USA,664,Cocoa Butter,41,Extr Rate (Hg/Mt),2010,4700,C
+231,USA,664,Cocoa Butter,41,Extr Rate (Hg/Mt),2011,4700,C
+231,USA,665,Cocoa Powder and Cake,41,Extr Rate (Hg/Mt),2005,5300,C
+231,USA,665,Cocoa Powder and Cake,41,Extr Rate (Hg/Mt),2006,5300,C
+231,USA,665,Cocoa Powder and Cake,41,Extr Rate (Hg/Mt),2007,5300,C
+231,USA,665,Cocoa Powder and Cake,41,Extr Rate (Hg/Mt),2008,5300,C
+231,USA,665,Cocoa Powder and Cake,41,Extr Rate (Hg/Mt),2009,5300,C
+231,USA,665,Cocoa Powder and Cake,41,Extr Rate (Hg/Mt),2010,5300,C
+231,USA,665,Cocoa Powder and Cake,41,Extr Rate (Hg/Mt),2011,5300,C
+231,USA,677,Hops,41,Yield (Hg/Ha),2005,20130.84,C
+231,USA,677,Hops,41,Yield (Hg/Ha),2006,22011.949,C
+231,USA,677,Hops,41,Yield (Hg/Ha),2007,21848.269,C
+231,USA,677,Hops,41,Yield (Hg/Ha),2008,22097.154,C
+231,USA,677,Hops,41,Yield (Hg/Ha),2009,26712.073,C
+231,USA,677,Hops,41,Yield (Hg/Ha),2010,23461.538,C
+231,USA,677,Hops,41,Yield (Hg/Ha),2011,24376.97,C
+231,USA,689,"Pimento, Allspice",41,Yield (Hg/Ha),2005,0,C
+231,USA,689,"Pimento, Allspice",41,Yield (Hg/Ha),2006,0,C
+231,USA,689,"Pimento, Allspice",41,Yield (Hg/Ha),2007,0,C
+231,USA,689,"Pimento, Allspice",41,Yield (Hg/Ha),2008,0,C
+231,USA,689,"Pimento, Allspice",41,Yield (Hg/Ha),2009,0,C
+231,USA,689,"Pimento, Allspice",41,Yield (Hg/Ha),2010,0,C
+231,USA,689,"Pimento, Allspice",41,Yield (Hg/Ha),2011,0,C
+231,USA,720,Ginger,41,Yield (Hg/Ha),2005,472040.816,C
+231,USA,720,Ginger,41,Yield (Hg/Ha),2006,487500,C
+231,USA,720,Ginger,41,Yield (Hg/Ha),2007,396875,C
+231,USA,720,Ginger,41,Yield (Hg/Ha),2008,340000,C
+231,USA,720,Ginger,41,Yield (Hg/Ha),2009,340000,C
+231,USA,720,Ginger,41,Yield (Hg/Ha),2010,340000,C
+231,USA,720,Ginger,41,Yield (Hg/Ha),2011,340000,C
+231,USA,767,Cotton Lint,41,Extr Rate (Hg/Mt),2005,4037.665,C
+231,USA,767,Cotton Lint,41,Extr Rate (Hg/Mt),2006,3859.434,C
+231,USA,767,Cotton Lint,41,Extr Rate (Hg/Mt),2007,4116.367,C
+231,USA,767,Cotton Lint,41,Extr Rate (Hg/Mt),2008,4169.849,C
+231,USA,767,Cotton Lint,41,Extr Rate (Hg/Mt),2009,4134.98,C
+231,USA,767,Cotton Lint,41,Extr Rate (Hg/Mt),2010,4160.632,C
+231,USA,767,Cotton Lint,41,Extr Rate (Hg/Mt),2011,4130.296,C
+231,USA,770,Cotton Linter,41,Extr Rate (Hg/Mt),2005,732.064,C
+231,USA,770,Cotton Linter,41,Extr Rate (Hg/Mt),2006,752.777,C
+231,USA,770,Cotton Linter,41,Extr Rate (Hg/Mt),2007,757.637,C
+231,USA,770,Cotton Linter,41,Extr Rate (Hg/Mt),2008,757.874,C
+231,USA,770,Cotton Linter,41,Extr Rate (Hg/Mt),2009,754.06,C
+231,USA,770,Cotton Linter,41,Extr Rate (Hg/Mt),2010,619.048,C
+231,USA,770,Cotton Linter,41,Extr Rate (Hg/Mt),2011,577.778,C
+231,USA,826,Tobacco Leaves,41,Yield (Hg/Ha),2005,24335.538,C
+231,USA,826,Tobacco Leaves,41,Yield (Hg/Ha),2006,24066.55,C
+231,USA,826,Tobacco Leaves,41,Yield (Hg/Ha),2007,24798.57,C
+231,USA,826,Tobacco Leaves,41,Yield (Hg/Ha),2008,25310.929,C
+231,USA,826,Tobacco Leaves,41,Yield (Hg/Ha),2009,26042.017,C
+231,USA,826,Tobacco Leaves,41,Yield (Hg/Ha),2010,23851.313,C
+231,USA,826,Tobacco Leaves,41,Yield (Hg/Ha),2011,20629.851,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2005,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2006,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2007,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2008,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2009,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2010,10000,C
+231,USA,846,Gluten Feed and Meal,41,Extr Rate (Hg/Mt),2011,10000,C
+231,USA,860,Range Pasture,41,Yield (Hg/Ha),2005,52516.411,C
+231,USA,860,Range Pasture,41,Yield (Hg/Ha),2006,52516.411,C
+231,USA,860,Range Pasture,41,Yield (Hg/Ha),2007,52516.411,C
+231,USA,860,Range Pasture,41,Yield (Hg/Ha),2008,52521.008,C
+231,USA,860,Range Pasture,41,Yield (Hg/Ha),2009,52521.008,C
+231,USA,860,Range Pasture,41,Yield (Hg/Ha),2010,52521.008,C
+231,USA,860,Range Pasture,41,Yield (Hg/Ha),2011,52521.008,C
+231,USA,861,Improved Pasture,41,Yield (Hg/Ha),2005,131076.923,C
+231,USA,861,Improved Pasture,41,Yield (Hg/Ha),2006,131076.923,C
+231,USA,861,Improved Pasture,41,Yield (Hg/Ha),2007,131076.923,C
+231,USA,861,Improved Pasture,41,Yield (Hg/Ha),2008,130000,C
+231,USA,861,Improved Pasture,41,Yield (Hg/Ha),2009,130000,C
+231,USA,861,Improved Pasture,41,Yield (Hg/Ha),2010,130000,C
+231,USA,861,Improved Pasture,41,Yield (Hg/Ha),2011,130000,C
+231,USA,866,Cattle,41,Birth Rate (.0001),2005,8963.416,C
+231,USA,866,Cattle,41,Birth Rate (.0001),2006,8921.044,C
+231,USA,866,Cattle,41,Birth Rate (.0001),2007,8890.494,C
+231,USA,866,Cattle,41,Birth Rate (.0001),2008,8653.908,C
+231,USA,866,Cattle,41,Birth Rate (.0001),2009,8528.333,C
+231,USA,866,Cattle,41,Birth Rate (.0001),2010,8498.762,C
+231,USA,866,Cattle,41,Birth Rate (.0001),2011,8407.905,C
+231,USA,867,Beef and Veal,41,Carcass Wt/Yield (Hg/An),2005,3361.058,C
+231,USA,867,Beef and Veal,41,Carcass Wt/Yield (Hg/An),2006,3504.489,C
+231,USA,867,Beef and Veal,41,Carcass Wt/Yield (Hg/An),2007,3552.601,C
+231,USA,867,Beef and Veal,41,Carcass Wt/Yield (Hg/An),2008,3425.51,C
+231,USA,867,Beef and Veal,41,Carcass Wt/Yield (Hg/An),2009,3449.908,C
+231,USA,867,Beef and Veal,41,Carcass Wt/Yield (Hg/An),2010,3410.032,C
+231,USA,867,Beef and Veal,41,Carcass Wt/Yield (Hg/An),2011,3413.26,C
+231,USA,868,"Offals of Cattle, Edible",41,F/O Yield (Hg),2005,230.254,C
+231,USA,868,"Offals of Cattle, Edible",41,F/O Yield (Hg),2006,228.949,C
+231,USA,868,"Offals of Cattle, Edible",41,F/O Yield (Hg),2007,228.944,C
+231,USA,868,"Offals of Cattle, Edible",41,F/O Yield (Hg),2008,229.419,C
+231,USA,868,"Offals of Cattle, Edible",41,F/O Yield (Hg),2009,228.996,C
+231,USA,868,"Offals of Cattle, Edible",41,F/O Yield (Hg),2010,223.641,C
+231,USA,868,"Offals of Cattle, Edible",41,F/O Yield (Hg),2011,225.019,C
+231,USA,869,Fat of Cattle,41,F/O Yield (Hg),2005,190,F
+231,USA,869,Fat of Cattle,41,F/O Yield (Hg),2006,190,F
+231,USA,869,Fat of Cattle,41,F/O Yield (Hg),2007,190,F
+231,USA,869,Fat of Cattle,41,F/O Yield (Hg),2008,190,F
+231,USA,869,Fat of Cattle,41,F/O Yield (Hg),2009,190,F
+231,USA,869,Fat of Cattle,41,F/O Yield (Hg),2010,190,F
+231,USA,869,Fat of Cattle,41,F/O Yield (Hg),2011,191,F
+231,USA,870,"Beef and Veal,Boneless",41,Extr Rate (Hg/Mt),2005,6690,F
+231,USA,870,"Beef and Veal,Boneless",41,Extr Rate (Hg/Mt),2006,6690,F
+231,USA,870,"Beef and Veal,Boneless",41,Extr Rate (Hg/Mt),2007,6690,F
+231,USA,870,"Beef and Veal,Boneless",41,Extr Rate (Hg/Mt),2008,6690,F
+231,USA,870,"Beef and Veal,Boneless",41,Extr Rate (Hg/Mt),2009,6690,F
+231,USA,870,"Beef and Veal,Boneless",41,Extr Rate (Hg/Mt),2010,6690,F
+231,USA,870,"Beef and Veal,Boneless",41,Extr Rate (Hg/Mt),2011,6690,F
+231,USA,871,Cattle Butcher Fat,41,Extr Rate (Hg/Mt),2005,1500,C
+231,USA,871,Cattle Butcher Fat,41,Extr Rate (Hg/Mt),2006,1500,C
+231,USA,871,Cattle Butcher Fat,41,Extr Rate (Hg/Mt),2007,1500,C
+231,USA,871,Cattle Butcher Fat,41,Extr Rate (Hg/Mt),2008,1500,C
+231,USA,871,Cattle Butcher Fat,41,Extr Rate (Hg/Mt),2009,1500,C
+231,USA,871,Cattle Butcher Fat,41,Extr Rate (Hg/Mt),2010,1500,C
+231,USA,871,Cattle Butcher Fat,41,Extr Rate (Hg/Mt),2011,1500,C
+231,USA,872,Beef Dried Salt Smoked,41,Extr Rate (Hg/Mt),2005,6500,C
+231,USA,872,Beef Dried Salt Smoked,41,Extr Rate (Hg/Mt),2006,6500,C
+231,USA,872,Beef Dried Salt Smoked,41,Extr Rate (Hg/Mt),2007,6500,C
+231,USA,872,Beef Dried Salt Smoked,41,Extr Rate (Hg/Mt),2008,6500,C
+231,USA,872,Beef Dried Salt Smoked,41,Extr Rate (Hg/Mt),2009,6500,C
+231,USA,872,Beef Dried Salt Smoked,41,Extr Rate (Hg/Mt),2010,6500,C
+231,USA,872,Beef Dried Salt Smoked,41,Extr Rate (Hg/Mt),2011,6500,C
+231,USA,873,Meat Extracts,41,Extr Rate (Hg/Mt),2005,1500,C
+231,USA,873,Meat Extracts,41,Extr Rate (Hg/Mt),2006,1500,C
+231,USA,873,Meat Extracts,41,Extr Rate (Hg/Mt),2007,1500,C
+231,USA,873,Meat Extracts,41,Extr Rate (Hg/Mt),2008,1500,C
+231,USA,873,Meat Extracts,41,Extr Rate (Hg/Mt),2009,1500,C
+231,USA,873,Meat Extracts,41,Extr Rate (Hg/Mt),2010,1500,C
+231,USA,873,Meat Extracts,41,Extr Rate (Hg/Mt),2011,1500,C
+231,USA,882,"Cow Milk, Whole, Fresh",41,Yield (Hg/An),2005,88767.246,C
+231,USA,882,"Cow Milk, Whole, Fresh",41,Yield (Hg/An),2006,90499.376,C
+231,USA,882,"Cow Milk, Whole, Fresh",41,Yield (Hg/An),2007,92191.269,C
+231,USA,882,"Cow Milk, Whole, Fresh",41,Yield (Hg/An),2008,93620.217,C
+231,USA,882,"Cow Milk, Whole, Fresh",41,Yield (Hg/An),2009,93368.648,C
+231,USA,882,"Cow Milk, Whole, Fresh",41,Yield (Hg/An),2010,95872.842,C
+231,USA,882,"Cow Milk, Whole, Fresh",41,Yield (Hg/An),2011,96776.729,C
+231,USA,885,"Cream, Fresh",41,Extr Rate (Hg/Mt),2005,900,C
+231,USA,885,"Cream, Fresh",41,Extr Rate (Hg/Mt),2006,900,C
+231,USA,885,"Cream, Fresh",41,Extr Rate (Hg/Mt),2007,900,C
+231,USA,885,"Cream, Fresh",41,Extr Rate (Hg/Mt),2008,900,C
+231,USA,885,"Cream, Fresh",41,Extr Rate (Hg/Mt),2009,900,C
+231,USA,885,"Cream, Fresh",41,Extr Rate (Hg/Mt),2010,900,C
+231,USA,885,"Cream, Fresh",41,Extr Rate (Hg/Mt),2011,900,C
+231,USA,886,Butter of Cow Milk,41,Extr Rate (Hg/Mt),2005,447.001,C
+231,USA,886,Butter of Cow Milk,41,Extr Rate (Hg/Mt),2006,446.632,C
+231,USA,886,Butter of Cow Milk,41,Extr Rate (Hg/Mt),2007,446.568,C
+231,USA,886,Butter of Cow Milk,41,Extr Rate (Hg/Mt),2008,453.282,C
+231,USA,886,Butter of Cow Milk,41,Extr Rate (Hg/Mt),2009,452.886,C
+231,USA,886,Butter of Cow Milk,41,Extr Rate (Hg/Mt),2010,450.417,C
+231,USA,886,Butter of Cow Milk,41,Extr Rate (Hg/Mt),2011,446.14,C
+231,USA,887,Ghee (From Cow Milk),41,Extr Rate (Hg/Mt),2005,500,C
+231,USA,887,Ghee (From Cow Milk),41,Extr Rate (Hg/Mt),2006,500,C
+231,USA,887,Ghee (From Cow Milk),41,Extr Rate (Hg/Mt),2007,500,C
+231,USA,887,Ghee (From Cow Milk),41,Extr Rate (Hg/Mt),2008,500,C
+231,USA,887,Ghee (From Cow Milk),41,Extr Rate (Hg/Mt),2009,500,C
+231,USA,887,Ghee (From Cow Milk),41,Extr Rate (Hg/Mt),2010,500,C
+231,USA,887,Ghee (From Cow Milk),41,Extr Rate (Hg/Mt),2011,500,C
+231,USA,888,Skim Milk of Cows,41,Extr Rate (Hg/Mt),2005,7822.635,C
+231,USA,888,Skim Milk of Cows,41,Extr Rate (Hg/Mt),2006,7819.473,C
+231,USA,888,Skim Milk of Cows,41,Extr Rate (Hg/Mt),2007,7819.808,C
+231,USA,888,Skim Milk of Cows,41,Extr Rate (Hg/Mt),2008,7985.867,C
+231,USA,888,Skim Milk of Cows,41,Extr Rate (Hg/Mt),2009,8023.046,C
+231,USA,888,Skim Milk of Cows,41,Extr Rate (Hg/Mt),2010,7925.117,C
+231,USA,888,Skim Milk of Cows,41,Extr Rate (Hg/Mt),2011,6780.566,C
+231,USA,889,"Whole Milk,Condensed",41,Extr Rate (Hg/Mt),2005,4250.025,C
+231,USA,889,"Whole Milk,Condensed",41,Extr Rate (Hg/Mt),2006,4250.304,C
+231,USA,889,"Whole Milk,Condensed",41,Extr Rate (Hg/Mt),2007,4250.101,C
+231,USA,889,"Whole Milk,Condensed",41,Extr Rate (Hg/Mt),2008,4250,C
+231,USA,889,"Whole Milk,Condensed",41,Extr Rate (Hg/Mt),2009,4250.38,C
+231,USA,889,"Whole Milk,Condensed",41,Extr Rate (Hg/Mt),2010,3639.269,C
+231,USA,889,"Whole Milk,Condensed",41,Extr Rate (Hg/Mt),2011,0,C
+231,USA,890,"Whey, Condensed",41,Extr Rate (Hg/Mt),2005,2499.722,C
+231,USA,890,"Whey, Condensed",41,Extr Rate (Hg/Mt),2006,2500.49,C
+231,USA,890,"Whey, Condensed",41,Extr Rate (Hg/Mt),2007,2499.851,C
+231,USA,890,"Whey, Condensed",41,Extr Rate (Hg/Mt),2008,2499.735,C
+231,USA,890,"Whey, Condensed",41,Extr Rate (Hg/Mt),2009,2518.386,C
+231,USA,890,"Whey, Condensed",41,Extr Rate (Hg/Mt),2010,2448.604,C
+231,USA,890,"Whey, Condensed",41,Extr Rate (Hg/Mt),2011,2716.323,C
+231,USA,893,"Butterm,Curdl,Acid.Milk",41,Extr Rate (Hg/Mt),2005,9000,C
+231,USA,893,"Butterm,Curdl,Acid.Milk",41,Extr Rate (Hg/Mt),2006,9000,C
+231,USA,893,"Butterm,Curdl,Acid.Milk",41,Extr Rate (Hg/Mt),2007,9000,C
+231,USA,893,"Butterm,Curdl,Acid.Milk",41,Extr Rate (Hg/Mt),2008,9000,C
+231,USA,893,"Butterm,Curdl,Acid.Milk",41,Extr Rate (Hg/Mt),2009,9000,C
+231,USA,893,"Butterm,Curdl,Acid.Milk",41,Extr Rate (Hg/Mt),2010,9000,C
+231,USA,893,"Butterm,Curdl,Acid.Milk",41,Extr Rate (Hg/Mt),2011,9000,C
+231,USA,894,"Whole Milk, Evaporated",41,Extr Rate (Hg/Mt),2005,4559.828,C
+231,USA,894,"Whole Milk, Evaporated",41,Extr Rate (Hg/Mt),2006,4559.718,C
+231,USA,894,"Whole Milk, Evaporated",41,Extr Rate (Hg/Mt),2007,4559.798,C
+231,USA,894,"Whole Milk, Evaporated",41,Extr Rate (Hg/Mt),2008,4559.707,C
+231,USA,894,"Whole Milk, Evaporated",41,Extr Rate (Hg/Mt),2009,4559.816,C
+231,USA,894,"Whole Milk, Evaporated",41,Extr Rate (Hg/Mt),2010,4371.338,C
+231,USA,894,"Whole Milk, Evaporated",41,Extr Rate (Hg/Mt),2011,4303.336,C
+231,USA,895,"Skim Milk, Evaporated",41,Extr Rate (Hg/Mt),2005,3333.333,C
+231,USA,895,"Skim Milk, Evaporated",41,Extr Rate (Hg/Mt),2006,3332.531,C
+231,USA,895,"Skim Milk, Evaporated",41,Extr Rate (Hg/Mt),2007,3333.069,C
+231,USA,895,"Skim Milk, Evaporated",41,Extr Rate (Hg/Mt),2008,3333.066,C
+231,USA,895,"Skim Milk, Evaporated",41,Extr Rate (Hg/Mt),2009,3333.055,C
+231,USA,895,"Skim Milk, Evaporated",41,Extr Rate (Hg/Mt),2010,3563.333,C
+231,USA,895,"Skim Milk, Evaporated",41,Extr Rate (Hg/Mt),2011,3580.833,C
+231,USA,896,"Skim Milk, Condensed",41,Extr Rate (Hg/Mt),2005,3400.069,C
+231,USA,896,"Skim Milk, Condensed",41,Extr Rate (Hg/Mt),2006,3400.006,C
+231,USA,896,"Skim Milk, Condensed",41,Extr Rate (Hg/Mt),2007,3400.099,C
+231,USA,896,"Skim Milk, Condensed",41,Extr Rate (Hg/Mt),2008,3400.068,C
+231,USA,896,"Skim Milk, Condensed",41,Extr Rate (Hg/Mt),2009,3399.975,C
+231,USA,896,"Skim Milk, Condensed",41,Extr Rate (Hg/Mt),2010,3582.507,C
+231,USA,896,"Skim Milk, Condensed",41,Extr Rate (Hg/Mt),2011,3570.72,C
+231,USA,897,Dry Whole Cow Milk,41,Extr Rate (Hg/Mt),2005,1359.852,C
+231,USA,897,Dry Whole Cow Milk,41,Extr Rate (Hg/Mt),2006,1360.02,C
+231,USA,897,Dry Whole Cow Milk,41,Extr Rate (Hg/Mt),2007,1359.773,C
+231,USA,897,Dry Whole Cow Milk,41,Extr Rate (Hg/Mt),2008,1360.048,C
+231,USA,897,Dry Whole Cow Milk,41,Extr Rate (Hg/Mt),2009,1359.638,C
+231,USA,897,Dry Whole Cow Milk,41,Extr Rate (Hg/Mt),2010,1602.626,C
+231,USA,897,Dry Whole Cow Milk,41,Extr Rate (Hg/Mt),2011,1507.071,C
+231,USA,898,Dry Skim Cow Milk,41,Extr Rate (Hg/Mt),2005,908.996,C
+231,USA,898,Dry Skim Cow Milk,41,Extr Rate (Hg/Mt),2006,909.023,C
+231,USA,898,Dry Skim Cow Milk,41,Extr Rate (Hg/Mt),2007,909.003,C
+231,USA,898,Dry Skim Cow Milk,41,Extr Rate (Hg/Mt),2008,908.993,C
+231,USA,898,Dry Skim Cow Milk,41,Extr Rate (Hg/Mt),2009,908.565,C
+231,USA,898,Dry Skim Cow Milk,41,Extr Rate (Hg/Mt),2010,908.565,C
+231,USA,898,Dry Skim Cow Milk,41,Extr Rate (Hg/Mt),2011,908.565,C
+231,USA,899,Dry Buttermilk,41,Extr Rate (Hg/Mt),2005,908.981,C
+231,USA,899,Dry Buttermilk,41,Extr Rate (Hg/Mt),2006,908.865,C
+231,USA,899,Dry Buttermilk,41,Extr Rate (Hg/Mt),2007,909.037,C
+231,USA,899,Dry Buttermilk,41,Extr Rate (Hg/Mt),2008,908.872,C
+231,USA,899,Dry Buttermilk,41,Extr Rate (Hg/Mt),2009,909.091,C
+231,USA,899,Dry Buttermilk,41,Extr Rate (Hg/Mt),2010,1000.941,C
+231,USA,899,Dry Buttermilk,41,Extr Rate (Hg/Mt),2011,1221.302,C
+231,USA,900,Dry Whey,41,Extr Rate (Hg/Mt),2005,740.997,C
+231,USA,900,Dry Whey,41,Extr Rate (Hg/Mt),2006,740.493,C
+231,USA,900,Dry Whey,41,Extr Rate (Hg/Mt),2007,740.014,C
+231,USA,900,Dry Whey,41,Extr Rate (Hg/Mt),2008,739.979,C
+231,USA,900,Dry Whey,41,Extr Rate (Hg/Mt),2009,739.98,C
+231,USA,900,Dry Whey,41,Extr Rate (Hg/Mt),2010,747.767,C
+231,USA,900,Dry Whey,41,Extr Rate (Hg/Mt),2011,745.616,C
+231,USA,901,Cheese (Whole Cow Milk),41,Extr Rate (Hg/Mt),2005,1330.021,C
+231,USA,901,Cheese (Whole Cow Milk),41,Extr Rate (Hg/Mt),2006,1330.009,C
+231,USA,901,Cheese (Whole Cow Milk),41,Extr Rate (Hg/Mt),2007,1330.009,C
+231,USA,901,Cheese (Whole Cow Milk),41,Extr Rate (Hg/Mt),2008,1339.136,C
+231,USA,901,Cheese (Whole Cow Milk),41,Extr Rate (Hg/Mt),2009,1325.656,C
+231,USA,901,Cheese (Whole Cow Milk),41,Extr Rate (Hg/Mt),2010,1374.252,C
+231,USA,901,Cheese (Whole Cow Milk),41,Extr Rate (Hg/Mt),2011,1394.216,C
+231,USA,903,"Whey, Fresh",41,Extr Rate (Hg/Mt),2005,6500,C
+231,USA,903,"Whey, Fresh",41,Extr Rate (Hg/Mt),2006,6500,C
+231,USA,903,"Whey, Fresh",41,Extr Rate (Hg/Mt),2007,6500,C
+231,USA,903,"Whey, Fresh",41,Extr Rate (Hg/Mt),2008,6500,C
+231,USA,903,"Whey, Fresh",41,Extr Rate (Hg/Mt),2009,6500,C
+231,USA,903,"Whey, Fresh",41,Extr Rate (Hg/Mt),2010,6500,C
+231,USA,903,"Whey, Fresh",41,Extr Rate (Hg/Mt),2011,6500,C
+231,USA,904,Cheese (Skim Cow Milk),41,Extr Rate (Hg/Mt),2005,2745.083,C
+231,USA,904,Cheese (Skim Cow Milk),41,Extr Rate (Hg/Mt),2006,2745.196,C
+231,USA,904,Cheese (Skim Cow Milk),41,Extr Rate (Hg/Mt),2007,2745.001,C
+231,USA,904,Cheese (Skim Cow Milk),41,Extr Rate (Hg/Mt),2008,2747.253,C
+231,USA,904,Cheese (Skim Cow Milk),41,Extr Rate (Hg/Mt),2009,2747.232,C
+231,USA,904,Cheese (Skim Cow Milk),41,Extr Rate (Hg/Mt),2010,2686.387,C
+231,USA,904,Cheese (Skim Cow Milk),41,Extr Rate (Hg/Mt),2011,2686.387,C
+231,USA,919,"Cattle Hides, Fresh",41,Yield (Hg/An),2005,305,F
+231,USA,919,"Cattle Hides, Fresh",41,Yield (Hg/An),2006,318,F
+231,USA,919,"Cattle Hides, Fresh",41,Yield (Hg/An),2007,322,F
+231,USA,919,"Cattle Hides, Fresh",41,Yield (Hg/An),2008,311,F
+231,USA,919,"Cattle Hides, Fresh",41,Yield (Hg/An),2009,320,F
+231,USA,919,"Cattle Hides, Fresh",41,Yield (Hg/An),2010,320,F
+231,USA,919,"Cattle Hides, Fresh",41,Yield (Hg/An),2011,320,F
+231,USA,920,Hides Wet-Salted Cattle,41,Extr Rate (Hg/Mt),2005,8000,C
+231,USA,920,Hides Wet-Salted Cattle,41,Extr Rate (Hg/Mt),2006,8000,C
+231,USA,920,Hides Wet-Salted Cattle,41,Extr Rate (Hg/Mt),2007,8000,C
+231,USA,920,Hides Wet-Salted Cattle,41,Extr Rate (Hg/Mt),2008,8000,C
+231,USA,920,Hides Wet-Salted Cattle,41,Extr Rate (Hg/Mt),2009,8000,C
+231,USA,920,Hides Wet-Salted Cattle,41,Extr Rate (Hg/Mt),2010,8000,C
+231,USA,920,Hides Wet-Salted Cattle,41,Extr Rate (Hg/Mt),2011,8000,C
+231,USA,921,Hides Dry-Salted Cattle,41,Extr Rate (Hg/Mt),2005,5000,C
+231,USA,921,Hides Dry-Salted Cattle,41,Extr Rate (Hg/Mt),2006,5000,C
+231,USA,921,Hides Dry-Salted Cattle,41,Extr Rate (Hg/Mt),2007,5000,C
+231,USA,921,Hides Dry-Salted Cattle,41,Extr Rate (Hg/Mt),2008,5000,C
+231,USA,921,Hides Dry-Salted Cattle,41,Extr Rate (Hg/Mt),2009,5000,C
+231,USA,921,Hides Dry-Salted Cattle,41,Extr Rate (Hg/Mt),2010,5000,C
+231,USA,921,Hides Dry-Salted Cattle,41,Extr Rate (Hg/Mt),2011,5000,C
+231,USA,928,Skins Wet-Salt Calves,41,Extr Rate (Hg/Mt),2005,8000,C
+231,USA,928,Skins Wet-Salt Calves,41,Extr Rate (Hg/Mt),2006,8000,C
+231,USA,928,Skins Wet-Salt Calves,41,Extr Rate (Hg/Mt),2007,8000,C
+231,USA,928,Skins Wet-Salt Calves,41,Extr Rate (Hg/Mt),2008,8000,C
+231,USA,928,Skins Wet-Salt Calves,41,Extr Rate (Hg/Mt),2009,8000,C
+231,USA,928,Skins Wet-Salt Calves,41,Extr Rate (Hg/Mt),2010,8000,C
+231,USA,928,Skins Wet-Salt Calves,41,Extr Rate (Hg/Mt),2011,8000,C
+231,USA,944,Indigenous Cattle Meat,41,Carcass Wt/Yield (Hg/An),2005,3429.266,C
+231,USA,944,Indigenous Cattle Meat,41,Carcass Wt/Yield (Hg/An),2006,3574.624,C
+231,USA,944,Indigenous Cattle Meat,41,Carcass Wt/Yield (Hg/An),2007,3552.864,C
+231,USA,944,Indigenous Cattle Meat,41,Carcass Wt/Yield (Hg/An),2008,3426.024,C
+231,USA,944,Indigenous Cattle Meat,41,Carcass Wt/Yield (Hg/An),2009,3450.027,C
+231,USA,944,Indigenous Cattle Meat,41,Carcass Wt/Yield (Hg/An),2010,3409.999,C
+231,USA,944,Indigenous Cattle Meat,41,Carcass Wt/Yield (Hg/An),2011,3413.002,C
+231,USA,945,Biological Cattle Meat,41,Live Weight (Hg/An),2005,5481.249,C
+231,USA,945,Biological Cattle Meat,41,Live Weight (Hg/An),2006,5861.418,C
+231,USA,945,Biological Cattle Meat,41,Live Weight (Hg/An),2007,6084.418,C
+231,USA,945,Biological Cattle Meat,41,Live Weight (Hg/An),2008,5860.796,C
+231,USA,945,Biological Cattle Meat,41,Live Weight (Hg/An),2009,5868.451,C
+231,USA,945,Biological Cattle Meat,41,Live Weight (Hg/An),2010,5859.634,C
+231,USA,945,Biological Cattle Meat,41,Live Weight (Hg/An),2011,5980.559,C
+231,USA,977,Mutton and Lamb,41,Carcass Wt/Yield (Hg/An),2005,307.007,C
+231,USA,977,Mutton and Lamb,41,Carcass Wt/Yield (Hg/An),2006,303.198,C
+231,USA,977,Mutton and Lamb,41,Carcass Wt/Yield (Hg/An),2007,326.543,C
+231,USA,977,Mutton and Lamb,41,Carcass Wt/Yield (Hg/An),2008,308.578,C
+231,USA,977,Mutton and Lamb,41,Carcass Wt/Yield (Hg/An),2009,307.816,C
+231,USA,977,Mutton and Lamb,41,Carcass Wt/Yield (Hg/An),2010,299.044,C
+231,USA,977,Mutton and Lamb,41,Carcass Wt/Yield (Hg/An),2011,308.022,C
+231,USA,978,"Offals of Sheep, Edible",41,F/O Yield (Hg),2005,17.012,C
+231,USA,978,"Offals of Sheep, Edible",41,F/O Yield (Hg),2006,16.983,C
+231,USA,978,"Offals of Sheep, Edible",41,F/O Yield (Hg),2007,17.009,C
+231,USA,978,"Offals of Sheep, Edible",41,F/O Yield (Hg),2008,16.998,C
+231,USA,978,"Offals of Sheep, Edible",41,F/O Yield (Hg),2009,16.85,C
+231,USA,978,"Offals of Sheep, Edible",41,F/O Yield (Hg),2010,17.236,C
+231,USA,978,"Offals of Sheep, Edible",41,F/O Yield (Hg),2011,19.491,C
+231,USA,979,Fat of Sheep,41,F/O Yield (Hg),2005,7,C
+231,USA,979,Fat of Sheep,41,F/O Yield (Hg),2006,7,C
+231,USA,979,Fat of Sheep,41,F/O Yield (Hg),2007,7,C
+231,USA,979,Fat of Sheep,41,F/O Yield (Hg),2008,7,C
+231,USA,979,Fat of Sheep,41,F/O Yield (Hg),2009,7,C
+231,USA,979,Fat of Sheep,41,F/O Yield (Hg),2010,7,C
+231,USA,979,Fat of Sheep,41,F/O Yield (Hg),2011,7,C
+231,USA,987,"Wool, Greasy",41,Yield (Hg),2005,33.323,C
+231,USA,987,"Wool, Greasy",41,Yield (Hg),2006,33.596,C
+231,USA,987,"Wool, Greasy",41,Yield (Hg),2007,33.82,C
+231,USA,987,"Wool, Greasy",41,Yield (Hg),2008,33.721,C
+231,USA,987,"Wool, Greasy",41,Yield (Hg),2009,32.809,C
+231,USA,987,"Wool, Greasy",41,Yield (Hg),2010,32.957,C
+231,USA,987,"Wool, Greasy",41,Yield (Hg),2011,32.968,C
+231,USA,995,"Sheepskins, Fresh",41,Yield (Hg/An),2005,30,C
+231,USA,995,"Sheepskins, Fresh",41,Yield (Hg/An),2006,30,C
+231,USA,995,"Sheepskins, Fresh",41,Yield (Hg/An),2007,30,C
+231,USA,995,"Sheepskins, Fresh",41,Yield (Hg/An),2008,30,C
+231,USA,995,"Sheepskins, Fresh",41,Yield (Hg/An),2009,30,C
+231,USA,995,"Sheepskins, Fresh",41,Yield (Hg/An),2010,30,C
+231,USA,995,"Sheepskins, Fresh",41,Yield (Hg/An),2011,30,C
+231,USA,996,Skin Wet-Salted Sheep,41,Extr Rate (Hg/Mt),2005,8000,C
+231,USA,996,Skin Wet-Salted Sheep,41,Extr Rate (Hg/Mt),2006,8000,C
+231,USA,996,Skin Wet-Salted Sheep,41,Extr Rate (Hg/Mt),2007,8000,C
+231,USA,996,Skin Wet-Salted Sheep,41,Extr Rate (Hg/Mt),2008,8000,C
+231,USA,996,Skin Wet-Salted Sheep,41,Extr Rate (Hg/Mt),2009,8000,C
+231,USA,996,Skin Wet-Salted Sheep,41,Extr Rate (Hg/Mt),2010,8000,C
+231,USA,996,Skin Wet-Salted Sheep,41,Extr Rate (Hg/Mt),2011,8000,C
+231,USA,997,Skin Dry-Salted Sheep,41,Extr Rate (Hg/Mt),2005,5000,C
+231,USA,997,Skin Dry-Salted Sheep,41,Extr Rate (Hg/Mt),2006,5000,C
+231,USA,997,Skin Dry-Salted Sheep,41,Extr Rate (Hg/Mt),2007,5000,C
+231,USA,997,Skin Dry-Salted Sheep,41,Extr Rate (Hg/Mt),2008,5000,C
+231,USA,997,Skin Dry-Salted Sheep,41,Extr Rate (Hg/Mt),2009,5000,C
+231,USA,997,Skin Dry-Salted Sheep,41,Extr Rate (Hg/Mt),2010,5000,C
+231,USA,997,Skin Dry-Salted Sheep,41,Extr Rate (Hg/Mt),2011,5000,C
+231,USA,1012,Indigenous Sheep Meat,41,Carcass Wt/Yield (Hg/An),2005,307.763,C
+231,USA,1012,Indigenous Sheep Meat,41,Carcass Wt/Yield (Hg/An),2006,303.277,C
+231,USA,1012,Indigenous Sheep Meat,41,Carcass Wt/Yield (Hg/An),2007,327.096,C
+231,USA,1012,Indigenous Sheep Meat,41,Carcass Wt/Yield (Hg/An),2008,308.608,C
+231,USA,1012,Indigenous Sheep Meat,41,Carcass Wt/Yield (Hg/An),2009,307.997,C
+231,USA,1012,Indigenous Sheep Meat,41,Carcass Wt/Yield (Hg/An),2010,299,C
+231,USA,1012,Indigenous Sheep Meat,41,Carcass Wt/Yield (Hg/An),2011,307.996,C
+231,USA,1013,Biological Sheep Meat,41,Live Weight (Hg/An),2005,637.902,C
+231,USA,1013,Biological Sheep Meat,41,Live Weight (Hg/An),2006,637.804,C
+231,USA,1013,Biological Sheep Meat,41,Live Weight (Hg/An),2007,662.764,C
+231,USA,1013,Biological Sheep Meat,41,Live Weight (Hg/An),2008,661.288,C
+231,USA,1013,Biological Sheep Meat,41,Live Weight (Hg/An),2009,651.136,C
+231,USA,1013,Biological Sheep Meat,41,Live Weight (Hg/An),2010,633,F
+231,USA,1013,Biological Sheep Meat,41,Live Weight (Hg/An),2011,652,F
+231,USA,1035,Pigmeat,41,Carcass Wt/Yield (Hg/An),2005,877.687,C
+231,USA,1035,Pigmeat,41,Carcass Wt/Yield (Hg/An),2006,910.909,C
+231,USA,1035,Pigmeat,41,Carcass Wt/Yield (Hg/An),2007,920.246,C
+231,USA,1035,Pigmeat,41,Carcass Wt/Yield (Hg/An),2008,909.326,C
+231,USA,1035,Pigmeat,41,Carcass Wt/Yield (Hg/An),2009,918.082,C
+231,USA,1035,Pigmeat,41,Carcass Wt/Yield (Hg/An),2010,922.898,C
+231,USA,1035,Pigmeat,41,Carcass Wt/Yield (Hg/An),2011,931.07,C
+231,USA,1036,"Offals of Pigs, Edible",41,F/O Yield (Hg),2005,56.033,C
+231,USA,1036,"Offals of Pigs, Edible",41,F/O Yield (Hg),2006,56.274,C
+231,USA,1036,"Offals of Pigs, Edible",41,F/O Yield (Hg),2007,56.409,C
+231,USA,1036,"Offals of Pigs, Edible",41,F/O Yield (Hg),2008,65.203,C
+231,USA,1036,"Offals of Pigs, Edible",41,F/O Yield (Hg),2009,65.943,C
+231,USA,1036,"Offals of Pigs, Edible",41,F/O Yield (Hg),2010,72.485,C
+231,USA,1036,"Offals of Pigs, Edible",41,F/O Yield (Hg),2011,74.624,C
+231,USA,1037,Fat of Pigs,41,F/O Yield (Hg),2005,237.977,C
+231,USA,1037,Fat of Pigs,41,F/O Yield (Hg),2006,237.971,C
+231,USA,1037,Fat of Pigs,41,F/O Yield (Hg),2007,238.029,C
+231,USA,1037,Fat of Pigs,41,F/O Yield (Hg),2008,237.992,C
+231,USA,1037,Fat of Pigs,41,F/O Yield (Hg),2009,238.012,C
+231,USA,1037,Fat of Pigs,41,F/O Yield (Hg),2010,245.273,C
+231,USA,1037,Fat of Pigs,41,F/O Yield (Hg),2011,243.97,C
+231,USA,1038,Pork,41,Extr Rate (Hg/Mt),2005,7290,F
+231,USA,1038,Pork,41,Extr Rate (Hg/Mt),2006,7290,F
+231,USA,1038,Pork,41,Extr Rate (Hg/Mt),2007,7290,F
+231,USA,1038,Pork,41,Extr Rate (Hg/Mt),2008,7290,F
+231,USA,1038,Pork,41,Extr Rate (Hg/Mt),2009,7290,F
+231,USA,1038,Pork,41,Extr Rate (Hg/Mt),2010,7290,F
+231,USA,1038,Pork,41,Extr Rate (Hg/Mt),2011,7290,F
+231,USA,1039,Bacon-Ham of Pigs,41,Extr Rate (Hg/Mt),2005,8770,C
+231,USA,1039,Bacon-Ham of Pigs,41,Extr Rate (Hg/Mt),2006,8770,C
+231,USA,1039,Bacon-Ham of Pigs,41,Extr Rate (Hg/Mt),2007,8770,C
+231,USA,1039,Bacon-Ham of Pigs,41,Extr Rate (Hg/Mt),2008,8770,C
+231,USA,1039,Bacon-Ham of Pigs,41,Extr Rate (Hg/Mt),2009,8770,C
+231,USA,1039,Bacon-Ham of Pigs,41,Extr Rate (Hg/Mt),2010,8770,C
+231,USA,1039,Bacon-Ham of Pigs,41,Extr Rate (Hg/Mt),2011,8770,C
+231,USA,1040,Pig Butcher Fat,41,Extr Rate (Hg/Mt),2005,1500,C
+231,USA,1040,Pig Butcher Fat,41,Extr Rate (Hg/Mt),2006,1500,C
+231,USA,1040,Pig Butcher Fat,41,Extr Rate (Hg/Mt),2007,1500,C
+231,USA,1040,Pig Butcher Fat,41,Extr Rate (Hg/Mt),2008,1500,C
+231,USA,1040,Pig Butcher Fat,41,Extr Rate (Hg/Mt),2009,1500,C
+231,USA,1040,Pig Butcher Fat,41,Extr Rate (Hg/Mt),2010,1500,C
+231,USA,1040,Pig Butcher Fat,41,Extr Rate (Hg/Mt),2011,1500,C
+231,USA,1041,Sausages Pig Meat,41,Extr Rate (Hg/Mt),2005,10000,C
+231,USA,1041,Sausages Pig Meat,41,Extr Rate (Hg/Mt),2006,10000,C
+231,USA,1041,Sausages Pig Meat,41,Extr Rate (Hg/Mt),2007,10000,C
+231,USA,1041,Sausages Pig Meat,41,Extr Rate (Hg/Mt),2008,10000,C
+231,USA,1041,Sausages Pig Meat,41,Extr Rate (Hg/Mt),2009,10000,C
+231,USA,1041,Sausages Pig Meat,41,Extr Rate (Hg/Mt),2010,10000,C
+231,USA,1041,Sausages Pig Meat,41,Extr Rate (Hg/Mt),2011,10000,C
+231,USA,1043,Lard,41,Extr Rate (Hg/Mt),2005,7999.095,C
+231,USA,1043,Lard,41,Extr Rate (Hg/Mt),2006,8032.851,C
+231,USA,1043,Lard,41,Extr Rate (Hg/Mt),2007,8008.602,C
+231,USA,1043,Lard,41,Extr Rate (Hg/Mt),2008,7954.297,C
+231,USA,1043,Lard,41,Extr Rate (Hg/Mt),2009,7889.964,C
+231,USA,1043,Lard,41,Extr Rate (Hg/Mt),2010,8519.27,C
+231,USA,1043,Lard,41,Extr Rate (Hg/Mt),2011,9891.769,C
+231,USA,1055,Indigenous Pigmeat,41,Carcass Wt/Yield (Hg/An),2005,905.526,C
+231,USA,1055,Indigenous Pigmeat,41,Carcass Wt/Yield (Hg/An),2006,943.107,C
+231,USA,1055,Indigenous Pigmeat,41,Carcass Wt/Yield (Hg/An),2007,957.461,C
+231,USA,1055,Indigenous Pigmeat,41,Carcass Wt/Yield (Hg/An),2008,940.284,C
+231,USA,1055,Indigenous Pigmeat,41,Carcass Wt/Yield (Hg/An),2009,924.942,C
+231,USA,1055,Indigenous Pigmeat,41,Carcass Wt/Yield (Hg/An),2010,925.536,C
+231,USA,1055,Indigenous Pigmeat,41,Carcass Wt/Yield (Hg/An),2011,933.491,C
+231,USA,1056,Biological Pig Meat,41,Live Weight (Hg/An),2005,1168.306,C
+231,USA,1056,Biological Pig Meat,41,Live Weight (Hg/An),2006,1225.946,C
+231,USA,1056,Biological Pig Meat,41,Live Weight (Hg/An),2007,1190.497,C
+231,USA,1056,Biological Pig Meat,41,Live Weight (Hg/An),2008,1200.749,C
+231,USA,1056,Biological Pig Meat,41,Live Weight (Hg/An),2009,1131.918,C
+231,USA,1056,Biological Pig Meat,41,Live Weight (Hg/An),2010,1151.039,C
+231,USA,1056,Biological Pig Meat,41,Live Weight (Hg/An),2011,1162.964,C
+231,USA,1058,Chicken Meat,41,Carcass Wt/Yield (.1Gr/A),2005,17822.719,C
+231,USA,1058,Chicken Meat,41,Carcass Wt/Yield (.1Gr/A),2006,18081.652,C
+231,USA,1058,Chicken Meat,41,Carcass Wt/Yield (.1Gr/A),2007,18402.289,C
+231,USA,1058,Chicken Meat,41,Carcass Wt/Yield (.1Gr/A),2008,18726.041,C
+231,USA,1058,Chicken Meat,41,Carcass Wt/Yield (.1Gr/A),2009,18864.526,C
+231,USA,1058,Chicken Meat,41,Carcass Wt/Yield (.1Gr/A),2010,19306.124,C
+231,USA,1058,Chicken Meat,41,Carcass Wt/Yield (.1Gr/A),2011,19705.14,C
+231,USA,1059,Offals Liver of Chickens,41,F/O Yield (100Mg),2005,0,C
+231,USA,1059,Offals Liver of Chickens,41,F/O Yield (100Mg),2006,0,C
+231,USA,1059,Offals Liver of Chickens,41,F/O Yield (100Mg),2007,0,C
+231,USA,1059,Offals Liver of Chickens,41,F/O Yield (100Mg),2008,0,C
+231,USA,1059,Offals Liver of Chickens,41,F/O Yield (100Mg),2009,0,C
+231,USA,1059,Offals Liver of Chickens,41,F/O Yield (100Mg),2010,0,C
+231,USA,1059,Offals Liver of Chickens,41,F/O Yield (100Mg),2011,0,C
+231,USA,1061,Meat Canned Chicken,41,Extr Rate (Hg/Mt),2005,9000,C
+231,USA,1061,Meat Canned Chicken,41,Extr Rate (Hg/Mt),2006,9000,C
+231,USA,1061,Meat Canned Chicken,41,Extr Rate (Hg/Mt),2007,9000,C
+231,USA,1061,Meat Canned Chicken,41,Extr Rate (Hg/Mt),2008,9000,C
+231,USA,1061,Meat Canned Chicken,41,Extr Rate (Hg/Mt),2009,9000,C
+231,USA,1061,Meat Canned Chicken,41,Extr Rate (Hg/Mt),2010,9000,C
+231,USA,1061,Meat Canned Chicken,41,Extr Rate (Hg/Mt),2011,9000,C
+231,USA,1062,Hen Eggs,41,Yield (100 Mg),2005,154995.641,C
+231,USA,1062,Hen Eggs,41,Yield (100 Mg),2006,156944.388,C
+231,USA,1062,Hen Eggs,41,Yield (100 Mg),2007,158501.025,C
+231,USA,1062,Hen Eggs,41,Yield (100 Mg),2008,156703.221,C
+231,USA,1062,Hen Eggs,41,Yield (100 Mg),2009,157546.108,C
+231,USA,1062,Hen Eggs,41,Yield (100 Mg),2010,159008.036,C
+231,USA,1062,Hen Eggs,41,Yield (100 Mg),2011,160000,C
+231,USA,1063,Eggs Liquid Hen,41,Extr Rate (Hg/Mt),2005,8700,C
+231,USA,1063,Eggs Liquid Hen,41,Extr Rate (Hg/Mt),2006,8700,C
+231,USA,1063,Eggs Liquid Hen,41,Extr Rate (Hg/Mt),2007,8700,C
+231,USA,1063,Eggs Liquid Hen,41,Extr Rate (Hg/Mt),2008,8700,C
+231,USA,1063,Eggs Liquid Hen,41,Extr Rate (Hg/Mt),2009,8700,C
+231,USA,1063,Eggs Liquid Hen,41,Extr Rate (Hg/Mt),2010,8700,C
+231,USA,1063,Eggs Liquid Hen,41,Extr Rate (Hg/Mt),2011,8700,C
+231,USA,1064,Eggs Dry Whole Yolks Hen,41,Extr Rate (Hg/Mt),2005,2300,C
+231,USA,1064,Eggs Dry Whole Yolks Hen,41,Extr Rate (Hg/Mt),2006,2300,C
+231,USA,1064,Eggs Dry Whole Yolks Hen,41,Extr Rate (Hg/Mt),2007,2300,C
+231,USA,1064,Eggs Dry Whole Yolks Hen,41,Extr Rate (Hg/Mt),2008,2300,C
+231,USA,1064,Eggs Dry Whole Yolks Hen,41,Extr Rate (Hg/Mt),2009,2300,C
+231,USA,1064,Eggs Dry Whole Yolks Hen,41,Extr Rate (Hg/Mt),2010,2300,C
+231,USA,1064,Eggs Dry Whole Yolks Hen,41,Extr Rate (Hg/Mt),2011,2300,C
+231,USA,1069,Duck Meat,41,Carcass Wt/Yield (.1Gr/A),2005,30527.071,C
+231,USA,1069,Duck Meat,41,Carcass Wt/Yield (.1Gr/A),2006,30540.589,C
+231,USA,1069,Duck Meat,41,Carcass Wt/Yield (.1Gr/A),2007,21863.352,C
+231,USA,1069,Duck Meat,41,Carcass Wt/Yield (.1Gr/A),2008,21842.726,C
+231,USA,1069,Duck Meat,41,Carcass Wt/Yield (.1Gr/A),2009,21956.78,C
+231,USA,1069,Duck Meat,41,Carcass Wt/Yield (.1Gr/A),2010,22253.354,C
+231,USA,1069,Duck Meat,41,Carcass Wt/Yield (.1Gr/A),2011,22244.197,C
+231,USA,1070,Indigenous Duck Meat,41,Carcass Wt/Yield (.1Gr/A),2005,30374.416,C
+231,USA,1070,Indigenous Duck Meat,41,Carcass Wt/Yield (.1Gr/A),2006,30323.261,C
+231,USA,1070,Indigenous Duck Meat,41,Carcass Wt/Yield (.1Gr/A),2007,21953.698,C
+231,USA,1070,Indigenous Duck Meat,41,Carcass Wt/Yield (.1Gr/A),2008,21927.017,C
+231,USA,1070,Indigenous Duck Meat,41,Carcass Wt/Yield (.1Gr/A),2009,21973.132,C
+231,USA,1070,Indigenous Duck Meat,41,Carcass Wt/Yield (.1Gr/A),2010,22253.788,C
+231,USA,1070,Indigenous Duck Meat,41,Carcass Wt/Yield (.1Gr/A),2011,22260.883,C
+231,USA,1071,Biological Duck Meat,41,Live Weight (.1Gr/A),2005,29000,C
+231,USA,1071,Biological Duck Meat,41,Live Weight (.1Gr/A),2006,29000,C
+231,USA,1071,Biological Duck Meat,41,Live Weight (.1Gr/A),2007,29000,C
+231,USA,1071,Biological Duck Meat,41,Live Weight (.1Gr/A),2008,29000,C
+231,USA,1071,Biological Duck Meat,41,Live Weight (.1Gr/A),2009,29000,C
+231,USA,1071,Biological Duck Meat,41,Live Weight (.1Gr/A),2010,29000,C
+231,USA,1071,Biological Duck Meat,41,Live Weight (.1Gr/A),2011,29000,C
+231,USA,1080,Turkey Meat,41,Carcass Wt/Yield (.1Gr/A),2005,100630.003,C
+231,USA,1080,Turkey Meat,41,Carcass Wt/Yield (.1Gr/A),2006,101255.123,C
+231,USA,1080,Turkey Meat,41,Carcass Wt/Yield (.1Gr/A),2007,101887.395,C
+231,USA,1080,Turkey Meat,41,Carcass Wt/Yield (.1Gr/A),2008,104461.689,C
+231,USA,1080,Turkey Meat,41,Carcass Wt/Yield (.1Gr/A),2009,104503.035,C
+231,USA,1080,Turkey Meat,41,Carcass Wt/Yield (.1Gr/A),2010,105523.805,C
+231,USA,1080,Turkey Meat,41,Carcass Wt/Yield (.1Gr/A),2011,106404.49,C
+231,USA,1087,Indigenous Turkey Meat,41,Carcass Wt/Yield (.1Gr/A),2005,100644.041,C
+231,USA,1087,Indigenous Turkey Meat,41,Carcass Wt/Yield (.1Gr/A),2006,101288.449,C
+231,USA,1087,Indigenous Turkey Meat,41,Carcass Wt/Yield (.1Gr/A),2007,101905.117,C
+231,USA,1087,Indigenous Turkey Meat,41,Carcass Wt/Yield (.1Gr/A),2008,104471.959,C
+231,USA,1087,Indigenous Turkey Meat,41,Carcass Wt/Yield (.1Gr/A),2009,104527.782,C
+231,USA,1087,Indigenous Turkey Meat,41,Carcass Wt/Yield (.1Gr/A),2010,105534.421,C
+231,USA,1087,Indigenous Turkey Meat,41,Carcass Wt/Yield (.1Gr/A),2011,106433.426,C
+231,USA,1088,Biological Turkey Meat,41,Live Weight (.1Gr/A),2005,125307.708,C
+231,USA,1088,Biological Turkey Meat,41,Live Weight (.1Gr/A),2006,127734.119,C
+231,USA,1088,Biological Turkey Meat,41,Live Weight (.1Gr/A),2007,126973.384,C
+231,USA,1088,Biological Turkey Meat,41,Live Weight (.1Gr/A),2008,133625.767,C
+231,USA,1088,Biological Turkey Meat,41,Live Weight (.1Gr/A),2009,134154.396,C
+231,USA,1088,Biological Turkey Meat,41,Live Weight (.1Gr/A),2010,135058.003,C
+231,USA,1088,Biological Turkey Meat,41,Live Weight (.1Gr/A),2011,135861.469,C
+231,USA,1094,Indigenous Chicken Meat,41,Carcass Wt/Yield (.1Gr/A),2005,17823,F
+231,USA,1094,Indigenous Chicken Meat,41,Carcass Wt/Yield (.1Gr/A),2006,18082,F
+231,USA,1094,Indigenous Chicken Meat,41,Carcass Wt/Yield (.1Gr/A),2007,18402,F
+231,USA,1094,Indigenous Chicken Meat,41,Carcass Wt/Yield (.1Gr/A),2008,18726,F
+231,USA,1094,Indigenous Chicken Meat,41,Carcass Wt/Yield (.1Gr/A),2009,18865,F
+231,USA,1094,Indigenous Chicken Meat,41,Carcass Wt/Yield (.1Gr/A),2010,19306,F
+231,USA,1094,Indigenous Chicken Meat,41,Carcass Wt/Yield (.1Gr/A),2011,19705,F
+231,USA,1095,Biological Chicken Meat,41,Live Weight (.1Gr/A),2005,26599.712,C
+231,USA,1095,Biological Chicken Meat,41,Live Weight (.1Gr/A),2006,27021.52,C
+231,USA,1095,Biological Chicken Meat,41,Live Weight (.1Gr/A),2007,26860.328,C
+231,USA,1095,Biological Chicken Meat,41,Live Weight (.1Gr/A),2008,25924.559,C
+231,USA,1095,Biological Chicken Meat,41,Live Weight (.1Gr/A),2009,27610.596,C
+231,USA,1095,Biological Chicken Meat,41,Live Weight (.1Gr/A),2010,27030,F
+231,USA,1095,Biological Chicken Meat,41,Live Weight (.1Gr/A),2011,27587,F
+231,USA,1097,Horsemeat,41,Carcass Wt/Yield (Hg/An),2005,2499.016,C
+231,USA,1097,Horsemeat,41,Carcass Wt/Yield (Hg/An),2006,2502.407,C
+231,USA,1097,Horsemeat,41,Carcass Wt/Yield (Hg/An),2007,2511.628,C
+231,USA,1097,Horsemeat,41,Carcass Wt/Yield (Hg/An),2008,2557.5,C
+231,USA,1097,Horsemeat,41,Carcass Wt/Yield (Hg/An),2009,2545.455,C
+231,USA,1097,Horsemeat,41,Carcass Wt/Yield (Hg/An),2010,2590.909,C
+231,USA,1097,Horsemeat,41,Carcass Wt/Yield (Hg/An),2011,2590.909,C
+231,USA,1098,Offals of Horse,41,F/O Yield (Hg),2005,270,C
+231,USA,1098,Offals of Horse,41,F/O Yield (Hg),2006,270,C
+231,USA,1098,Offals of Horse,41,F/O Yield (Hg),2007,270,C
+231,USA,1098,Offals of Horse,41,F/O Yield (Hg),2008,270,C
+231,USA,1098,Offals of Horse,41,F/O Yield (Hg),2009,270,C
+231,USA,1098,Offals of Horse,41,F/O Yield (Hg),2010,270,C
+231,USA,1098,Offals of Horse,41,F/O Yield (Hg),2011,270,C
+231,USA,1102,"Horse Hides, Fresh",41,Yield (Hg/An),2005,300,C
+231,USA,1102,"Horse Hides, Fresh",41,Yield (Hg/An),2006,300,C
+231,USA,1102,"Horse Hides, Fresh",41,Yield (Hg/An),2007,300,C
+231,USA,1102,"Horse Hides, Fresh",41,Yield (Hg/An),2008,300,C
+231,USA,1102,"Horse Hides, Fresh",41,Yield (Hg/An),2009,300,C
+231,USA,1102,"Horse Hides, Fresh",41,Yield (Hg/An),2010,300,C
+231,USA,1102,"Horse Hides, Fresh",41,Yield (Hg/An),2011,300,C
+231,USA,1120,Indigenous Horse Meat,41,Carcass Wt/Yield (Hg/An),2005,2500,C
+231,USA,1120,Indigenous Horse Meat,41,Carcass Wt/Yield (Hg/An),2006,2502,F
+231,USA,1120,Indigenous Horse Meat,41,Carcass Wt/Yield (Hg/An),2007,2512,F
+231,USA,1120,Indigenous Horse Meat,41,Carcass Wt/Yield (Hg/An),2008,2558,F
+231,USA,1120,Indigenous Horse Meat,41,Carcass Wt/Yield (Hg/An),2009,2545,F
+231,USA,1120,Indigenous Horse Meat,41,Carcass Wt/Yield (Hg/An),2010,2591,F
+231,USA,1120,Indigenous Horse Meat,41,Carcass Wt/Yield (Hg/An),2011,2591,F
+231,USA,1121,Biological Horse Meat,41,Live Weight (Hg/An),2005,5000,C
+231,USA,1121,Biological Horse Meat,41,Live Weight (Hg/An),2006,5000,C
+231,USA,1121,Biological Horse Meat,41,Live Weight (Hg/An),2007,5000,C
+231,USA,1121,Biological Horse Meat,41,Live Weight (Hg/An),2008,5000,C
+231,USA,1121,Biological Horse Meat,41,Live Weight (Hg/An),2009,5000,C
+231,USA,1121,Biological Horse Meat,41,Live Weight (Hg/An),2010,5000,C
+231,USA,1121,Biological Horse Meat,41,Live Weight (Hg/An),2011,5000,C
+231,USA,1164,"Meat, Dried, nes",41,Extr Rate (Hg/Mt),2005,6500,C
+231,USA,1164,"Meat, Dried, nes",41,Extr Rate (Hg/Mt),2006,6500,C
+231,USA,1164,"Meat, Dried, nes",41,Extr Rate (Hg/Mt),2007,6500,C
+231,USA,1164,"Meat, Dried, nes",41,Extr Rate (Hg/Mt),2008,6500,C
+231,USA,1164,"Meat, Dried, nes",41,Extr Rate (Hg/Mt),2009,6500,C
+231,USA,1164,"Meat, Dried, nes",41,Extr Rate (Hg/Mt),2010,6500,C
+231,USA,1164,"Meat, Dried, nes",41,Extr Rate (Hg/Mt),2011,6500,C
+231,USA,1168,Animal Oils and Fats nes,41,Extr Rate (Hg/Mt),2005,10000,C
+231,USA,1168,Animal Oils and Fats nes,41,Extr Rate (Hg/Mt),2006,10000,C
+231,USA,1168,Animal Oils and Fats nes,41,Extr Rate (Hg/Mt),2007,10000,C
+231,USA,1168,Animal Oils and Fats nes,41,Extr Rate (Hg/Mt),2008,10000,C
+231,USA,1168,Animal Oils and Fats nes,41,Extr Rate (Hg/Mt),2009,10000,C
+231,USA,1168,Animal Oils and Fats nes,41,Extr Rate (Hg/Mt),2010,10000,C
+231,USA,1168,Animal Oils and Fats nes,41,Extr Rate (Hg/Mt),2011,10000,C
+231,USA,1172,Meat Prepared nes,41,Extr Rate (Hg/Mt),2005,8000,C
+231,USA,1172,Meat Prepared nes,41,Extr Rate (Hg/Mt),2006,8000,C
+231,USA,1172,Meat Prepared nes,41,Extr Rate (Hg/Mt),2007,8000,C
+231,USA,1172,Meat Prepared nes,41,Extr Rate (Hg/Mt),2008,8000,C
+231,USA,1172,Meat Prepared nes,41,Extr Rate (Hg/Mt),2009,8000,C
+231,USA,1172,Meat Prepared nes,41,Extr Rate (Hg/Mt),2010,8000,C
+231,USA,1172,Meat Prepared nes,41,Extr Rate (Hg/Mt),2011,8000,C
+231,USA,1182,Honey,41,Yield (Hg),2005,0,M
+231,USA,1182,Honey,41,Yield (Hg),2006,0,M
+231,USA,1182,Honey,41,Yield (Hg),2007,0,M
+231,USA,1182,Honey,41,Yield (Hg),2008,0,M
+231,USA,1182,Honey,41,Yield (Hg),2009,0,M
+231,USA,1182,Honey,41,Yield (Hg),2010,0,M
+231,USA,1182,Honey,41,Yield (Hg),2011,0,M
+231,USA,1221,Lard and Stearine Oil,41,Extr Rate (Hg/Mt),2005,10000,C
+231,USA,1221,Lard and Stearine Oil,41,Extr Rate (Hg/Mt),2006,10000,C
+231,USA,1221,Lard and Stearine Oil,41,Extr Rate (Hg/Mt),2007,10000,C
+231,USA,1221,Lard and Stearine Oil,41,Extr Rate (Hg/Mt),2008,10000,C
+231,USA,1221,Lard and Stearine Oil,41,Extr Rate (Hg/Mt),2009,10000,C
+231,USA,1221,Lard and Stearine Oil,41,Extr Rate (Hg/Mt),2010,10000,C
+231,USA,1221,Lard and Stearine Oil,41,Extr Rate (Hg/Mt),2011,10000,C
+231,USA,1225,Tallow,41,Extr Rate (Hg/Mt),2005,8000,C
+231,USA,1225,Tallow,41,Extr Rate (Hg/Mt),2006,8000,C
+231,USA,1225,Tallow,41,Extr Rate (Hg/Mt),2007,8000,C
+231,USA,1225,Tallow,41,Extr Rate (Hg/Mt),2008,8000,C
+231,USA,1225,Tallow,41,Extr Rate (Hg/Mt),2009,8000,C
+231,USA,1225,Tallow,41,Extr Rate (Hg/Mt),2010,8000,C
+231,USA,1225,Tallow,41,Extr Rate (Hg/Mt),2011,8000,C
+231,USA,1242,Margarine + Shortening,41,Extr Rate (Hg/Mt),2005,12551.457,C
+231,USA,1242,Margarine + Shortening,41,Extr Rate (Hg/Mt),2006,12418.943,C
+231,USA,1242,Margarine + Shortening,41,Extr Rate (Hg/Mt),2007,12614.959,C
+231,USA,1242,Margarine + Shortening,41,Extr Rate (Hg/Mt),2008,11889.484,C
+231,USA,1242,Margarine + Shortening,41,Extr Rate (Hg/Mt),2009,10385.033,C
+231,USA,1242,Margarine + Shortening,41,Extr Rate (Hg/Mt),2010,10485.537,C
+231,USA,1242,Margarine + Shortening,41,Extr Rate (Hg/Mt),2011,10464.778,C
+231,USA,1243,Fat Preparations nes,41,Extr Rate (Hg/Mt),2005,10198.431,C
+231,USA,1243,Fat Preparations nes,41,Extr Rate (Hg/Mt),2006,10200,C
+231,USA,1243,Fat Preparations nes,41,Extr Rate (Hg/Mt),2007,10202.361,C
+231,USA,1243,Fat Preparations nes,41,Extr Rate (Hg/Mt),2008,10198.9,C
+231,USA,1243,Fat Preparations nes,41,Extr Rate (Hg/Mt),2009,9807.768,C
+231,USA,1243,Fat Preparations nes,41,Extr Rate (Hg/Mt),2010,9803.922,C
+231,USA,1243,Fat Preparations nes,41,Extr Rate (Hg/Mt),2011,10196.078,C
+231,USA,1274,Oils Boiled etc,41,Extr Rate (Hg/Mt),2005,8000,C
+231,USA,1274,Oils Boiled etc,41,Extr Rate (Hg/Mt),2006,8000,C
+231,USA,1274,Oils Boiled etc,41,Extr Rate (Hg/Mt),2007,8000,C
+231,USA,1274,Oils Boiled etc,41,Extr Rate (Hg/Mt),2008,8000,C
+231,USA,1274,Oils Boiled etc,41,Extr Rate (Hg/Mt),2009,8000,C
+231,USA,1274,Oils Boiled etc,41,Extr Rate (Hg/Mt),2010,8000,C
+231,USA,1274,Oils Boiled etc,41,Extr Rate (Hg/Mt),2011,8000,C
+231,USA,1275,Oils Hydrogenated,41,Extr Rate (Hg/Mt),2005,10000,C
+231,USA,1275,Oils Hydrogenated,41,Extr Rate (Hg/Mt),2006,10000,C
+231,USA,1275,Oils Hydrogenated,41,Extr Rate (Hg/Mt),2007,10000,C
+231,USA,1275,Oils Hydrogenated,41,Extr Rate (Hg/Mt),2008,10000,C
+231,USA,1275,Oils Hydrogenated,41,Extr Rate (Hg/Mt),2009,10000,C
+231,USA,1275,Oils Hydrogenated,41,Extr Rate (Hg/Mt),2010,10000,C
+231,USA,1275,Oils Hydrogenated,41,Extr Rate (Hg/Mt),2011,10000,C
+231,USA,1276,Fatty Acids Oils 431.31,41,Extr Rate (Hg/Mt),2005,9500,C
+231,USA,1276,Fatty Acids Oils 431.31,41,Extr Rate (Hg/Mt),2006,9500,C
+231,USA,1276,Fatty Acids Oils 431.31,41,Extr Rate (Hg/Mt),2007,9500,C
+231,USA,1276,Fatty Acids Oils 431.31,41,Extr Rate (Hg/Mt),2008,9500,C
+231,USA,1276,Fatty Acids Oils 431.31,41,Extr Rate (Hg/Mt),2009,9500,C
+231,USA,1276,Fatty Acids Oils 431.31,41,Extr Rate (Hg/Mt),2010,9500,C
+231,USA,1276,Fatty Acids Oils 431.31,41,Extr Rate (Hg/Mt),2011,9500,C
+231,USA,1502,Freshwater Frozen Whole,41,Extr Rate ( ),2005,8501.727,C
+231,USA,1502,Freshwater Frozen Whole,41,Extr Rate ( ),2006,8500,C
+231,USA,1502,Freshwater Frozen Whole,41,Extr Rate ( ),2007,8500.249,C
+231,USA,1502,Freshwater Frozen Whole,41,Extr Rate ( ),2008,8500.249,C
+231,USA,1502,Freshwater Frozen Whole,41,Extr Rate ( ),2009,8500.249,C
+231,USA,1502,Freshwater Frozen Whole,41,Extr Rate ( ),2010,8500.249,C
+231,USA,1502,Freshwater Frozen Whole,41,Extr Rate ( ),2011,8500.249,C
+231,USA,1503,Freshwater Fillets,41,Extr Rate ( ),2005,4299.723,C
+231,USA,1503,Freshwater Fillets,41,Extr Rate ( ),2006,4300.12,C
+231,USA,1503,Freshwater Fillets,41,Extr Rate ( ),2007,4300.164,C
+231,USA,1503,Freshwater Fillets,41,Extr Rate ( ),2008,4300.164,C
+231,USA,1503,Freshwater Fillets,41,Extr Rate ( ),2009,4300.164,C
+231,USA,1503,Freshwater Fillets,41,Extr Rate ( ),2010,4300.164,C
+231,USA,1503,Freshwater Fillets,41,Extr Rate ( ),2011,4300.164,C
+231,USA,1504,Freshwatr Frozen Fillets,41,Extr Rate ( ),2005,4000,C
+231,USA,1504,Freshwatr Frozen Fillets,41,Extr Rate ( ),2006,4000.056,C
+231,USA,1504,Freshwatr Frozen Fillets,41,Extr Rate ( ),2007,4000,C
+231,USA,1504,Freshwatr Frozen Fillets,41,Extr Rate ( ),2008,4000,C
+231,USA,1504,Freshwatr Frozen Fillets,41,Extr Rate ( ),2009,4000,C
+231,USA,1504,Freshwatr Frozen Fillets,41,Extr Rate ( ),2010,4000,C
+231,USA,1504,Freshwatr Frozen Fillets,41,Extr Rate ( ),2011,4000,C
+231,USA,1505,Freshwater Cured,41,Extr Rate ( ),2005,6300.441,C
+231,USA,1505,Freshwater Cured,41,Extr Rate ( ),2006,6298.436,C
+231,USA,1505,Freshwater Cured,41,Extr Rate ( ),2007,6299.099,C
+231,USA,1505,Freshwater Cured,41,Extr Rate ( ),2008,6299.099,C
+231,USA,1505,Freshwater Cured,41,Extr Rate ( ),2009,6299.099,C
+231,USA,1505,Freshwater Cured,41,Extr Rate ( ),2010,6299.099,C
+231,USA,1505,Freshwater Cured,41,Extr Rate ( ),2011,6299.099,C
+231,USA,1506,Freshwater Canned,41,Extr Rate ( ),2005,6600.066,C
+231,USA,1506,Freshwater Canned,41,Extr Rate ( ),2006,6599.753,C
+231,USA,1506,Freshwater Canned,41,Extr Rate ( ),2007,6599.959,C
+231,USA,1506,Freshwater Canned,41,Extr Rate ( ),2008,6599.959,C
+231,USA,1506,Freshwater Canned,41,Extr Rate ( ),2009,6599.959,C
+231,USA,1506,Freshwater Canned,41,Extr Rate ( ),2010,6599.959,C
+231,USA,1506,Freshwater Canned,41,Extr Rate ( ),2011,6599.959,C
+231,USA,1507,Freshwater Prep nes,41,Extr Rate ( ),2005,10000,C
+231,USA,1507,Freshwater Prep nes,41,Extr Rate ( ),2006,10000,C
+231,USA,1507,Freshwater Prep nes,41,Extr Rate ( ),2007,10000,C
+231,USA,1507,Freshwater Prep nes,41,Extr Rate ( ),2008,10000,C
+231,USA,1507,Freshwater Prep nes,41,Extr Rate ( ),2009,10000,C
+231,USA,1507,Freshwater Prep nes,41,Extr Rate ( ),2010,10000,C
+231,USA,1507,Freshwater Prep nes,41,Extr Rate ( ),2011,10000,C
+231,USA,1508,Freshwater Meals,41,Extr Rate ( ),2005,0,M
+231,USA,1508,Freshwater Meals,41,Extr Rate ( ),2006,0,M
+231,USA,1508,Freshwater Meals,41,Extr Rate ( ),2007,0,M
+231,USA,1508,Freshwater Meals,41,Extr Rate ( ),2008,0,M
+231,USA,1508,Freshwater Meals,41,Extr Rate ( ),2009,0,M
+231,USA,1508,Freshwater Meals,41,Extr Rate ( ),2010,0,M
+231,USA,1508,Freshwater Meals,41,Extr Rate ( ),2011,0,M
+231,USA,1515,Demersal Frozen Whole,41,Extr Rate ( ),2005,7999.633,C
+231,USA,1515,Demersal Frozen Whole,41,Extr Rate ( ),2006,7999.951,C
+231,USA,1515,Demersal Frozen Whole,41,Extr Rate ( ),2007,8000.029,C
+231,USA,1515,Demersal Frozen Whole,41,Extr Rate ( ),2008,8000.029,C
+231,USA,1515,Demersal Frozen Whole,41,Extr Rate ( ),2009,8000.029,C
+231,USA,1515,Demersal Frozen Whole,41,Extr Rate ( ),2010,8000.029,C
+231,USA,1515,Demersal Frozen Whole,41,Extr Rate ( ),2011,8000.029,C
+231,USA,1516,Demersal Fillets,41,Extr Rate ( ),2005,3699.957,C
+231,USA,1516,Demersal Fillets,41,Extr Rate ( ),2006,3700.232,C
+231,USA,1516,Demersal Fillets,41,Extr Rate ( ),2007,3700.137,C
+231,USA,1516,Demersal Fillets,41,Extr Rate ( ),2008,3700.137,C
+231,USA,1516,Demersal Fillets,41,Extr Rate ( ),2009,3700.137,C
+231,USA,1516,Demersal Fillets,41,Extr Rate ( ),2010,3700.137,C
+231,USA,1516,Demersal Fillets,41,Extr Rate ( ),2011,3700.137,C
+231,USA,1517,Demersal Frozen Fillets,41,Extr Rate ( ),2005,3799.682,C
+231,USA,1517,Demersal Frozen Fillets,41,Extr Rate ( ),2006,3800.169,C
+231,USA,1517,Demersal Frozen Fillets,41,Extr Rate ( ),2007,3799.776,C
+231,USA,1517,Demersal Frozen Fillets,41,Extr Rate ( ),2008,3799.776,C
+231,USA,1517,Demersal Frozen Fillets,41,Extr Rate ( ),2009,3799.776,C
+231,USA,1517,Demersal Frozen Fillets,41,Extr Rate ( ),2010,3799.776,C
+231,USA,1517,Demersal Frozen Fillets,41,Extr Rate ( ),2011,3799.776,C
+231,USA,1518,Demersal Cured,41,Extr Rate ( ),2005,3337,C
+231,USA,1518,Demersal Cured,41,Extr Rate ( ),2006,3333.626,C
+231,USA,1518,Demersal Cured,41,Extr Rate ( ),2007,3334.601,C
+231,USA,1518,Demersal Cured,41,Extr Rate ( ),2008,3334.601,C
+231,USA,1518,Demersal Cured,41,Extr Rate ( ),2009,3334.601,C
+231,USA,1518,Demersal Cured,41,Extr Rate ( ),2010,3334.601,C
+231,USA,1518,Demersal Cured,41,Extr Rate ( ),2011,3334.601,C
+231,USA,1519,Demersal Canned,41,Extr Rate ( ),2005,5000,C
+231,USA,1519,Demersal Canned,41,Extr Rate ( ),2006,5000,C
+231,USA,1519,Demersal Canned,41,Extr Rate ( ),2007,5000,C
+231,USA,1519,Demersal Canned,41,Extr Rate ( ),2008,5000,C
+231,USA,1519,Demersal Canned,41,Extr Rate ( ),2009,5000,C
+231,USA,1519,Demersal Canned,41,Extr Rate ( ),2010,5000,C
+231,USA,1519,Demersal Canned,41,Extr Rate ( ),2011,5000,C
+231,USA,1520,Demersal Prep nes,41,Extr Rate ( ),2005,10000,C
+231,USA,1520,Demersal Prep nes,41,Extr Rate ( ),2006,10000,C
+231,USA,1520,Demersal Prep nes,41,Extr Rate ( ),2007,10000,C
+231,USA,1520,Demersal Prep nes,41,Extr Rate ( ),2008,10000,C
+231,USA,1520,Demersal Prep nes,41,Extr Rate ( ),2009,10000,C
+231,USA,1520,Demersal Prep nes,41,Extr Rate ( ),2010,10000,C
+231,USA,1520,Demersal Prep nes,41,Extr Rate ( ),2011,10000,C
+231,USA,1521,Demersal Meals,41,Extr Rate ( ),2005,0,C
+231,USA,1521,Demersal Meals,41,Extr Rate ( ),2006,0,C
+231,USA,1521,Demersal Meals,41,Extr Rate ( ),2007,0,C
+231,USA,1521,Demersal Meals,41,Extr Rate ( ),2008,0,C
+231,USA,1521,Demersal Meals,41,Extr Rate ( ),2009,0,C
+231,USA,1521,Demersal Meals,41,Extr Rate ( ),2010,0,C
+231,USA,1521,Demersal Meals,41,Extr Rate ( ),2011,0,C
+231,USA,1528,Pelagic Frozen Whole,41,Extr Rate ( ),2005,10000,C
+231,USA,1528,Pelagic Frozen Whole,41,Extr Rate ( ),2006,10000,C
+231,USA,1528,Pelagic Frozen Whole,41,Extr Rate ( ),2007,10000,C
+231,USA,1528,Pelagic Frozen Whole,41,Extr Rate ( ),2008,10000,C
+231,USA,1528,Pelagic Frozen Whole,41,Extr Rate ( ),2009,10000,C
+231,USA,1528,Pelagic Frozen Whole,41,Extr Rate ( ),2010,10000,C
+231,USA,1528,Pelagic Frozen Whole,41,Extr Rate ( ),2011,10000,C
+231,USA,1529,Pelagic Fillets,41,Extr Rate ( ),2005,0,M
+231,USA,1529,Pelagic Fillets,41,Extr Rate ( ),2006,5511.416,C
+231,USA,1529,Pelagic Fillets,41,Extr Rate ( ),2007,5502.564,C
+231,USA,1529,Pelagic Fillets,41,Extr Rate ( ),2008,5502.564,C
+231,USA,1529,Pelagic Fillets,41,Extr Rate ( ),2009,5502.564,C
+231,USA,1529,Pelagic Fillets,41,Extr Rate ( ),2010,5502.564,C
+231,USA,1529,Pelagic Fillets,41,Extr Rate ( ),2011,5502.564,C
+231,USA,1530,Pelagic Frozen Fillets,41,Extr Rate ( ),2005,5142.857,C
+231,USA,1530,Pelagic Frozen Fillets,41,Extr Rate ( ),2006,5002.695,C
+231,USA,1530,Pelagic Frozen Fillets,41,Extr Rate ( ),2007,4996.988,C
+231,USA,1530,Pelagic Frozen Fillets,41,Extr Rate ( ),2008,4996.988,C
+231,USA,1530,Pelagic Frozen Fillets,41,Extr Rate ( ),2009,4996.988,C
+231,USA,1530,Pelagic Frozen Fillets,41,Extr Rate ( ),2010,4996.988,C
+231,USA,1530,Pelagic Frozen Fillets,41,Extr Rate ( ),2011,4996.988,C
+231,USA,1531,Pelagic Cured,41,Extr Rate ( ),2005,6003.32,C
+231,USA,1531,Pelagic Cured,41,Extr Rate ( ),2006,6000.423,C
+231,USA,1531,Pelagic Cured,41,Extr Rate ( ),2007,5999.476,C
+231,USA,1531,Pelagic Cured,41,Extr Rate ( ),2008,5999.476,C
+231,USA,1531,Pelagic Cured,41,Extr Rate ( ),2009,5999.476,C
+231,USA,1531,Pelagic Cured,41,Extr Rate ( ),2010,5999.476,C
+231,USA,1531,Pelagic Cured,41,Extr Rate ( ),2011,5999.476,C
+231,USA,1532,Pelagic Canned,41,Extr Rate ( ),2005,5700.02,C
+231,USA,1532,Pelagic Canned,41,Extr Rate ( ),2006,5700.022,C
+231,USA,1532,Pelagic Canned,41,Extr Rate ( ),2007,5700.096,C
+231,USA,1532,Pelagic Canned,41,Extr Rate ( ),2008,5700.096,C
+231,USA,1532,Pelagic Canned,41,Extr Rate ( ),2009,5700.096,C
+231,USA,1532,Pelagic Canned,41,Extr Rate ( ),2010,5700.096,C
+231,USA,1532,Pelagic Canned,41,Extr Rate ( ),2011,5700.096,C
+231,USA,1533,Pelagic Prep nes,41,Extr Rate ( ),2005,10000,C
+231,USA,1533,Pelagic Prep nes,41,Extr Rate ( ),2006,10000,C
+231,USA,1533,Pelagic Prep nes,41,Extr Rate ( ),2007,10000,C
+231,USA,1533,Pelagic Prep nes,41,Extr Rate ( ),2008,10000,C
+231,USA,1533,Pelagic Prep nes,41,Extr Rate ( ),2009,10000,C
+231,USA,1533,Pelagic Prep nes,41,Extr Rate ( ),2010,10000,C
+231,USA,1533,Pelagic Prep nes,41,Extr Rate ( ),2011,10000,C
+231,USA,1534,Pelagic Meals,41,Extr Rate ( ),2005,2993.56,C
+231,USA,1534,Pelagic Meals,41,Extr Rate ( ),2006,3013.903,C
+231,USA,1534,Pelagic Meals,41,Extr Rate ( ),2007,2998.503,C
+231,USA,1534,Pelagic Meals,41,Extr Rate ( ),2008,2998.503,C
+231,USA,1534,Pelagic Meals,41,Extr Rate ( ),2009,2998.503,C
+231,USA,1534,Pelagic Meals,41,Extr Rate ( ),2010,2998.503,C
+231,USA,1534,Pelagic Meals,41,Extr Rate ( ),2011,2998.503,C
+231,USA,1554,Crustaceans Frozen,41,Extr Rate ( ),2005,6299.364,C
+231,USA,1554,Crustaceans Frozen,41,Extr Rate ( ),2006,6300.019,C
+231,USA,1554,Crustaceans Frozen,41,Extr Rate ( ),2007,6300.006,C
+231,USA,1554,Crustaceans Frozen,41,Extr Rate ( ),2008,6300.006,C
+231,USA,1554,Crustaceans Frozen,41,Extr Rate ( ),2009,6300.006,C
+231,USA,1554,Crustaceans Frozen,41,Extr Rate ( ),2010,6300.006,C
+231,USA,1554,Crustaceans Frozen,41,Extr Rate ( ),2011,6300.006,C
+231,USA,1555,Crustaceans Cured,41,Extr Rate ( ),2005,1500,C
+231,USA,1555,Crustaceans Cured,41,Extr Rate ( ),2006,0,C
+231,USA,1555,Crustaceans Cured,41,Extr Rate ( ),2007,0,C
+231,USA,1555,Crustaceans Cured,41,Extr Rate ( ),2008,0,C
+231,USA,1555,Crustaceans Cured,41,Extr Rate ( ),2009,0,C
+231,USA,1555,Crustaceans Cured,41,Extr Rate ( ),2010,0,C
+231,USA,1555,Crustaceans Cured,41,Extr Rate ( ),2011,0,C
+231,USA,1556,Crustaceans Canned,41,Extr Rate ( ),2005,2499.772,C
+231,USA,1556,Crustaceans Canned,41,Extr Rate ( ),2006,2500.035,C
+231,USA,1556,Crustaceans Canned,41,Extr Rate ( ),2007,2500.052,C
+231,USA,1556,Crustaceans Canned,41,Extr Rate ( ),2008,2500.052,C
+231,USA,1556,Crustaceans Canned,41,Extr Rate ( ),2009,2500.052,C
+231,USA,1556,Crustaceans Canned,41,Extr Rate ( ),2010,2500.052,C
+231,USA,1556,Crustaceans Canned,41,Extr Rate ( ),2011,2500.052,C
+231,USA,1557,Crustaceans Prep nes,41,Extr Rate ( ),2005,0,M
+231,USA,1557,Crustaceans Prep nes,41,Extr Rate ( ),2006,3000,C
+231,USA,1557,Crustaceans Prep nes,41,Extr Rate ( ),2007,2800,C
+231,USA,1557,Crustaceans Prep nes,41,Extr Rate ( ),2008,2800,C
+231,USA,1557,Crustaceans Prep nes,41,Extr Rate ( ),2009,2800,C
+231,USA,1557,Crustaceans Prep nes,41,Extr Rate ( ),2010,2800,C
+231,USA,1557,Crustaceans Prep nes,41,Extr Rate ( ),2011,2800,C
+231,USA,1563,Molluscs Frozen,41,Extr Rate ( ),2005,2000.051,C
+231,USA,1563,Molluscs Frozen,41,Extr Rate ( ),2006,2000,C
+231,USA,1563,Molluscs Frozen,41,Extr Rate ( ),2007,2000,C
+231,USA,1563,Molluscs Frozen,41,Extr Rate ( ),2008,2000,C
+231,USA,1563,Molluscs Frozen,41,Extr Rate ( ),2009,2000,C
+231,USA,1563,Molluscs Frozen,41,Extr Rate ( ),2010,2000,C
+231,USA,1563,Molluscs Frozen,41,Extr Rate ( ),2011,2000,C
+231,USA,1564,Molluscs Cured,41,Extr Rate ( ),2005,0,M
+231,USA,1564,Molluscs Cured,41,Extr Rate ( ),2006,0,M
+231,USA,1564,Molluscs Cured,41,Extr Rate ( ),2007,0,M
+231,USA,1564,Molluscs Cured,41,Extr Rate ( ),2008,0,M
+231,USA,1564,Molluscs Cured,41,Extr Rate ( ),2009,0,M
+231,USA,1564,Molluscs Cured,41,Extr Rate ( ),2010,0,M
+231,USA,1564,Molluscs Cured,41,Extr Rate ( ),2011,0,M
+231,USA,1565,Molluscs Canned,41,Extr Rate ( ),2005,1500,C
+231,USA,1565,Molluscs Canned,41,Extr Rate ( ),2006,1500.074,C
+231,USA,1565,Molluscs Canned,41,Extr Rate ( ),2007,1500.088,C
+231,USA,1565,Molluscs Canned,41,Extr Rate ( ),2008,1500.088,C
+231,USA,1565,Molluscs Canned,41,Extr Rate ( ),2009,1500.088,C
+231,USA,1565,Molluscs Canned,41,Extr Rate ( ),2010,1500.088,C
+231,USA,1565,Molluscs Canned,41,Extr Rate ( ),2011,1500.088,C
+231,USA,1571,Cephalopods Frozen,41,Extr Rate ( ),2005,10000,C
+231,USA,1571,Cephalopods Frozen,41,Extr Rate ( ),2006,10000,C
+231,USA,1571,Cephalopods Frozen,41,Extr Rate ( ),2007,10000,C
+231,USA,1571,Cephalopods Frozen,41,Extr Rate ( ),2008,10000,C
+231,USA,1571,Cephalopods Frozen,41,Extr Rate ( ),2009,10000,C
+231,USA,1571,Cephalopods Frozen,41,Extr Rate ( ),2010,10000,C
+231,USA,1571,Cephalopods Frozen,41,Extr Rate ( ),2011,10000,C
+231,USA,1573,Cephalopods Canned,41,Extr Rate ( ),2005,7500,C
+231,USA,1573,Cephalopods Canned,41,Extr Rate ( ),2006,7473.684,C
+231,USA,1573,Cephalopods Canned,41,Extr Rate ( ),2007,7484.536,C
+231,USA,1573,Cephalopods Canned,41,Extr Rate ( ),2008,7484.536,C
+231,USA,1573,Cephalopods Canned,41,Extr Rate ( ),2009,7484.536,C
+231,USA,1573,Cephalopods Canned,41,Extr Rate ( ),2010,7484.536,C
+231,USA,1573,Cephalopods Canned,41,Extr Rate ( ),2011,7484.536,C
+231,USA,1590,Aquatic Animals Prep nes,41,Extr Rate ( ),2005,4390.244,C
+231,USA,1590,Aquatic Animals Prep nes,41,Extr Rate ( ),2006,4444.444,C
+231,USA,1590,Aquatic Animals Prep nes,41,Extr Rate ( ),2007,4380,C
+231,USA,1590,Aquatic Animals Prep nes,41,Extr Rate ( ),2008,4380,C
+231,USA,1590,Aquatic Animals Prep nes,41,Extr Rate ( ),2009,4380,C
+231,USA,1590,Aquatic Animals Prep nes,41,Extr Rate ( ),2010,4380,C
+231,USA,1590,Aquatic Animals Prep nes,41,Extr Rate ( ),2011,4380,C
