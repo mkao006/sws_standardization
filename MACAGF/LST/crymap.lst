@@ -1,0 +1,463 @@
+FILE CRYMAP
+
+THE COUNTRIES FOR WHICH DATA ARE AVAILABLE IN MOST SOWDBF DATA BASE ARE
+LISTED BELOW. FOR EACH COUNTRY LISTED, SIX ITEMS ARE STATED:
+1. A COUNTRY CODE (COLUMNS 6-10)
+2. A SHORT COUNTRY NAME (COLUMNS 16-31)
+3. A LONG COUNTRY NAME (COLUMNS 32-55)
+4-6. THREE COUNTRY MAPPING CODES (COLUMNS 56-59, 60-63, 64-67)
+
+THE CODES ARE JUSTIFIED TO THE RIGHT, AND THE NAMES ARE JUSTIFIED TO THE
+LEFT. THE CORRESPONDING FORTRAN FORMAT IS : (5X, I5, 4A4, 24X, 3I4) .
+
+THE COUNTRY MAPPING CODE OF A COUNTRY SPECIFIES THE COUNTRY CODE OF THE
+COUNTRY AGGREGATE TO WHICH THE CURRENT COUNTRY MUST BE AGGREGATED. A
+COUNTRY MAPPING CODE OF -1 INDICATES AN UNUSED AGGREGATE.
+
+CODE SHORT NAME LONG NAME MAPPINGS
+-------------------------------------------------------------------------
+         1     Armenia         Armenia                  
+         2     Afghanistan     Afghanistan              
+         3     Albania         Albania                  
+         4     Algeria         Algeria                  
+         5     Amer Samoa      American Samoa           
+         6     Andorra         Andorra                  
+         7     Angola          Angola                   
+         8     Antigua Barb    Antigua And Barbuda      
+         9     Argentina       Argentina                
+        10     Australia       Australia                
+        11     Austria         Austria                  
+        12     Bahamas         Bahamas                  
+        13     Bahrain         Bahrain                  
+        14     Barbados        Barbados                 
+        15     Bel-lux         Belgium-luxembourg       
+        16     Bangladesh      Bangladesh               
+        17     Bermuda         Bermuda                  
+        18     Bhutan          Bhutan                   
+        19     Bolivia         Bolivia                  
+        20     Botswana        Botswana                 
+        21     Brazil          Brazil                   
+        22     Aruba           Aruba                    
+        23     Belize          Belize                   
+        24     Br Ind Oc Tr    British Indian Ocean Ter 
+        25     Solomon Is      Solomon Islands          
+        26     Brunei Darsm    Brunei Darussalam        
+        27     Bulgaria        Bulgaria                 
+        28     Myanmar         Myanmar                  
+        29     Burundi         Burundi                  
+        30     Antarc.other    Antarctica Others        
+        31     Bouvet Is       Bouvet Island            
+        32     Cameroon        Cameroon                 
+        33     Canada          Canada                   
+        34     Canton Is       Canton And Enderbury Is. 
+        35     Cape Verde      Cape Verde               
+        36     Cayman Is       Cayman Islands           
+        37     Cent Afr Rep    Central African Republic 
+        38     Sri Lanka       Sri Lanka                
+        39     Chad            Chad                     
+        40     Chile           Chile                    
+        41     China Main      China (Mainland)         
+        42     Christmas Is    Christmas Island (Aust.) 
+        43     Cocos Is        Cocos (Keeling) Islands  
+        44     Colombia        Colombia                 
+        45     Comoros         Comoros                  
+        46     Congo           Congo                    
+        47     Cook Is         Cook Islands             
+        48     Costa Rica      Costa Rica               
+        49     Cuba            Cuba                     
+        50     Cyprus          Cyprus                   
+        51     Czechoslovak    Czechoslovakia           
+        52     Azerbaijan      Azerbaijan               
+        53     Benin           Benin                    
+        54     Denmark         Denmark                  
+        55     Dominica        Dominica                 
+        56     Dominican Rp    Dominican Republic       
+        57     Belarus         Belarus                  
+        58     Ecuador         Ecuador                  
+        59     Egypt           Egypt                    
+        60     El Salvador     El Salvador              
+        61     Eq Guinea       Equatorial Guinea        
+        62     Ethiopia Pdr    Ethiopia Pdr             
+        63     Estonia         Estonia                  
+        64     Faeroe Is       Faeroe Islands           
+        65     Falkland Is     Falkland Is. (Malvinas)  
+        66     Fiji            Fiji                     
+        67     Finland         Finland                  
+        68     France          France                   
+        69     Fr Guiana       French Guiana            
+        70     Fr Polynesia    French Polynesia         
+        71     Fr South Tr     French Southern Terr.    
+        72     Djibouti        Djibouti                 
+        73     Georgia         Georgia                  
+        74     Gabon           Gabon                    
+        75     Gambia          Gambia                   
+        76     Gaza Strip      Gaza Strip (Palestine)   
+        77     Germany Nl      Germany, New Lander      
+        78     Germany Fr      Germany, Federal Rep.    
+        79     Germany         Germany                  
+        80     Bosnia Herzg    Bosnia And Herzegovina   
+        81     Ghana           Ghana                    
+        82     Gibraltar       Gibraltar                
+        83     Kiribati        Kiribati                 
+        84     Greece          Greece                   
+        85     Greenland       Greenland                
+        86     Grenada         Grenada                  
+        87     Guadeloupe      Guadeloupe               
+        88     Guam            Guam                     
+        89     Guatemala       Guatemala                
+        90     Guinea          Guinea                   
+        91     Guyana          Guyana                   
+        92     Heard Is Etc    Heard And Mcdonald Is    
+        93     Haiti           Haiti                    
+        94     Holy See        Holy See                 
+        95     Honduras        Honduras                 
+        96     Hong Kong       Hong Kong                
+        97     Hungary         Hungary                  
+        98     Croatia         Croatia                  
+        99     Iceland         Iceland                  
+       100     India           India                    
+       101     Indonesia       Indonesia                
+       102     Iran            Iran, Islamic Rep. Of    
+       103     Iraq            Iraq                     
+       104     Ireland         Ireland                  
+       105     Israel          Israel                   
+       106     Italy           Italy                    
+       107     Cote dIvoire    Cote dIvoire             
+       108     Kazakstan       Kazakstan                
+       109     Jamaica         Jamaica                  
+       110     Japan           Japan                    
+       111     Johnston Is     Johnston Island          
+       112     Jordan          Jordan                   
+       113     Kyrgyzstan      Kyrgyzstan               
+       114     Kenya           Kenya                    
+       115     Cambodia        Cambodia                 
+       116     Korea D P Rp    Korea, Dem. People's Rep 
+       117     Korea Rep       Korea, Republic Of       
+       118     Kuwait          Kuwait                   
+       119     Latvia          Latvia                   
+       120     Laos            Laos                     
+       121     Lebanon         Lebanon                  
+       122     Lesotho         Lesotho                  
+       123     Liberia         Liberia                  
+       124     Libya           Libyan Arab Jamahiriya   
+       125     Liechtensten    Liechtenstein            
+       126     Lithuania       Lithuania                
+       127     Marshall Is     Marshall Islands         
+       128     Macau           Macau                    
+       129     Madagascar      Madagascar               
+       130     Malawi          Malawi                   
+       131     Malaysia        Malaysia                 
+       132     Maldives        Maldives                 
+       133     Mali            Mali                     
+       134     Malta           Malta                    
+       135     Martinique      Martinique               
+       136     Mauritania      Mauritania               
+       137     Mauritius       Mauritius                
+       138     Mexico          Mexico                   
+       139     Midway Is       Midway Islands           
+       140     Monaco          Monaco                   
+       141     Mongolia        Mongolia                 
+       142     Montserrat      Montserrat               
+       143     Morocco         Morocco                  
+       144     Mozambique      Mozambique               
+       145     Micronesia      Micronesia,fed.states Of 
+       146     Moldova Rep     Moldova, Rep. Of         
+       147     Namibia         Namibia                  
+       148     Nauru           Nauru                    
+       149     Nepal           Nepal                    
+       150     Netherlands     Netherlands              
+       151     Neth Antille    Netherlands Antille      
+       152     Neutral Zone    Neutral Zone             
+       153     Newcaledonia    New Caledonia            
+       154     Macedonia       Former Yug Rep Macedonia 
+       155     Vanuatu         Vanuatu                  
+       156     New Zealand     New Zealand              
+       157     Nicaragua       Nicaragua                
+       158     Niger           Niger                    
+       159     Nigeria         Nigeria                  
+       160     Niue            Niue Island              
+       161     Norfolk Is      Norfolk Island           
+       162     Norway          Norway                   
+       163     N Marianas      Northern Mariana Is.     
+       164     Pacific Is      Pacific Isl (Trust Tr.)  
+       165     Pakistan        Pakistan                 
+       166     Panama          Panama                   
+       167     CZECH REP       Czech Republic           
+       168     Papua N Guin    Papua New Guinea         
+       169     Paraguay        Paraguay                 
+       170     Peru            Peru                     
+       171     Philippines     Philippines              
+       172     Pitcairn        Pitcairn                 
+       173     Poland          Poland                   
+       174     Portugal        Portugal                 
+       175     Guineabissau    Guinea-bissau            
+       176     East Timor      East Timor               
+       177     Puerto Rico     Puerto Rico              
+       178     Eritrea         Eritrea                  
+       179     Qatar           Qatar                    
+       180     Palau           Palau (Pacific Islands)  
+       181     Zimbabwe        Zimbabwe                 
+       182     Reunion         Reunion                  
+       183     Romania         Romania                  
+       184     Rwanda          Rwanda                   
+       185     Russian Fed     Russian Federation       
+       186     Yugoslav Fr     Yugoslavia, Fed. Rep     
+       187     St Helena       Saint Helena             
+       188     St Kitts Nev    Saint Kitts And Nevis    
+       189     Saint Lucia     Saint Lucia              
+       190     St Pier Mq      Saint Pierre ' Miquelon  
+       191     St Vincent      Saint Vincent/grenadines 
+       192     San Marino      San Marino               
+       193     Sao Tome Prn    Sao Tome And Principe    
+       194     Saudi Arabia    Saudi Arabia             
+       195     Senegal         Senegal                  
+       196     Seychelles      Seychelles               
+       197     Sierra Leone    Sierra Leone             
+       198     Slovenia        Slovenia                 
+       199     Slovakia        Slovakia                 
+       200     Singapore       Singapore                
+       201     Somalia         Somalia                  
+       202     South Africa    South Africa             
+       203     Spain           Spain                    
+       205     Westn Sahara    Western Sahara           
+       206     Sudan           Sudan                    
+       207     Suriname        Suriname                 
+       208     Tajikistan      Tajikistan               
+       209     Swaziland       Swaziland                
+       210     Sweden          Sweden                   
+       211     Switzerland     Switzerland              
+       212     Syria           Syrian Arab Republic     
+       213     Turkmenistan    Turkmenistan             
+       214     China Taiwan    China (Taiwan Province)  
+       215     Tanzania        Tanzania, United Rep.    
+       216     Thailand        Thailand                 
+       217     Togo            Togo                     
+       218     Tokelau         Tokelau Islands          
+       219     Tonga           Tonga                    
+       220     Trinidad Tob    Trinidad And Tobago      
+       221     Oman            Oman                     
+       222     Tunisia         Tunisia                  
+       223     Turkey          Turkey                   
+       224     Turks Caicos    Turks And Caicos Is.     
+       225     Untd Arab Em    United Arab Emirates     
+       226     Uganda          Uganda                   
+       227     Tuvalu          Tuvalu                   
+       228     USSR            Un. Sov. Soc. Rep        
+       229     UK              United Kingdom           
+       230     Ukraine         Ukraine                  
+       231     USA             United States Of America 
+       232     Us Minor Is     Us Minor Outlying Is.    
+       233     Burkina Faso    Burkina Faso             
+       234     Uruguay         Uruguay                  
+       235     Uzbekistan      Uzbekistan               
+       236     Venezuela       Venezuela                
+       237     Viet Nam        Viet Nam                 
+       238     Ethiopia        Ethiopia                 
+       239     Br Virgin Is    British Virgin Island    
+       240     US Virgin Is    Us Virgin Islands        
+       241     Englnd Wales    England and Wales        
+       242     Wake Island     Wake Island              
+       243     Wallis Fut I    Wallis And Futuna Is.    
+       244     Samoa           Samoa                    
+       245     West Bank       West Bank                
+       246     Yemen Ar Rp     Yemen Arab Republic      
+       247     Yemen Dem       Yemen, Democratic        
+       248     Yugoslav SFR    Yugoslavia Sfr           
+       249     Yemen           Yemen                    
+       250     Congo, Dem R    Congo, Dem Republic of                    
+       251     Zambia          Zambia                   
+       252     Unspecified     Unspecified              
+       253     Scotland        Scotland                 
+       255     Belgium         Belgium                  
+       256     Luxembourg      Luxembourg               
+       257     No Ireland      Northern Ireland         
+       258     Anguilla        Anguilla                 
+       259     Channel Is      Channel Island           
+       260     Svalbard Etc    Svalbard And Jan Mayen   
+       261     Eu (12)         Eu (12)                  
+       262     EC (Commnty)    EC (Community)           
+       263     Oth Exportrs    Other Exporters          
+       264     Isle of Man     Isle of Man              
+       266     Ec (15)         European Community (15)  
+       267     Nafta           Nafta                    
+       270     Mayotte         Mayotte                  
+       271     South Georgi    South Georgia/sandwich I 
+       291     Irc             Irc                      
+       292     Icrs            Icrs                     
+       293     Ircs            Ircs                     
+       294     Unhcr           Unhcr                    
+       295     Unwra           Unwra                    
+       296     Wfp             Wfp                      
+       297     Unicef          Unicef                   
+       302     N America       North America Developed  
+       303     W Europe        Western Europe           
+       304     Eu (12)         European Union (12)      
+       305     Ec (15)         European Community (15)  
+       306     Oceania Dvpd    Oceania Developed        
+       309     Africa Ding     Africa Developing        
+       310     N W Africa      North Western Africa     
+       311     W Africa        Western Africa           
+       312     Central Afr     Central Africa           
+       313     E Africa        Eastern Africa           
+       314     S Africa Ing    Southern Africa          
+       315     Lat Am.+car     Latin Amer. ' Caribbean  
+       316     Central Amer    Central America          
+       317     Caribbean       Caribbean                
+       318     South Americ    South America            
+       319     Near East       Near East Developing     
+       320     N East Afr      Near East In Africa      
+       321     N East Asia     Near East In Asia        
+       322     Far East        Far East Developing      
+       323     South Asia      South Asia               
+       324     E Se Asia       East+south East Asia     
+       325     E.SE.AsiaChn    E & S.E. Asia & China    
+       326     N Americ Dev    North America Dev.ing    
+       327     Oceania Dev     Oceania Developing       
+       328     CENT.AM.+CAR    CENTRAL AMER.& CARIBBEAN 
+       329     EUROP+BALTIC    EUROPE & BALTIC STATES   
+       330     Nafta           Nafta                    
+       331     Industrial.     Industrialized Countries 
+       332     NrEst&N.Afr     Near East & North Africa 
+       333     Transition M    Transition Markets       
+       334     E Europe        Eastern Europe           
+       335     Europe          Europe                   
+       336     N C America     North+central America    
+       337     Asia            Asia                     
+       338     Africa          Africa                   
+       339     Oceania         Oceania                  
+       340     Africa .Ped     Africa Developed         
+       341     World           World                    
+       342     Oecd            Oecd                     
+       343     Asia Dev.ped    Asia Developed           
+       344     Ussr(europe)    Ussr In Europe           
+       345     Escap Ecafe     Escap (Ecafe)            
+       346     Ussr(asia)      Ussr In Asia             
+       347     Asia Dev.ing    Asia Developing          
+       348     LatinAmerica    Latin America            
+       350     Las             Las                      
+       352     Rapa            Rapa                     
+       353     Rnea            Rnea                     
+       354     Dev.ped All     Developed Countries      
+       355     Dev.ping All    Developing Countries     
+       357     China           China                    
+       358     Afri.ex.sout    Africa Ex. South Africa  
+       359     AFRICA (B)      AFRICA (B)               
+       360     ASIA (B)        ASIA (B)                 
+       361     EUROPE (B)      EUROPE (B)               
+       362     WORLD (B)       WORLD (B)                
+       367     Asia            Asia                     
+       369     Africa(A)       Africa(A)                
+       370     Asia(A)         Asia(A)                  
+       371     Europe(A)       Europe(A)                
+       372     World(A)        World(A)                 
+       376     Low Food Def    Low-income Food Deficit  
+       388     Opec            Opec                     
+       390     Sub-sahara      Africa South Of Sahara   
+       391     Sela            Sela                     
+       393     Cacm            Cacm                     
+       394     Caricom         Caricon                  
+       395     Andean Group    Andean Group             
+       399     Udeac           Udeac                    
+       400     Gisenyi Mulp    Gisenyi Mulpoc           
+       401     Niamey Mulpo    Niamey Mulpoc            
+       402     Ceao (Waec)     Ceao (Waec)              
+       408     Caeu            Caeu                     
+       411     Bangkok Agr.    Bangkok Agreement        
+       412     Asean           Asean                    
+       415     Ldc             Ldc Countries            
+       426     Low Income      Low-income Countries     
+       437     Saarc           Saarc                    
+       438     Eca             Eca                      
+       439     Eclac           Eclac                    
+       440     Escwa           Escwa                    
+       441     Ece             Ece                      
+       442     Lnor            Lnor - North America     
+       443     Rafr            Rafr - Africa            
+       444     Rlac            Rlac - Lat Am+carib      
+       445     Reur            Reur - Europe            
+       446     Oic             Oic                      
+       452     Oapec           Oapec                    
+       454     Amu             Amu                      
+       455     Ceeac           Ceaac                    
+       456     Cepgl           Cepgl                    
+       457     Cilss           Cilss                    
+       458     Ecowas          Ecowas                   
+       460     Pta             Pta                      
+       461     Sadcc           Sadcc                    
+       462     Aladi           Aladi                    
+       463     Oecs            Oecs                     
+       464     Acc             Acc                      
+       465     Gcc             Gcc                      
+       466     Area F Yugos    Area Former Yugoslavia   
+       468     Area F Ethio    Area Former Ethiopia     
+       469     Area F Ussr     Area Of The Former Ussr  
+       473     Area F Czech    Area Former Czechoslovak 
+       474     CIS (12)        COMM.INDEPEND.STATES(12) 
+       476     Fao Member      Fao Member Nations       
+       477     Efta            Efta                     
+       478     Spc             Spc                      
+       479     Spec            Spec                     
+       480     Antarctica      Antarctica               
+       481     Fat/oil Sign    Fao/oil Significant Cou  
+       482     Fat/oil Insg    Fao/oil Insignificant Co 
+       490     AT2World        AT2 World                
+       491     AT2Dev.ing      AT2 Developing           
+       492     AT2EastAsia     AT2 East Asia            
+       493     AT2LatAm        AT2 Latin America        
+       494     AT2NrE.N.Afr    AT2 Nr East North Africa 
+       495     AT2S.E.Asia     AT2 South East Asia      
+       496     AT2SubSahara    AT2 Sub-Sahara           
+       497     AT2Dev.ped      AT2 Developed            
+       498     AT2MarketEc     AT2 Market Economies     
+       499     AT2CntrlPlEc    AT2 Centrally Planned Ec 
+       510     Total Export    Total Exporters          
+       822     Far East        Far East Developing      
+       826     Low Income      Low-income Countries     
+       837     Asia            Asia                     
+       841     World           World                    
+       847     Asia Dev.ing    Asia Developing          
+       852     Rapa            Rapa                     
+       855     Dev.ping All    Developing Countries     
+       860     ASIA (B)        ASIA (B)                 
+       862     WORLD (B)       WORLD (B)                
+       870     Asia(A)         Asia(A)                  
+       872     World(A)        World(A)                 
+       876     Low Food Def    Low-income Food Deficit  
+       990     Un Commissio    Un Commission            
+       991     Economic        Economic                 
+       992     Geographical    Geographical             
+       993     Interregiona    Interregional            
+       994     Fao Members     Fao Members              
+       995     Fao Offices     Fao Offices              
+       996     Regional        Regional                 
+       997     Sub Group       Sub Group                
+       998     Special         Special                  
+       999     Country List    List Of Countries        
+      9500     SUAPCP          SUAProduction.Crops.Prim 
+      9501     SUAPLS          SUAProduction.Livestock. 
+      9502     SUAPLP          SUAProduction.Livestock. 
+      9503     SUAPLTI         SUAPopulation.LTI        
+      9504     SUAP            SUAPopulation            
+      9505     SUAPLTS         SUAPopulation.LTS        
+      9506     SUATLA          SUATrade.LiveAnimals     
+      9507     SUATCLP         SUATrade.CropsLivestockP 
+      9508     SUAFD           SUAFishery.Derived       
+      9509     SUAFP           SUAFishery.Primary       
+      9510     SUAFP           SUAForestry.Primary      
+      9511     SUAFD           SUAForestry.Derived      
+      9520     CBSCBSNPLAP     CBSCBS.NonPrimaryLivesto 
+      9521     CBSCBSP         CBSCBS.Population        
+      9522     CBSCBSCAP       CBSCBS.CropsAndProducts  
+      9523     CBSCBSPLAP      CBSCBS.PrimaryLivestockA 
+      9540     CBDCBDNPLAP     CBDCBD.NonPrimaryLivesto 
+      9541     CBDCBDP         CBDCBD.Population        
+      9542     CBDCBDCAP       CBDCBD.CropsAndProducts  
+      9543     CBDCBDPLAP      CBDCBD.PrimaryLivestockA 
+      9560     LUIM            LUIMachinery             
+      9561     LUILU           LUILandUse               
+      9562     LUII            LUIIrrigation            
+      9563     LUIF            LUIFertilizers           
+      9564     LUIP            LUIPesticides            
+      9580     PINCP           PINCrops.Primary         
+      9581     PINLP           PINLivestock.Primary     
+      9600     FoodAidFA       FoodAidFoodAid           

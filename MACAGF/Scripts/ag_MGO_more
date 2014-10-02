@@ -1,0 +1,13 @@
+#!/bin/ksh
+# script to run ag_MGO for more than 1 country
+rm out wrk tmp
+i=202
+until ((i > 207))
+do
+rm DAT/test.tst
+rm DAT/BIN/test.dat
+rm TMP/*
+ag_MGO $i frz
+cp MGO.out MGO/$i.out
+let "i=i+1"
+done

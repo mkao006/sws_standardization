@@ -1,0 +1,11 @@
+     FILE FBSFORMAT IN
+
+     FORMAT '30X,A30' FOR FILENAMES
+            '30X,A3'  FOR 'YES' / 'NO '
+            '30X,I2'  FOR INTEGERS
+
+---------------------------------------------
+DATA-FILE                   : TMP/agres.dat
+do fbs conversions etc.     : YES  
+NYR                         : 53
+

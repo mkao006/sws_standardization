@@ -1,0 +1,13 @@
+#!/bin/ksh
+mac $1 EXT/ext_oils_in
+mv DAT/test.tst DAT/oilsin.tmp
+mac $1 EXT/ext_oils_out
+mv DAT/test.tst DAT/oilsout.tmp
+cd DAT
+cat oilsout.tmp oilsin.tmp | sort -k1 > test.tst
+rm *.tmp
+cd ..
+run convrt
+rm DAT/test.tst
+run recov
+run rpflex

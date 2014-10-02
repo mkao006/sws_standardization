@@ -1,0 +1,18 @@
+     FILE CONVRT IN
+
+     FORMAT '30X,A30' FOR FILENAMES
+            '30X,A3'  FOR 'YES'/'NO '
+            '30X,I2'  FOR INTEGERS
+
+
+-----------------------------------------
+SUA DATAFILE ICS (INPUT)    : DAT/extraction.dat
+SUA DATAFILE (file out)     : DAT/BIN/extraction.bin
+NO OF YEARS                 : 53
+MAKE NUTRITIVE DATA FILE    : NO      
+ICS OUTPUT WITH NUT.FACTORS : DAT/nut.tst
+NUT FAC DATA FILE           : DAT/ctr.nut
+MIX WITH INTERNAT NUT FAC   : NO       
+FILE WITH INTERNAT NUT FAC  : LST/internut.lst
+NUT FAC DATA FILE           : DAT/test.nut
+

@@ -1,0 +1,35 @@
+
+     FILE RECOV.TMP
+
+     FORMAT '30X,A30'    FOR FILENAMES
+            '30X,A3'     FOR 'YES' / 'NO '
+           '30X,I2'     FOR INTEGERS
+           '30X,F10.0'  FOR REALS
+
+USE ADDITIONAL PROC. INFO   : SMP                    
+NUTRITIVE FACTORS (INPUT)   : DAT/test.nut
+XLOW                        : 10.0
+XHGH                        : 450.0
+---------------------------------------------
+DATA-FILE                   : DAT/BIN/extraction.bin
+COMM. LIST                  : LST/commap.lst
+STRUCTURE                   : BIN/prstr
+RECOVERED PROC. (file out)  : TMP/actlst.res
+PRINT  RECOVERED PR. ?      : NO
+USE ADDITIONAL PROC. INFO   : SMP                        
+ADD. PROCCES. INFO (INP)    : ACT/0.smp
+TEMP. BIN. ADD. PROC. INF   : TMP/addpi.bin
+NO. OF RECURSIVE ROUNDS     : 05
+SUBSYSTEMS OF LIN.EQ. (INP) : TMP/outsys.inf
+SOLVE SYSTEMS ?             : YES 
+USE CRITERIA (Y/N/ALF/ALN)  : NO  
+CRIT LIST                   : TMP/outsys.crt 
+XSML1                       : 0.050000
+DO NUTRITIVE CHECK          : NO       
+NUTRITIVE FACTORS (INPUT)   : DAT/test.nut
+NUTRITIVE COMMENT (file out): TMP/nutinf.tmp
+XLOW                        : 10.0
+XHGH                        : 450.0
+TEMP DATA FILE              : TMP/dfil
+SUA FILES                   : YES
+NO OF YRS                   : 53

@@ -1,0 +1,26 @@
+#!/bin/ksh
+# base script to run MVTR programs
+echo run $1
+OBJ/$1 < IN/$1.in > $1.out
+cp $1.out out
+echo "=========== $1.out =============" >> all.out
+cat $1.out >> all.out
+
+typeset -i ec
+ec=$(grep -i -e error -e fatal $1.out| wc -l)
+if [[ $ec != 0 ]]
+then
+	echo $1 FAILED:
+	grep -i -e error -e fatal $1.out
+	echo $1 FAILED
+else
+	for file in $(awk 'BEGIN {FS=":"} /file out/ { printf "%s",$2 }' IN/$1.in)
+	do
+		echo "Checking file $file"
+		if [[ ! -f $file ]]
+		then
+			echo "WARNING: Output file $file not generated"
+		fi
+	done
+	echo $1 completed
+fi

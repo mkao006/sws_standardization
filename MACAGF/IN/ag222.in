@@ -1,0 +1,21 @@
+     FILE AG222.TMP
+
+     FORMAT '30X,A30' FOR FILENAMES
+            '30X,A3'  FOR 'YES' / 'NO '
+               '30X,I2'  FOR INTEGERS
+
+---------------------------------------------
+COMMODITY LIST              : LST/commap.lst
+DATA FILE                   : DAT/BIN/extraction.bin
+CTR AG OP                   : TMP/ctrago.tmp
+RESULT FILE (file out)      : TMP/agres.dat
+BUFFER                      : TMP/buffer.tmp
+AGG. DIRECTIVES (INPUT)     : TMP/resbin.res
+COMMODITY LABELS (INPUT)    : BIN/comlab.ags
+DO CALORIES ETCETERA        : NO  
+FILE WITH NUT FACTORS       : DAT/test.nut
+do weights                  : YES    
+weights file (input)        : LST/wghts.lst
+SUA FILE                    : YES
+NO OF YEARS                 : 53
+

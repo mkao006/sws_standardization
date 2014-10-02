@@ -1,0 +1,5 @@
+18/sep/00	
+removed from CBDstep2.lst line 2913 2564
+because of the oil crop problem;
+change for the time being is done only in lst file, without running again
+the standardization process; it will be run at next cycle;

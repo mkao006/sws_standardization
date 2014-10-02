@@ -1,0 +1,13 @@
+#!/bin/ksh
+mac $1 EXT/ext_milk_in
+mv DAT/test.tst DAT/milkin.tmp
+mac $1 EXT/ext_milk_out
+mv DAT/test.tst DAT/milkout.tmp
+cd DAT
+cat milkout.tmp milkin.tmp | sort -k1 > test.tst
+rm *.tmp
+cd ..
+run convrt
+#rm DAT/test.tst
+run recov
+run rpflex

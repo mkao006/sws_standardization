@@ -1,0 +1,21 @@
+     FILE RPFLEX IN
+
+     FORMAT '30X,A30' FOR FILENAMES
+            '30X,A3'  FOR 'YES' / 'NO '
+               '30X,I2'  FOR INTEGERS
+
+---------------------------------------------
+DATA-FILE                   : DAT/BIN/extraction.bin
+COUNTRY LIST                : LST/crymap.lst
+COMM. LIST                  : LST/commap.lst
+ELEMENT LIST                : LST/elm.lst
+PRINT FILE                  : ioflows.prt
+RECOVERED PROCESSING (INP)  : TMP/actlst.res
+STRUCTURE                   : BIN/prstr
+INCLUDE RECOV. PROC. ?      : YES
+PRINT JUST INT.PROD.+PROC.? : NO       
+SUA FILES                   : YES 
+NYR                         : 53
+FIRST YEAR OF PERIOD        :  1
+LAST  YEAR OF PERIOD        : 53
+

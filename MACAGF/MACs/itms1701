@@ -1,0 +1,22 @@
+#!/bin/ksh
+#
+#
+DB_NAME=waicdb::faostat
+SQL_FLAGS="-s -f4F16.6"
+
+function select_data
+{
+        # this function expects the tsv table name as parameter
+        #TABLE=$1
+        {
+                echo "
+                set lockmode session where readlock = nolock\p\g
+                select  *
+                from 	g_item_agg_grp
+		where	item_grp = 1701 \p\g"
+        }  |
+        sql $SQL_FLAGS $DB_NAME 
+}
+
+select_data
+

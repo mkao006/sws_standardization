@@ -1,0 +1,24 @@
+
+ExtnDef ext_def;
+
+ext_def.Domain   = "sua data";
+ext_def.Data     = "SUA Working data";
+
+ext_def.Areas    = %1;
+
+ext_def.Items    = [ 173, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 903, 904, 905, 908, 917, 952, 953, 954, 955, 983, 984, 985, 1021, 1022, 1023 ];
+
+ext_def.Elements = [ >910, 261, 271, 281 ]; 
+
+ext_def.Years    = 1961..2013;
+
+Extn the_extn( ext_def );
+
+ExtnExport exporter( agrochar );
+exporter.numofyearstoexport = 53;
+
+the_extn.Export( exporter ) >> "out_bal";
+
+external( "cat out_bal | sort -k 1.6,1.9 > out.bal" );
+
+

@@ -1,0 +1,11 @@
+     FILE MKDUMMY IN
+
+     FORMAT '30X,A30' FOR FILENAMES
+            '30X,A3'  FOR 'YES'/'NO '
+            '30X,I2'  FOR INTEGERS
+
+-----------------------------------------
+list of items in 1701       : LST/itms1701.lst
+dummy ctr data file         : DAT/BIN/extraction.bin
+NO OF YEARS                 : 53
+

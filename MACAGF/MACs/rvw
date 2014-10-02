@@ -1,0 +1,24 @@
+
+ExtnDef ext_def;
+
+ext_def.Domain   = "sua data";
+ext_def.Data     = "Rvw SUA TS data";
+
+ext_def.Areas    = %1;
+
+ext_def.Items    = [ 1, 851, 853, 1067, 1092, 1169, 1174, 1223, >1701 ];
+
+ext_def.Elements = [ >910, 261, 271, 281 ]; 
+
+ext_def.Years    = 1961..2013;
+
+Extn the_extn( ext_def );
+
+ExtnExport exporter( agrochar );
+exporter.numofyearstoexport = 53;
+
+the_extn.Export( exporter ) >> "out_bal";
+
+external( "cat out_bal | sort -k 1.6,1.9 > out.bal" );
+
+

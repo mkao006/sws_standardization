@@ -1,0 +1,5 @@
+#!/bin/ksh
+mac $1 EXT/ext_all_in_out
+run convrt
+run recov
+run rpflex

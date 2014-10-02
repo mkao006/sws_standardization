@@ -1,0 +1,11 @@
+     FILE MKDUMMGO2 IN
+
+     FORMAT '30X,A30' FOR FILENAMES
+            '30X,A3'  FOR 'YES'/'NO '
+            '30X,I2'  FOR INTEGERS
+
+-----------------------------------------
+data file to read ctr code  : TMP/MGOresE.dat
+dummy ctr data file         : TMP/MGO222.dat
+NO OF YEARS                 : 53
+

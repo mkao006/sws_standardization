@@ -1,0 +1,13 @@
+     FILE MMERGF99 IN
+
+     FORMAT '30X,A30' FOR FILENAMES
+            '30X,A3'  FOR 'YES'/'NO '
+            '30X,I2'  FOR INTEGERS
+
+
+-----------------------------------------
+data file in 1st            : TMP/agres.dat
+data file in 2nd overrides 1: TMP/anifil.fil
+data file out               : TMP/agres99.dat
+NO OF YEARS                 : 53
+

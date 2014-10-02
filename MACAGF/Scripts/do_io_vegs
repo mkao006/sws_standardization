@@ -1,0 +1,13 @@
+#!/bin/ksh
+mac $1 EXT/ext_vegs_in
+mv DAT/test.tst DAT/vegsin.tmp
+mac $1 EXT/ext_vegs_out
+mv DAT/test.tst DAT/vegsout.tmp
+cd DAT
+cat vegsout.tmp vegsin.tmp | sort -k1 > test.tst
+rm *.tmp
+cd ..
+run convrt
+rm DAT/test.tst
+run recov
+run rpflex

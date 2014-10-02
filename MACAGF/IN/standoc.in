@@ -1,0 +1,17 @@
+     FILE STANDOC IN
+
+     FORMAT '30X,A30' FOR FILENAMES
+            '30X,A3'  FOR 'YES' / 'NO '
+            '30X,I2'  FOR INTEGERS
+
+
+---------------------------------------------
+COMM. LIST                  : LST/commap.lst
+Grand Total                 : LST/itms1701.lst
+STRUCTURE                   : BIN/prstr
+Commodity Labels            : BIN/comlab.ags
+weights                     : LST/wghts.lst
+output table                : standoc.fil
+further aggregation         : LST/ITMAG/CBDstep1.lst
+24 char itm names of aggreg.: LST/commap.lst
+

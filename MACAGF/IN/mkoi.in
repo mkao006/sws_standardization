@@ -1,0 +1,12 @@
+     FILE MKOI.TMP
+
+     FORMAT '30X,A30' FOR FILENAMES
+            '30X,A3'  FOR 'YES' / 'NO '
+               '30X,I2'  FOR INTEGERS
+
+
+---------------------------------------------
+COMM. LIST                  : LST/commap.lst
+STRUCTURE                   : BIN/prstr
+OUTPUT - INPUT LIST         : moilst.fil
+

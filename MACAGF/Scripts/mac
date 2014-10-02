@@ -1,0 +1,23 @@
+#!/bin/ksh
+# script to run MACRO scripts
+#
+# first parameter  : country code
+# second parameter : extraction definition file in MACs
+# writes data file to standard name ./DAT/test.tst
+#
+echo mac $1 $2
+#
+cp MACs/$2 MACs/Last
+cp MACs/Last ~/macro/mac/bas_balance.mac
+~/macro/bin/lnx/bas_balance $1
+cp ~/macro/bin/lnx/out.bal ./DAT/test.tst
+#
+#MACs/bas_nutfacts $1 > ./DAT/nut.tst
+#run convrt
+#cp ACT/base.smp ACT/0.smp
+#cp ACT/$1.smp ACT/0.smp
+#run recov
+#run rpflex
+#vi recov.out
+#
+echo mac $1 $2 completed

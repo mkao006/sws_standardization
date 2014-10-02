@@ -1,0 +1,30 @@
+     FILE RWCOPT IN
+
+     FORMAT '15X,A30' FOR FILENAMES
+            '15X,A3'  FOR 'YES'/'NO '
+            '15X,I2'  FOR INTEGERS
+
+SUA DATAFILE                : /AGRES TMP IOR TEST DAT I
+all items                   : LST/allmvtr.itm
+all items                   : LST/allc_MGO.lst
+COMM. LIST                  : LST/commap.lst
+COMM. LIST                  : LST/commap_MGO.lst
+SUA DATAFILE                : DAT/BIN/extraction.bin
+SUA DATAFILE                : TMP/agres.dat
+SUA DATAFILE                : RES/MGO.res
+SUA DATAFILE                : TMP/CBDres123.dat
+SUA DATAFILE                : TMP/CBDCBS.dat
+SUA DATAFILE                : TMP/MGOres.dat
+SUA DATAFILE                : TMP/MGO222.dat
+------------------------------------------
+SUA DATAFILE                : TMP/MGOresD.dat
+COUNTRY LIST                : LST/crymap.lst
+all items                   : LST/commap_MGO.lst
+ELEMENT LIST                : LST/elm.lst
+PRINT FILE (file out)       : suaD.prt
+divide by 1000              : YES 
+SUA FILES                   : YES
+NYR                         : 53
+FIRST YEAR OF PERIOD        : 39
+LAST  YEAR OF PERIOD        : 53
+

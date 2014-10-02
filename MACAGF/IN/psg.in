@@ -1,0 +1,18 @@
+     FILE PSG.TMP
+
+     FORMAT '30X,A30' FOR FILENAMES
+            '30X,A3'  FOR 'YES' / 'NO '
+               '30X,I2'  FOR INTEGERS
+
+IO - LIST                   : LST/ioext.lst
+STRUCTURE                   : BIN/prstr
+IO - LIST                   : LST/ioext_jm.lst
+STRUCTURE                   : BIN/prstr_jm
+---------------------------------------------
+IO - LIST                   : LST/ioext.lst
+COMM. LIST                  : LST/commap.lst
+STRUCTURE                   : BIN/prstr
+do default extr.rates       : NO  
+default extr.rates          : LST/defextr.lst
+NO OF YRS                   : 53
+

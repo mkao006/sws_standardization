@@ -1,0 +1,12 @@
+#!/bin/ksh
+# script to run standardisation
+echo run_stan $1
+cp BIN/DIF/agstr_$1 BIN/agstr
+cp BIN/DIF/comlab_$1.ags BIN/comlab.ags
+cp BIN/DIF/dirarc_$1.ags BIN/dirarc.ags
+run ag111
+run ag222
+cp BIN/DIF/agstr BIN
+cp BIN/DIF/comlab.ags BIN
+cp BIN/DIF/dirarc.ags BIN
+echo run_stan completed

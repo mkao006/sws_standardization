@@ -1,0 +1,8 @@
+#!/bin/ksh
+# script to run defextr sequence
+set -x
+for subset in iol CBS CBD MGO bas
+do
+	OBJ/defextr < IN/defextr_$subset.in > defextr_$subset.out
+done
+run defextr

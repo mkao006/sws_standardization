@@ -1,0 +1,13 @@
+     FILE MMERGF4 IN
+
+     FORMAT '30X,A30' FOR FILENAMES
+            '30X,A3'  FOR 'YES'/'NO '
+            '30X,I2'  FOR INTEGERS
+
+
+-----------------------------------------
+data file in 1st            : TMP/CBDS4.dat
+data file in 2nd overrides 1: TMP/CBDS.dat
+data file out               : TMP/CBDS5.dat
+NO OF YEARS                 : 53
+

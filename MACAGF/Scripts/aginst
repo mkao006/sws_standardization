@@ -1,0 +1,79 @@
+#!/bin/ksh
+# script to move stuff from AUG96 to MACAGF
+# first what is necessary for  macfor
+cd
+rm -R MACAGF
+mkdir MACAGF
+cd MACAGF
+mkdir LST
+mkdir LST/ITMAG
+mkdir OBJ
+mkdir IN
+mkdir BIN
+mkdir BIN/DIF
+mkdir ACT
+mkdir DAT
+mkdir DAT/BIN
+mkdir TMP
+cd
+cp AUG96/run MACAGF
+cp AUG96/run_stan MACAGF
+cp AUG96/LST/commap.lst MACAGF/LST
+cp AUG96/LST/crymap.lst MACAGF/LST
+cp AUG96/LST/elm.lst MACAGF/LST
+cp AUG96/LST/wghts.lst MACAGF/LST
+cp AUG96/LST/shrsval.lst MACAGF/LST
+cp AUG96/LST/ITMAG/CBDstep1.lst MACAGF/LST/ITMAG
+cp AUG96/LST/ITMAG/CBDstep2.lst MACAGF/LST/ITMAG
+cp AUG96/LST/ITMAG/CBDstep3.lst MACAGF/LST/ITMAG
+cp AUG96/LST/ITMAG/CBSstep1.lst MACAGF/LST/ITMAG
+cp AUG96/LST/ITMAG/CBSstep2.lst MACAGF/LST/ITMAG
+cp AUG96/LST/ITMAG/CBSstep3.lst MACAGF/LST/ITMAG
+cp AUG96/LST/ITMAG/CBSstep00.lst MACAGF/LST/ITMAG
+cp AUG96/OBJ/convrt MACAGF/OBJ
+cp AUG96/OBJ/recov MACAGF/OBJ
+cp AUG96/OBJ/rpflex MACAGF/OBJ
+cp AUG96/OBJ/ag111 MACAGF/OBJ
+cp AUG96/OBJ/ag222 MACAGF/OBJ
+cp AUG96/OBJ/mmergef MACAGF/OBJ
+cp AUG96/OBJ/agit MACAGF/OBJ
+cp AUG96/OBJ/agit2 MACAGF/OBJ
+cp AUG96/OBJ/agit00 MACAGF/OBJ
+cp AUG96/OBJ/rwcopt MACAGF/OBJ
+cp AUG96/OBJ/fbsformat MACAGF/OBJ
+cp AUG96/IN/convrt.in MACAGF/IN
+cp AUG96/IN/recov.in MACAGF/IN
+cp AUG96/IN/rpflex.in MACAGF/IN
+cp AUG96/IN/ag111.in MACAGF/IN
+cp AUG96/IN/ag222.in MACAGF/IN
+cp AUG96/IN/mmergef1.in MACAGF/IN
+cp AUG96/IN/mmergef2.in MACAGF/IN
+cp AUG96/IN/mmergef3.in MACAGF/IN
+cp AUG96/IN/mmergef4.in MACAGF/IN
+cp AUG96/IN/mmergef5.in MACAGF/IN
+cp AUG96/IN/mmergef11.in MACAGF/IN
+cp AUG96/IN/mmergef99.in MACAGF/IN
+cp AUG96/IN/agit.in MACAGF/IN
+cp AUG96/IN/agit2.in MACAGF/IN
+cp AUG96/IN/agit3.in MACAGF/IN
+cp AUG96/IN/agit4.in MACAGF/IN
+cp AUG96/IN/agit5.in MACAGF/IN
+cp AUG96/IN/agit_CBS.in MACAGF/IN
+cp AUG96/IN/agit00.in MACAGF/IN
+cp AUG96/IN/rwcopt.in MACAGF/IN
+cp AUG96/IN/fbsformat.in MACAGF/IN
+cp AUG96/BIN/prstr MACAGF/BIN
+cp AUG96/BIN/agstr MACAGF/BIN
+cp AUG96/BIN/comlab.ags MACAGF/BIN
+cp AUG96/BIN/dirarc.ags MACAGF/BIN
+cp AUG96/BIN/DIF/*CBD* MACAGF/BIN/DIF
+cp AUG96/BIN/DIF/*CBS* MACAGF/BIN/DIF
+cp AUG96/ACT/*.smp MACAGF/ACT
+# now the stuff for extraction
+cp AUG96/mac MACAGF
+mkdir MACAGF/MACs
+mkdir MACAGF/MACs/EXT
+mkdir MACAGF/Scripts
+cp AUG96/MACs/* MACAGF/MACs
+cp AUG96/MACs/EXT/* MACAGF/MACs/EXT
+cp AUG96/Scripts/* MACAGF/Scripts

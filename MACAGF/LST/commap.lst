@@ -1,0 +1,1902 @@
+FILE COMMAP
+
+THE COMMODITIES FOR WHICH DATA ARE AVAILABLE IN THE AGROSTAT DATA BASE ARE
+LISTED BELOW FOR THE AGROSTAT DOMAINS SUA, CLF2, PROP AND LUI. FOR EACH
+COMMODITY LISTED, EIGHT ITEMS ARE STATED:
+1. A COMMODITY CODE (COLUMNS 1-4)
+2. A COMMODITY TYPE CODE (COLUMNS 5-6)
+3. A COMMODITY NAME (COLUMNS 17-32)
+4-6. THREE COMMODITY MAPPING CODES (COLUMNS 43-47, 48-52, 53-57)
+7-8. TWO COMMODITY CONVERSION RATES (COLUMNS 58-65, 66-73)
+
+THE CODES ARE JUSTIFIED TO THE RIGHT, THE NAME IS JUSTIFIED TO THE LEFT.
+THE CONVERSION RATES SHOULD HAVE A DECIMAL DOT. THE CORRESPONDING FORTRAN
+FORMAT IS: ( I4, I2, 10X, 4A4, 10X, 3I5, 2F8.2) .
+
+THE COMMODITY MAPPING CODE OF A COMMODITY SPECIFIES THE COMMODITY CODE OF
+THE COMMODITY AGGREGATE TO WHICH THE CURRENT COMMODITY MUST BE AGGREGATED.
+THIS COMMODITY AGGREGATE MUST HAVE THE SAME COMMODITY TYPE.
+
+CODES SHORT NAME MAPPINGS US$ VOL
+-------------------------------------------------------------------------
+   1 1          POPULATION   POPULATION               
+   518          CUR.CONVFAC  CURRENT CONV. FACTORS    
+  10 3          TOTAL TRADE  TOTAL MERCHANDISE TRADE  
+  15 2          WHEAT        WHEAT                    
+  16 3          FLOUR WHEAT  FLOUR OF WHEAT           
+  17 3 *        BRAN WHEAT   BRAN OF WHEAT            
+  18 3          MACARONI     MACARONI                 
+  19 3          GERM WHEAT   GERM OF WHEAT            
+  20 3          BREAD        BREAD                    
+  21 3          BULGUR       BULGUR, WHOLEMEAL        
+  22 3          PASTRY       PASTRY                   
+  23 3          WHEAT,STARCH WHEAT STARCH             
+  24 3 *        WHEAT GLUTEN WHEAT GLUTEN             
+  26 3          WHEAT FER BE WHEAT FERMENTED BEVERAGE 
+  27 2          RICE, PADDY  RICE, PADDY              
+  28 3          RICE,HUSKED  RICE, HUSKED             
+  29 3          MIL/HUS RICE MILLED/HUSKED RICE       
+  31 3          MIL PAD RICE MILLED PADDY RICE        
+  32 3          RICE,BROKEN  RICE, BROKEN             
+  33 3 *        RICE GLUTEN  RICE GLUTEN              
+  34 3          RICE,STARCH  RICE, STARCH             
+  35 3 *        BRAN RICE    BRAN OF RICE             
+  36 3          OIL RICE BRN OIL OF RICE BRAN         
+  37 3 *        CAKE RICEBRN CAKE OF RICE BRAN        
+  38 3          RICE FLOUR   RICE FLOUR               
+  39 3          RICE FER BEV RICE FERMENTED BEVERAGES 
+  41 3          BREAKF CERLS BREAKFAST CEREALS        
+  44 2          BARLEY       BARLEY                   
+  45 3          POT BARLEY   POT BARLEY               
+  46 3          BARLEY,PEARL BARLEY, PEARLED          
+  47 3 *        BRAN BARLEY  BRAN OF BARLEY           
+  48 3          BARLEY FL GR BARLEY FLOUR AND GRITS   
+  49 3          MALT BARLEY  MALT OF BARLEY           
+  50 3          MALT EXTRACT MALT EXTRACTS            
+  51 3          BEER BARLEY  BEER OF BARLEY           
+  56 2          MAIZE        MAIZE                    
+  57 3 *        GERM MAIZE   GERM OF MAIZE            
+  58 3          FLOUR MAIZE  FLOUR OF MAIZE           
+  59 3 *        BRAN MAIZE   BRAN OF MAIZE            
+  60 3          OIL MAIZE    OIL OF MAIZE             
+  61 3 *        CAKE MAIZE   CAKE OF MAIZE            
+  63 3          MAIZE GLUTEN MAIZE GLUTEN             
+  64 3 *        STARCH MAIZE STARCH OF MAIZE          
+  66 3          BEER MAIZE   BEER OF MAIZE            
+  67 2          WHITE MAIZE  WHITE MAIZE              
+  68 2          POP CORN     POP CORN                 
+  71 2          RYE          RYE                      
+  72 3          FLOUR RYE    FLOUR OF RYE             
+  73 3 *        BRAN RYE     BRAN OF RYE              
+  75 2          OATS         OATS                     
+  76 3          OATS, ROLLED OATS, ROLLED             
+  77 3 *        BRAN OATS    BRAN OF OATS             
+  79 2          MILLET       MILLET                   
+  80 3          FLOUR MILLET FLOUR OF MILLET          
+  81 3 *        BRAN MILLET  BRAN OF MILLET           
+  82 3          BEER MILLET  BEER OF MILLET           
+  83 2          SORGHUM      SORGHUM                  
+  84 3          FLOUR SORGHM FLOUR OF SORGHUM         
+  85 3 *        BRAN SORGHUM BRAN OF SORGHUM          
+  86 3          BEER SORGHUM BEER OF SORGHUM          
+  89 2          BUCKWHEAT    BUCKWHEAT                
+  90 3          FLOUR BUCKWH FLOUR OF BUCKWHEAT       
+  91 3 *        BRAN BUCKWHT BRAN OF BUCKWHEAT        
+  92 2          QUINOA       QUINOA                   
+  94 2          FONIO        FONIO                    
+  95 3          FLOUR FONIO  FLOUR OF FONIO           
+  96 3 *        BRAN FONIO   BRAN OF FONIO            
+  97 2          TRITICALE    TRITICALE                
+  98 3          FLOUR TRITIC FLOUR OF TRITICALE       
+  99 3 *        BRAN TRITICA BRAN OF TRITICALE        
+ 101 2          CANARY SEED  CANARY SEED              
+ 103 2          MIXED GRAIN  MIXED GRAIN              
+ 104 3          FLOUR MIX GR FLOUR OF MIXED GRAIN     
+ 105 3 *        BRAN MIX GR  BRAN OF MIXED GRAIN      
+ 108 2          CEREALS NES  CEREALS NES              
+ 109 3          INFANT FOOD  INFANT FOOD              
+ 110 3          WAFERS       WAFERS                   
+ 111 3          FLOUR CEREAL FLOUR OF CEREALS         
+ 112 3 *        BRAN CEREAL  BRAN OF CEREALS          
+ 113 3          CER PREP NES CEREAL PREP NES          
+ 114 3          MIXES AND DO MIXES AND DOUGHS         
+ 115 3          FOOD PREP.FL FOOD PREP.FLOUR,MALT EXT 
+ 116 2          POTATOES     POTATOES                 
+ 117 3          FLOUR POTAT  FLOUR OF POTATOES        
+ 118 3          FROZ POTATOE FROZEN POTATOES          
+ 119 3          POTATO STCH  POTATO STARCH            
+ 120 3          POTATO OFFAL POTATO OFFALS            
+ 121 3          POTATO TAP   POTATO TAPIOCA           
+ 122 2          SWEET POTATO SWEET POTATOES           
+ 125 2          CASSAVA      CASSAVA                  
+ 126 3          FLOUR CASS   FLOUR OF CASSAVA         
+ 127 3          CASSAVA TAP  CASSAVA TAPIOCA          
+ 128 3          CASSAVA DR.  CASSAVA DRIED            
+ 129 3          CASSAVA STCH CASSAVA STARCH           
+ 135 2          YAUTIA(COC.) YAUTIA (COCOYAM)         
+ 136 2          TARO         TARO (COCO YAM)          
+ 137 2          YAMS         YAMS                     
+ 149 2          ROOTS TUB NS ROOTS AND TUBERS NES     
+ 150 3          FLOUR RT TUB FLOUR OF ROOTS AND TUBER 
+ 151 3          ROOTS TUB DR ROOTS AND TUBERS DRIED   
+ 154 3          FRUCTOSE CHE FRUCTOSE CHEMICALLY PURE 
+ 155 3          MALTOSE CHEM MALTOSE CHEMICALLY PURE  
+ 156 2          SUGAR CANE   SUGAR CANE               
+ 157 2          SUGAR BEETS  SUGAR BEETS              
+ 158 3          CANE SUGAR   CANE SUGAR               
+ 159 3          BEET SUGAR   BEET SUGAR               
+ 160 3          MAPLE SUGAR  MAPLE SUGAR AND SYRUPS   
+ 161 2          SUGAR CROPS  SUGAR CROPS NES          
+ 162 3          SUGAR,C. RAW SUGAR (CENTRIFUGAL, RAW) 
+ 163 3          SUGAR,N-CENT SUGAR (NONCENTRIFUGAL)   
+ 164 3          SUGAR REFIND SUGAR REFINED            
+ 165 3 *        MOLASSES     MOLASSES                 
+ 166 3          OTHER FRUCTO OTHER FRUCTOSE AND SYRUP 
+ 167 3          SUGAR NES    SUGAR AND SYRUPS NES     
+ 168 3          SUGAR CONF   SUGAR CONFECTIONERY      
+ 169 3 *        BEET P.DRY   BEET PULP,DRY            
+ 170 3 *        BAGASSE      BAGASSE                  
+ 171 3          SUGARS FLAV  SUGARS FLAVOURED         
+ 172 3          GLUC. DEXTR. GLUCOSE AND DEXTROSE     
+ 173 3          LACTOSE      LACTOSE                  
+ 174 3          ARTIF SWEETN ARTIFICIAL SWEETNERS     
+ 175 3          ISOGLUCOSE   ISOGLUCOSE               
+ 176 2          BEANS, DRY   BEANS, DRY               
+ 181 2          BRD BEANS,DR BROAD BEANS, DRY         
+ 187 2          PEAS, DRY    PEAS, DRY                
+ 191 2          CHICK-PEAS   CHICK-PEAS               
+ 195 2          COW PEAS,DRY COW PEAS, DRY            
+ 197 2          PIGEON PEAS  PIGEON PEAS              
+ 201 2          LENTILS      LENTILS                  
+ 203 2          BAMBARA BEAN BAMBARA BEANS            
+ 205 2          VETCHES      VETCHES                  
+ 210 2          LUPINS       LUPINS                   
+ 211 2          PULSES NES   PULSES NES               
+ 212 3          FLOUR PULSES FLOUR OF PULSES          
+ 213 3 *        BRAN PULSES  BRAN OF PULSES           
+ 21629          BRAZIL NUTS  BRAZIL NUTS              
+ 217 2          CASHEW NUTS  CASHEW NUTS              
+ 22029          CHESTNUTS    CHESTNUTS                
+ 22129          ALMONDS      ALMONDS                  
+ 22229          WALNUTS      WALNUTS                  
+ 22329          PISTACHIOS   PISTACHIOS               
+ 224 2          KOLANUTS     KOLANUTS                 
+ 22529          HAZELNUTS    HAZELNUTS (FILBERTS)     
+ 226 2          ARECANUTS    ARECA NUTS (BETEL)       
+ 229 3          BRAZILNUT SH BRAZILNUTS SHELLED       
+ 230 3          CASHEW SHE   CASHEW NUTS SHELLED      
+ 231 3          ALMONDS SHE  ALMONDS SHELLED          
+ 232 3          WALNUTS SHE  WALNUTS SHELLED          
+ 233 3          HAZELNUTS SH HAZELNUTS SHELLED        
+ 23429          NUTS NES     NUTS NES                 
+ 235 3          PREPRD NUTS  PREPRD NUTS(EXCL.GRNUTS) 
+ 236 2          SOYBEANS     SOYBEANS                 
+ 237 3          OIL SOYABEAN OIL OF SOYA BEANS        
+ 238 3 *        CAKE SOYBEAN CAKE OF SOYA BEANS       
+ 239 3          SOYA SAUCE   SOYA SAUCE               
+ 240 3          SOYA PASTE   SOYA PASTE               
+ 241 3          SOYA CURD    SOYA CURD                
+ 242 2          GROUNDNUTS   GROUNDNUTS IN SHELL      
+ 243 3          GROUNDNT SHE GROUNDNUTS SHELLED       
+ 244 3          OIL GROUNDNT OIL OF GROUNDNUTS        
+ 245 3 *        CAKE GROUNDT CAKE OF GROUNDNUTS       
+ 246 3          PREP GROUND. PREPARED GROUNDNUTS      
+ 247 3          PEANUT BUTTE PEANUT BUTTER            
+ 249 2          COCONUTS     COCONUTS                 
+ 250 3          COCONUTS,DES COCONUTS, DESICCATED     
+ 251 3          COPRA        COPRA                    
+ 252 3          OIL COCONUTS OIL OF COCONUTS          
+ 253 3 *        CAKE COCONUT CAKE OF COCONUTS         
+ 254 2          OIL PALM FR  OIL PALM FRUIT           
+ 256 3          PALM KERNELS PALM KERNELS             
+ 257 3          PALM OIL     PALM OIL                 
+ 258 3          OIL,PALM KER OIL OF PALM KERNELS      
+ 259 3 *        CAKE,PLM KER CAKE OF PALM KERNELS     
+ 26029          OLIVES       OLIVES                   
+ 261 3          OLIVE OIL    OLIVE OIL                
+ 262 3          OLIVES,PRES  OLIVES, PRESERVED        
+ 263 2          KARITE NUTS  KARITE NUTS (SHEANUTS)   
+ 264 3          KARIT NT BUT BUTTER OF KARITE NUTS    
+ 265 2          CASTOR BEANS CASTOR BEANS             
+ 266 3          OIL CAST BNS OIL OF CASTOR BEANS      
+ 267 2          SUNFLWR SEED SUNFLOWER SEED           
+ 268 3          OIL SUNF SD  OIL OF SUNFLOWER SEED    
+ 269 3 *        CAKE SUNF SD CAKE OF SUNFLOWER SEED   
+ 270 2          RAPESEED     RAPESEED                 
+ 271 3          OIL RAPESEED OIL OF RAPESEED          
+ 272 3 *        CAKE RAPESED CAKE OF RAPESEED         
+ 273 3          OLIVE RESID  OLIVE RESIDUES           
+ 274 3          OIL OLIVERES OIL OF OLIVE RESIDUES    
+ 275 2          TUNG NUTS    TUNG NUTS                
+ 276 3          TUNG OIL     TUNG OIL                 
+ 277 2          JOJOBA SEEDS JOJOBA SEEDS             
+ 278 3          JOJOBA OIL   JOJOBA OIL               
+ 280 2          SAFFLOWER    SAFFLOWER SEED           
+ 281 3          OIL SAFFLWR  OIL OF SAFFLOWER         
+ 282 3 *        CAKE SAFFLWR CAKE OF SAFFLOWER        
+ 289 2          SESAME SEED  SESAME SEED              
+ 290 3          OIL SES SD   OIL OF SESAME SEED       
+ 291 3 *        CAKE SES SD  CAKE OF SESAME SEED      
+ 292 2          MUSTARD SEED MUSTARD SEED             
+ 293 3          OIL MUST SD  OIL OF MUSTARD SEED      
+ 294 3 *        CAKE MUSTARD CAKE OF MUSTARD          
+ 295 3          FLOUR MUSTAR FLOUR OF MUSTARD         
+ 296 2          POPPY SEED   POPPY SEED               
+ 297 3          OIL POP SD   OIL OF POPPY SEED        
+ 298 3 *        CAKE POP SD  CAKE OF POPPY SEED       
+ 299 2          MELONSEED    MELONSEED                
+ 305 2          TALLOW SEEDS TALLOWTREE SEEDS         
+ 306 3          VEG TALLOW   VEGETABLE TALLOW         
+ 307 3          STILLING OIL STILLINGIA OIL           
+ 310 2          KAPOK FRUIT  KAPOK FRUIT              
+ 311 3          KAPOKSEED SH KAPOKSEED IN SHELL       
+ 312 3          KAPOKSEE SHD KAPOKSEED SHELLED        
+ 313 3          OIL OF KAPOK OIL OF KAPOK             
+ 314 3 *        CAKE KAPOK   CAKE OF KAPOK            
+ 328 2          SEED COTTON  SEED COTTON              
+ 329 3          COTTONSEED   COTTONSEED               
+ 331 3          OIL COTTON S OIL OF COTTON SEED       
+ 332 3 *        CAKE COTTON  CAKE OF COTTON SEED      
+ 333 2          LINSEED      LINSEED                  
+ 334 3          OIL LINSEED  OIL OF LINSEED           
+ 335 3 *        CAKE LINSEED CAKE OF LINSEED          
+ 336 2          HEMPSEED     HEMPSEED                 
+ 337 3          OIL HEMPSD   OIL OF HEMPSEED          
+ 338 3 *        CAKE HEMPSD  CAKE OF HEMPSEED         
+ 339 2          OILSEEDS NES OILSEEDS NES             
+ 340 3          OIL VG OR NS OIL OF VEGET ORIGIN NES  
+ 341 3 *        CAK OILSD NS CAKES OF OILSEEDS NES    
+ 343 3          OIL MEALS    FLOUR/MEAL OF OILSEEDS   
+ 358 2          CABBAGES     CABBAGES                 
+ 366 2          ARTICHOKES   ARTICHOKES               
+ 367 2          ASPARAGUS    ASPARAGUS                
+ 372 2          LETTUCE      LETTUCE                  
+ 373 2          SPINACH      SPINACH                  
+ 378 2          CASSAVA LEAV CASSAVA LEAVES           
+ 388 2          TOMATOES     TOMATOES                 
+ 389 3          TOMATO CONC  TOMATOJUICE CONCENTRATED 
+ 390 3          TOMATO SING  TOMATOJUICE SINGLE-STREN 
+ 391 3          TOMATO PASTE TOMATO PASTE             
+ 392 3          PEELD TOMATO PEELED TOMATOES          
+ 393 2          CAULIFLOWER  CAULIFLOWER              
+ 394 2          PUMPK+SQ+GRD PUMPKINS, SQUASH, GOURDS 
+ 397 2          CUCMBR+GHERK CUCUMBERS AND GHERKINS   
+ 399 2          EGGPLANTS    EGGPLANTS                
+ 401 2          CHIL+PEP,GRN CHILLIES+PEPPERS, GREEN  
+ 402 2          ONIONS,GREEN ONIONS+SHALLOTS, GREEN   
+ 403 2          ONIONS, DRY  ONIONS, DRY              
+ 406 2          GARLIC       GARLIC                   
+ 407 2          LEEKS AND OT LEEKS AND OTH.ALLIAC.VEG 
+ 414 2          BEANS, GREEN BEANS, GREEN             
+ 417 2          PEAS, GREEN  PEAS, GREEN              
+ 420 2          BRD BEAN,GRN BROAD BEANS, GREEN       
+ 423 2          STRING BEANS STRING BEANS             
+ 426 2          CARROTS      CARROTS                  
+ 430 2          OKRA         OKRA                     
+ 446 2          GREEN CORN   GREEN CORN (MAIZE)       
+ 447 3          SWEET CORN F SWEET CORN FROZEN        
+ 448 3          SWEET CORN P SWEET CORN PREP. OR PRES 
+ 449 2          MUSHROOMS    MUSHROOMS                
+ 450 3          DRIED MUSH   DRIED MUSHROOMS          
+ 451 3          CANNED MUSH  CANNED MUSHROOMS         
+ 459 2          CHICORY ROOT CHICORY ROOTS            
+ 460 2          VEG PR FR DR VEG PROD FRESH OR DRIED  
+ 46129          CAROBS       CAROBS                   
+ 463 2          VEGETABLES F VEGETABLES FRESH NES     
+ 464 3          VEGET DR NES VEGETABLES DRIED NES     
+ 465 3          VEGT CAN NES VEGETABLES CANNED NES    
+ 466 3          JUICE VEG NS JUICE OF VEGETABLES NES  
+ 469 3          VEGS DEHYDR  VEGETABLES DEHYDRATED    
+ 471 3          VEGS VINEGAR VEGETABLES PR BY VINEGAR 
+ 472 3          VEGS PR NES  VEGETABLES PREPARED NES  
+ 473 3          VEGS FROZEN  VEGETABLES FROZEN        
+ 474 3          VEGS TEMP PR VEG. IN TEMP PRESERVATIV 
+ 475 3          VEG.PREP OR  VEG.PREP OR PRES.FROZEN  
+ 476 3          HOMOGENIZED  HOMOGENIZED VEGET. PREP. 
+ 48629          BANANAS      BANANAS                  
+ 48929          PLANTAINS    PLANTAINS                
+ 49029          ORANGES      ORANGES                  
+ 491 3          ORANJ SING-S ORANJUICE SINGLE-STRENGT 
+ 492 3          ORANJ CONC   ORANJUICE CONCENTRATED   
+ 49529          TANGERINES   TANG.MAND.CLEMENT.SATSMA 
+ 496 3          TANGER JUICE TANGERINE JUICE          
+ 49729          LEMONS LIMES LEMONS AND LIMES         
+ 498 3          LEMONJ SIN-S LEMONJUICE SINGLE-STRENG 
+ 499 3          LEMONJ CONC  LEMONJUICE CONCENTRATED  
+ 50729          GRAPEFRUIT   GRAPEFRUIT AND POMELO    
+ 509 3          GRAPEFRJ S-S GRAPEFRUITJUICE SING-STR 
+ 510 3          GRAPEFRJ CON GRAPEFRUITJUICE CONCENTR 
+ 51229          CITR FRT NES CITRUS FRUIT NES         
+ 513 3          CITRUSJ SING CITRUSJUICE SINGLE-STREN 
+ 514 3          CITRUSJ CONC CITRUSJUICE CONCENTRATED 
+ 51529          APPLES       APPLES                   
+ 517 3          FERM BEVERAG FERM. BEVERAGES EXC WINE 
+ 518 3          APPLEJ SIN-S APPLEJUICE SINGLE STRENG 
+ 519 3          APPLEJ CONC  APPLEJUICE CONCENTRATED  
+ 52129          PEARS        PEARS                    
+ 52329          QUINCES      QUINCES                  
+ 52629          APRICOTS     APRICOTS                 
+ 527 3          DRY APRICOTS DRY APRICOTS             
+ 53029          SOUR CHERRY  SOUR CHERRIES            
+ 53129          CHERRIES     CHERRIES                 
+ 53429          PEACHES      PEACHES AND NECTARINES   
+ 53629          PLUMS        PLUMS                    
+ 537 3          PLUMS, DRIED PLUMS, DRIED (PRUNES)    
+ 538 3          PLUMJ,SING-S PLUMJUICE,SINGLE-STRENGT 
+ 539 3          PLUMJ CONC   PLUMJUICE CONCENTRATED   
+ 54129          STONE FRUIT  STONE FRUIT NES, FRESH   
+ 54229          POME FRUIT   POME FRUIT NES, FRESH    
+ 54429          STRAWBERRIES STRAWBERRIES             
+ 54729          RASPBERRIES  RASPBERRIES              
+ 54929          GOOSEBERRIES GOOSEBERRIES             
+ 55029          CURRANTS     CURRANTS                 
+ 55229          BLUEBERRIES  BLUEBERRIES              
+ 55429          CRANBERRIES  CRANBERRIES              
+ 55829          BERRIES NES  BERRIES NES              
+ 56029          GRAPES       GRAPES                   
+ 561 3          RAISINS      RAISINS                  
+ 562 3          GRAPE JUICE  GRAPE JUICE              
+ 563 3          MUST GRAPES  MUST OF GRAPES           
+ 564 3          WINE         WINE                     
+ 565 3          VERMTH SIMIL VERMOUTHS AND SIMILAR    
+ 566 3 *        GRAPE MARC   MARC OF GRAPES           
+ 567 2          WATERMELONS  WATERMELONS              
+ 568 2          MELONS       CANTALOUPES+OTH MELONS   
+ 56929          FIGS         FIGS                     
+ 570 3          FIGS, DRIED  FIGS, DRIED              
+ 57129          MANGOES      MANGOES                  
+ 57229          AVOCADOS     AVOCADOS                 
+ 57429          PINEAPPLES   PINEAPPLES               
+ 575 3          PINEAPPL CAN PINEAPPLES, CANNED       
+ 576 3          PINEAPPLEJ S PINEAPPLEJUICE SING-STRE 
+ 57729          DATES        DATES                    
+ 580 3          PINEAPPLEJ C PINEAPPLEJUICE CONCENTR. 
+ 583 3          MANGO JUICE  MANGO JUICE              
+ 584 3          MANGO PULP   MANGO PULP               
+ 58729          PERSIMMONS   PERSIMMONS               
+ 59129          CASHEWAPPLE  CASHEWAPPLE              
+ 59229          KIWI         KIWI FRUIT               
+ 60029          PAPAYAS      PAPAYAS                  
+ 60329          FRT TROP NES FRUIT TROPICAL FRESH NES 
+ 604 3          FR TRP DR NS FRUIT TROPICAL DRIED NES 
+ 61929          FRUIT NES    FRUIT FRESH NES          
+ 620 3          FRUIT DR NES FRUIT DRIED NES          
+ 622 3          FRUIT JUICE  FRUIT JUICE NES          
+ 623 3          FRUIT PR NES FRUIT PREPARED NES       
+ 624 3          FLOUR FRUIT  FLOUR OF FRUIT           
+ 625 3          FRUIT,NUT,PE FRUIT,NUT,PEEL,SUGAR PRS 
+ 626 3          HOMOGEN.COOK HOMOGEN.COOKED FRUIT PRE 
+ 628 3 *        FR PULP FEED FRUIT PULP FOR FEED      
+ 629 3          BEET TOPS    BEET TOPS                
+ 630 3          CANE TOPS    CANE TOPS                
+ 631 3          WATERS,ICE E WATERS,ICE ETC           
+ 632 3          ALC NON-FOOD ALCOHOL NON FOOD PURPOSE 
+ 633 3          BEV NON-ALC  BEVERAGES NON-ALCOHOLIC  
+ 634 3          BEV DIS ALC  BEVERAGES DIST ALCOHOLIC 
+ 635 3          STRAW, HUSKS STRAW, HUSKS             
+ 636 2          MAIZE FD+SIL MAIZE FOR FORAGE+SILAGE  
+ 637 2          SORGHUM FS   SORGHUM FOR FORAGE+SILAG 
+ 638 2          RYE GRASS FS RYE GRASS,FORAGE+SILAGE  
+ 639 2          GRASSES FS   GRASSES NES,FORAGE+SILAG 
+ 640 2          CLOVER FS    CLOVER FOR FORAGE+SILAGE 
+ 641 2          ALFALFA FS   ALFALFA FOR FORAGE+SILAG 
+ 642 2          G OILSEED FS GREEN OILSEEDS FOR+SILAG 
+ 643 2          LEGUMIN FS   LEGUMINOUS NES,FOR+SIL   
+ 644 2          CABBAGE FOD  CABBAGE FOR FODDER       
+ 645 2          PUMPKINS FOD PUMPKINS FOR FODDER      
+ 646 2          TURNIPS FOD  TURNIPS FOR FODDER       
+ 647 2          BEETS FODDER BEETS FOR FODDER         
+ 648 2          CARROTS FOD  CARROTS FOR FODDER       
+ 649 2          SWEDES FOD   SWEDES FOR FODDER        
+ 650 3          LEAVES+TOPS  LEAVES AND TOPS, VINES   
+ 651 2          FORAGE PROD  FORAGE PRODUCTS NES      
+ 652 3          VEG PROD     VEG PRODUCTS FOR FEED    
+ 653 3          FOOD WASTES  FOOD WASTES              
+ 654 3 *        DREGS,BR+DIS DREGS FROM BREWING+DIST. 
+ 655 2          VEG ROOT FOD VEGETABLES+ROOTS,FODDER  
+ 656 2          COFFEE,GREEN COFFEE, GREEN            
+ 657 3          COFFEE ROAST COFFEE ROASTED           
+ 658 3          COFFEE SUBST COFFEE SUBST CONT COFFEE 
+ 659 3          COFFEE EXTR  COFFEE EXTRACTS          
+ 660 3          COFFEE HUSKS COFFEE HUSKS AND SKINS   
+ 661 2          COCOA BEANS  COCOA BEANS              
+ 662 3          COCOA PASTE  COCOA PASTE              
+ 663 3          COCOA HUSKS  COCOA HUSKS+SHELL        
+ 664 3          COCOA BUTTER COCOA BUTTER             
+ 665 3          COCOA POWDER COCOA POWDER AND CAKE    
+ 666 3          CHOC PROD NS CHOCOLATE PRODUCTS NES   
+ 667 2          TEA          TEA                      
+ 671 2          MATE         MATE                     
+ 672 3          EXTRACT TEA, EXTRACT TEA,MATE, PREP.  
+ 674 2          TEA NES      TEA NES                  
+ 677 2          HOPS         HOPS                     
+ 687 2          PEPPER W/L/B PEPPER,WHITE/LONG/BLACK  
+ 689 2          PIMENTO      PIMENTO, ALLSPICE        
+ 692 2          VANILLA      VANILLA                  
+ 693 2          CINNAMON     CINNAMON (CANELLA)       
+ 698 2          CLOVES       CLOVES, WHOLE+STEMS      
+ 702 2          NUTMEG       NUTMEG, MACE, CARDAMONS  
+ 711 2          ANISE        ANISE, BADIAN, FENNEL    
+ 720 2          GINGER       GINGER                   
+ 723 2          SPICES NES   SPICES NES               
+ 737 3          OIL CITRONLL OIL OF CITRONELLA        
+ 748 2          PEPPERMINT   PEPPERMINT               
+ 753 3          ESS OILS NES ESSENTIAL OILS NES       
+ 754 2          PYR DR FLOWR PYRETHRUM, DRIED FLOWERS 
+ 755 3          PYRET EXTR.  PYRETHRUM EXTRACT        
+ 756 3          PYRET MARC   PYRETHRUM MARC           
+ 767 3          COTTON LINT  COTTON LINT              
+ 768 3          COTTON CARDD COTTON CARDED COMBED     
+ 769 3          COTTON WASTE COTTON WASTE             
+ 770 3          COTTON LINTR COTTON LINTER            
+ 771 2          FLAX RAW     FLAX FIBRE RAW           
+ 773 2          FLAX FIBRE   FLAX FIBRE AND TOW       
+ 774 3          FLAX TOW     FLAX TOW WASTE           
+ 777 2          HEMP FIBRE   HEMP FIBRE AND TOW       
+ 778 3          KAPOK FIBRE  KAPOK FIBRE              
+ 780 2          JUTE         JUTE                     
+ 782 2          JUTE-LIKE    JUTE-LIKE FIBRES         
+ 788 2          RAMIE        RAMIE                    
+ 789 2          SISAL        SISAL                    
+ 800 2          AGAVE NES    AGAVE FIBRES NES         
+ 809 2          ABACA        ABACA (MANILA HEMP)      
+ 813 2          COIR         COIR                     
+ 821 2          FIBRE NES    FIBRE CROPS NES          
+ 826 2          TOBACCO      TOBACCO LEAVES           
+ 828 3          CIGARETTES   CIGARETTES               
+ 829 3          CIGARS       CIGARS CHEROOTS          
+ 831 3          TOBACCO PROD TOBACCO PRODUCTS NES     
+ 836 2          NAT RUBBER   NATURAL RUBBER           
+ 837 3          RUBBER DRY   RUBBER NATURAL DRY       
+ 839 3          NATURAL GUMS NATURAL GUMS             
+ 840 3          COM FEED CAT COMPOUND FEED, CATTLE    
+ 841 3          COM FEED POU COMPOUND FEED, POULTRY   
+ 842 3          COM FEED PIG COMPOUND FEED, PIGS      
+ 843 3          PET FOOD     PET FOOD                 
+ 845 3          COM FEED OTH COMPOUND FEED,OTH OR NES 
+ 846 3          GLUT FEED&ME GLUTEN FEED AND MEAL     
+ 849 3          FEED YEAST   FEED YEAST               
+ 850 3          FEED SUP     FEED SUPPLEMENTS         
+ 851 3          NONPROT NITR NON PROTEIN NITROGENS    
+ 852 3          CONCENTR NES OTHER CONCENTRATES, NES  
+ 853 3          VITAMINS     VITAMINS                 
+ 854 3          FEED ADDITIV FEED ADDITIVES           
+ 855 3          FEED MINERAL FEED MINERALS            
+ 857 2          HAY NON-LEG  HAY NON-LEGUMINOUS       
+ 858 2          HAY LEGUMIN  HAY (CLOVER,LUCERNE,ETC) 
+ 859 2          HAY UNSPECIF HAY (UNSPECIFIED)        
+ 860 2          RANGE PAST   RANGE PASTURE            
+ 861 2          IMPROV PAST  IMPROVED PASTURE         
+ 862 3          ALFALFA MEAL ALFALFA MEAL AND PELLETS 
+ 864 4          CALVES       CALVES                   
+ 865 5          VEAL         VEAL                     
+ 866 4          CATTLE       CATTLE                   
+ 867 5          BEEF VEAL    BEEF AND VEAL            
+ 868 6          OFFALS CATTL OFFALS OF CATTLE, EDIBLE 
+ 869 6          FAT CATTLE   FAT OF CATTLE            
+ 870 3          BEEF BONLESS BEEF AND VEAL,BONELESS   
+ 871 3          CATTLE BUT F CATTLE BUTCHER FAT       
+ 872 3          BEEF DSS     BEEF DRIED SALT SMOKED   
+ 873 3          MEAT EXTRACT MEAT EXTRACTS            
+ 874 3          SAUSAGE BEEF SAUSAGES BEEF AND VEAL   
+ 875 3          BEEF PREP    BEEF PREPARATIONS        
+ 876 3          BEEF CANNED  BEEF CANNED              
+ 877 3          HOMOGENIZED  HOMOGENIZED MEAT PREP.   
+ 878 3          LIVER PREPAR LIVER PREPARATIONS       
+ 882 8          COW MILK     COW MILK, WHOLE, FRESH   
+ 883 3          STANDAR MILK STANDARDIZED MILK        
+ 885 3          CREAM, FRESH CREAM, FRESH             
+ 886 3          BUTTER, COWS BUTTER OF COW MILK       
+ 887 3          GHEE, COWS   GHEE (FROM COW MILK)     
+ 888 3 *        SK MILK COWS SKIM MILK OF COWS        
+ 889 3          WH MILK,COND WHOLE MILK,CONDENSED     
+ 890 3          WHEY,CONDENS WHEY, CONDENSED          
+ 891 3          YOGHURT      YOGHURT                  
+ 892 3          YOGHURT CONC YOGURT CONCENTR.OR NOT   
+ 893 3 *        BUTTERM,CURD BUTTERM,CURDL,ACID.MILK  
+ 894 3          WH MILK,EVAP WHOLE MILK, EVAPORATED   
+ 895 3          SKMILK EVAP  SKIM MILK, EVAPORATED    
+ 896 3          SK MILK COND SKIM MILK, CONDENSED     
+ 897 3          COWMILK DRY  DRY WHOLE COW MILK       
+ 898 3          MILK SK DR C DRY SKIM COW MILK        
+ 899 3          DRY BUTTERMK DRY BUTTERMILK           
+ 900 3          DRY WHEY     DRY WHEY                 
+ 901 3          CHEESE W COW CHEESE (WHOLE COW MILK)  
+ 903 3 *        WHEY, FRESH  WHEY, FRESH              
+ 904 3          CHEESE S COW CHEESE (SKIM COW MILK)   
+ 905 3          WHEY CHEESE  WHEY CHEESE              
+ 907 3          PROC CHEESE  PROCESSED CHEESE         
+ 908 3          RECONS MILK  RECONSTITUTED MILK       
+ 909 3          PROD.OF NAT. PROD.OF NAT.MILK CONSTIT 
+ 910 3          ICE CREAM AN ICE CREAM AND EDIBLE ICE 
+ 916 3          EGG ALBUMINE EGG ALBUMINE             
+ 917 3          CASEIN       CASEIN                   
+ 918 8          SUCKMILK CAT SUCKLED MILK, CATTLE     
+ 919 7          CATTLE HIDES CATTLE HIDES, FRESH      
+ 920 3          HIDE W CATTL HIDES WET-SALTED CATTLE  
+ 921 3          HIDE D CATTL HIDES DRY-SALTED CATTLE  
+ 922 3          HIDE N CATTL HIDES NES CATTLE         
+ 927 7          SKIN F CALVE SKINS FRESH OF CALVES    
+ 928 3          SKIN W CALVE SKINS WET-SALT CALVES    
+ 929 3          SKIN D CALVE SKINS DRY-SALT CALVES    
+ 930 3          SKIN N CATTL SKINS NES CALVES         
+ 94415          IND CATTMEAT INDIGENOUS CATTLE MEAT   
+ 94516          BIO CATTMEAT BIOLOGICAL CATTLE MEAT   
+ 946 4          BUFFALOES    BUFFALOES                
+ 947 5          BUFFALO MEAT BUFFALO MEAT             
+ 948 6          OFFAL BUFFAL OFFALS OF BUFFALO,EDIBLE 
+ 949 6          FAT BUFFALO  FAT OF BUFFALO           
+ 951 8          BUFFALO MILK BUFFALO MILK             
+ 952 3          BUTTER BUFFL BUTTER OF BUFFALO MILK   
+ 953 3          GHEE BUFFALO GHEE (FROM BUFFALO MILK) 
+ 954 3          MILK SK BUFF SKIM MILK OF BUFFALO     
+ 955 3          CHEES BUFFAL CHEESE OF BUFFALO MILK   
+ 956 8          SUCKMILK BUF SUCKLED MILK, BUFFALOES  
+ 957 7          BUFFALO HIDE BUFFALO HIDES, FRESH     
+ 958 3          HIDE W BUFFL HIDES WET-SALTED  BUFFAL 
+ 959 3          HIDE D BUFFL HIDES DRY-SALTED  BUFFAL 
+ 97215          IND BUFFMEAT INDIGENOUS BUFFALO MEAT  
+ 97316          BIO BUFFMEAT BIOLOGICAL BUFFALO MEAT  
+ 974 4          LAMBS        LAMBS                    
+ 975 5          LAMB MEAT    LAMB MEAT                
+ 976 4          SHEEP        SHEEP                    
+ 977 5          MUTTON LAMB  MUTTON AND LAMB          
+ 978 6          OFFALS SHEEP OFFALS OF SHEEP, EDIBLE  
+ 979 6          FAT OF SHEEP FAT OF SHEEP             
+ 982 8          SHEEP MILK   SHEEP MILK               
+ 983 3          BUTTER SHEEP BUTTER+GHEE (SHEEP MILK) 
+ 984 3          SHEEP CHEESE CHEESE OF SHEEP MILK     
+ 985 3          SK MILK SHEE SKIM SHEEP MILK          
+ 986 8          SUCKMILK SHE SUCKLED MILK, SHEEP      
+ 98710          WOOL, GREASY WOOL, GREASY             
+ 988 3          WOOL,SCOURED WOOL, SCOURED            
+ 994 3          GREASE WOOL  GREASE INCL LANOLIN WOOL 
+ 995 7          SHEEPSKINS   SHEEPSKINS, FRESH        
+ 996 3          SKIN W SHEEP SKIN WET-SALTED SHEEP    
+ 997 3          SKIN D SHEEP SKIN DRY-SALTED SHEEP    
+ 998 3          SKIN NES SH  SKIN NES SHEEP           
+ 999 7          SKINWOOL SH  SKIN WITH WOOL  SHEEP    
+1002 7          KARAKUL SKIN KARAKUL SKINS            
+1007 3          WOOL SHODDY  WOOL SHODDY              
+1008 3          HAIR CARDED  HAIR CARDED OR COMBED    
+1009 3          WOOL WASTE   WOOL AND HAIR WASTE      
+1010 3          WOOL TOPS    WOOL TOPS                
+101215          IND SHEEMEAT INDIGENOUS SHEEP MEAT    
+101316          BIO SHEEMEAT BIOLOGICAL SHEEP MEAT    
+1014 4          KIDS         KIDS                     
+1015 5          KIDS MEAT    KIDS MEAT                
+1016 4          GOATS        GOATS                    
+1017 5          GOAT MEAT    GOAT MEAT                
+1018 6          OFFALS GOATS OFFALS OF GOATS, EDIBLE  
+1019 6          FAT OF GOATS FAT OF GOATS             
+1020 8          GOAT MILK    GOAT MILK                
+1021 3          GOAT CHEESE  CHEESE OF GOAT MILK      
+1022 3          BUTTER, GOAT BUTTER OF GOAT MILK      
+1023 3          SK MILK GOAT SKIM MILK OF GOAT        
+1024 8          SUCKMILK GOA SUCKLED MILK, GOATS      
+1025 7          GOATSKINS    GOATSKINS, FRESH         
+1026 3          SKIN W GOAT  SKINS WET-SALTED GOATS   
+1027 3          SKIN D GOAT  SKINS DRY-SALTED GOATS   
+1028 3          SKIN NES GOA SKINS NES GOATS          
+1030 3          FINE GOAT HA FINE GOAT HAIR           
+1031 3          COARSE GOA H COARSE GOAT HAIR         
+103215          IND GOATMEAT INDIGENOUS GOAT MEAT     
+103316          BIO GOATMEAT BIOLOGICAL GOAT MEAT     
+1034 4          PIGS         PIGS                     
+1035 5          PIGMEAT      PIGMEAT                  
+1036 6          OFFALS PIGS  OFFALS OF PIGS, EDIBLE   
+1037 6          FAT PIGS     FAT OF PIGS              
+1038 3          PORK         PORK                     
+1039 3          BACON PIGS   BACON-HAM OF PIGS        
+1040 3          PIG BUT FAT  PIG BUTCHER FAT          
+1041 3          SAUSAGES PIG SAUSAGES PIG MEAT        
+1042 3          MEAT PR PIG  MEAT PREPARATIONS PIGS   
+1043 3          LARD         LARD                     
+1044 7          PIGSKINS     PIGSKINS, FRESH          
+1045 3          SKIN W PIGS  SKIN WET-SALTED PIGS     
+1046 3          SKIN D PIGS  SKIN DRY-SALTED PIGS     
+1047 3          SKIN NES PIG SKIN NES PIGS            
+1050 8          SUCKMILK PIG SUCKLED MILK, PIGS       
+105515          IND PIGMEAT  INDIGENOUS PIGMEAT       
+105616          BIO PIG MEAT BIOLOGICAL PIG MEAT      
+105725          CHICKENS     CHICKENS                 
+105826          CHICKEN MEAT CHICKEN MEAT             
+105927          OFFAL CHICKN OFFALS LIVER OF CHICKENS 
+1060 3          FAT LIVER PR FAT LIVER PREP(FOIE GRAS 
+1061 3          MEAT CD CHCK MEAT CANNED CHICKEN      
+106230          HEN EGGS     HEN EGGS                 
+1063 3          EGGS L HEN   EGGS LIQUID HEN          
+1064 3          EGGS DRY HEN EGGS DRY WHOLE YOLKS HEN 
+1065 3          FAT  POULTRY FAT OF POULTRY           
+1066 3          FAT R POULTR FAT OF POULTRY RENDERED  
+106720          HEN EGGS NO  HEN EGGS (NO)            
+106825          DUCKS        DUCKS                    
+106926          DUCK MEAT    DUCK MEAT                
+107032          IND DUCKMEAT INDIGENOUS DUCK MEAT     
+107133          BIO DUCKMEAT BIOLOGICAL DUCK MEAT     
+107225          GEESE        GEESE                    
+107326          GOOSE MEAT   GOOSE MEAT               
+107427          OFFALS LIV G OFFALS LIVER GEESE       
+107527          OFFALS LIV D OFFALS LIVER DUCKS       
+107732          IND GEESMEAT INDIGENOUS GEESE MEAT    
+107833          BIO GEESMEAT BIOLOGICAL GEESE MEAT    
+107925          TURKEYS      TURKEYS                  
+108026          TURKEY MEAT  TURKEY MEAT              
+108127          OFFALS LIV T OFFALS LIVER TURKEYS     
+108325          PIGEONS OTHE PIGEONS OTHER BIRDS      
+108432          INDIG OTH PO INDIGENOUS OTHER POULTRY 
+108533          BIOL OTH POU BIOLOGICAL OTHER POULTRY 
+108732          IND TURKMEAT INDIGENOUS TURKEY MEAT   
+108833          BIO TURKMEAT BIOLOGICAL TURKEY MEAT   
+108926          MEAT POULTRY MEAT OF PIGEON OTH.BIRDS 
+109130          EGGS POULTRY EGGS EXCL HEN            
+109220          OTH EGG (NO) EGGS, EXC HEN EGGS (NO)  
+109432          IND CHCKMEAT INDIGENOUS CHICKEN MEAT  
+109533          BIO CHCKMEAT BIOLOGICAL CHICKEN MEAT  
+1096 4          HORSES       HORSES                   
+1097 5          HORSEMEAT    HORSEMEAT                
+1098 6          OFFALS HORSE OFFALS OF HORSE          
+110010          HAIR HORSES  HAIR OF HORSES           
+1102 7          HORSE HIDES  HORSE HIDES, FRESH       
+1103 3          HIDE W HORSE HIDES WET-SALTED HORSES  
+1104 3          HIDE D HORSE HIDES DRY-SALTED HORSES  
+1105 3          HIDE Y HORSE HIDES UNSPECIFIED HORSES 
+1107 4          ASSES        ASSES                    
+1108 5          MEAT ASSES   MEAT OF ASSES            
+1109 7          HIDES ASS FR HIDES OF ASSES FRESH     
+1110 4          MULES        MULES                    
+1111 5          MEAT MULES   MEAT OF MULES            
+1112 7          HIDES MUL FR HIDES OF MULES FRESH     
+1115 8          SUCKMILK EQU SUCKLED MILK, EQUINES    
+112015          IND HORSMEAT INDIGENOUS HORSE MEAT    
+112116          BIO HORSMEAT BIOLOGICAL HORSE MEAT    
+112215          IND ASS MEAT INDIGENOUS ASS MEAT      
+112316          BIO ASS MEAT BIOLOGICAL ASS MEAT      
+112415          IND MULEMEAT INDIGENOUS MULE MEAT     
+112516          BIO MULEMEAT BIOLOGICAL MULE MEAT     
+1126 4          CAMELS       CAMELS                   
+1127 5          MEAT CAMEL   MEAT OF CAMELS           
+1128 6          OFFALS CAMEL OFFALS OF CAMEL, EDIBLE  
+1129 6          FAT CAMEL    FAT OF CAMELS            
+1130 8          CAMEL MILK   CAMEL MILK               
+1131 8          SUCKMILK CAM SUCKLED MILK, CAMELS     
+1133 7          HIDES CAMEL  CAMEL HIDES, FRESH       
+1134 3          HIDE W CAMEL HIDES WET-SALTED CAMELS  
+1135 3          HIDE D CAMEL HIDES DRY-SALTED CAMELS  
+1136 3          HIDE U CAMEL HIDES UNSP CAMELS        
+113715          IND CAMLMEAT INDIGENOUS CAMEL MEAT    
+113816          BIO CAMLMEAT BIOLOGICAL CAMEL MEAT    
+114025          RABBITS      RABBITS                  
+114126          RABBIT MEAT  RABBIT MEAT              
+114432          RAB MEAT IND RABBIT MEAT INDIGENOUS   
+114533          RAB MEAT BIO RABBIT MEAT BIOLOGICAL   
+114628          RABBIT SKIN  RABBIT SKINS             
+115025          OTH RODENTS  OTHER RODENTS            
+115126          MEAT RODENTS MEAT OF OTHER RODENTS    
+115432          INDIG RODENT INDIGENOUS RODENTS       
+115533          BIOL RODENTS BIOLOGICAL RODENTS       
+1157 4          OTH CAMELIDS OTHER CAMELIDS           
+1158 5          MEAT OTH CAM MEAT OF OTHER CAMELIDS   
+1159 6          OFFALS CAMEL OFFALS OF OTHER CAMELIDS 
+1160 6          FAT OTH CAME FAT OF OTHER CAMELIDS    
+116115          INDIG CAMEL  INDIGENOUS OTHER CAMEL   
+116216          BIOL OTH CAM BIOLOGICAL OTHER CAMEL   
+1163 5          GAME MEAT    GAME MEAT                
+1164 3          MEAT DRY NES MEAT,DRIED,NES           
+1166 5          MEAT NES     MEAT NES                 
+1167 3          OFFALS NES   OFFALS NES               
+1168 3          OILS ANIMAL  ANIMAL OILS AND FATS NES 
+1169 4          LIVE ANIMAL  LIVE ANIMAL NON-FOOD     
+1171 4          ANIMALS NES  LIVE ANIMALS NES         
+1172 3          MEAT PR NES  MEAT PREPARED NES        
+1173 3          MEAT MEAL    MEAT MEAL                
+1174 3          FISH MEAL    FISH MEAL                
+1175 3          BLOOD MEAL   BLOOD MEAL               
+1176 5          SNAILS NOT S SNAILS NOT SEA SNAILS    
+1180 8          SUCKMILK NES SUCKLED MILK, ANIM, NES  
+118121          BEEHIVES     BEEHIVES                 
+118222          HONEY        HONEY                    
+118322          BEESWAX      BEESWAX                  
+118510          COCOON REEL  COCOONS, REELABLE        
+1186 3          SILK, RAW    SILK, RAW AND WASTE      
+118710          COCOON UNR   COCOONS, UNREELABLE      
+119510          FUR SKINS    FUR SKINS                
+1213 3          HIDE NES FR  HIDES+SKINS NES, FRESH   
+1214 3          HIDE WS      HIDE WET-SALTED          
+1215 3          HIDE DS      HIDE DRY-SALTED          
+1216 3          HIDE NES     HIDE NES                 
+1217 3          LEATHER USED LEATHER USED AND WASTE   
+1218 3          HAIR FINE    HAIR FINE ANIMAL         
+1219 3          HAIR COARSE  HAIR COARSE NES          
+1221 3          STEARINE     LARD AND STEARINE OIL    
+1222 3          DEGRAS       DEGRAS                   
+1223 3          OILS FISH    OILS FISH AND MARINE MAM 
+1225 3          TALLOW       TALLOW                   
+1232 3          FOOD PREP    FOOD PREPARED NES        
+1241 3          LIQUID MARG  LIQUID MARGARINE         
+1242 3          MARGARINE    MARGARINE + SHORTENING   
+1243 3          FATS PREP NS FAT PREPARATIONS NES     
+1259 3          FOOD WASTES  FOOD WASTES PREP FEED    
+1267 3          AG-IND BYPRD AG-IND BYPRD EX0165,0654 
+1273 3          CASTOR OIL H CASTOR OIL HYDR(OPAL WAX 
+1274 3          OILS BOILED  OILS BOILED ETC          
+1275 3          OILS HYDROGN OILS HYDROGENATED        
+1276 3          FATTY ACIDS  FATTY ACIDS OILS  431.31 
+1277 3          RES FATTY S  RES FATTY SUBST   431.32 
+1291 3          ARABIC GUM   ARABIC GUM               
+1292 3          OTHER RESINS OTHER RESINS             
+1293 3          ORG MAT 29   CRUDE ORGANIC MATERLS 29 
+1294 3          SEEDS        SEEDS FRUITS SPORES PL   
+1295 3          SPERMACETI   SPERMACETI        431.41 
+1296 3          WAXES VEG    WAXES VEG         431.43 
+129923          SOIL MACH    SOIL MACHINERY           
+130023          AGR MACH NES AGR MACHINERY NES        
+130123          TRACTORS ALL TRACTORS ALL             
+130223          TRACTORS TOT TRACTORS AGRIC TOTAL     
+130323          TRACTORS CRW TRACTORS AGRIC CRAWLER   
+130423          TRACTORS WHL TRACTORS AGRIC WHEEL     
+130523          GARDEN TRACT GARDEN TRACTORS          
+130623          HARV THRESH  HARVESTER-THRESHERS      
+130723          MILKING MACH MILKING MACHINES         
+130824          PESTICIDES   PESTICIDES               
+130924          INSECTICIDES INSECTICIDES             
+131024          CHLOR.HYDROC CHLORINATED HYDROCARBONS 
+131124          ORGANO-PHOSP ORGANO-PHOSPHATES        
+131224          CARBAMAT INS CARBAMATES INSECTICIDES  
+131324          PYRETHROIDS  PYRETHROIDS              
+131424          BOTAN&BILOGI BOTANICAL & BIOLOGICAL   
+131524          OTH.INSECTIC OTHER INSECTICIDES       
+131624          MINERAL OILS MINERAL OILS             
+131724          ?            ?                        
+131824          ?            ?                        
+131924          ?            ?                        
+132024          HERBICIDES   HERBICIDES               
+132124          PHENOX HORM  PHENOXY HORMONE PRODUCTS 
+132224          TRIAZINE     TRIAZINE                 
+132324          AMIDES       AMIDES                   
+132424          CARBAMAT HER CARBAMATES HERBICIDES    
+132524          DINITROANIL. DINITROANILINES          
+132624          UREA DERIVAT UREA DERIVATES           
+132724          OTH.HERBICID OTHER HERBICIDES         
+132824          SULFON.UREAS SULFONYL UREAS           
+132924          BIPIRIDILS   BIPIRIDILS               
+133024          ?            ?                        
+133124          FUNGIC&BACTR FUNGIC&BACTER&SEED TREAT 
+133224          INORGANICS   INORGANICS               
+133324          DITHIOCARBAM DITHIOCARBAMATES         
+133424          BENZIMIDAZOL BENZIMIDAZOLES           
+133524          TRIAZOL,DIAZ TRIAZOLES, DIAZOLES      
+133624          DIAZIN,MORPH DIAZINES, MORPHOLINES    
+133724          OTH.FUNGICID OTHER FUNGICIDES         
+133824          ?            ?                        
+133924          ?            ?                        
+134024          ?            ?                        
+134124          PLANT GR.REG PLANT GROWTH REGULATORS  
+134224          ?            ?                        
+134324          ?            ?                        
+134424          ?            ?                        
+134524          RODENTICIDES RODENTICIDES             
+134624          ANTICOAGULAN ANTICOAGULANTS           
+134724          OTH.RODENT.  OTHER RODENTICIDES       
+134824          ?            ?                        
+135024          ?            ?                        
+135124          DISINFECTANS DISINFECTANS             
+135224          ?            ?                        
+135324          ?            ?                        
+135424          ?            ?                        
+135524          OTH.PEST.NES OTHER PESTICIDES NES     
+135624          ?            ?                        
+135724          PESTICIDES   PESTICIDES (TRADE)       
+136011          NITROGFERTLZ NITROGENOUS FERTILIZERS  
+136111          AMMON SULPH  AMMONIUM SULPHATE        
+136211          AMMON NITRAT AMMONIUM NITRATE         
+136311          AMM SUL NITR AMMONIUM SULPHAT NITRATE 
+136411          SODIUM NITR  SODIUM NITRATE           
+136511          CALCIUM NITR CALCIUM NITRATE          
+136611          CALCIUM CYAN CALCIUM CYANAMIDE        
+136711          UREA         UREA                     
+136811          AMM PHOSPH N AMMONIUM PHOSPHATE (N)   
+136911          OTH NITR FER OTHER NITROGENOUS FERT   
+137011          OTH COMPL N  OTH COMPLEX FERT (N)     
+137111          AMMONIA D AP AMMONIA DIR APPLICATION  
+137211          CALC AM NITR CALCIUM AMMONIUM NITRATE 
+137411          NIT FERT NES NITROGEN FERTILIZERS NES 
+137511          PHOSPHFERTLZ PHOSPHATE FERTILIZERS    
+137611          SING SUPERPH SINGLE SUPERPHOSPHATE    
+137711          CONC SUPERPH CONCENT SUPERPHOSPHATE   
+137811          BASIC SLAG   BASIC SLAG               
+137911          AMM PHOSPH P AMMONIUM PHOSPHAT (P2O5) 
+138011          OTH PHOS FER OTHER PHOSPHATE FERTIL   
+138111          OTH COMPL P  OTH COMPLEX FERT (P2O5)  
+138211          GR ROCK PHOS GROUND ROCK PHOSPHATE    
+138511          PHOS FER NES PHOSPHATE FERTILIZ NES   
+138611          POTASHFERTLZ POTASH FERTILIZERS       
+138711          POTAS SULPH  POTASSIUM SULPHATE       
+138811          MURIATE 45%  MURIATE OVER 45% K2O     
+138911          MURIA 20-45% MURIATE 20-45% K2O       
+139011          CRUDE SALTS  CRUDE SALTS TO 20% K2O   
+139111          OTH POT FERT OTHER POTASH FERTILIZERS 
+139211          COMPL FER K  COMPLEX FERTILIZER (K2O) 
+139611          POT FERT NES POTASH FERTILIZERS NES   
+139711          FERT M NES   FERTILIZERS MANUF NES    
+139811          NAT SOD NITR NATURAL SODIUM NITRATE   
+139911          PHOSPHAT NAT NATURAL PHOSPHATES       
+140011          POT SALT NAT NATURAL POTASSIC SALTS   
+140111          FERTILIZERS  FERTILIZERS ORGANIC      
+140211          AMMONIA      AMMONIA                  
+140311          PHOSPH ACID  PHOSPHORIC ACID          
+140411          SULPHUR ACID SULPHURIC ACID           
+140511          AGRIC LIME   AGRICULTURAL LIME        
+140611          GYPSUM       GYPSUM                   
+141023          INT COMB ENG INTERNAL COMBUST ENGINES 
+141123          ELECTR MOTOR ELECTRIC MOTORS          
+141223          TRUCKS FARMS TRUCKS ON FARMS          
+141624          INSECTCIDES  INSECTCIDES (TRADE)      
+141724          FUNGICIDES   FUNGICIDES (TRADE)       
+141824          HERBICIDES   HERBICIDES (TRADE)       
+141924          DISINFEC ETC DISINFECTANTS,ETC(TRADE) 
+142137          LAND USE     LAND USE                 
+142216          LAND USE     LAND USE (BIS)           
+142317          IRRIGATION   IRRIGATION               
+144534          ECONOMIC ACC ECONOMIC ACCOUNTS 1      
+144635          ECONOMIC ACC ECONOMIC ACCOUNTS 1 (BIS 
+144734          ECONOMIC ACC ECONOMIC ACCOUNTS 2      
+144835          ECONOMIC ACC ECONOMIC ACCOUNTS 2 (BIS 
+144936          CAPITAL FORM CAPITAL FORMATION 1      
+145036          CAPITAL FORM CAPITAL FORMATION 2      
+145114          MACROECONOMI MACROECONOMICS ONE       
+145214          MACROECONOMI MACROECONOMICS TWO       
+145512          DIADROMOUS F DIADROMOUS FISH FRESH    
+145613          DIADROM FISH DIADROM FISH FROZEN WHOL 
+145713          DIADROM FISH DIADROM FISH FRZN FILLET 
+145813          DIADROM FISH DIADROM FISH DRIED SALTD 
+145913          DIADROMOUS F DIADROMOUS FISH SMOKED   
+146013          DIADROM FISH DIADROM FISH CURED NES   
+146113          DIADROMOUS F DIADROMOUS FISH CANNED   
+146213          DIADROMOUS F DIADROMOUS FISH PREP NES 
+146313          DIADROM FISH DIADROM FISH ROES CANNED 
+146412          SALMON FRESH SALMON FRESH             
+146513          SALMON FROZE SALMON FROZEN WHOLE      
+146613          SALMON FROZE SALMON FROZEN FILLET     
+146713          SALMON SMOKE SALMON SMOKED            
+146813          SALMON CANNE SALMON CANNED            
+146912          GADOID FISH  GADOID FISH FRESH        
+147013          GADOID FISH  GADOID FISH FROZEN WHOLE 
+147113          GADOID FISH  GADOID FISH FROZN MINCED 
+147213          GADOID FISH  GADOID FISH FROZN STICKS 
+147313          GADOID FISH  GADOID FISH FROZN FILLET 
+147413          GADOID FISH  GADOID FISH CHILLD FILLT 
+147513          GADOID FISH  GADOID FISH DRIED UNSLTD 
+147613          GADOID FISH  GADOID FISH DRIED SALTED 
+147713          GADOID FISH  GADOID FISH CURED NES    
+147813          GADOID FISH  GADOID FISH MEAL         
+147913          GADOID FISH  GADOID FISH LIVER OIL    
+148013          GADOID FISH  GADOID FISH MEAL OFFAL   
+148113          COD ROES LIV COD ROES LIVERS FRSH FRZ 
+148213          COD ROES LIV COD ROES LIVERS CURED    
+148312          TUNAS FRESH  TUNAS FRESH              
+148413          TUNAS FROZEN TUNAS FROZEN WHOLE       
+148513          TUNAS CURED  TUNAS CURED NES          
+148613          TUNAS CANNED TUNAS CANNED             
+148713          SMALL PELAGI SMALL PELAGIC ROES CURED 
+148812          SHRIMP FRESH SHRIMP FRESH             
+148913          SHRIMP FROZE SHRIMP FROZEN WHOLE      
+149013          SHRIMP TAILS SHRIMP TAILS FROZEN      
+149113          SHRIMP DRIED SHRIMP DRIED SALTED      
+149213          SHRIMP CURED SHRIMP CURED NES         
+149313          SHRIMP CANNE SHRIMP CANNED            
+149413          SHRIMP PREPA SHRIMP PREPARATIONS      
+149513          SHRIMP FERME SHRIMP FERMENTED/PASTE   
+149613          SHRIMP MEAL  SHRIMP MEAL FROM OFFAL   
+149712          LOBSTER FRES LOBSTER FRESH            
+149813          LOBSTER FROZ LOBSTER FROZEN WHOLE     
+149913          LOBSTER FROZ LOBSTER FROZEN MEAT/TAIL 
+150013          LOBSTER CANN LOBSTER CANNED           
+150112          FRWTR DIAD F FRESHWATER DIADROM FRESH 
+150213          FRWTR FZ WHL FRESHWATER  FROZEN WHOLE 
+150313          FRWTR FILLET FRESHWATER  FILLETS      
+150413          FRWTR FZ FLT FRESHWATR FROZEN FILLETS 
+150513          FRWTR CURED  FRESHWATER  CURED        
+150613          FRWTR CANNED FRESHWATER  CANNED       
+150713          FRWTR PR NES FRESHWATER  PREP NES     
+150813          FRWTR MEALS  FRESHWATER  MEALS        
+150913          FRWT BDY OIL FRESHWATER  BODY OILS    
+151013          FRWT LVR OIL FRESHWATER  LIVER OILS   
+151113          FRWT MEAL OF FRESHWATER MEAL FR OFFAL 
+151213          FRESHWATER D FRESHWATER DRIED SALTED  
+151313          FRESHWATER F FRESHWATER FISH SMOKED   
+151412          DMRSL FRESH  DEMERSL MARINE FISH FRSH 
+151513          DMRSL FZ WHL DEMERSAL    FROZEN WHOLE 
+151613          DMRSL FILLET DEMERSAL    FILLETS      
+151713          DMRSL FZ FLT DEMERSAL  FROZEN FILLETS 
+151813          DMRSL CURED  DEMERSAL    CURED        
+151913          DMRSL CANNED DEMERSAL    CANNED       
+152013          DMRSL PR NES DEMERSAL    PREP NES     
+152113          DMRSL MEALS  DEMERSAL    MEALS        
+152213          DMRS BDY OIL DEMERSAL    BODY OILS    
+152313          DMRS LVR OIL DEMERSAL    LIVER OILS   
+152413          DMRS MEAL OF DEMERSAL MEAL FROM OFFAL 
+152513          DEMRSL FISH  DEMRSL FISH DRIED UNSALT 
+152613          DEMERSL FISH DEMERSL FISH DRIED SALTD 
+152712          PELAGIC FRSH PELAGIC MARINE FISH FRSH 
+152813          PELGC FZ WHL PELAGIC     FROZEN WHOLE 
+152913          PELGC FILLET PELAGIC     FILLETS      
+153013          PELGC FZ FLT PELAGIC   FROZEN FILLETS 
+153113          PELGC CURED  PELAGIC     CURED        
+153213          PELGC CANNED PELAGIC     CANNED       
+153313          PELGC PR NES PELAGIC     PREP NES     
+153413          PELGC MEALS  PELAGIC     MEALS        
+153513          PELG BDY OIL PELAGIC     BODY OILS    
+153613          PELG LVR OIL PELAGIC     LIVER OILS   
+153713          PELG MEAL OF PELAGIC MEAL FROM OFFAL  
+153813          SMALL PELGC  SMALL PELGC FISH DRIED S 
+153913          SMALL PELGC  SMALL PELGC FISH SMOKED  
+154012          MARINE NES F MARINE FISH NES FRESH    
+154113          MARIN FZ WHL MARINE NES  FROZEN WHOLE 
+154213          MARIN FILLET MARINE NES  FILLETS      
+154313          MARIN FZ FLT MARINE NES FROZEN FILLET 
+154413          MARIN CURED  MARINE NES  CURED        
+154513          MARIN CANNED MARINE NES  CANNED       
+154613          MARIN PR NES MARINE NES  PREP NES     
+154713          MARIN MEALS  MARINE NES  MEALS        
+154813          MARN BDY OIL MARINE NES BODY OILS     
+154913          MARN LVR OIL MARINE NES  LIVER OILS   
+155013          MARN MEAL OF MARINE NES MEAL FR OFFAL 
+155113          MARINE FISH  MARINE FISH DRIED SALTED 
+155213          MARINE FISH  MARINE FISH SMOKED       
+155312          CRSTACEANS F CRUSTACEANS FRESH        
+155413          CRSTC FROZEN CRUSTACEANS FROZEN       
+155513          CRSTC CURED  CRUSTACEANS CURED        
+155613          CRSTC CANNED CRUSTACEANS CANNED       
+155713          CRSTC PR NES CRUSTACEANS PREP NES     
+155813          CRSTC MEALS  CRUSTACEANS MEALS        
+155913          CRST MEAL OF CRUSTACEANS MEAL F OFFAL 
+156013          MARINE FISH  MARINE FISH FERMENTED    
+156113          MARINE FISH  MARINE FISH CAKES SAUSAG 
+156212          MLLUSCS FRSH MLLUSCS EXCL CEPHLP FRSH 
+156313          MOLSC FROZEN MOLLUSCS    FROZEN       
+156413          MOLSC CURED  MOLLUSCS    CURED        
+156513          MOLSC CANNED MOLLUSCS    CANNED       
+156613          MOLSC MEALS  MOLLUSCS    MEALS        
+156713          MOLS MEAL OF MOLLUSCS MEAL FROM OFFAL 
+156813          MOLLUSCS SCH MOLLUSCS SCHUCKED        
+156913          MARINE FISH  MARINE FISH SAUCE        
+157012          CEPHLP FRESH CEPHALCPODS FRESH        
+157113          CPHLP FROZEN CEPHALOPODS FROZEN       
+157213          CPHLP CURED  CEPHALOPODS CURED        
+157313          CPHLP CANNED CEPHALOPODS CANNED       
+157413          CPHLP PR NES CEPHALOPODS PREP NES     
+157513          CPHLP MEALS  CEPHALOPODS MEALS        
+157613          CPHL MEAL OF CEPHALOPODS MEAL F OFFAL 
+157713          SMALL PELGC  SMALL PELGC FISH SOLUBLE 
+157813          MARINE FISH  MARINE FISH SOLUBLES     
+157912          AQUTC MAMMAL AQUATIC MAMMALS          
+158013          AQ M MEAT    AQUATIC MAMMALS  MEAT    
+158113          AQ M MEALS   AQUATIC MAMMALS  MEALS   
+158213          AQ M OILS    AQUATIC MAMMALS  OILS    
+158313          AQ M PREP NS AQUATIC MAMMALS  PREPNES 
+158413          AQ M MEAL OF AQUA MAMMAL MEAL F OFFAL 
+158512          FRESHWATER F FRESHWATER FISH LIVE     
+158612          FRESHWATER F FRESHWATER FISH ORNAMENT 
+158712          AQUTC ANIM F AQUATIC ANIMALS NES FRSH 
+158813          AQ A CURED   AQUATIC ANIMALS    CURED 
+158913          AQ A MEALS   AQUATIC ANIMALS    MEALS 
+159013          AQ A PREP NS AQUATIC ANIMALS PREP NES 
+159113          AQ A MEAL OF AQUA ANIM MEAL FR OFFAL  
+159212          MOLLUSCS LIV MOLLUSCS LIVE            
+159312          KRILL        KRILL                    
+159412          AQUTC PLANTS AQUATIC PLANTS           
+159513          AQ P DRIED   AQUATIC PLANTS DRIED     
+159613          AQ P PREP NS AQUATIC PLANTS PREP NES  
+159713          SMALL PELGC  SMALL PELGC FISH FLOUR   
+159812          GUANO        GUANO                    
+159913          FISH TOT VAL FISHERY TOTAL VALUE      
+160119          SAWL VENER C SAWLOGS+VENEER LOGS(C)   
+160419          SAWL VEN NC  SAWLOGS+VENEER LOGS (NC) 
+160519          PITPROPS C   PITPROPS C               
+160719          PITPROPS NC  PITPROPS NC              
+160819          PULPWOOD C   PULPWOOD (C)             
+161019          PITPROPS TRA PITPROPS TRADE           
+161119          PULPWOOD NC  PULPWOOD (NC)            
+161319          POLES PILING POLES PILING POSTS C     
+161419          PULPWOOD R&S PULPWOOD(ROUND & SPLIT)  
+161919          CHIPS        CHIPS+PARTICLES          
+162019          RESIDUES     WOOD RESIDUES            
+162319          OTHER IND C  OTHER INDUST ROUNDWD (C) 
+162519          OTHER IND TR OTH.INDUST.ROUNDWOOD TRD 
+162619          OTHER IND NC OTHER INDUST ROUNDWD(NC) 
+162719          FUELWOOD C   FUELWOOD(C)              
+162819          FUELWOOD NC  FUELWOOD (NC)            
+162919          FUELWOOD     FUELWOOD                 
+1630 2          CHARCOAL     CHARCOAL                 
+163119          WOOD FOR CHA WOOD FOR CHARCOAL        
+163219          SAWNWOOD C   SAWNWOOD (C)             
+163319          SAWNWOOD NC  SAWNWOOD(NC)             
+163419          VENEER       VENEER SHEETS            
+163619          POLES PILING POLES PILING POSTS TRADE 
+164019          PLYWOOD      PLYWOOD                  
+164619          PARTICLE BRD PARTICLE BOARD           
+164719          HARDBOARD    HARDBOARD                
+164819          MDF          MDF                      
+164919          FIBREBD COMP FIBREBOARD, COMPRESSED   
+165019          INSULTNG BRD INSULATING BOARD         
+165119          INDRWD C     IND RWD WIR (C)          
+1654 2          MECH WD PULP MECHANICAL WOOD PULP     
+1655 2          S-CH WD PULP SEMI-CHEMICAL WOOD PULP  
+1656 2          CHEM WD PULP CHEMICAL WOOD PULP       
+165719          INDRWD NC T  IND RWD WIR NC TROPICAL  
+1660 2          UNBL SULPHIT UNBLEACHED SULPHITE PULP 
+1661 2          BL SULPHITE  BLEACHED SULPHITE PULP   
+1662 2          UNBL SULPHAT UNBLEACHED SULPHATE PULP 
+1663 2          BL SULPHATE  BLEACHED SULPHATE PULP   
+1667 2          DISSOLVING   DISSOLVING WOOD PULP     
+1668 2          OTHER FI PUL OTHER FIBRE PULP         
+1669 2          RECVRD PAPER RECOVERED PAPER          
+167019          INDRWD NC O  IND RWD WIR NC OTHER     
+1671 2          NEWSPRINT    NEWSPRINT                
+1674 2          PRINT+WRITIN PRINTING+WRITING PAPER   
+1675 2          OTHER PAPER  OTHER PAPER+PAPERBOARD   
+1676 2          HOUSH+SAN PA HOUSEHOLD+SANITARY PAPER 
+1681 2          WRAPING PAP  WRAPG+PACKG PAPER+BOARD  
+1683 2          PAPER+BD NES PAPER+PAPERBOARD NES     
+1701 3          GRAND TOTAL  GRAND TOTAL              
+1702 3          A FI FO PRIM AGR FISH FORESTRY PRIM   
+1703 3          A FI FO PROC AGR FISH FORESTRY PROC   
+1704 3          FOOD         FOOD                     
+1705 3          FOOD PRIM    FOOD PRIMARY             
+1706 3          FOOD PROC    FOOD PROCESSED           
+1707 3          NO FOOD      NON FOOD                 
+1708 3          NO FOOD PRIM NON FOOD PRIMARY         
+1709 3          NO FOOD PROC NON FOOD PROCESSED       
+1710 3          AGRICULTURE  AGRICULTURE              
+1711 3          AGRICLT PRIM AGRICULTURE PRIMARY      
+1712 3          AGRICLT PROC AGRICULTURE PROCESSED    
+1713 3          CROPS        CROPS                    
+1714 2          CROPS PRIM   CROPS PRIMARY            
+1715 3          CROPS PROC   CROPS PROCESSED          
+1716 3          CEREALS      CEREALS                  
+1717 2          CEREALS PRIM CEREALS,TOTAL            
+1718 2          AT2 TOT GVP  AT2 TOT GROSS VALUE PROD 
+1719 3          ROOTS+TUBERS ROOTS AND TUBERS         
+1720 2          ROOT+TUB PR  ROOTS AND TUBERS,TOTAL   
+1721 7          CATT&BUF HID CATTLE&BUFFALO HIDES,FR. 
+1722 3          SUGAR CROPS  SUGAR CROPS              
+1723 2          SUGAR   PRIM SUGAR CROPS PRIMARY      
+1724 2          AT2 GVP-S&O  AT2 TOT GVP-SUGAR&OIL    
+1725 3          PULSES       PULSES                   
+1726 2          PULSES  PRIM PULSES,TOTAL             
+1727 3          OLIVE OIL T  OLIVE OIL, TOTAL         
+1728 2          2000MI+SO+OT AT2000 MIL+SOR+MISC CER  
+172929          TREENUT PRIM TREENUTS,TOTAL           
+1730 2          TO CHEM PULP TOTAL CHEMICAL PULP      
+1731 3          OILCROPS     OILCROPS                 
+1732 2          OILCROP PRIM OILCROPS PRIMARY         
+1733 2          AT2 NCER FC  AT2 NON-CEREAL FOOD CROP 
+1734 3          VEGETABLES   VEGETABLES EXCL MELONS   
+1735 2          VEGETBL PRIM VEGETABLES PRIMARY       
+1736 3          2000SUGARS 3 AT2000 SUGAR:RAW+NC+NES  
+173729          FRUIT        FRUIT INCL MELONS        
+173829          FRUIT   PRIM FRUIT PRIMARY            
+1739 2          2000BAN+PLAN AT2000 BANANAS+PLANTAINS 
+1740 3          STIMULANTS   STIMULANTS               
+1741 2          STIMUL PRIM  STIMULANTS PRIMARY       
+1742 3          WHMILK,EV+CO WHOLE MILK,EVAPOR.+COND. 
+1743 3          SPICES       SPICES                   
+1744 2          2000JUT+HFIB AT2000 JUTE+HARD FIBRES  
+1745 3          CHEESE(ALL)  CHEESE (ALL KINDS)       
+1746 4          CATTLE&BUFF  CATTLE AND BUFFALOES     
+174715          BEEF BUF IND BEEF&BUFFALO MEAT INDIG  
+174815          SHE GOAT IND SHEEP&GOAT INDIGENOUS    
+1749 4          SHEEP&GOATS  SHEEP AND GOATS          
+1750 2          FODDER  PRIM FODDER CROPS PRIMARY     
+1751 2          JUTE+JUTELIK JUTE+JUTE-LIKE FIBRES    
+1752 5          POULTRY TOTA LPOULTRYT TOTAL (NO)     
+1753 2          FIBRE   PRIM FIBRE CROPS PRIMARY      
+1754 2          CEREAL -RICE CEREALS EXCLUDING RICE   
+1755 3          LIVESTOCK    LIVESTOCK                
+1756 4          LIVE ANIMALS LIVE ANIMALS             
+1757 3          LIVESTOCK PR LIVESTOCK PRODUCTS       
+1758 3          LIVE PR PRIM LIVESTOCK PRODUCTS PRIM  
+1759 3          LIVE PR PROC LIVESTOCK PRODUCTS PROC  
+1760 3          ANIMAL PR PR LIVE ANIMALS,PROD PRIM   
+1761 3          MEAT OFFALS  MEAT AND OFFALS          
+1762 5          MEAT OF PRIM MEAT AND OFFALS PRIMARY  
+1763 2          AT2 NFOOD CR AT2 NON-FOOD CROPS       
+1764 3          MEAT         MEAT                     
+1765 5          MEAT    PRIM MEAT,TOTAL               
+1766 3          2000PALMOILS AT2000 PALM+KERNELS OILS 
+1767 3          OTHER MEAT   OTHER MEAT               
+1768 5          B MU PO PRIM BEEF MUTTON PIGMEAT PRIM 
+1769 2          BIOL.MEAT    MEAT BIOLOGICAL, TOTAL   
+177015          MEAT TOT IND MEAT INDIGENOUS, TOTAL   
+1771 6          OFFALS  PRIM OFFALS EDIBLE PRIMARY    
+1772 3          PUL+NUT+OLSD PULSES+NUTS+OILSEEDS     
+1773 3          SLAUGHTR FAT SLAUGHTER FATS           
+1774 6          SL. FAT PRIM SLAUGHTER FATS PRIMARY   
+177515          POULTRY IND  POULTRY INDIGENOUS,TOTAL 
+1776 3          HIDES  SKINS HIDES AND SKINS          
+1777 7          HIDES   PRIM HIDES AND SKINS PRIMARY  
+1778 3          FRUIT+VEGET  FRUIT+VEGETABLES         
+1779 3          MILK         MILK                     
+1780 8          MILK PRIMARY MILK,TOTAL               
+1781 2          AT2 LIVESTOC AT2 LIVESTOCK            
+1782 3          EGGS         EGGS                     
+1783 9          EGGS PRIMARY EGGS PRIMARY             
+1784 3          STIMUL+SPICE STIMULANTS+SPICES        
+1785 3          VEG PRODUCTS VEGETABLE PRODUCTS       
+1786 3          AN PRODUCTS  ANIMAL PRODUCTS          
+1787 3          OIL AND FAT  OILS AND FATS            
+1788 3          VEG OIL FAT  VEG OILS AND FATS        
+1789 3          ANI OIL FAT  ANIMAL OILS AND FATS     
+1790 3          SUGAR S HONY SUGAR SYRUPS HONEY       
+1791 3          TRNUT EX OIL TREENUTS OILCRP EXCL OIL 
+1792 3          CER ST SUGAR CEREALS STARCHY SUGAR    
+1793 3          TOT EXC ALC  GRAND TOTAL EXC ALCOHOL  
+1794 3          ALCOHOL BEV  ALCOHOLIC BEVERAGES      
+179511          CRUDE FERTLZ CRUDE FERTILIZERS  -271  
+1796 3          CFF ETC PRIM COFFEE TEA TOB ALC PROC  
+1797 3          RAW MATERIAL RAW MATERIALS            
+1798 3          RAW MAT PRIM RAW MATERIALS PRIMARY    
+1799 2          AT2 TOT FOOD AT2 TOTAL FOOD           
+1800 2          VEGET+MELONS VEGETABLES+MELONS,TOTAL  
+180129          FR EX M PRIM FRUIT EXCL MELONS,TOTAL  
+1802 3          CEREAL BRAN  CEREAL BRAN              
+1803 3          OIL CAKES    OIL CAKES AND MEAL       
+180429          CITRUS  PRIM CITRUS FRUIT,TOTAL       
+180511          AGR REQUISIT AGRICULTURAL REQUISITES  
+1806 5          BEEF BUFF M. BEEF AND BUFFALO MEAT    
+1807 5          SHEEP G.M.   SHEEP AND GOAT MEAT      
+180826          POULTRY MEAT POULTRY MEAT             
+1809 3          MILK DRY SK  SKIM MILK+BUTTERMILK,DRY 
+1810 3          COW B CHEESE COW AND BUFFALO CHEESE   
+1811 3          BUTTER GHEE  BUTTER AND GHEE          
+1812 3          SKMILK,EV+CO SKIMMILK,EVAPORAT.+COND. 
+1813 3          FIBRES SILK  VEGETABLE FIBRE AND SILK 
+1814 2          COARSE GRAIN COARSE GRAIN PRIMARY     
+1815 3          MILK P EX BU MILK AND PROD EXCL BUTTR 
+1816 3          EV COND MILK EVAPORAT CONDENSED MILK  
+1817 2          CER (RIC MLD CEREALS (RICE MILLED EQV 
+181811          TOT FERTILIZ TOTAL FERTILIZERS        
+1819 3          DRY MILK     DRY MILK (ALL KINDS)     
+182011          AGR MACHNRY  AGRICULTUR MACHINES-712  
+182112          TOT MAR FISH TOTAL MARINE FISH        
+182212          FINFISH FRFZ FINFISH FRESH FROZEN     
+182312          FINFISH PROC FINFISH PROCESSED        
+182413          F S FROZEN   FISH SHELLFISH FROZEN    
+182513          FLT CHLL FZ  FISH FILLET CHILLD FRZEN 
+182613          SHLF F FZ CR SHELFISH FRESH FRZN CRED 
+182713          F S CURED    FISH SHELLFISH CURED     
+182813          F S CANNED   FISH SHELLFISH CANNED    
+182913          F S PREP NES FISH SHELLFISH PREP NES  
+183013          FISH MEAL    FISH MEAL WH AND OFFAL   
+183113          FISH OIL     FISH BODY AND LIVER OIL  
+183213          SHLF CANN PR SHELLFISH CANNED PREPARD 
+183313          FISH PROD    FISH FISHERY PRODUCTS    
+183413          FISH FOOD    FISH FOOD                
+183513          FISH NONFOOD FISH NON FOOD            
+183613          FISH FZ W FL FISH FROZEN WHOLE FILLET 
+183713          FISH CURED   FISH CURED               
+183813          FISH CANN PR FISH CANNED AND PREPARED 
+183913          FISH TOTAL   FISH & FISHERY PROD TOT  
+184012          TOTAL FISH   TOTAL FISH CATCH         
+1841 3          OILCAKES EQU OILCAKES EQUIVALENT      
+1842 2          PUL NUT OLCR PULSES, NUTS, OIL CROPS  
+1843 2          MILLET+SORG. MILLET AND SORGHUM       
+1844 2          MISC CEREALS MISCELLANEOUS CEREALS    
+1845 2          MISC ROOTS   MISCELLAN. ROOTS+TUBERS  
+1846 3          SUGAR+HONEY  SUGAR CROPS AND HONEY    
+1847 2          ORANG+TANG   ORANGES AND TANGERINES   
+1848 2          OTHER CITRUS CITRUS NES + GRAPEFRUIT  
+1849 2          MISC FRUITS  MISCELLANEOUS FRUIT CROP 
+1850 5          MISC MEAT    MISCELLANEOUS MEAT       
+185112          CRUST+MOLL   CRUSTAC. MOLLUSC. CEPH.  
+185212          OTH AQ AN+PL OTH AQUAT ANIMALS+PLANTS 
+1853 6          ANI+FISH OIL ANIMAL+FISH OILS+FATS    
+1854 2          TEA AND SIM  TEA+SIMILAR BEVERAGES    
+1855 2          HOPS+CHICORY HOPS AND CHICORY ROOTS   
+1856 3          BEER         BEER                     
+1857 3          OTH ALC BEV  OTH ALCOHOLIC BEVERAGES  
+1858 3          SKIMMED MILK SKIMMED MILK             
+1859 2          WOOD PULP NM WOOD PULP EXC MECHANICAL 
+1860 2          PAPER+-BOARD PAPER+-BOARD EX NEWSPRNT 
+186119          ROUNDWOOD    ROUNDWOOD                
+186219          ROUNDWOOD C  ROUNDWOOD(C)             
+186319          ROUNDWOOD NC ROUNDWOOD(NC)            
+186419          FUELWD+CHARC FUELWOOD+CHARCOAL        
+186519          IND RWD      INDUSTRIAL ROUNDWOOD     
+186619          IND RWD (C)  INDUSTRIAL ROUNDWOOD (C) 
+186719          IND RWD (NC) INDUSTRIAL ROUNDWOOD(NC) 
+186819          SAWLOGS+VEN  SAWLOGS+VENEER LOGS      
+186919          PITPROPS     PITPROPS                 
+187019          PULPWD+PART  PULPWOOD+PARTICLES       
+187119          OTHER IND    OTHER INDUSTRIAL ROUNDWD 
+187219          SAWNWOOD     SAWNWOOD+SLEEPERS        
+187319          PANELS       WOOD-BASED PANELS        
+187419          FIBREBOARD   FIBREBOARD               
+1875 2          WOOD PULP    WOOD PULP                
+1876 2          PAPER+BD     PAPER+PAPERBOARD         
+187719          FOREST PROD. FOREST PRODUCTS (TRADE)  
+1878 2          PULP FOR PAP PULP FOR PAPER           
+1879 2          TOTAL FIBRE  TOTAL FIBRE FURNISH      
+188019          PITPROP&OTH  PITPROP&OTH IND ROUNDWD  
+1881 3          TOTAL TRADE  TOTAL MERCHANDISE TRADE  
+1882 3          AGR PROD TOT AGRICULT.PRODUCTS,TOTAL  
+1883 3          FOOD ANIMALS FOOD AND ANIMALS     -0  
+1884 4          LIVE ANIMALS LIVE ANIMALS       -00   
+1885 3          MEAT A PREP  MEAT AND MEAT PREP -01   
+1886 3          DAIRY+EGGS   DAIRY PRODUCTS+EGGS-02   
+1887 3          MILLET+OTHER MILLET AND OTHER CEREALS 
+1888 3          CEREALS PREP CEREALS AND PREP   -04   
+1889 3          FRUIT+VEGET  FRUIT + VEGETABLES -05   
+1890 3          SUGAR HONEY  SUGAR AND HONEY    -06   
+1891 3          COFF+TEA+COC COFFEE+TEA+COCOA+SP-07   
+1892 3          FEEDINGSTUFF FEEDINGSTUFFS      -08   
+1893 3          MISC FOOD    MISCELLANEOUS FOOD -09   
+1894 3          BEV+TOBACCO  BEVERAGES+TOBACCO    -1  
+1895 3          BEVERAGES    BEVERAGES          -11   
+1896 3          TOBACCO      TOBACCO                  
+1897 3          CRUDE MATERL CRUDE MATERIALS    -EX2  
+1898 3          HIDES+SKINS  HIDES AND SKINS    -21   
+1899 3          OILSEEDS     OILSEEDS           -22   
+1900 3          NAT RUBBER   NATURAL RUBBER    -232   
+1901 3          TEXT FIBRES  TEXTILE FIBRES   -EX26   
+1902 3          CRUD MAT NES CRUDE MATERLS NES  -29   
+1903 3          AN VEG OIL   ANIMAL VEGETABLE OIL -4  
+1904 3          ANIMAL FATS  ANIMAL FATS        -41   
+1905 3          FIX VEG OILS FIXED VEGETAB OILS -42   
+1906 3          PROC OILS    PROCESSED OILS     -43   
+1907 3          COMPITING PR COMPITING PRODUCTS       
+1908 3          PROCESSED PR PROCESSED PRODUCTS       
+1909 3          ROOT+TUB TOT ROOTS AND TUBERS, TOTAL  
+1910 2          TO CHEM PULP TOTAL CHEMICAL PULP      
+1911 3          AGR REQUISIT AGRICULTURAL REQUISITES  
+1912 3          CRUDE FERTLZ CRUDE FERTILIZERS        
+1913 3          MANUF FERTLZ MANUF FERTILIZERS        
+1914 3          PESTICIDES   PESTICIDES               
+1915 3          AGR MACHINES AGRIC MACHINES  721-722  
+1916 3          AGR FISH FOR AGRIC+FISH+FOR (NOT YB)  
+1917 3          FOOD FISH    FOOD INCL FISH           
+1918 3          FEED FISH    FEED INCL FISH           
+1919 3          R MAT FI FO  RAW MAT INCL FISH FORSTR 
+1920 3          CITRUS TOTAL CITRUS FRESH, TOTAL      
+1921 4          BOVIN,ANIMAL BOVINE, ANIMALS          
+1922 4          SHEEP+GOATS  SHEEP AND GOATS          
+1923 3          MEAT FRESH   MEAT FRESH+CH+FROZEN     
+1924 3          MEAT BOVINE  MEAT BOVINE FRESH        
+1925 3          MEAT SHEEP   MEAT SHEEP FRESH         
+1926 3          MEAT POULTRY MEAT POULTRY FRESH       
+1927 3          OFFALS EDIBL OFFALS EDIBL FRESH       
+1928 3          MEAT FR NES  MEAT OFFALS FR NES       
+1929 3          MEAT DRIED   MEAT DRIED SALTED SM     
+1930 3          MEAT DRY NES MEAT,DRIED,NES           
+1931 3          CAN MEAT NES CANNED MEAT NES          
+1932 3          SAUSAGES     SAUSAGES                 
+1933 3          MEAT PREP    MEAT PREPARED PRES       
+1934 3          MILK         MILK COND+DRY+FRESH      
+1935 3          MILK COND+EV MILK COND + EVAP         
+1936 3          MILK DRY     MILK DRY                 
+1937 3          MILK FRESH   MILK FRESH               
+1938 3          BUTTER       BUTTER                   
+1939 3          CHEESE       CHEESE AND CURD          
+1940 3          ONIONS       ONIONS                   
+1941 3          EGGS         EGGS                 025 
+1942 3          EGGS IN SHLL EGGS IN THE SHELL        
+1943 3          EGGS LIQ+DRY EGGS LIQUID,DRIED        
+1944 3          CEREALS      CEREALS                  
+1945 3          WHEAT+FLOUR  WHEAT+FLOUR,WHEAT EQUIV. 
+1946 3          RICE         RICE                     
+1947 3          WHEY PR+CONC WHEY, PRES+CONCEN        
+1948 3          CEREALS NES  CEREALS NES              
+1949 3          ORANGES TANG ORANGES+TANG+CLEM        
+1950 3          OTHER CITRUS OTH CITRUS FRT           
+1951 3          BANANAS      BANANAS                  
+1952 3          COCONUTS     COCONUTS          057.71 
+1953 3          CASSAVA EQV. CASSAVA EQUIVALENT       
+1954 3          PULSES       PULSES                   
+1955 3          SUGAR RAW+RE SUGAR,TOTAL (RAW EQUIV.) 
+1956 3          COFFEE GR+RO COFFEE GREEN+ROAST       
+1957 3          TEA+MATE     TEA AND MATE             
+1958 3          PEPPER+PIMNT PEPPER+PIMENTO     075.1 
+1959 3          BRAN         BRAN+MILLING PROD        
+1960 3          OILSEED CAKE OILSEED CAKE MEAL        
+1961 3          BEV EX COCOA BEVERAGES EXCL COCOA     
+1962 3          OILS CAK NES OILSEED CAKE NES         
+1963 3          MEAT FI MEAL MEAT AND FISH MEAL 081.4 
+1964 3          LARD PIG+PLT LARD+FAT,PIG+POULT       
+1965 3          MARGARINE    MARGARINE ETC            
+1966 3          WINE+VERM.   WINE+VERMOUTH+SIM.       
+1967 3          BEER         BEER               112.3 
+1968 3          GROUNDNUTS T GROUNDNUTS TOT SHD       
+1969 3          RAPE MD SEED RAPE+MUSTARD SEED        
+1970 3          NAT RUBBER   NATURAL RUBBER           
+1971 3          SILK         SILK                     
+1972 3          WOOL         WOOL         268.1 268.2 
+1973 3          FLAX FIB+T+W FLAX FIB+TOW+W           
+1974 3          SISAL+AGAVE  SISAL+OTH AGAVES         
+1975 3          OIL OF FISH  OIL OF FISH        411.1 
+1976 3          ANIMAL OIL   ANIMAL OIL+FAT+GRS       
+1977 3          RAPE MD  OIL RAPE+MUSTARD OILS        
+1978 3          JUT+OTH FIB  JUTE+OTHER FIBERS        
+1979 3          TOBACCO TOT  TOBACCO, TOTAL           
+1980 3          JUTE+BAST FI JUTE+BAST FIBRES         
+1981 3          AGR FISH FOR AGRICULTURE+FISH+FORESTR 
+1982 3          FOOD EX FISH FOOD EXCL FISH           
+1983 3          FEED EX FISH FEED EXCL FISH           
+1984 3          R MATEX FIFO RAW MAT EXCL FISH FORSTR 
+1985 3          LIVEST PROD  LIVESTOCK AND PRODUCTS   
+1986 3          FOOD LIVEST  FOOD LIVESTOCK           
+1987 3          CROPS        CROPS & PRODUCTS         
+1988 3          COARSE GRAIN COARSE GRAINS            
+1989 3          FRUIT        FRUIT & PRODUCTS         
+1990 3          VEGETABLES   VEGETABLES & PRODUCTS    
+1991 3          BEV STIMULNT BEVERAGE STIMULANTS      
+1992 3          SPICES       SPICES                   
+1993 3          OIL CROPS ED OIL CROPS EDIBLE         
+1994 3          OIL SEEDS ED OIL SEEDS EDIBLE         
+1995 3          OIL EDIBLE   OIL EDIBLE               
+1996 3          OIL CROPS NE OIL CROPS NOT EDIBLE     
+1997 3          OIL SEEDS NE OIL SEEDS NOT EDIBLE     
+1998 3          OIL NOT EDBL OIL NOT EDIBLE           
+1999 3          OLIVE OIL T. OLIVE OIL,TOTAL          
+2000 3          BEVS ALCHLCS BEVERAGES ALCOHOLICS     
+200112          TOT MAR FISH TOTAL MARINE FISH        
+200212          FINFISH FRFZ FINFISH FRESH FROZEN     
+200312          FINFISH PROC FINFISH PROCESSED        
+200413          F S FROZEN   FISH SHELLFISH FROZEN    
+200513          FLT CHLL FZ  FISH FILLET CHILLD FRZEN 
+200613          SHLF F FZ CR SHELFISH FRESH FRZN CRED 
+200713          F S CURED    FISH SHELLFISH CURED     
+200813          F S CANNED   FISH SHELLFISH CANNED    
+200913          F S PREP NES FISH SHELLFISH PREP NES  
+201013          FISH MEAL    FISH MEAL WH AND OFFAL   
+201113          FISH OIL     FISH BODY AND LIVER OIL  
+201213          SHLF CANN PR SHELLFISH CANNED PREPARD 
+201313          FISH PROD    FISH FISHERY PRODUCTS    
+201413          FISH FOOD    FISH FOOD                
+201513          FISH NONFOOD FISH NON FOOD            
+201613          FISH FZ W FL FISH FROZEN WHOLE FILLET 
+201713          FISH CURED   FISH CURED               
+201813          FISH CANN PR FISH CANNED AND PREPARED 
+201913          FISH TOTAL   FISH + FISHERY PRODUCTS  
+202012          TOTAL FISH   TOTAL FISH CATCH         
+2021 3          UP DIR FOOD  UP FOR DIRECT FOOD       
+2022 3          PESTICIDES   PESTICIDES               
+2023 3          UP FOOD IND  UP FROM INDUSTRY:FOR FOO 
+2024 3          UP FO&FE IN  UP FROM INDUSTRY:FOR FEE 
+2025 3          UP F&F FOR F UP FROM INDUSTRY:NONFOOD 
+2026 3          UP RAW NFOOD UP RAW&DER NOT FOOD/FEED 
+2027 5          MEAT SWINE   MEAT OF SWINE            
+2028 5          MEAT HORSE   MEAT OF HORSES           
+202925          POULTRY BIRD POULTRY BIRDS            
+2030 3          MILK EQUIV   MILK EQUIVALENT          
+2031 5          BOVMEAT EQUI BOVINE+MEAT:C.W. EQUIVAL 
+2032 5          OVIMEAT EQUI OVINE+MEAT:C.W. EQUIVAL  
+2033 5          PIGMEAT EQUI PIGS+MEAT:C.W. EQUIVAL   
+2034 5          POULMEAT EQU POULTRY+MEAT:C.W. EQUIV  
+2035 5          OFFALS TOTAL OFFALS TOTAL             
+2036 5          OTHMEAT EQUI OTH.ANIM+MEAT:C.W. EQUIV 
+2037 5          MEATOFF EQUI AN+MEAT+OFFL:C.W. EQUIV  
+2038 0          ?            ?                        
+2039 2          WOOD PULP EX WOOD PULP EXC MECHANICAL 
+2040 2          PAPER+-BOARD PAPER+-BOARD EX NEWSPRNT 
+2041 2          CROPS (PIN)  CROPS (PIN)              
+204219          ROUNDWOOD(C) ROUNDWOOD(C)             
+204319          ROUNDWOOD(NC ROUNDWOOD(NC)            
+2044 3          LIVESTOCKS(P LIVESTOCKS (PIN)         
+204519          LIV=111(PIN) LIV=111(PIN)             
+204619          LIV=101(PIN) LIV=101(PIN)             
+2047 5          MEAT (PIN)   MEAT (PIN)               
+2048 5          MILK (PIN)   MILK (PIN)               
+2049 3          EGGS (PIN)   EGGS (PIN)               
+205019          246 PULPWOOD 246 PULPWOOD             
+2051 3          AGRICULT PIN AGRICULTURE (PIN)        
+205219          AGR=111(PIN) AGR=111(PIN)             
+205319          AGR=101(PIN) AGR=101(PIN)             
+2054 3          FOOD (PIN)   FOOD (PIN)               
+2055 2          FOOD=111(PIN FOOD=111(PIN             
+2056 2          FOOD=101(PIN FOOD=101(PIN             
+2057 3          NO FOOD (PIN NON FOOD (PIN)           
+2058 2          NO-F=111(PIN NO-F=111(PIN             
+2059 2          NO-F=101(PIN NO-F=101(PIN             
+2060 2          OTH.CROPS(PI OTHER CROPS (PIN)        
+206119          FIBREBD COMP FIBBREBOARD, COMPRESSED  
+2071 5          BOVINE MEAT  BOVINE MEAT              
+2072 5          OVINE MEAT   OVINE MEAT               
+2073 5          PIG MEAT     PIG MEAT                 
+2074 5          POULTRY MEAT POULTRY MEAT             
+2076 5          OTHER MEAT   OTHER MEAT               
+2077 5          TOTAL MEAT   TOTAL MEAT               
+2091 3          TOTAL CAL    GRAND TOTAL CALORIES     
+2092 3          CROPS CAL    CROPS CALORIES           
+2093 3          LIVESTOCK CA LIVESTOCK CALORIES       
+2094 3          FISHERY CAL  FISHERY CALORIES         
+210138          SOYBEAN P.E  SOYBEAN PROTEIN EQV      
+210238          GROUNDNT P.E GROUNDNUT PROTEIN EQV    
+210338          PALM KRNL P. PALM KERNEL PROTEIN EQV  
+210438          SUNFLWSD P.E SUNFLOWERSEED PROT EQV   
+210538          RAPESEED P.E RAPESEED PROTEIN EQV     
+210638          SAFFLWSD P.E SAFFLOWERSEED PROT EQV   
+210738          SESAMSED P.E SESAMSEED PROTEIN EQV    
+210838          COTTONSD P.E COTTONSEED PROTEIN EQV   
+210938          LINSEED P.E  LINSEED PROTEIN EQV      
+211038          COPRA OIL EQ COPRA OIL EQV            
+211138          COPRA ML EQ  COPRA MEAL EQV           
+211238          COPRA P.E    COPRA PROTEIN EQV        
+211338          CASTORBN ML  CASTORBEANS MEAL EQV     
+211438          CASTORBN P.E CASTORBEANS PROTEIN EQV  
+211538          POPPYSD ML E POPPYSEED MEAL EQV       
+211638          POPPYSD P.E  POPPYSEED PROTEIN EQV    
+211738          HEMPSD ML EQ HEMPSEED MEAL EQV        
+211838          HEMPSD P.E   HEMPSEED PROTEIN EQV     
+211938          OILSD NES OI OISEEDS NES OIL EQV      
+212038          OILSD NES ML OILSEEDS NES MEAL EQV    
+212138          OILSD NES P. OILSEEDS NES PROTEIN EQV 
+212238          COPRA ML P.E COPRA MEAL PROTEIN EQV   
+212338          VG OILML NE  VEG OILMEALS NES PROT EQ 
+212438          FISH ML PR   FISH  MEAL PROTEIN       
+212538          SOYBN ML P.E SOYBEAN MEAL PROTEIN EQV 
+212638          GROUNDNT ML  GROUNDNUT MEAL PROT EQV  
+212738          PALM KRN ML  PALM KERNEL MEAL PROT EQ 
+212838          SUNFLWSD ML  SUNFLWSEED MEAL PROT EQV 
+212938          RAPESD ML P. RAPESEED MEAL PROT EQV   
+213038          SAFFLWSD ML  SAFFLWSEED MEAL PROT EQV 
+213138          SESAMSD ML P SESAMSEED MEAL PROT EQV  
+213238          COTTONSD ML  COTTONSEED MEAL PROT EQV 
+213338          LINSEED ML P LINSEED MEAL PROTEIN EQV 
+213438          SHEANTS MEAL SHEANUTS MEAL            
+213538          SHEANTS ML P SHEANUTS MEAL PROT EQU   
+213638          COW BUT FAT  COW BUTTER FAT CONT.     
+213738          BUFL BUT FAT BUFL BUTTER FAT CONT.    
+213838          SHEEP BUT FA SHEEP BUTTER FAT CONT.   
+213938          MARGARIN FAT MARGARINE FAT CONT.      
+215038          SOYBEAN PR   SOYBEAN PROTEIN          
+215138          GROUNDNUT PR GROUNDNUT PROTEIN        
+215238          PALM KRNL PR PALM KERNEL PROTEIN      
+215338          SUNFLWSD PR  SUNFLOWERSEED PROTEIN    
+215438          RAPESD ML PR RAPESEED MEAL PROTEIN    
+215538          SAFFLWSD PR  SAFFLOWERSEED PROTEIN    
+215638          SESAMSED PR  SESAMSEED PROTEIN        
+215738          COTTONSD PR  COTTONSEED PROTEIN       
+215838          LINSEED PR   LINSEED PROTEIN          
+216038          COCONUT OIL  COCONUT OIL              
+216138          COPRA MEAL   COPRA MEAL               
+216238          COPRA PR     COPRA PROTEIN            
+216338          OLIVE OIL    OLIVE OIL                
+216438          VEG OIL NES  VEGETABLE OILS NES       
+216538          VEG OILML NE VEGETABLE OILMEALS NES   
+216638          VEG.OILPRS N VEG.OILPROTEINS NES      
+216738          TALLOW&GREAS TALLOW & GREASES         
+216838          BUTTER(FAT C BUTTER (FAT CONT)        
+216938          LARD         LARD                     
+217038          MARGAR+SHRTN MARGARINE+SHORTENING     
+217138          ANN SEED(OIL ANNUAL SEEDS(OIL CONT)   
+217238          ANN SEED(MEA ANNUAL SEEDS(MEAL CONT)  
+217338          ANN SEED(PR. ANNUAL SEEDS(PROT.CONT)  
+217438          TOT OILSD(OI TOT OILSEEDS(OIL CONT)   
+217538          TOT OILSD(ME TOT OILSEEDS(MEAL CONT)  
+217638          TOT OILSD(PR TOT OILSEEDS(PROT.CONT)  
+217738          TOT FF+OO EX TOTAL FF+OO EXCL SEEDS   
+217838          TOT OILML EX TOT OILMEALS EXCL SEEDS  
+217938          TOT OILPR EX TOT.OILPROTEIN EX SEEDS  
+218038          TOT FAT&OIL  TOTAL FATS AND OILS      
+218138          TOT OILMLS   TOTAL OILMEALS           
+218238          TOT OILML PR TOTAL OILMEAL PROTEIN    
+218338          EDIB/SP FAT+ EDIBLE/SOAP FATS+OILS    
+218438          EDIBLE FATS  EDIBLE FATS              
+218538          TOT VG OIL I TOT VEG.OILS INCL SEEDS  
+218638          TOT ANM FAT  TOTAL ANIMAL FATS        
+218738          EDB SFT OIL  EDIBLE SOFT OILS         
+218838          ANM FAT EX B ANIMAL FATS EX BUTTER    
+218938          LAURIC ACD O LAURIC ACID OILS         
+219038          OT ED/SOAP F OTHER ED/SOAP FF+OO      
+219138          TECHNCL OILS TECHNICAL OILS           
+219238          OT TECH OILS OTHER TECHNICAL OILS     
+219338          VEG OILMLS   VEGETABLE OILMEALS       
+219438          VEG OILML PR VEG.OILMEAL PROTEIN      
+219538          OT EDB SFT O OTH.EDIBLE SOFT OILS     
+219638          OTH"OTH ED/S OTH"OTH ED/SOAP F+O"     
+219738          OT VEG OILML OTHER VEG.OILMEALS       
+219838          OT VEG OILPR OTHER VEG.OILPROTEINS    
+219938          FATTY ACID+A FATTY ACIDS+ACID OILS    
+220038          TOT ANML POP TOT. ANIMAL POPULATION   
+220138          TOTAL SEEDS  TOTAL SEEDS              
+250180          POPULATION   TOTAL POPULATION         
+251162          WHEAT        WHEAT & PRODUCTS         
+251262          RICE         RICE & PROD. (HUSKED EQ) 
+251362          BARLEY       BARLEY & PRODUCTS        
+251462          MAIZE        MAIZE & PRODUCTS         
+251562          RYE          RYE & PRODUCTS           
+251662          OATS         OATS & PRODUCTS          
+251762          MILLET       MILLET & PRODUCTS        
+251862          SORGHUM      SORGHUM & PRODUCTS       
+252062          CER NES      CEREALS,OTHERS &PRODUCTS 
+253162          POTATOES     POTATOES & PRODUCTS      
+253262          CASSAVA      CASSAVA & PRODUCTS       
+253362          POTAT SWEET  SWEET POTATOES           
+253462          ROOTS & TUB  ROOTS&TUBERS,OTH & PROD. 
+253562          YAMS         YAMS                     
+253662          SUGAR CANE   SUGAR CANE               
+253762          SUGAR BEETS  SUGAR BEETS              
+254162          NON-CENT SU  SUGAR, NON-CENTRIFUGAL   
+254262          SUGAR(RAW)   SUGAR & PROD. (RAW EQ.)  
+254362          SWEETNERS    SWEETENERS, OTHER & PROD 
+254462          MOLASSES     MOLASSES                 
+254662          BEANS,DRY    BEANS, DRY & PRODUCTS    
+254762          PEAS,DRY     PEAS, DRY & PRODUCTS     
+254962          PULSES NES   PULSES, OTHER & PROD.    
+255162          NUTS         NUTS & PRODUCTS          
+255562          SOYABEANS    SOYABEANS & PRODUCTS     
+255662          GROUD(SH.)   GROUNDNUTS (SHELLED EQ.) 
+255762          SUNFLOWERS   SUNFLOWERSEED            
+255862          RAPE,MUSTARD RAPE, MUSTARD SEEDS      
+255962          COTTONSEED   COTTONSEED               
+256062          COCONUT      COCONUTS & COPRA         
+256162          SESAMESEED   SESAMESEED               
+256262          PALMKERNEL   PALMKERNELS              
+256362          OLIVES       OLIVES                   
+257062          OILCROPS NES OILCROPS, OTHERS         
+257162          SOYABEAN OIL SOYABEAN, OIL            
+257262          GROUDNUT OIL GROUNDNUT, OIL           
+257362          SUNFLOW  OIL SUNFLOWERSEED, OIL       
+257462          RAPESEED OIL RAPE & MUSTARD, OIL      
+257562          COTTONSEED O COTTONSEED, OIL          
+257662          PALM KERN OI PALM KERNEL, OIL         
+257762          PALM OIL     PALM, OIL                
+257862          COPRA OIL    COPRA, OIL               
+257962          SESAME OIL   SESAMESEED, OIL          
+258062          OLIVE OIL    OLIVE & RESIDUE, OIL     
+258162          RICE BRAN OI RICE, BRAN OIL           
+258262          MAIZE GERM O MAIZE, GERM OIL          
+258662          OILCR NES OI OILCROPS, OTHER OIL      
+259062          SOYABEAN CAK SOYABEAN, CAKE           
+259162          GROUDNUT CAK GROUNDNUT, CAKE          
+259262          SUNFLOWE CAK SUNFLOWERSEED, CAKE      
+259362          RAPE&MUS CAK RAPE & MUSTARD, CAKE     
+259462          COTTONSEECAK COTTONSEED, CAKE         
+259562          PALMKERNECAK PALMKERNEL, CAKE         
+259662          COPRA CAKE   COPRA, CAKE              
+259762          SESAMECAKE   SESAMESEED, CAKE         
+259862          OILSEED,N,CA OILSEEDS, OTHERS, CAKE   
+260062          BRANS        BRANS                    
+260162          TOMATOES     TOMATOES & PRODUCTS      
+260262          ONIONS DRY   ONIONS, DRY              
+260562          VEG.NES      VEGETABLES, OTHER & PROD 
+261162          ORANG,TANG   ORANGES,TANG-MAND &PROD. 
+261262          LEMONS,LIMES LEMONS, LIMES & PROD.    
+261362          GRAPEFRUIT   GRAPEFRUIT & PRODUCTS    
+261462          CITRUS NES   CITRUS FRUIT NES & PROD. 
+261562          BANANA       BANANA                   
+261662          PLANTAINS    PLANTAINS                
+261762          APPLES       APPLES & PRODUCTS        
+261862          PINEAPPLES   PINEAPPLES & PRODUCTS    
+261962          DATES        DATES                    
+262062          GRAPES       GRAPES & PROD(EXCL.WINE) 
+262562          FRUIT NES    FRUIT, OTHER & PRODUCTS  
+263062          COFFEE&PROD  COFFEE & PRODUCTS        
+263362          COCOA&PROD   COCOA BEANS & PRODUCTS   
+263562          TEA          TEA                      
+264062          PEPPER       PEPPER                   
+264162          PIMENTO      PIMENTO                  
+264262          CLOVES       CLOVES                   
+264562          SPICES NES   SPICES, OTHER            
+265562          WINE         WINE                     
+265662          BARLEY BEER  BARLEY, BEER             
+265762          FERMENT BEV  BEVERAGES, FERMENTED     
+265862          ALCOHOL BEV  BEVERAGES, ALCOHOLIC     
+265962          NON-FOOD BEV ALCOHOL, NON-FOOD        
+266162          COTTON LINT  COTTON, LINT             
+266262          JUTE         JUTE                     
+266362          JUTE-LIK FIB FIBRES,JUTE-LIKE         
+266462          SOFT-FIB NES FIBRES, SOFT OTHERS      
+266562          SISAL        SISAL                    
+266662          ABACA        ABACA                    
+266762          HARD-FIB NES FIBRES, HARD OTHERS      
+267162          TOBACCO LEAV TOBACCO &  PRODUCTS      
+267262          NATURAL RUBB NATURAL RUBBER (DRY EQ.) 
+268062          INFANT FOOD  INFANT FOOD              
+268162          SOFT DRINKS  SOFT DRINKS              
+270173          CATTLE       CATTLE                   
+270273          BUFFALOES    BUFFALOES                
+270373          SHEEP        SHEEP                    
+270473          GOATS        GOATS                    
+270573          PIGS         PIGS                     
+270673          POULTRY      POULTRY                  
+273174          BOVINE MEAT  MEAT & PRODUCTS, BOVINE  
+273274          SHEEP&GOAT M MEAT & PROD, SHEEP&GOAT  
+273374          PIGMEAT      MEAT & PRODUCTS, PIG     
+273474          POULTRY MEAT MEAT & PRODUCTS, POULTRY 
+273574          ANIM NES MEA MEAT & PROD, OTHER ANIM. 
+273674          OFFALS,EDIBL OFFALS, EDIBLE           
+273774          RAW ANIM FAT FATS, ANIMALS, RAW       
+273874          MILK WHOLE   MILK, WHOLE              
+273974          MILK SKIMMED MILK, SKIM               
+274074          BUTTER,GHEE  BUTTER ,GHEE             
+274174          CHEESE       CHEESE                   
+274274          WHEY & PROD  WHEY & PRODUCTS          
+274374          CREAM        CREAM                    
+274474          EGGS         EGGS & PRODUCTS          
+274574          HONEY        HONEY                    
+274674          WOOL (CLEAN  WOOL (CLEAN EQUIVALENT)  
+274774          SILK         SILK                     
+274874          HIDES&SKINS  HIDES & SKINS            
+274974          MEAT&MEAL    MEAT & BLOOD MEAL        
+276173          FRESHWATER   FRESHWATER FISH & PROD.  
+276273          DEMERSEAL    DEMERSEAL FISH & PROD.   
+276373          PELAGIC      PELAGIC FISH & PRODUCTS  
+276473          MARINE FISH  MARINE FISH, OTH & PROD  
+276573          CRUSTACEANS  CRUSTACEANS & PRODUCTS   
+276673          CEPHALAPODS  CEPHALOPODS & PRODUCTS   
+276773          MOLLUSCS     MOLLUSCS OTHER &PRODUCTS 
+276873          AQUATIC MAMA AQUATIC MAMMALS MEAT     
+276973          AQUATIC ANIM AQUATIC ANIMAL OTHERS    
+277573          AQUATIC PLAN AQUATIC PLANTS & PROD.   
+278174          FISH BODY OI FISH BODY OIL            
+278274          FISH LIVER O FISH LIVER OIL           
+280262          WHEAT&PROD   WHEAT & PROD INCL BEER   
+280362          PADDY&PROD   PADDY & PROD INCL BEER   
+280462          RICE(PADY EQ RICE & PROD (PADDY EQ.)  
+280562          RICE(MILL EQ RICE & PROD (MILLED EQ.) 
+280662          MAIZE IN BEE MAIZE & PROD INCL BEER   
+280862          BARLEYIN BEE BARLEY & PROD INCL BEER  
+280962          MILLETIN BEE MILLET & PROD INCL BEER  
+281062          SORGHUIN BEE SORGHUM & PROD INCL BEER 
+281562          ROOTS&TUB    ROOTS&TUBERS (DRY EQUIV) 
+281862          SUGAR REF EQ SUGAR & PROD(REFINED EQ) 
+282062          GOUD(IN SHEL GROUNDNUTS IN SHELL EQ.  
+282362          OILSEEDS     OILSEEDS & OILS (OIL EQ. 
+282562          GRAPES INCW  GRAPES & PROD INCL WINE  
+282762          SUGAR RAW    SUGAR, TOTAL RAW EQUIV   
+282862          APPLES INC C APPLES & PROD INCL CIDER 
+282962          SUGAR CROPS  SUGAR, CROPS (RAW EQUIV) 
+283062          FRUIT FERM   BEVERAGES, FRUIT FERM.   
+284073          LIVAN STDUNI LIVE ANIMALS (STAND UNIT 
+284174          BOV MEAT IND MEAT, BOVINE INDIGENOUS  
+284274          SH&GO ME IND MEAT, SHEEP &GOAT INDIG  
+284374          PIGMEAT IND  MEAT, PIG INDIGENOUS     
+284474          POULTRY IND  MEAT, POULTRY INDIGENOUS 
+284574          MEAT NES IND MEAT, OTHER ANIM. INDIG  
+284674          TALLOW       TALLOW                   
+284774          LARD         LARD                     
+284874          MILK         MILK & PROD (EXCL BUTTER 
+285574          FISH MEAL    FISH MEAL                
+289962          MISCELLAN.   MISCELLANEOUS
+290080          POPULATION   TOTAL POPULATION
+290162          GRAND TOTAL  GRAND TOTAL - DEMAND     
+290262          GRAND TOTAL  GRAND TOTAL - SUPPLY     
+290362          VEG PROD.    VEGETABLE PROD. (DEMAND) 
+290462          VEG PROD.    VEGETABLE PROD. - SUPPLY 
+290562          CEREALS & PR CEREALS &PROD. EXCL BEER 
+290662          CEREALS &PR  CEREALS &PROD. INCL BEER 
+290762          STARCHY RTS  STARCHY ROOTS & PRODUCTS 
+290862          SUGARCROPS   SUGARCROPS (EXCL. PROD.) 
+290962          SWEETENERS   SWEETENERS               
+291062          SUGARCROPS   SUGARCROPS &PROD. SUG EQ 
+291162          PULSES & PR  PULSES & PRODUCTS        
+291262          TREENUTS     TREENUTS & PRODUCTS      
+291362          OILCROPS     OILCROPS (EXCL. PROD.)   
+291462          VEG OILS     VEGETABLE OILS & PROD.   
+291562          OILCROPS     OILCROPS & PROD. (OIL EQ 
+291662          FEEDING STF  FEEDING STUFFS           
+291862          VEG & PROD.  VEGETABLES & PRODUCTS    
+291962          FRUITS & PR  FRUITS &PROD. (EXCL WINE 
+292062          FRUITS & PR  FRUITS &PROD. (INCL WINE 
+292262          BEVERAGE CR  BEVERAGE CROPS           
+292362          SPICES       SPICES                   
+292462          ALCOHOL      ALCOHOL (INCL BEER&WINE) 
+292562          ALCOHOL      ALCOHOL (EXCL. BEER&WINE 
+292662          VEG FIBRES   VEGETABLE FIBRES         
+292762          TOBACCO &RUB TOBACCO & RUBBER         
+292862          MISCELLANEOU MISCELLANEOUS            
+294174          ANIMAL PROD  ANIMAL PRODUCTS - DEMAND 
+294262          ANIMAL PROD  ANIMAL PRODUCTS - SUPPLY 
+294374          MEAT         MEAT (SLAUGHTERED) & PRD 
+294474          MEAT INDIG   MEAT (INDIGENOUS) & PROD 
+294574          OFFALS & PR  OFFALS EDIBLE            
+294674          ANIMAL FATS  ANIMAL FATS & PRODUCTS   
+294874          MILK & PROD  MILK & PRODUCTS          
+294974          EGGS & PROD  EGGS & PRODUCTS          
+295174          HIDES &SKIN  HIDES & SKINS            
+295274          ANIMAL FIBRE ANIMAL FIBRES            
+296074          FISH,SEAFOOD FISH, SEAFOOD & PROD.    
+296174          AQUATIC PROD AQUATIC PRODUCTS, OTHER  
+300580          DEMGRPHC IND DEMOGRAPHIC INDICATORS   
+300841          POPULATION   POPULATION               
+7001 0          OTHER CROPS  OTHER CROPS              
+7002 0          OTHER LIVEST OTHER LIVESTOCK          
+7003 0          OTHER ECONOM OTHER ECONOMICS          
+7004 0          OTHER FISHER OTHER FISHERY            
+7005 0          OTHER FOREST OTHER FORESTRY           
+7015 0          WHEAT TREE   WHEAT TREE               
+7027 0          RICE, PADDY  RICE, PADDY TREE         
+7044 0          BARLEY TREE  BARLEY TREE              
+7056 0          MAIZE TREE   MAIZE TREE               
+7068 0          POP CORN TRE POP CORN TREE            
+7071 0          RYE TREE     RYE TREE                 
+7075 0          OATS TREE    OATS TREE                
+7079 0          MILLET TREE  MILLET TREE              
+7083 0          SORGHUM TREE SORGHUM TREE             
+7089 0          BUCKWHEAT TR BUCKWHEAT TREE           
+7092 0          QUINOA TREE  QUINOA TREE              
+7094 0          FONIO TREE   FONIO TREE               
+7097 0          TRITICALE TR TRITICALE TREE           
+7101 0          CANARY SEED  CANARY SEED TREE         
+7103 0          MIXED GRAIN  MIXED GRAIN TREE         
+7108 0          CEREALS NES  CEREALS NES TREE         
+7116 0          POTATOES TRE POTATOES TREE            
+7122 0          SWEET POTATO SWEET POTATOES TREE      
+7125 0          CASSAVA TREE CASSAVA TREE             
+7135 0          YAUTIA(COC.) YAUTIA (COCOYAM) TREE    
+7136 0          TARO TREE    TARO (COCO YAM) TREE     
+7137 0          YAMS TREE    YAMS TREE                
+7149 0          ROOTS TUB NS ROOTS AND TUBERS NES TRE 
+7156 0          SUGAR CANE T SUGAR CANE TREE          
+7157 0          SUGAR BEETS  SUGAR BEETS TREE         
+7161 0          SUGAR CROPS  SUGAR CROPS NES TREE     
+7162 0          SUGAR,C. RAW SUGAR (CENTRIFUGAL, RAW) 
+7163 0          SUGAR,N-CENT SUGAR (NONCENTRIFUGAL) T 
+7176 0          BEANS, DRY T BEANS, DRY TREE          
+7181 0          BRD BEANS,DR BROAD BEANS, DRY TREE    
+7187 0          PEAS, DRY TR PEAS, DRY TREE           
+7191 0          CHICK-PEAS T CHICK-PEAS TREE          
+7195 0          COW PEAS,DRY COW PEAS, DRY TREE       
+7197 0          PIGEON PEAS  PIGEON PEAS TREE         
+7201 0          LENTILS TREE LENTILS TREE             
+7203 0          BAMBARA BEAN BAMBARA BEANS TREE       
+7205 0          VETCHES TREE VETCHES TREE             
+7210 0          LUPINS TREE  LUPINS TREE              
+7211 0          PULSES NES T PULSES NES TREE          
+7216 0          BRAZIL NUTS  BRAZIL NUTS TREE         
+7217 0          CASHEW NUTS  CASHEW NUTS TREE         
+7221 0          ALMONDS TREE ALMONDS TREE             
+7222 0          WALNUTS TREE WALNUTS TREE             
+7223 0          PISTACHIOS T PISTACHIOS TREE          
+7225 0          HAZELNUTS TR HAZELNUTS (FILBERTS) TRE 
+7234 0          NUTS NES TRE NUTS NES TREE            
+7236 0          SOYBEANS TRE SOYBEANS TREE            
+7242 0          GROUNDNUTS T GROUNDNUTS IN SHELL TREE 
+7249 0          COCONUTS TRE COCONUTS TREE            
+7254 0          OIL PALM FR  OIL PALM FRUIT TREE      
+7260 0          OLIVES TREE  OLIVES TREE              
+7263 0          KARITE NUTS  KARITE NUTS (SHEANUTS) T 
+7265 0          CASTOR BEANS CASTOR BEANS TREE        
+7267 0          SUNFLWR SEED SUNFLOWER SEED TREE      
+7270 0          RAPESEED TRE RAPESEED TREE            
+7275 0          TUNG NUTS TR TUNG NUTS TREE           
+7280 0          SAFFLOWER TR SAFFLOWER SEED TREE      
+7289 0          SESAME SEED  SESAME SEED TREE         
+7292 0          MUSTARD SEED MUSTARD SEED TREE        
+7296 0          POPPY SEED T POPPY SEED TREE          
+7299 0          MELONSEED TR MELONSEED TREE           
+7305 0          TALLOW SEEDS TALLOWTREE SEEDS TREE    
+7310 0          KAPOK FRUIT  KAPOK FRUIT TREE         
+7328 0          SEED COTTON  SEED COTTON TREE         
+7333 0          LINSEED TREE LINSEED TREE             
+7336 0          HEMPSEED TRE HEMPSEED TREE            
+7339 0          OILSEEDS NES OILSEEDS NES TREE        
+7358 0          CABBAGES TRE CABBAGES TREE            
+7366 0          ARTICHOKES T ARTICHOKES TREE          
+7367 0          ASPARAGUS TR ASPARAGUS TREE           
+7373 0          SPINACH TREE SPINACH TREE             
+7388 0          TOMATOES TRE TOMATOES TREE            
+7393 0          CAULIFLOWER  CAULIFLOWER TREE         
+7394 0          PUMPK+SQ+GRD PUMPKINS, SQUASH, GOURDS 
+7397 0          CUCMBR+GHERK CUCUMBERS AND GHERKINS T 
+7399 0          EGGPLANTS TR EGGPLANTS TREE           
+7401 0          CHIL+PEP,GRN CHILLIES+PEPPERS, GREEN  
+7402 0          ONIONS,GREEN ONIONS+SHALLOTS, GREEN T 
+7403 0          ONIONS, DRY  ONIONS, DRY TREE         
+7406 0          GARLIC TREE  GARLIC TREE              
+7414 0          BEANS, GREEN BEANS, GREEN TREE        
+7417 0          PEAS, GREEN  PEAS, GREEN TREE         
+7420 0          BRD BEAN,GRN BROAD BEANS, GREEN TREE  
+7423 0          STRING BEANS STRING BEANS TREE        
+7426 0          CARROTS TREE CARROTS TREE             
+7446 0          GREEN CORN T GREEN CORN (MAIZE) TREE  
+7449 0          MUSHROOMS TR MUSHROOMS TREE           
+7459 0          CHICORY ROOT CHICORY ROOTS TREE       
+7461 0          CAROBS TREE  CAROBS TREE              
+7463 0          VEGETABLES F VEGETABLES FRESH NES TRE 
+7486 0          BANANAS TREE BANANAS TREE             
+7489 0          PLANTAINS TR PLANTAINS TREE           
+7490 0          ORANGES TREE ORANGES TREE             
+7495 0          TANGERINES T TANG.MAND.CLEMENT.SATSMA 
+7497 0          LEMONS LIMES LEMONS AND LIMES TREE    
+7507 0          GRAPEFRUIT T GRAPEFRUIT AND POMELO TR 
+7512 0          CITR FRT NES CITRUS FRUIT NES TREE    
+7515 0          APPLES TREE  APPLES TREE              
+7521 0          PEARS TREE   PEARS TREE               
+7523 0          QUINCES TREE QUINCES TREE             
+7526 0          APRICOTS TRE APRICOTS TREE            
+7530 0          SOUR CHERRY  SOUR CHERRIES TREE       
+7531 0          CHERRIES TRE CHERRIES TREE            
+7534 0          PEACHES TREE PEACHES AND NECTARINES T 
+7536 0          PLUMS TREE   PLUMS TREE               
+7541 0          STONE FRUIT  STONE FRUIT NES, FRESH T 
+7542 0          POME FRUIT T POME FRUIT NES, FRESH TR 
+7544 0          STRAWBERRIES STRAWBERRIES TREE        
+7547 0          RASPBERRIES  RASPBERRIES TREE         
+7549 0          GOOSEBERRIES GOOSEBERRIES TREE        
+7550 0          CURRANTS TRE CURRANTS TREE            
+7552 0          BLUEBERRIES  BLUEBERRIES TREE         
+7554 0          CRANBERRIES  CRANBERRIES TREE         
+7558 0          BERRIES NES  BERRIES NES TREE         
+7560 0          GRAPES TREE  GRAPES TREE              
+7569 0          FIGS TREE    FIGS TREE                
+7571 0          MANGOES TREE MANGOES TREE             
+7572 0          AVOCADOS TRE AVOCADOS TREE            
+7574 0          PINEAPPLES T PINEAPPLES TREE          
+7577 0          DATES TREE   DATES TREE               
+7591 0          CASHEWAPPLE  CASHEWAPPLE TREE         
+7603 0          FRT TROP NES FRUIT TROPICAL FRESH NES 
+7619 0          FRUIT NES TR FRUIT FRESH NES TREE     
+7656 0          COFFEE,GREEN COFFEE, GREEN TREE       
+7661 0          COCOA BEANS  COCOA BEANS TREE         
+7754 0          PYR DR FLOWR PYRETHRUM, DRIED FLOWERS 
+7836 0          NAT RUBBER T NATURAL RUBBER TREE      
+7866 0          CATTLE TREE  CATTLE TREE              
+7882 0          COW MILK TRE COW MILK, WHOLE, FRESH T 
+7927 0          SKIN F CALVE SKINS FRESH OF CALVES TR 
+7928 0          SKIN W CALVE SKINS WET-SALT CALVES TR 
+7946 0          BUFFALOES TR BUFFALOES TREE           
+7951 0          BUFFALO MILK BUFFALO MILK TREE        
+7976 0          SHEEP TREE   SHEEP TREE               
+7982 0          SHEEP MILK T SHEEP MILK TREE          
+8016 0          GOATS TREE   GOATS TREE               
+8020 0          GOAT MILK TR GOAT MILK TREE           
+8034 0          PIGS TREE    PIGS TREE                
+8057 0          CHICKENS TRE CHICKENS TREE            
+8062 0          HEN EGGS TRE HEN EGGS TREE            
+8068 0          DUCKS TREE   DUCKS TREE               
+8072 0          GEESE TREE   GEESE TREE               
+8079 0          TURKEYS TREE TURKEYS TREE             
+8083 0          PIGEONS OTHE PIGEONS OTHER BIRDS TREE 
+8096 0          HORSES TREE  HORSES TREE              
+8107 0          ASSES TREE   ASSES TREE               
+8110 0          MULES TREE   MULES TREE               
+8126 0          CAMELS TREE  CAMELS TREE              
+8140 0          RABBITS TREE RABBITS TREE             
+8150 0          OTH RODENTS  OTHER RODENTS TREE       
+8157 0          OTH CAMELIDS OTHER CAMELIDS TREE      
+8163 0          GAME MEAT TR GAME MEAT TREE           
+8166 0          MEAT NES TRE MEAT NES TREE            
+8168 0          OILS ANIMAL  ANIMAL OILS AND FATS NES 
+8182 0          HONEY TREE   HONEY TREE               
+9500 0          SUAPCP       SUAProduction.Crops.Prim 
+9501 0          SUAPLS       SUAProduction.Livestock. 
+9502 0          SUAPLP       SUAProduction.Livestock. 
+9503 0          SUAPLTI      SUAPopulation.LTI        
+9504 0          SUAP         SUAPopulation            
+9505 0          SUAPLTS      SUAPopulation.LTS        
+9506 0          SUATLA       SUATrade.LiveAnimals     
+9507 0          SUATCLP      SUATrade.CropsLivestockP 
+9508 0          SUAFD        SUAFishery.Derived       
+9509 0          SUAFP        SUAFishery.Primary       
+9510 0          SUAFP        SUAForestry.Primary      
+9511 0          SUAFD        SUAForestry.Derived      
+9520 0          CBSCBSNPLAP  CBSCBS.NonPrimaryLivesto 
+9521 0          CBSCBSP      CBSCBS.Population        
+9522 0          CBSCBSCAP    CBSCBS.CropsAndProducts  
+9523 0          CBSCBSPLAP   CBSCBS.PrimaryLivestockA 
+9540 0          CBDCBDNPLAP  CBDCBD.NonPrimaryLivesto 
+9541 0          CBDCBDP      CBDCBD.Population        
+9542 0          CBDCBDCAP    CBDCBD.CropsAndProducts  
+9543 0          CBDCBDPLAP   CBDCBD.PrimaryLivestockA 
+9560 0          LUIM         LUIMachinery             
+9561 0          LUILU        LUILandUse               
+9562 0          LUII         LUIIrrigation            
+9563 0          LUIF         LUIFertilizers           
+9564 0          LUIP         LUIPesticides            
+9580 0          PINCP        PINCrops.Primary         
+9581 0          PINLP        PINLivestock.Primary     
+9600 0          FoodAidFA    FoodAidFoodAid           
+9981 0          SUA ITEMS    SUA ITEMS                
+9982 0          CO3 ITEMS    CO3 ITEMS                
+9983 0          CB ITEMS     CB ITEMS                 
+9984 0          CBD ITEMS    CBD ITEMS                
+9985 0          CBS ITEMS    CBS ITEMS                
+9990 0          AGR RESOURCE AGRICULTURAL RESOURCES   
+9991 0          AGR PRODUCTO AGRICULTURAL PRODUCTIONS 
+9992 0          ITEM TREES   ITEM TREES               
+9993 0          LIST OF ITEM LIST OF ITEMS            
+9994 0          ITEMS BY DOM ITEMS BY DOMAIN          
+9999 0          LIST OF LIST LIST OF LISTS            

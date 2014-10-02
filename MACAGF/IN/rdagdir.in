@@ -1,0 +1,15 @@
+     FILE RDAGDIR IN
+
+     FORMAT '30X,A30' FOR FILENAMES
+            '30X,A3'  FOR 'YES'/'NO '
+            '30X,I2'  FOR INTEGERS
+
+warning : the program works with hardcoded filenames
+
+input file TMP/ctrago.tmp  produced by 'ag222'
+output file for one year : new.tst
+
+-----------------------------------------
+NO OF YEARS                 : 53
+values reported for year    : 17     
+

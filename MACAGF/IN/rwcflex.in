@@ -1,0 +1,26 @@
+     FILE RWCFLEX IN
+
+     FORMAT '30X,A30' FOR FILENAMES
+            '30X,A3'  FOR 'YES'/'NO '
+            '30X,I2'  FOR INTEGERS
+
+COMM. LIST                  : LST/commap.new
+COUNTRY LIST                : LST/crymap.new
+SUA DATAFILE                : DAT/BIN/extraction.bin
+SUA DATAFILE                : TMP/agres.dat
+SUA DATAFILE                : DAT/BIN/150.sua
+SUA DATAFILE                : RES/itagg.res
+SUA DATAFILE                : RES/mult.dat
+SUA DATAFILE                : RES/MGO.res
+SUA DATAFILE                : TMP/CBDres123.dat
+PRINT FILE                  : sua.prt
+------------------------------------------
+SUA DATAFILE                : TMP/agres2.dat
+COUNTRY LIST                : LST/crymap.lst
+COMM. LIST                  : LST/commap.lst
+ELEMENT LIST                : LST/elm.lst
+PRINT FILE                  : agres2.prt
+SUA FILES                   : YES
+NYR                         : 53
+FIRST YEAR OF PERIOD        : 46 
+LAST  YEAR OF PERIOD        : 53

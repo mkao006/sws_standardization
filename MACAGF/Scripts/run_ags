@@ -1,0 +1,12 @@
+#!/bin/ksh
+# prepare specific aggregation structure
+echo make aggregation structure for $1
+cp LST/IOL/ioext_$1.lst LST/ioext.lst
+cp LST/IOL/autocuts_$1.lst LST/autocuts.lst
+run ags
+cp BIN/agstr BIN/DIF/agstr_$1
+cp BIN/comlab.ags BIN/DIF/comlab_$1.ags
+cp BIN/dirarc.ags BIN/DIF/dirarc_$1.ags
+cp LST/IOL/ioext.lst LST
+cp LST/IOL/autocuts.lst LST
+echo run_ags completed

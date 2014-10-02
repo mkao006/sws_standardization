@@ -1,0 +1,21 @@
+     FILE AGIT2 IN
+
+     FORMAT '15X,A30' FOR FILENAMES
+            '15X,A3'  FOR 'YES'/'NO '
+            '15X,I2'  FOR INTEGERS
+
+ITEM AGG SPEC               : LST/itemagg.lst
+SUA DATAFILE                : /AGRES TMP IOR TEST DAT I
+SUA DATAFILE                : DAT/BIN/extraction.dat
+SUA DATAFILE                : TMP/agres.dat
+SUA DATAFILE                : RES/mult.dat
+SUA DATAFILE                : TMP/agstat.tmp
+SUA DATAFILE                : TMP/agres.cal
+ITEM AGG SPEC               : LST/stdref2.out
+RESULT DATAFILE             : RES/itagg.res
+-----------------------------------------
+data   DATAFILE             : TMP/CBDres1.dat
+ITEM AGG SPEC               : LST/ITMAG/CBDstep2.lst
+RESULT DATAFILE (file out)  : TMP/CBDres2.dat
+NO of YEARS                 : 53
+

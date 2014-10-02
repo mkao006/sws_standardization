@@ -1,0 +1,25 @@
+#!/bin/ksh
+# script to run MGO standardisation
+# 2 parameters :
+# 1 = country code
+# 2 = extraction file / table
+#
+echo ag $1 $2
+#
+#mac $1 $2
+#run convrt
+cp ACT/base.smp ACT/0.smp
+cp ACT/$1.smp ACT/0.smp
+run recov
+cp ACT/base.smp ACT/0.smp
+#
+run_stan MGO
+cp TMP/aninew.fil TMP/anifil.fil
+OBJ/mmergef < IN/mmergef99.in > mmf99.out
+run agit00
+OBJ/mmergef < IN/mmergef11.in > mmf11.out
+OBJ/agit < IN/agit_MGO.in > agit_MGO.out
+OBJ/rwcopt < IN/rwcopt_MGO.in > rwcopt_MGO.out
+OBJ/fbsformat < IN/format_MGO.in > MGO.out
+#
+echo ag_MGO completed

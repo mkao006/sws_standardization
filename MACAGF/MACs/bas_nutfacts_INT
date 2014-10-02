@@ -1,0 +1,40 @@
+#!/bin/ksh
+#
+DB_NAME=waicdb::faostat
+SQL_FLAGS="-s -f4F16.6"
+
+function sql_data_filter
+{
+        #requires an area result column
+        grep '|.*|' | grep -v area |  sed 's/|/ /g'
+}
+
+function select_data
+{
+        # this function expects the tsv table name as parameter
+        #TABLE=$1
+        {
+                echo "
+                set lockmode session where readlock = nolock\p\g
+                select r1.area, r1.item, r1.ratio, r2.ratio, r3.ratio
+                from 	aupus_ratios r1, aupus_ratios r2, aupus_ratios r3
+                where   r1.area = 0 and 
+			r1.yr = 0 and
+			r1.ele = 261 and 
+			r2.ele = 271 and 
+			r3.ele = 281 and
+			r2.area = 0 and
+			r3.area = 0 and
+			r2.item = r1.item and
+			r3.item = r1.item and
+			r2.yr = r1.yr and
+                        r3.yr = r1.yr \p\g"
+        }  |
+        sql $SQL_FLAGS $DB_NAME |
+	sql_data_filter
+}
+
+select_data
+#select_data aupus_ratios
+#select_data tsv_ics_report_yr
+

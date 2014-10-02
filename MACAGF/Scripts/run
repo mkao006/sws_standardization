@@ -1,0 +1,6 @@
+#!/bin/ksh
+# base script to run MVTR programs
+echo run $1
+OBJ/$1 < IN/$1.in > $1.out
+cp $1.out out
+echo $1 completed

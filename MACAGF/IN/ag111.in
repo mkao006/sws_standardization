@@ -1,0 +1,22 @@
+     FILE AG111.TMP
+
+     FORMAT '30X,A30' FOR FILENAMES
+            '30X,A3'  FOR 'YES' / 'NO '
+               '30X,I2'  FOR INTEGERS
+
+---------------------------------------------
+COMMODITY LIST              : LST/commap.lst
+BINARY AGG. DIRVS(file out) : TMP/resbin.res
+FORMATTED RESULT (file out) : TMP/agres.res
+values reported for year    : 33
+RECOVERED PROCESSING (INP)  : TMP/actlst.res
+STRUCTURE (INPUT)           : BIN/agstr
+AGG. LABELS PER ACT. (INP)  : BIN/dirarc.ags
+                            : TMP/cutlst
+DO WEIGHTS                  : YES    
+WEIGHTSFILE                 : LST/wghts.lst
+DO SHARES                   : YES   
+SHARESFILE                  : LST/shrsval.lst
+SUA FILE                    : YES
+NO OF YRS                   : 53
+

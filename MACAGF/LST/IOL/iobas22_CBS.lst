@@ -1,0 +1,1525 @@
+      FILE IOBASE LST                                                           
+----------------------------------------------------------------------------    
+                I     15  WHEAT                                                 
+b     1500161   O     16  FLOUR WHEAT     17  BRAN WHEAT      19  GERM OF WHEA  
+b     1500162   O     16  FLOUR WHEAT     17  BRAN WHEAT                        
+b     1500210   O     21  BULGUR                                                
+b     1500410   O     41  BREAKF CERLS                                          
+b     1500490   O     49  MALT BARLEY                                           
+b     1501130   O    113  CER PREP NES                                          
+b     1506320   O    632  ALC NON-FOOD                         
+b     1506340   O    634  BEV DIS ALC                          
+                                                                                
+                I     16  FLOUR WHEAT                                           
+b     1600180   O     18  MACARONI                                              
+b     1600200   O     20  BREAD                                                 
+b     1600220   O     22  PASTRY                                                
+b     1600230   O     23  WHEAT,STARCH    24  WHEAT,GLUTEN                      
+b     1600260   O     26  WHEAT,FRMBEV                         
+b     1600410   O     41  BREAKF CERLS                                          
+b     1601130   O    113  CER PREP NES                                          
+b     1601100   O    110  WAFERS                                                
+                                                                                
+                I     17  BRAN WHEAT                                            
+b     1700410   O     41  BREAKF CERLS                                          
+                                                                                
+                I     23  WHEAT,STARCH                                          
+b     2301720   O    172  GLUCOSE                                               
+b     2301660   O    166  FRUCTOSE                                              
+b     2306340   O    634  BEV DIS ALC                          
+                                                                                
+                I     24  WHEAT,GLUTEN                                          
+b     2408460   O    846  GLUT FEED&ME                                          
+                                                                                
+                I     27  RICE, PADDY                                           
+b     2700281   O     28  RICE, HUSKED   
+b     2700282   O     28  RICE, HUSKED    35  BRAN RICE
+b     2700310   O     31  RICE, MILLED    35  BRAN RICE                         
+                                                                                
+                I     28  RICE, HUSKED                                          
+b     2800290   O     29  RICE, MLDHSK    35  BRAN RICE                         
+                                                                                
+                I     29  RICE, MLDHSK                                          
+b     2900320   O     32  RICE, BROKEN                                          
+b     2900390   O     39  RICE, FRMBEV                         
+b     2900410   O     41  BREAKF CERLS                                          
+                                                                                
+                I     31  RICE, MILLED                                          
+b     3100320   O     32  RICE, BROKEN                                          
+b     3100410   O     41  BREAKF CERLS                                          
+                                                                                
+                I     32  RICE, BROKEN                                          
+b     3200340   O     34  RICE, STARCH    33  RICE GLUTEN                       
+b     3200380   O     38  RICE FLOUR                                            
+b     3200390   O     39  RICE, FRMBEV                         
+b     3200410   O     41  BREAKF CERLS                                          
+b     3200510   O     51  BEER BARLEY                          
+b     3201130   O    113  CER PREP NES                                          
+b     3206320   O    632  ALC NON-FOOD                         
+b     3206340   O    634  BEV DIS ALC                          
+                                                                                
+                I     33  RICE GLUTEN                                           
+b     3308460   O    846  GLUT FEED&ME                                          
+                                                                                
+                I     34  RICE, STARCH                                          
+b     3401720   O    172  GLUCOSE                                               
+                                                                                
+                I     35  BRAN RICE                                             
+c     3500360   O     36  OIL RICE BRN    37  CAKE RICEBRN                      
+                                                                                
+                I     36  OIL RICE BRN                                          
+b     3612410   O   1241  LIQUID MARGN                                          
+b     3612420   O   1242  MARGARINE                                             
+b     3612750   O   1275  OILS HYDROGN                                          
+                                                                                
+                I     38  FLOUR RICE                                            
+b     3800180   O     18  MACARONI                                              
+                                                                                
+                I     44  BARLEY                                                
+b     4400450   O     45  POT BARLEY      47  BARLEY, BRAN                      
+b     4400490   O     49  MALT BARLEY                                           
+b     4406340   O    634  BEV DIS ALC                          
+b     4406580   O    658  COFFEE SUBST                                          
+                                                                                
+                I     45  POT BARLEY                                            
+b     4500460   O     46  BARLEY, PEAR    48  BARLEY FLOUR                      
+b     4500410   O     41  BREAKF CERLS                                          
+                                                                                
+                I     49  MALT BARLEY                                           
+b     4900500   O     50  MALT EXTRACT                                          
+b     4900510   O     51  BEER BARLEY                          
+b     4901720   O    172  GLUCOSE                                               
+b     4906320   O    632  ALC NON-FOOD                         
+b     4906340   O    634  BEV DIS ALC                          
+b     4900410   O     41  BREAKF CERLS                                          
+                                                                                
+                I     50  MALT EXTRACT                                          
+b     5000510   O     51  BEER BARLEY                          
+                                                                                
+                I     56  MAIZE                                                 
+b     5600570   O     57  MAIZE, GERM     58  FLOUR MAIZE     59  BRAN MAIZE    
+b     5600581   O     58  FLOUR MAIZE     59  BRAN MAIZE                        
+b     5600582   O     58  FLOUR MAIZE                                           
+b     5600630   O     63  MAIZE GLUTEN    64  STARCH MAIZE                      
+b     5600510   O     51  BEER BARLEY                          
+b     5600660   O     66  BEER MAIZE                           
+b     5606340   O    634  BEV DIS ALC                          
+b     5606320   O    632  ALC NON-FOOD                         
+b     5600410   O     41  BREAKF CERLS                                          
+b     5601130   O    113  CER PREP NES                                          
+                                                                                
+                I     57  MAIZE, GERM                                           
+c     5700600   O     60  OIL MAIZE       61  CAKE MAIZE                        
+                                                                                
+                I     58  FLOUR MAIZE                                           
+b     5800630   O     63  MAIZE GLUTEN    64  STARCH MAIZE                      
+b     5800510   O     51  BEER BARLEY                          
+                                                                                
+                I     59  BRAN MAIZE                                            
+b     5908460   O    846  GLUT FEED&ME                                          
+                                                                                
+                I     60  OIL MAIZE                                             
+b     6012410   O   1241  LIQUID MARGN                                          
+b     6012420   O   1242  MARGARINE                                             
+b     6012750   O   1275  OILS HYDROGN                                          
+                                                                                
+                I     61  CAKE MAIZE                                            
+b     6108460   O    846  GLUT FEED&ME                                          
+                                                                                
+                I     63  MAIZE GLUTEN                                          
+b     6308460   O    846  GLUT FEED&ME                                          
+                                                                                
+                I     64  STARCH MAIZE                                          
+b     6400660   O     66  BEER MAIZE                           
+b     6406320   O    632  ALC NON-FOOD                         
+b     6406340   O    634  BEV DIS ALC                          
+b     6401720   O    172  GLUCOSE                                               
+b     6401660   O    166  FRUCTOSE                                              
+                                                                                
+                I     68  POP CORN                                              
+b     6800410   O     41  BREAKF CERLS                                          
+b     6801130   O    113  CER PREP NES                                          
+                                                                                
+                I     71  RYE                                                   
+b     7100721   O     72  FLOUR RYE                                             
+b     7100722   O     72  FLOUR RYE       73  BRAN RYE                          
+b     7106320   O    632  ALC NON-FOOD                         
+b     7106340   O    634  BEV DIS ALC                          
+b     7100200   O     20  BREAD                                                 
+b     7100410   O     41  BREAKF CERLS                                          
+b     7101130   O    113  CER PREP NES                                          
+b     7106580   O    658  COFFEE SUBST                                          
+                                                                                
+                I     75  OATS                                                  
+b     7500760   O     76  OATS, ROLLED    77  BRAN OATS                         
+b     7500410   O     41  BREAKF CERLS                                          
+b     7501130   O    113  CER PREP NES                                          
+b     7506340   O    634  BEV DIS ALC                          
+                                                                                
+                I     79  MILLET                                                
+b     7900800   O     80  FLOUR MILLET    81  BRAN MILLET                       
+b     7900820   O     82  BEER MILLET                          
+                                                                                
+                I     83  SORGHUM                                               
+b     8300841   O     84  FLOUR SORGHM    85  BRAN SORGHUM                      
+b     8300842   O     84  FLOUR SORGHM                                          
+b     8300860   O     86  BEER SORGHUM                         
+b     8306340   O    634  BEV DIS ALC                          
+                                                                                
+                I     84  FLOUR SORGHM                                          
+b     8406320   O    632  ALC NON-FOOD                         
+b     8400510   O     51  BEER BARLEY                          
+                                                                                
+                I     89  BUCKWHEAT                                             
+b     8900900   O     90  FLOUR BUCKWH    91  BRAN BUCKWHT                      
+b     8906340   O    634  BEV DIS ALC                          
+                                                                                
+                I     92  QUINOA                                                
+b     9201110   O    111  FLOUR CEREAL   112  BRAN CEREAL                       
+                                                                                
+                I     94  FONIO                                                 
+b     9400950   O     95  FLOUR FONIO     96  BRAN FONIO                        
+                                                                                
+                I     97  TRITICALE                                             
+b     9700980   O     98  FLOUR TRITIC    99  BRAN TRITICA                      
+                                                                                
+                I    101  CANARY SEED                                           
+b    10101110   O    111  FLOUR CEREAL   112  BRAN CEREAL                       
+                                                                                
+                I    103  MIXED GRAIN                                           
+b    10301040   O    104  FLOUR MIX GR   105  BRAN  MIX GR                      
+b    10301130   O    113  CER PREP NES                                          
+b    10306320   O    632  ALC NON-FOOD                         
+b    10306340   O    634  BEV DIS ALC                          
+                                                                                
+                I    108  CEREALS NES                                           
+b    10801110   O    111  FLOUR CEREAL   112  BRAN CEREAL                       
+b    10801130   O    113  CER PREP NES                                          
+b    10806320   O    632  ALC NON-FOOD                         
+b    10806340   O    634  BEV DIS ALC                          
+                                                                                
+                I    116  POTATOES                                              
+b    11601170   O    117  FLOUR POTAT                                           
+b    11601190   O    119  POTATO STCH                                           
+b    11601210   O    121  POTATO TAP                                            
+b    11601180   O    118  FROZEN POTAT   120  POTATO OFFAL                      
+b    11606320   O    632  ALC NON-FOOD                         
+b    11606340   O    634  BEV DIS ALC                          
+                                                                                
+                I    117  FLOUR POTAT                                           
+b    11701190   O    119  POTATO STCH                                           
+b    11701210   O    121  POTATO TAP                                            
+                                                                                
+                I    119  POTATO STCH                                           
+b    11901720   O    172  GLUCOSE                                               
+b    11901660   O    166  FRUCTOSE                                              
+b    11906340   O    634  BEV DIS ALC                          
+                                                                                
+                I    122  SWEET POTATO                                          
+b    12201500   O    150  FLOUR RT TUB                                          
+b    12201510   O    151  ROOTS TUB DR                                          
+b    12201190   O    119  POTATO STCH                                           
+b    12206340   O    634  BEV DIS ALC                          
+                                                                                
+                I    125  CASSAVA                                               
+b    12501260   O    126  FLOUR CASS                                            
+b    12501280   O    128  CASSAVA DRD                                           
+b    12501290   O    129  CASSAVA STCH                                          
+b    12501270   O    127  CASSAVA TAP                                           
+b    12506320   O    632  ALC NON-FOOD                         
+                                                                                
+                I    128  CASSAVA DRD                                           
+b    12806340   O    634  BEV DIS ALC                          
+                                                                                
+                I    129  CASSAVA STCH                                          
+b    12901720   O    172  GLUCOSE                                               
+b    12901660   O    166  FRUCTOSE                                              
+b    12906340   O    634  BEV DIS ALC                          
+                                                                                
+                I    135  YAUTIA                                                
+b    13501500   O    150  FLOUR RT TUB                                          
+b    13501510   O    151  ROOTS TUB DR                                          
+                                                                                
+                I    136  TARO                                                  
+b    13601500   O    150  FLOUR RT TUB                                          
+b    13601510   O    151  ROOTS TUB DR                                          
+                                                                                
+                I    137  YAMS                                                  
+b    13701500   O    150  FLOUR RT TUB                                          
+b    13701510   O    151  ROOTS TUB DR                                          
+                                                                                
+                I    149  ROOTS TUB NS                                          
+b    14901500   O    150  FLOUR RT TUB                                          
+b    14901510   O    151  ROOTS TUB DR                                          
+                                                                                
+                I    156  SUGAR CANE                                            
+c    15601631   O    163  SUGAR,N-CENT   170  BAGASSE                           
+b    15601632   O    163  SUGAR,N-CENT                                          
+f    15601670   O    167  SUGAR NES                                             
+f    15601580   O    158  CANE SUGAR     165  MOLASSES       170  BAGASSE       
+b    15606320   O    632  ALC NON-FOOD                         
+b    15606340   O    634  BEV DIS ALC                          
+                                                                                
+                I    157  SUGAR BEETS                                           
+f    15701590   O    159  BEET SUGAR     165  MOLASSES       169  BEET PULP     
+b    15706320   O    632  ALC NON-FOOD                         
+b    15706340   O    634  BEV DIS ALC                          
+                                                                                
+                I    158  CANE SUGAR                                            
+f    15801620   O    162  SUGAR,C. RAW                                          
+                                                                                
+                I    159  BEET SUGAR                                            
+f    15901620   O    162  SUGAR,C. RAW                                          
+                                                                                
+                I    161  SUGAR CROPS                                           
+f    16101670   O    167  SUGAR NES                                             
+                                                                                
+                I    162  SUGAR,C. RAW                                          
+b    16201640   O    164  SUGAR REFIND                                          
+                                                                                
+                I    163  SUGAR,N-CENT                                          
+b    16306330   O    633  BEV NON-ALC                                           
+b    16306340   O    634  BEV DIS ALC                                           
+                                                                                
+                I    164  SUGAR REFIND                                          
+c    16401670   O    167  XXXXXXXXXX                                            
+b    16401680   O    168  SUGAR CONF                                            
+b    16401710   O    171  SUGARS FLAV                                           
+b    16406330   O    633  BEV NON-ALC                                           
+b    16406340   O    634  BEV DIS ALC                          
+                                                                                
+                I    165  MOLASSES                                              
+b    16506320   O    632  ALC NON-FOOD                         
+b    16506340   O    634  BEV DIS ALC                          
+                                                                                
+                I    172  GLUCOSE                                               
+b    17201750   O    175  ISOGLUCOSE                                            
+b    17201680   O    168  SUGAR CONF                                            
+b    17206330   O    633  BEV NON-ALC                                           
+b    17206340   O    634  BEV DIS ALC                                           
+b    17201710   O    171  SUGARS FLAV                                           
+                                                                                
+                I    176  BEANS, DRY                                            
+b    17602120   O    212  FLOUR PULSES   213  BRAN PULSES                       
+                                                                                
+                I    181  BRD BEANS,DR                                          
+b    18102120   O    212  FLOUR PULSES   213  BRAN PULSES                       
+                                                                                
+                I    187  PEAS, DRY                                             
+b    18702120   O    212  FLOUR PULSES   213  BRAN PULSES                       
+                                                                                
+                I    191  CHICK-PEAS                                            
+b    19102120   O    212  FLOUR PULSES   213  BRAN PULSES                       
+                                                                                
+                I    195  COW PEAS,DRY                                          
+b    19502120   O    212  FLOUR PULSES   213  BRAN PULSES                       
+                                                                                
+                I    197  PIGEON PEAS                                           
+b    19702120   O    212  FLOUR PULSES   213  BRAN PULSES                       
+b    19704720   O    472  VEG PREP NES                                          
+                                                                                
+                I    201  LENTILS                                               
+b    20102120   O    212  FLOUR PULSES   213  BRAN PULSES                       
+                                                                                
+                I    203  BAMBARA BNS                                           
+b    20302120   O    212  FLOUR PULSES   213  BRAN PULSES                       
+                                                                                
+                I    205  VETCHES                                               
+b    20502120   O    212  FLOUR PULSES   213  BRAN PULSES                       
+                                                                                
+                I    210  LUPINS                                                
+b    21002120   O    212  FLOUR PULSES   213  BRAN PULSES                       
+                                                                                
+                I    211  PULSES NES                                            
+b    21102121   O    212  FLOUR PULSES   213  BRAN PULSES                       
+b    21102122   O    212  FLOUR PULSES                                          
+                                                                                
+                I    216  BRAZIL NUTS                                           
+b    21602290   O    229  BRAZ NUTS SH                                          
+                                                                                
+                I    217  CASHEW NUTS                                           
+b    21702300   O    230  CASHEW SHE                                            
+                                                                                
+                I    221  ALMONDS                                               
+b    22102310   O    231  ALMONDS SHE                                           
+                                                                                
+                I    223  PISTACHIOS                                            
+b    22302350   O    235  PREPRD NUTS                                           
+                                                                                
+                I    222  WALNUTS                                               
+b    22202320   O    232  WALENUTS SHE                                          
+                                                                                
+                I    225  HAZELNUTS                                             
+b    22502330   O    233  HAZELNUTS SH                                          
+                                                                                
+                I    229  BRAZ NUTS SH                                          
+b    22902350   O    235  PREPRD NUTS                                           
+                                                                                
+                I    230  CASHEW SHE                                            
+b    23002350   O    235  PREPRD NUTS                                           
+                                                                                
+                I    231  ALMONDS SHE                                           
+b    23102350   O    235  PREPRD NUTS                                           
+                                                                                
+                I    232  WALENUTS SHE                                          
+b    23202350   O    235  PREPRD NUTS                                           
+                                                                                
+                I    233  HAZELNUTS SH                                          
+b    23302350   O    235  PREPRD NUTS                                           
+                                                                                
+                I    234  NUTS NES                                              
+b    23402350   O    235  PREPRD NUTS                                           
+                                                                                
+                I    236  SOYBEANS                                              
+f    23602370   O    237  OIL SOYABEAN   238  CAKE SOYBEAN                      
+b    23602390   O    239  SOYA SAUCE                                            
+b    23602400   O    240  SOYA PASTE                                            
+b    23602410   O    241  SOYA CURD                                             
+b    23603430   O    343  OIL MEALS                                             
+                                                                                
+                I    237  OIL SOYABEAN                                          
+b    23712410   O   1241  LIQUID MARGN                                          
+b    23712420   O   1242  MARGARINE                                             
+b    23712430   O   1243  FATS PR NS                                            
+b    23712750   O   1275  OILS HYDROGN                                          
+b    23712760   O   1276  FATTY ACIDS                                           
+                                                                                
+                I    242  GROUNDNUTS                                            
+f    24202430   O    243  GROUNDNUT SH                                          
+                                                                                
+                I    243  GROUNDNUT SH                                          
+f    24302440   O    244  OIL GROUNDNT   245  CAKE GROUNDT                      
+b    24302350   O    235  PREPRD NUTS                                           
+b    24302460   O    246  GROUNDNT PRE                                          
+b    24302470   O    247  PEANUT BUTTR                                          
+                                                                                
+                I    244  OIL GROUNDNT                                          
+b    24412410   O   1241  LIQUID MARGN                                          
+b    24412420   O   1242  MARGARINE                                             
+b    24412430   O   1243  FATS PR NS                                            
+b    24412740   O   1274  OILS BOILED                                           
+b    24412750   O   1275  OILS HYDROGN                                          
+b    24412760   O   1276  FATTY ACIDS                                           
+                                                                                
+                I    249  COCONUTS                                              
+b    24902500   O    250  COCONUTS,DES                                          
+f    24902510   O    251  COPRA                                                 
+                                                                                
+                I    251  COPRA                                                 
+f    25102520   O    252  OIL COCONUTS   253  CAKE COCONUT                      
+                                                                                
+                I    252  OIL COCONUTS                                          
+b    25212410   O   1241  LIQUID MARGN                                          
+b    25212420   O   1242  MARGARINE                                             
+b    25212430   O   1243  FATS PR NS                                            
+b    25212740   O   1274  OILS BOILED                                           
+b    25212750   O   1275  OILS HYDROGN                                          
+b    25212760   O   1276  FATTY ACIDS                                           
+                                                                                
+                I    254  OIL PALM FRT                                          
+f    25402560   O    256  PALM KERNELS   257  PALM OIL                          
+                                                                                
+                I    256  PALM KERNELS                                          
+f    25602580   O    258  OIL,PALM KER   259  CAKE,PALM KE                      
+                                                                                
+                I    257  PALM OIL                                              
+b    25712410   O   1241  LIQUID MARGN                                          
+b    25712420   O   1242  MARGARINE                                             
+b    25712430   O   1243  FATS PR NS                                            
+b    25712740   O   1274  OILS BOILED                                           
+b    25712750   O   1275  OILS HYDROGN                                          
+b    25712760   O   1276  FATTY ACIDS                                           
+b    25712770   O   1277  RES FATTY S                                           
+                                                                                
+                I    258  OIL,PALM KER                                          
+b    25812410   O   1241  LIQUID MARGN                                          
+b    25812420   O   1242  MARGARINE                                             
+b    25812430   O   1243  FATS PR NS                                            
+b    25812740   O   1274  OILS BOILED                                           
+b    25812750   O   1275  OILS HYDROGN                                          
+b    25812760   O   1276  FATTY ACIDS                                           
+                                                                                
+                I    260  OLIVES                                                
+f    26002610   O    261  OLIVE OIL      273  OLIVE RESID                       
+b    26002620   O    262  OLIVE,PRES                                            
+                                                                                
+                I    263  KARITE NUTS                                           
+f    26302640   O    264  KARIT NT BUT                                          
+                                                                                
+                I    265  CASTOR BEANS                                          
+f    26502660   O    266  OIL CAST BNS                                          
+                                                                                
+                I    266  OIL CAST BNS                                          
+b    26612420   O   1242  MARGARINE                                             
+b    26612430   O   1243  FATS PR NS                                            
+b    26612730   O   1273  CASTOR OIL H                                          
+b    26612740   O   1274  OILS BOILED                                           
+b    26612760   O   1276  FATTY ACIDS                                           
+                                                                                
+                I    267  SUNFLWR SEED                                          
+f    26702680   O    268  OIL SUNF SD    269  CAKE SUNF SD                      
+                                                                                
+                I    268  OIL SUNF SD                                           
+b    26812410   O   1241  LIQUID MARGN                                          
+b    26812420   O   1242  MARGARINE                                             
+b    26812430   O   1243  FATS PR NS                                            
+b    26812740   O   1274  OILS BOILED                                           
+b    26812750   O   1275  OILS HYDROGN                                          
+b    26812760   O   1276  FATTY ACIDS                                           
+                                                                                
+                I    270  RAPESEED                                              
+f    27002710   O    271  OIL RAPESEED   272  CAKE RAPESEE                      
+b    27003430   O    343  OIL MEALS                                             
+                                                                                
+                I    271  OIL RAPESEED                                          
+b    27112410   O   1241  LIQUID MARGN                                          
+b    27112420   O   1242  MARGARINE                                             
+b    27112430   O   1243  FATS PR NES                                           
+b    27112740   O   1274  OILS BOILED                                           
+b    27112750   O   1275  OILS HYDROGN                                          
+b    27112760   O   1276  FATTY ACIDS                                           
+                                                                                
+                I    273  OLIVE RESID                                           
+f    27302740   O    274  OIL OLIVERES                                          
+                                                                                
+                I    274  OIL OLIVERES                                          
+b    27412410   O   1241  LIQUID MARGN                                          
+b    27412420   O   1242  MARGARINE                                             
+b    27412430   O   1243  FATS PR NS                                            
+b    27412740   O   1274  OILS BOILED                                           
+b    27412750   O   1275  OILS HYDROGN                                          
+b    27412760   O   1276  FATTY ACIDS                                           
+                                                                                
+                I    275  TUNG NUTS                                             
+f    27502760   O    276  TUNG OIL                                              
+                                                                                
+                I    280  SAFFLOWER                                             
+f    28002810   O    281  OIL SAFFLWER   282  CAKE SAFFLWR                      
+                                                                                
+                I    281  OIL SAFFLWER                                          
+b    28112410   O   1241  LIQUID MARGN                                          
+b    28112420   O   1242  MARGARINE                                             
+b    28112430   O   1243  FATS PR NS                                            
+b    28112740   O   1274  OILS BOILED                                           
+b    28112750   O   1275  OILS HYDROGN                                          
+b    28112760   O   1276  FATTY ACIDS                                           
+                                                                                
+                I    289  SESAME SEED                                           
+f    28902900   O    290  OIL SES SD     291  CAKE SES SD                       
+                                                                                
+                I    290  OIL SES SD                                            
+b    29012410   O   1241  LIQUID MARGN                                          
+b    29012420   O   1242  MARGARINE                                             
+b    29012430   O   1243  FATS PR NS                                            
+b    29012740   O   1274  OILS BOILED                                           
+b    29012750   O   1275  OILS HYDROGN                                          
+b    29012760   O   1276  FATTY ACIDS                                           
+                                                                                
+                I    292  MUSTARD SEED                                          
+f    29202930   O    293  OIL MUST SD    294  CAKE MUSTARD                      
+b    29202950   O    295  FLOUR MUSTAR                                          
+b    29203430   O    343  OIL MEALS                                             
+                                                                                
+                I    293  OIL MUST SD                                           
+b    29312410   O   1241  LIQUID MARGN                                          
+b    29312420   O   1242  MARGARINE                                             
+b    29312430   O   1243  FATS PR NS                                            
+b    29312750   O   1275  OILS HYDROGN                                          
+                                                                                
+                I    296  POPPY SEED                                            
+f    29602970   O    297  OIL POP SD     298  CAKE POP SD                       
+                                                                                
+                I    299  MELONSEED                                             
+f    29903400   O    340  OIL VG OR NS   341  CAK OILSD NS                      
+                                                                                
+                I    305  TALLOW SEEDS                                          
+f    30503060   O    306  VEG TALLOW     307  STILLING OIL                      
+                                                                                
+                I    310  KAPOK FRUIT                                           
+f    31003110   O    311  KAPOKSEED SH   778  KAPOK FIBRE                       
+                                                                                
+                I    311  KAPOKSEED SH                                          
+f    31103120   O    312  KAPOKSEE SHE                                          
+                                                                                
+                I    312  KAPOKSEE SHE                                          
+f    31203130   O    313  OIL OF KAPOK   314  CAKE KAPOK                        
+                                                                                
+                I    328  SEED COTTON                                           
+f    32803290   O    329  COTTONSEED     767  COTTON LINT    769  COTTON WASTE  
+                                                                                
+                I    329  COTTONSEED                                            
+f    32903310   O    331  OIL COTTON S   332  CAKE COTTON    770  COTTON LINTR  
+                                                                                
+                I    331  OIL COTTON S                                          
+b    33112410   O   1241  LIQUID MARGN                                          
+b    33112420   O   1242  MARGARINE                                             
+b    33112430   O   1243  FATS PR NS                                            
+b    33112750   O   1275  OILS HYDROGN                                          
+                                                                                
+                I    333  LINSEED                                               
+f    33303340   O    334  OIL LINSEED    335  CAKE LINSEED                      
+                                                                                
+                I    334  OIL LINSEED                                           
+b    33412410   O   1241  LIQUID MARGN                                          
+b    33412420   O   1242  MARGARINE                                             
+b    33412430   O   1243  FATS PR NS                                            
+b    33412750   O   1275  OILS HYDROGN                                          
+b    33412740   O   1274  OILS BOILED                                           
+                                                                                
+                I    336  HEMPSEED                                              
+f    33603370   O    337  OIL HEMPSD     338  CAKE HEMPSD                       
+                                                                                
+                I    337  OIL HEMPSD                                            
+b    33712410   O   1241  LIQUID MARGN                                          
+b    33712420   O   1242  MARGARINE                                             
+b    33712430   O   1243  FATS PR NS                                            
+b    33712750   O   1275  OILS HYDROGN                                          
+                                                                                
+                I    339  OILSEEDS NES                                          
+f    33903400   O    340  OIL VG OR NS   341  CAK OILSD NS                      
+b    33903430   O    343  OIL MEALS                                             
+                                                                                
+                I    340  OIL VG OR NS                                          
+b    34012410   O   1241  LIQUID MARGN                                          
+b    34012420   O   1242  MARGARINE                                             
+b    34012430   O   1243  FATS PR NS                                            
+b    34012740   O   1274  OILS BOILED                                          
+b    34012750   O   1275  OILS HYDROGN                                          
+                                                                                
+                I    358  CABBAGES                                              
+b    35804650   O    465  VEGT CAN NES                                          
+b    35804710   O    471  VEGS VINEGAR                                          
+b    35804720   O    472  VEGS PR NES                                           
+b    35804740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    366  ARTICHOKES                                            
+b    36604650   O    465  VEGT CAN NES                                          
+b    36604710   O    471  VEGS VINEGAR                                          
+b    36604720   O    472  VEGS PR NES                                           
+b    36604730   O    473  VEGS FROZEN                                           
+b    36604740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    367  ASPARAGUS                                             
+b    36704650   O    465  VEGT CAN NES                                          
+b    36704710   O    471  VEGS VINEGAR                                          
+b    36704720   O    472  VEGS PR NES                                           
+b    36704730   O    473  VEGS FROZEN                                           
+b    36704740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    373  SPINACH                                               
+b    37304730   O    473  VEGS FROZEN                                           
+b    37304740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    388  TOMATOES                                              
+b    38803890   O    389  TOMATO JUI C                                          
+b    38803900   O    390  JUICE TOMATO                                          
+b    38803910   O    391  TOMATO PASTE                                          
+b    38803920   O    392  PEELD TOMATO                                          
+b    38804660   O    466  JUICE VEG NS                                          
+b    38804720   O    472  VEGS PR NES                                           
+                                                                                
+                I    393  CAULIFLOWER                                           
+b    39304650   O    465  VEGT CAN NES                                          
+b    39304710   O    471  VEGS VINEGAR                                          
+b    39304720   O    472  VEGS PR NES                                           
+b    39304730   O    473  VEGS FROZEN                                           
+b    39304740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    394  PUMPK+SQ+GRD                                          
+b    39404650   O    465  VEGT CAN NES                                          
+b    39404710   O    471  VEGS VINEGAR                                          
+b    39404720   O    472  VEGS PR NES                                           
+b    39404730   O    473  VEGS FROZEN                                           
+b    39404740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    397  CUCMBR+GHERK                                          
+b    39704650   O    465  VEGT CAN NES                                          
+b    39704710   O    471  VEGS VINEGAR                                          
+b    39704720   O    472  VEGS PR NES                                           
+b    39704740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    399  EGGPLANTS                                             
+b    39904650   O    465  VEGT CAN NES                                          
+b    39904690   O    469  VEGS DEHYDR                                           
+b    39904710   O    471  VEGS VINEGAR                                          
+b    39904720   O    472  VEGS PR NES                                           
+b    39904740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    401  CHIL+PEP,GRN                                          
+b    40104650   O    465  VEGT CAN NES                                          
+b    40104710   O    471  VEGS VINEGAR                                          
+b    40104720   O    472  VEGS PR NES                                           
+b    40104740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    402  ONIONS,GREEN                                          
+b    40204650   O    465  VEGT CAN NES                                          
+b    40204710   O    471  VEGS VINEGAR                                          
+b    40204720   O    472  VEGS PR NES                                           
+b    40204740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    403  ONIONS, DRY                                           
+b    40304690   O    469  VEGS DEHYDR                                           
+b    40304710   O    471  VEGS VINEGAR                                          
+b    40304720   O    472  VEGS PR NES                                           
+b    40304730   O    473  VEGS FROZEN                                           
+b    40304740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    406  GARLIC                                                
+b    40604690   O    469  VEGS DEHYDR                                           
+                                                                                
+                I    414  BEANS, GREEN                                          
+b    41404650   O    465  VEGT CAN NES                                          
+b    41404710   O    471  VEGS VINEGAR                                          
+b    41404720   O    472  VEGS PR NES                                           
+b    41404730   O    473  VEGS FROZEN                                           
+b    41404740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    417  PEAS, GREEN                                           
+b    41704650   O    465  VEGT CAN NES                                          
+b    41704710   O    471  VEGS VINEGAR                                          
+b    41704720   O    472  VEGS PR NES                                           
+b    41704730   O    473  VEGS FROZEN                                           
+b    41704740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    420  BRD BEAN, GR                                          
+b    42004650   O    465  VEGT CAN NES                                          
+b    42004710   O    471  VEGS VINEGAR                                          
+b    42004720   O    472  VEGS PR NES                                           
+b    42004730   O    473  VEGS FROZEN                                           
+b    42004740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    423  STRING BEANS                                          
+b    42304650   O    465  VEGT CAN NES                                          
+b    42304710   O    471  VEGS VINEGAR                                          
+b    42304720   O    472  VEGS PR NES                                           
+b    42304730   O    473  VEGS FROZEN                                           
+b    42304740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    426  CARROTS                                               
+b    42604640   O    464  VEGET DR NES                                          
+b    42604650   O    465  VEGT CAN NES                                          
+b    42604660   O    466  JUICE VEG NS                                          
+b    42604690   O    469  VEGS DEHYDR                                           
+b    42604710   O    471  VEGS VINEGAR                                          
+b    42604720   O    472  VEGS PR NES                                           
+b    42604740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    446  GREEN CORN                                            
+b    44604470   O    447  SWT CORN FRZ                                          
+b    44604480   O    448  SWT CORN PRE                                          
+b    44604650   O    465  VEGT CAN NES                                          
+b    44604730   O    473  VEGS FROZEN                                           
+b    44604740   O    474  VEGS TEMP PR                                          
+                                                                                
+                I    449  MUSHROOMS                                             
+b    44904500   O    450  MUSHROOMS DR                                          
+b    44904510   O    451  MUSHROOMS CN                                          
+b    44904710   O    471  VEGS VINEGAR                                          
+b    44904720   O    472  VEGS PR NES                                           
+                                                                                
+                I    459  CHICORY ROOT                                          
+b    45906580   O    658  COFFEE SUBST                                          
+                                                                                
+                I    461  CAROBS                                                
+b    46106320   O    632  ALC NON-FOOD                         
+b    46106340   O    634  BEV DIS ALC                          
+                                                                                
+                I    463  VEGETABLES                                            
+b    46304640   O    464  VEGET DR NES                                          
+b    46304650   O    465  VEGT CAN NES                                          
+b    46304660   O    466  JUICE VEG NS                                          
+b    46304690   O    469  VEGS DEHYDR                                           
+b    46304710   O    471  VEGS VINEGAR                                          
+b    46304720   O    472  VEGS PR NES                                           
+b    46304730   O    473  VEGS FROZEN                                           
+b    46304740   O    474  VEGS TEMP PR                                          
+b    46304750   O    475  VEGS PR FRZN                                          
+b    46304760   O    476  VEGS HOMOG P                                          
+                                                                                
+                I    486  BANANAS                                               
+b    48606200   O    620  FRUIT DR NES                                          
+b    48606230   O    623  FRUIT PR NES                                          
+b    48606240   O    624  FLOUR FRUIT                                           
+b    48605170   O    517  FERM BEVERAG                         
+b    48606040   O    604  FR TRP DR NS                                          
+b    48606340   O    634  BEV DIS ALC                          
+                                                                                
+                I    489  PLANTAINS                                             
+b    48905170   O    517  FERM BEVERAG                         
+                                                                                
+                I    490  ORANGES                                               
+b    49004910   O    491  ORANJUICE SS                         
+b    49005130   O    513  CITRUS JUICE                         
+b    49006220   O    622  FRUIT JUICE                          
+b    49006230   O    623  FRUIT PR NES                                          
+b    49004920   O    492  ORANJUICE CC                         
+b    49005140   O    514  CITRUS JUI C                         
+                                                                                
+                I    495  TANGERINES                                            
+b    49505130   O    513  CITRUS JUICE                         
+b    49506230   O    623  FRUIT PR NES                                          
+b    49504960   O    496  TANGERINE JU                         
+b    49505140   O    514  CITRUS JUI C                         
+b    49506220   O    622  FRUIT JUICE                          
+                                                                                
+                I    497  LEMON LIMES                                           
+b    49705130   O    513  CITRUS JUICE                         
+b    49706230   O    623  FRUIT PR NES                                          
+b    49704980   O    498  LEMONJUICE S                         
+b    49704990   O    499  LEMONJUICE C                         
+b    49705140   O    514  CITRUS JUI C                         
+b    49706220   O    622  FRUIT JUICE                          
+                                                                                
+                I    507  GRAPEFRUIT                                            
+b    50705090   O    509  GRAPEF JUICE                         
+b    50705130   O    513  CITRUS JUICE                         
+b    50706230   O    623  FRUIT PR NES                                          
+b    50705100   O    510  GRAPEFJUI CC                         
+b    50705140   O    514  CITRUS JUI C                         
+b    50706220   O    622  FRUIT JUICE                          
+                                                                                
+                I    512  CITR FRT NES                                          
+b    51205130   O    513  CITRUS JUICE                         
+b    51206230   O    623  FRUIT PR NES                                          
+b    51205140   O    514  CITRUS JUI C                         
+b    51206220   O    622  FRUIT JUICE                          
+                                                                                
+                I    515  APPLES                                                
+b    51505170   O    517  FERM BEVERAG                         
+b    51506200   O    620  FRUIT DR NES                                          
+b    51506220   O    622  FRUIT JUICE                          
+b    51506230   O    623  FRUIT PR NES                                          
+b    51506250   O    625  FRUIT NT.PL.                                          
+b    51506260   O    626  FRUIT HOM.CK                                          
+b    51506340   O    634  BEV DIS ALC                          
+b    51505180   O    518  APPLEJUICE S                         
+b    51505190   O    519  APPLEJUICE C                         
+b    51506320   O    632  ALC NON-FOOD                         
+                                                                                
+                I    521  PEARS                                                 
+b    52105170   O    517  FERM BEVERAG                         
+b    52106200   O    620  FRUIT DR NES                                          
+b    52106220   O    622  FRUIT JUICE                          
+b    52106230   O    623  FRUIT PR NES                                          
+b    52106250   O    625  FRUIT NT.PL.                                          
+b    52106260   O    626  FRUIT HOM.CK                                          
+b    52106340   O    634  BEV DIS ALC                          
+                                                                                
+                I    523  QUINCES                                               
+b    52306230   O    623  FRUIT PR NES                                          
+                                                                                
+                I    526  APRICOTS                                              
+b    52606230   O    623  FRUIT PR NES                                          
+b    52606250   O    625  FRUIT NT.PL.                                          
+b    52606260   O    626  FRUIT HOM.CK                                          
+b    52606340   O    634  BEV DIS ALC                          
+b    52605270   O    527  APRICOTS DRY                                          
+b    52606320   O    632  ALC NON-FOOD                         
+                                                                                
+                I    530  SOUR CHERRY                                           
+b    53006230   O    623  FRUIT PR NES                                          
+b    53006340   O    634  BEV DIS ALC                          
+b    53006220   O    622  FRUIT JUICE                          
+                                                                                
+                I    531  CHERRIES                                              
+b    53106200   O    620  FRUIT DR NES                                          
+b    53106220   O    622  FRUIT JUICE                          
+b    53106230   O    623  FRUIT PR NES                                          
+b    53106250   O    625  FRUIT NT.PL.                                          
+b    53106260   O    626  FRUIT HOM.CK                                          
+b    53106340   O    634  BEV DIS ALC                          
+                                                                                
+                I    534  PEACHES                                               
+b    53406200   O    620  FRUIT DR NES                                          
+b    53406220   O    622  FRUIT JUICE                          
+b    53406230   O    623  FRUIT PR NES                                          
+b    53406250   O    625  FRUIT NT.PL.                                          
+b    53406260   O    626  FRUIT HOM.CK                                          
+b    53406340   O    634  BEV DIS ALC                          
+                                                                                
+                I    536  PLUMS                                                 
+b    53605370   O    537  PLUMS, DRIED                                          
+b    53606230   O    623  FRUIT PR NES                                          
+b    53606250   O    625  FRUIT NT.PL.                                          
+b    53606260   O    626  FRUIT HOM.CK                                          
+b    53606340   O    634  BEV DIS ALC                          
+b    53605380   O    538  PLUMJUICE SS                         
+b    53605390   O    539  PLUMJUICE CC                         
+b    53606320   O    632  ALC NON-FOOD                         
+                                                                                
+                I    541  STONE FRUIT                                           
+b    54106200   O    620  FRUIT DR NES                                          
+b    54106220   O    622  FRUIT JUICE                          
+b    54106230   O    623  FRUIT PR NES                                          
+b    54106340   O    634  BEV DIS ALC                          
+                                                                                
+                I    542  POME FRUIT                                            
+b    54206200   O    620  FRUIT DR NES                                          
+b    54206220   O    622  FRUIT JUICE                          
+b    54206230   O    623  FRUIT PR NES                                          
+b    54206340   O    634  BEV DIS ALC                          
+b    54205170   O    517  FERM BEVERAG                         
+                                                                                
+                I    544  STRAWBERRIES                                          
+b    54406230   O    623  FRUIT PR NES                                          
+b    54406340   O    634  BEV DIS ALC                          
+                                                                                
+                I    547  RASPBERRIES                                           
+b    54706220   O    622  FRUIT JUICE                          
+b    54706230   O    623  FRUIT PR NES                                          
+b    54706340   O    634  BEV DIS ALC                          
+                                                                                
+                I    549  GOOSEBERRIES                                          
+b    54906220   O    622  FRUIT JUICE                          
+b    54906230   O    623  FRUIT PR NES                                          
+b    54906340   O    634  BEV DIS ALC                          
+                                                                                
+                I    550  CURRANTS                                              
+b    55006220   O    622  FRUIT JUICE                          
+b    55006230   O    623  FRUIT PR NES                                          
+b    55006340   O    634  BEV DIS ALC                          
+                                                                                
+                I    552  BLUEBERRIES                                           
+b    55206220   O    622  FRUIT JUICE                          
+b    55206230   O    623  FRUIT PR NES                                          
+b    55206340   O    634  BEV DIS ALC                          
+                                                                                
+                I    554  CRANBERRIES                                           
+b    55406220   O    622  FRUIT JUICE                          
+b    55406230   O    623  FRUIT PR NES                                          
+b    55406340   O    634  BEV DIS ALC                          
+                                                                                
+                I    558  BERRIES NES                                           
+b    55806220   O    622  FRUIT JUICE                          
+b    55806230   O    623  FRUIT PR NES                                          
+b    55806340   O    634  BEV DIS ALC                          
+                                                                                
+                I    560  GRAPES                                                
+b    56005610   O    561  RAISINS                                               
+b    56005620   O    562  GRAPE JUICE                                           
+b    56005631   O    563  MUST GRAPES                                           
+b    56005632   O    563  MUST GRAPES    566  GRAPE MARC                        
+b    56005641   O    564  WINE           566  GRAPE MARC                        
+b    56005642   O    564  WINE                                 
+b    56006230   O    623  FRUIT PR NES                                          
+b    56006340   O    634  BEV DIS ALC                          
+                                                                                
+                I    563  MUST GRAPES                                           
+b    56305620   O    562  GRAPE JUICE                                           
+b    56305640   O    564  WINE                                                  
+b    56306340   O    634  BEV DIS ALC                          
+                                                                                
+                I    564  WINE                                                  
+b    56405650   O    565  VERMTH SIMIL                                          
+b    56406340   O    634  BEV DIS ALC                                           
+                                                                                
+                I    566  GRAPE MARC                                            
+b    56606320   O    632  ALC NON-FOOD                         
+b    56606340   O    634  BEV DIS ALC                          
+                                                                                
+                I    567  WATERMELLONS                                          
+b    56706320   O    632  ALC NON-FOOD                         
+b    56706340   O    634  BEV DIS ALC                          
+                                                                                
+                I    568  MEL INC CANT                                          
+b    56806220   O    622  FRUIT JUICE                          
+b    56806340   O    634  BEV DIS ALC                          
+c    56812320   O   1232  FOOD PREP NS                                          
+                                                                                
+                I    569  FIGS                                                  
+b    56905700   O    570  FIGS, DRIED                                           
+b    56906200   O    620  FRUIT DR NES                                          
+b    56906230   O    623  FRUIT PR NES                                          
+b    56906320   O    632  ALC NON-FOOD                         
+b    56906340   O    634  BEV DIS ALC                          
+                                                                                
+                I    571  MANGOES                                               
+b    57106230   O    623  FRUIT PR NES                                          
+b    57105830   O    583  MANGO JUICE    584  MANGO PULP                        
+b    57106220   O    622  FRUIT JUICE                          
+                                                                                
+                I    572  AVOCADOS                                              
+b    57206230   O    623  FRUIT PR NES                                          
+                                                                                
+                I    574  PINEAPPLES                                            
+b    57405751   O    575  PINEAPPLE CA   576  PINEAP JUI S                      
+b    57405752   O    575  PINEAPPLE CA   580  PINEAP JUI C                      
+b    57405760   O    576  PINEAP JUI S                         
+b    57405800   O    580  PINEAP JUI C                         
+b    57406220   O    622  FRUIT JUICE                          
+b    57406230   O    623  FRUIT PR NES                                          
+                                                                                
+                I    577  DATES                                                 
+b    57706200   O    620  FRUIT DR NES                                          
+b    57706230   O    623  FRUIT PR NES                                          
+b    57706040   O    604  FR TRP DR NS                                          
+b    57706340   O    634  BEV DIS ALC                          
+                                                                                
+                I    591  CASHEWAPPLE                                           
+b    59106230   O    623  FRUIT PR NES                                          
+                                                                                
+                I    603  FRT TROP NES                                          
+b    60305170   O    517  FERM BEVERAG                         
+b    60306040   O    604  FR TRP DR NS                                          
+b    60306200   O    620  FRUIT DR NES                                          
+b    60306220   O    622  FRUIT JUICE                          
+b    60306230   O    623  FRUIT PR NES                                          
+b    60306240   O    624  FLOUR FRUIT                                           
+b    60306320   O    632  ALC NON-FOOD                         
+b    60306340   O    634  BEV DIS ALC                          
+                                                                                
+                I    619  FRUIT NES                                             
+b    61906200   O    620  FRUIT DR NES                                          
+b    61906220   O    622  FRUIT JUICE                          
+b    61906230   O    623  FRUIT PR NES                                          
+b    61906240   O    624  FLOUR FRUIT                                           
+b    61905170   O    517  FERM BEVERAG                         
+b    61906320   O    632  ALC NON-FOOD                         
+b    61906340   O    634  BEV DIS ALC                          
+                                                                                
+                I    622  FRUIT JUICE                                           
+b    62206340   O    634  BEV DIS ALC                          
+                                                                                
+                I    632  ALC NON-FOOD                                          
+b    63206340   O    634  BEV DIS ALC                                           
+                                                                                
+                I    654  DREGS-AS-INP                                          
+b    65406340   O    634  BEV DIS ALC                                           
+                                                                                
+                I    656  COFFEE,GREEN                                          
+b    65606570   O    657  COFFEE ROAST                                          
+b    65606580   O    658  COFFEE SUBST                                          
+b    65606590   O    659  COFFEE EXTR                                           
+                                                                                
+                I    661  COCOA BEANS                                           
+b    66106620   O    662  COCOA PASTE    663  COCOA HUSKS                       
+                                                                                
+                I    662  COCOA PASTE                                           
+b    66206640   O    664  COCOA BUTTER   665  COCOA POWDER                      
+                                                                                
+                I    664  COCOA BUTTER                                          
+b    66406660   O    666  CHOC PROD NE                                          
+                                                                                
+                I    665  COCOA POWDER                                          
+b    66506660   O    666  CHOC PROD NE                                          
+                                                                                
+                I    754  PYRETHRUM                                             
+b    75407550   O    755  PYRET EXTR.    756  PYRET MARC                        
+                                                                                
+                I    826  TOBACCO                                               
+b    82608280   O    828  CIGARETTES                                            
+b    82608290   O    829  CIGARS                                                
+b    82608310   O    831  TOBAC PROD                                            
+                                                                                
+                I    836  NAT RUBBER                                            
+b    83608370   O    837  RUBBER DRY                                            
+                                                                                
+                I    866  CATTLE                                                
+f    86608670   O    867  BEEF VEAL      868  OFFALS CATTL   869  FAT CATTLE     919  CATTLE HIDES                                          
+                                                                                
+                I    867  BEEF VEAL                                             
+b    86708700   O    870  BEEF BONELES   871  CATTLE BU FA                      
+b    86708720   O    872  BEEF DSS                                              
+b    86708730   O    873  MEAT EXTRACT                                          
+b    86708740   O    874  SAUSAGE BEEF                                          
+b    86708750   O    875  BEEF PREP                                             
+b    86708760   O    876  BEEF CANNED                                           
+b    86708770   O    877  MEAT HOMOG P                                          
+b    86711720   O   1172  MEAT PR NES                                           
+                                                                                
+                I    868  OFFALS CATTL                                          
+b    86808780   O    878  LIVER PREPAR                                          
+b    86811640   O   1164  MEAT DRD NES                                          
+                                                                                
+                I    869  FAT CATTLE                                            
+b    86911680   O   1168  OILS ANIMAL                                           
+b    86912250   O   1225  TALLOW                                                
+b    86912430   O   1243  FATS PREP NS                                          
+                                                                                
+                I    870  BEEF BONELSS                                          
+b    87008720   O    872  XXXXXXXXXXX                                           
+b    87008740   O    874  XXXXXXXXXXX                                           
+b    87008750   O    875  XXXXXXXXXXX                                           
+                                                                                
+                I    871  CATTLE BU FA                                          
+b    87111680   O   1168  OILS ANIMAL                                           
+b    87112250   O   1225  TALLOW                                                
+b    87112430   O   1243  FATS PREP NS                                          
+                                                                                
+                I    882  COW MILK                                              
+c    88208860   O    886  BUTTER, COWS   888  SK MILK COWS                      
+c    88208870   O    887  GHEE, COWS     888  SK MILK COWS                      
+c    88208850   O    885  CREAM, FRESH   888  SK MILK COWS                      
+b    88208910   O    891  YOGURT                                                
+b    88208920   O    892  YOGURTCONCE                                           
+b    88208940   O    894  WH MILK,EVAP                                          
+b    88208890   O    889  WH MILK,COND                                          
+c    88208930   O    893  BTRM,CRD,ACD   886  BUTTER, COWS                      
+b    88208970   O    897  COWMILK DRY                                           
+b    88208980   O    898  MILK SK DR C                                          
+c    88209010   O    901  CHEESE W COW   903  WHEY, FRESH                       
+c    88209040   O    904  CHEESE S COW   903  WHEY, FRESH                       
+                                                                                
+                I    885  CREAM, FRESH                                          
+b    88509070   O    907  CHEESE PROC                                           
+                                                                                
+                I    887  GHEE                                                  
+b    88708940   O    894  WH MLK EVAP                                           
+                                                                                
+                I    888  SK MILK COWS                                          
+b    88808910   O    891  YOGURT                                                
+b    88808970   O    897  COWMILK DRY                                           
+b    88808890   O    889  WH MILK,COND                                          
+b    88808960   O    896  SK MILK COND                                          
+b    88808980   O    898  MILK SK DR C                                          
+b    88808990   O    899  DRY BUTTERMI                                          
+c    88809040   O    904  CHEESE S COW   903  WHEY, FRESH                       
+b    88808950   O    895  SKMILK EVAP                                           
+b    88809170   O    917  CASEIN                                                
+c    88809010   O    901  CHEESE W COW   903  WHEY, FRESH                       
+                                                                                
+                I    891  YOGHURT                                               
+b    89108920   O    892  YOGHURT DERI                                          
+                                                                                
+                I    893  BTRM,CUR,ACD                                          
+b    89308990   O    899  DRY BUTTERMI                                          
+                                                                                
+                I    895  SKMILK EVAP                                           
+b    89509080   O    908  MILK RECST                                            
+                                                                                
+                I    896  SK MILK COND                                          
+b    89609080   O    908  MILK RECST                                            
+                                                                                
+                I    897  COWMILK DRY                                           
+b    89708890   O    889  WH MILK,COND                                          
+b    89708940   O    894  WH MILK,EVAP                                          
+                                                                                
+                I    898  MILK SK DR C                                          
+b    89809080   O    908  MILK RECST                                            
+b    89808890   O    889  WH MILK,COND                                          
+b    89808940   O    894  WH MILK,EVAP                                          
+                                                                                
+                I    899  DRY BUTTERMI                                          
+b    89909080   O    908  MILK RECST                                            
+                                                                                
+                I    900  DRY WHEY                                              
+c    90009030   O    903  WHEY, FRESH                                           
+                                                                                
+                I    901  CHEESE W COW                                          
+b    90109070   O    907  CHEESE PROC                                           
+                                                                                
+                I    903  WHEY, FRESH                                           
+b    90308900   O    890  WHEY,CONDENS                                          
+b    90309000   O    900  DRY WHEY                                              
+c    90309050   O    905  WHEY CHEESE                                           
+c    90309010   O    901  CHEESE W COW                                          
+c    90301730   O    173  LACTOSE                                               
+                                                                                
+                I    904  CHEESE S COW                                          
+b    90409070   O    907  CHEESE PROC                                           
+                                                                                
+                I    905  WHEY CHEESE                                           
+b    90509070   O    907  CHEESE PROC                                           
+                                                                                
+                I    908  MILK RECST                                            
+b    90808940   O    894  WH MLK EVAP                                           
+                                                                                
+                I    919  CATTLE HIDES                                          
+b    91909200   O    920  HIDE W CATTL                                          
+b    91909220   O    922  HIDE N CATTL                                          
+b    91909280   O    928  SKIN W CALVE                                          
+b    91909300   O    930  SKIN N CATTL                                          
+                                                                                
+                I    920  HIDE W CATTL                                          
+b    92009210   O    921  HIDE D CATTL                                          
+                                                                                
+                I    927  SKIN F CALVE                                          
+b    92709280   O    928  SKIN W CALVE                                          
+b    92709300   O    930  SKIN N CATTL                                          
+                                                                                
+                I    928  SKIN W CALVE                                          
+b    92809290   O    929  SKIN D CALVE                                          
+                                                                                
+                I    946  BUFFALOES                                             
+f    94609470   O    947  BUFFALO MEAT   948  OFFAL BUFFAL   949  FAT BUFFALO    957  BUFFALO HIDE                                          
+                                                                                
+                I    949  FAT BUFFALO                                           
+b    94912250   O   1225  TALLOW                                                
+b    94912430   O   1243  FATS PREP NS                                          
+                                                                                
+                I    951  BUFFALO MILK                                          
+c    95109520   O    952  BUTTER BUFFL   954  MILK SK BUFF   
+c    95109540   O    954  MILK SK BUFF   953  GHEE BUFFALO                      
+c    95109550   O    955  CHEES BUFFL    903  WHEY, FRESH                       
+                                                                                
+                I    954  MILK SK BUFF                                          
+c    95409550   O    955  CHEES BUFFL    903  WHEY, FRESH                       
+                                                                                
+                I    957  BUFFALO HIDE                                          
+b    95709580   O    958  HIDE W BUFFL                                          
+                                                                                
+                I    958  HIDE W BUFFL                                          
+b    95809590   O    959  HIDE D BUFFL                                          
+                                                                                
+                I    976  SHEEP                                                 
+f    97609770   O    977  MUTTON LAMB    978  OFFALS SHEEP   979  FAT OF SHEEP   995  SHEEPSKINS                                            
+                                                                                
+                I    979  FAT OF SHEEP                                          
+b    97911680   O   1168  OILS ANIMAL                                           
+b    97912250   O   1225  TALLOW                                                
+b    97912430   O   1243  FATS PREP NS                                          
+                                                                                
+                I    982  SHEEP MILK                                            
+c    98209830   O    983  BUTTER SHEEP   985  SK MILK SHEE                      
+c    98209840   O    984  SHEEP CHEESE   903  WHEY, FRESH                       
+                                                                                
+                I    985  SK MILK SHEE                                          
+c    98509840   O    984  SHEEP CHEESE   903  WHEY, FRESH                       
+                                                                                
+                I    995  SHEEPSKINS                                            
+b    99509960   O    996  SKIN W SHEEP                                          
+b    99509980   O    998  SKIN NES SH                                           
+b    99509990   O    999  SKINWOOL SH                                           
+                                                                                
+                I    996  SKIN W SHEEP                                          
+b    99609970   O    997  SKIN D SHEEP                                          
+                                                                                
+                I   1016  GOATS                                                 
+f   101610170   O   1017  GOAT MEAT     1018  OFFALS GOATS  1019  FAT OF GOATS  1025  GOATSKINS                                             
+                                                                                
+                I   1019  FAT OF GOATS                                          
+b   101911680   O   1168  OILS ANIMAL                                           
+b   101912250   O   1225  TALLOW                                                
+b   101912430   O   1243  FATS PREP NS                                          
+                                                                                
+                I   1020  GOAT MILK                                             
+c   102010210   O   1021  GOAT CHEESE    903  WHEY, FRESH                       
+c   102010220   O   1022  GOAT BUTTER   1023  GOAT MILK SK                      
+                                                                                
+                I   1023  GOAT MILK SK                                          
+c   102310210   O   1021  GOAT CHEESE    903  WHEY, FRESH                       
+                                                                                
+                I   1025  GOATSKINS                                             
+b   102510260   O   1026  SKIN W GOAT                                           
+b   102510280   O   1028  SKIN NES GOA                                          
+                                                                                
+                I   1026  SKIN W GOAT                                           
+b   102610270   O   1027  SKIN D GOAT                                           
+                                                                                
+                I   1034  PIGS                                                  
+f   103410351   O   1035  PIGMEAT       1036  OFFALS PIGS   1037  FAT PIGS      
+f   103410352   O   1035  PIGMEAT       1036  OFFALS PIGS   1037  FAT PIGS      1044  PIGSKIN                                               
+                                                                                
+                I   1035  PIGMEAT                                               
+b   103510380   O   1038  PORK          1040  PIG BU FAT                        
+b   103510390   O   1039  BACON PIGS                                            
+b   103510410   O   1041  SAUSAGES PIG                                          
+b   103510420   O   1042  MEAT PR PIG                                           
+c   103510440   O   1044  PIGSKINS                                              
+                                                                                
+                I   1037  FAT PIGS                                              
+b   103710430   O   1043  LARD                                                  
+b   103711680   O   1168  OILS ANIMAL                                           
+b   103712250   O   1225  TALLOW                                                
+b   103712430   O   1243  FATS PREP NS                                          
+                                                                                
+                I   1038  PORK                                                  
+b   103810410   O   1041  SAUSAGES PIG                                          
+b   103810420   O   1042  MEAT PR PIG                                           
+                                                                                
+                I   1040  PIG BU FAT                                            
+b   104011680   O   1168  OILS ANIMAL                                           
+b   104010430   O   1043  LARD                                                  
+b   104012210   O   1221  STEARINE                                              
+b   104012250   O   1225  TALLOW                                                
+b   104012430   O   1243  FATS PREP NS                                          
+                                                                                
+                I   1043  LARD                                                  
+b   104312210   O   1221  STEARINE                                              
+b   104312430   O   1243  FATS PREP NS                                          
+                                                                                
+                I   1044  PIGSKINS                                              
+b   104410450   O   1045  SKIN W PIGS                                           
+b   104410470   O   1047  SKIN NES PIG                                          
+                                                                                
+                I   1045  SKIN W PIGS                                           
+b   104510460   O   1046  SKIN D PIGS                                           
+                                                                                
+                I   1057  CHICKENS                                              
+f   105710581   O   1058  CHICKEN MEAT  1059  OFFAL CHICKEN                     
+f   105710582   O   1058  CHICKEN MEAT                                          
+                                                                                
+                I   1058  CHICKEN MEAT                                          
+c   105810590   O   1059  OFFAL CHICKN                                          
+b   105810600   O   1060  MEAT PR CHCK                                          
+b   105810610   O   1061  MEAT CD CHCK                                          
+c   105810650   O   1065  FAT POULTRY                                           
+b   105808770   O    877  MEAT HOMOG P                                          
+                                                                                
+                I   1062  HEN EGGS                                              
+b   106210630   O   1063  EGGS L HEN                                            
+b   106210640   O   1064  EGGS DRY HEN                                          
+                                                                                
+                I   1063  EGGS L HEN                                            
+c   106309160   O    916  EGG ALBUMINE                                          
+                                                                                
+                I   1065  FAT POULTRY                                           
+b   106510660   O   1066  FAT R POULTR                                          
+b   106512430   O   1243  FATS PREP NS                                          
+                                                                                
+                I   1066  FAT R POULTR                                          
+b   106612430   O   1243  FATS PREP NS                                          
+                                                                                
+                I   1068  DUCKS                                                 
+f   106810690   O   1069  DUCK MEAT                                             
+f   106810750   O   1075  LIVER D OFF                                           
+                                                                                
+                I   1072  GEESE                                                 
+f   107210730   O   1073  GOOSE MEAT                                            
+f   107210740   O   1074  LIVER G OFF                                           
+                                                                                
+                I   1073  GOOSEMEAT                                             
+c   107310740   O   1074  LIVER G OFF                                           
+                                                                                
+                I   1079  TURKEYS                                               
+f   107910800   O   1080  TURKEY MEAT                                           
+c   107910810   O   1081  LIVER T OFF                                           
+                                                                                
+                I   1080  TURKEY MEAT                                           
+c   108010810   O   1081  LIVER T OFF                                           
+                                                                                
+                I   1083  PIGN OTH PLT                                          
+f   108310891   O   1089  POULTRY MEAT                                          
+                                                                                
+                I   1083  PIGN OTH PLT                                          
+f   108310892   O   1089  POULTRY MEAT  1213  HIDES NES FR  1219  HAIR COARSE   
+                                                                                
+                I   1096  HORSES                                                
+f   109610971   O   1097  HORSEMEAT     1098  OFFALS HORSE  1102  HORSE HIDES   
+f   109610972   O   1097  HORSEMEAT     1102  HORSE HIDES                       
+f   109610973   O   1097  HORSEMEAT                            
+                                                                                
+                I   1102  HORSE HIDES                                           
+b   110211030   O   1103  HIDE W HORSE                                          
+b   110211050   O   1105  HIDE U HORSE                                          
+                                                                                
+                I   1103  HIDE W HORSE                                          
+b   110311040   O   1104  HIDE D HORSE                                          
+                                                                                
+                I   1107  ASSES                                                 
+f   110711080   O   1108  MEAT ASSES    1109  HIDE ASSES F                      
+                                                                                
+                I   1110  MULES                                                 
+f   111011110   O   1111  MEAT MULES    1112  HIDE MULES F                      
+                                                                                
+                I   1126  CAMELS                                                
+f   112611270   O   1127  MEAT CAMEL    1128  OFFALS CAMEL  1129  FAT CAMEL     1133  HIDES CAMEL                                           
+                                                                                
+                I   1133  HIDES CAMEL                                           
+b   113311340   O   1134  HIDES W CAME                                          
+b   113311360   O   1136  HIDE U CAMEL                                          
+                                                                                
+                I   1134  HIDES W CAME                                          
+b   113411350   O   1135  HIDES D CAME                                          
+                                                                                
+                I   1140  RABBITS                                               
+f   114011410   O   1141  RABBIT MEAT   1146  RABBIT SKINS                      
+                                                                                
+                I   1150  OTHER RODENT                                          
+f   115011510   O   1151  MEAT OTH ROD                                          
+                                                                                
+                I   1157  OTH CAMELIDS                                          
+f   115711580   O   1158  MEAT OTH CAM  1159  OFFL OTH CAM  1160  FAT OTH CAM   
+                                                                                
+                I   1163  GAME MEAT                                             
+b   116311640   O   1164  MEAT DRY NES                                          
+c   116311670   O   1167  OFFALS NES                                            
+b   116311720   O   1172  MEAT PR NES                                           
+                                                                                
+                I   1166  MEAT NES                                              
+b   116611640   O   1164  MEAT DRY NES                                          
+c   116611670   O   1167  OFFALS NES                                            
+b   116611720   O   1172  MEAT PR NES                                           
+                                                                                
+                I   1168  OILS ANIMAL                                           
+c   116812250   O   1225  TALLOW                                                
+b   116812420   O   1242  MARGARINE                                             
+b   116812430   O   1243  FATS PREP NS                                          
+                                                                                
+                I   1182  HONEY                                                 
+b   118205170   O    517  FERM BEVERAG                                          
+                                                                                
+                I   1213  HIDES NES FR                                          
+b   121312140   O   1214  HIDE WS                                               
+                                                                                
+                I   1214  HIDE WS                                               
+b   121412150   O   1215  HIDE DS                                               
+                                                                                
+                I   1225  TALLOW                                                
+b   122511680   O   1168  OILS ANIMAL                                           
+b   122512430   O   1243  FATS PREP NS                                          
+b   122512760   O   1276  FATTY ACIDS                                           
+b   122512750   O   1275  OILS HYDROGN                                          
+b   122512420   O   1242  MARGARINE                                             
+                                                                                
+                I   1243  FATS PREP NS                                          
+b   124312210   O   1221  STEARINE                                              
+b   124312420   O   1242  MARGARINE                                             
+                                                                                
+                I   1275  OILS HYDROGN                                          
+b   127512410   O   1241  LIQUID MARGN                                          
+b   127512420   O   1242  MARGARINE                                             
+                                                                                
+                I   1501  FRWTR DIAD F                                          
+b   150115020   O   1502  FRWTR FZ WHL                                          
+b   150115030   O   1503  FRWTR FILLET                                          
+b   150115040   O   1504  FRWTR FZ FLT                                          
+b   150115050   O   1505  FRWTR CURED                                           
+b   150115060   O   1506  FRWTR CANNED                                          
+b   150115070   O   1507  FRWTR PR NES                                          
+b   150115080   O   1508  FRWTR MEALS                                           
+                                                                                
+                I   1502  FRWTR FZ WHL                                          
+b   150215030   O   1503  FRWTR FILLET                                          
+b   150215040   O   1504  FRWTR FZ FLT                                          
+b   150215050   O   1505  FRWTR CURED                                           
+b   150215060   O   1506  FRWTR CANNED                                          
+b   150215070   O   1507  FRWTR PR NES                                          
+b   150215080   O   1508  FRWTR MEALS                                           
+                                                                                
+                I   1514  DMRSL FRESH                                           
+b   151415150   O   1515  DMRSL FZ WHL                                          
+b   151415160   O   1516  DMRSL FILLET                                          
+b   151415170   O   1517  DMRSL FZ FLT                                          
+b   151415180   O   1518  DMRSL CURED                                           
+b   151415190   O   1519  DMRSL CANNED                                          
+b   151415200   O   1520  DMRSL PR NES                                          
+b   151415210   O   1521  DMRSL MEALS                                           
+                                                                                
+                I   1515  DMRSL FZ WHL                                          
+b   151515160   O   1516  DMRSL FILLET                                          
+b   151515170   O   1517  DMRSL FZ FLT                                          
+b   151515180   O   1518  DMRSL CURED                                           
+b   151515190   O   1519  DMRSL CANNED                                          
+b   151515200   O   1520  DMRSL PR NES                                          
+                                                                                
+                I   1517  DMRSL FZ FLT                                          
+b   151715180   O   1518  DMRSL CURED                                           
+b   151715190   O   1519  DMRSL CANNED                                          
+                                                                                
+                I   1522  DMRS BDY OIL                                          
+b   152212420   O   1242  MARGARINE                                             
+b   152211680   O   1168  OILS ANIMAL                                           
+b   152212250   O   1225  TALLOW                                                
+                                                                                
+                I   1523  DMRS LVR OIL                                          
+b   152312420   O   1242  MARGARINE                                             
+b   152311680   O   1168  OILS ANIMAL                                           
+b   152312250   O   1225  TALLOW                                                
+                                                                                
+                I   1527  PELAGIC FRSH                                          
+b   152715280   O   1528  PELGC FZ WHL                                          
+b   152715290   O   1529  PELGC FZ WHL                                          
+b   152715300   O   1530  PELGC FZ FLT                                          
+b   152715310   O   1531  PELGC CURED                                           
+b   152715320   O   1532  PELGC CANNED                                          
+b   152715330   O   1533  PELGC PR NES                                          
+b   152715340   O   1534  PELGC MEALS                                           
+                                                                                
+                I   1528  PELGC FZ WHL                                          
+b   152815290   O   1529  PELGC FZ WHL                                          
+b   152815300   O   1530  PELGC FZ FLT                                          
+b   152815310   O   1531  PELGC CURED                                           
+b   152815320   O   1532  PELGC CANNED                                          
+b   152815330   O   1533  PELGC PR NES                                          
+                                                                                
+                I   1530  PELGC FZ FLT                                          
+b   153015310   O   1531  PELGC CURED                                           
+b   153015320   O   1532  PELGC CANNED                                          
+                                                                                
+                I   1535  PELG BDY OIL                                          
+b   153512420   O   1242  MARGARINE                                             
+b   153512430   O   1243  FATS PREP NS                                          
+b   153511680   O   1168  OILS ANIMAL                                           
+b   153512250   O   1225  TALLOW                                                
+b   153512750   O   1275  OILS HYDROGN                                          
+                                                                                
+                I   1536  PELG LVR OIL                                          
+b   153612420   O   1242  MARGARINE                                             
+b   153612430   O   1243  FATS PREP NS                                          
+b   153611680   O   1168  OILS ANIMAL                                           
+b   153612250   O   1225  TALLOW                                                
+b   153612750   O   1275  OILS HYDROGN                                          
+                                                                                
+                I   1540  MARINE NES F                                          
+b   154015410   O   1541  MARINE FZ WH                                          
+b   154015420   O   1542  MARIN FILLET                                          
+b   154015430   O   1543  MARIN FZ FLT                                          
+b   154015440   O   1544  MARIN CURED                                           
+b   154015450   O   1545  MARIN CANNED                                          
+b   154015460   O   1546  MARIN PR NES                                          
+b   154015470   O   1547  MARIN MEALS                                           
+                                                                                
+                I   1541  MARIN FZ WHL                                          
+b   154115420   O   1542  MARIN FILLET                                          
+b   154115430   O   1543  MARIN FZ FLT                                          
+b   154115440   O   1544  MARIN CURED                                           
+b   154115450   O   1545  MARIN CANNED                                          
+b   154115460   O   1546  MARIN PR NES                                          
+                                                                                
+                I   1543  MARIN FZ FLT                                          
+b   154315440   O   1544  MARIN CURED                                           
+b   154315450   O   1545  MARIN CANNED                                          
+                                                                                
+                I   1553  CRSTACEANS F                                          
+b   155315540   O   1554  CRSTC FROZEN                                          
+b   155315550   O   1555  CRSTC CURED                                           
+b   155315560   O   1556  CRSTC CANNED                                          
+b   155315570   O   1557  CRSTC PR NES                                          
+b   155315580   O   1558  CRSTC MEAL                                            
+                                                                                
+                I   1554  CRSTC FROZEN                                          
+b   155415550   O   1555  CRSTC CURED                                           
+b   155415560   O   1556  CRSTC CANNED                                          
+b   155415570   O   1557  CRSTC PR NES                                          
+                                                                                
+                I   1562  MLLUSCS FRSH                                          
+b   156215630   O   1563  MOLSC FROZEN                                          
+b   156215640   O   1564  MOLSC CURED                                           
+b   156215650   O   1565  MOLSC CANNED                                          
+b   156215660   O   1566  MOLSC MEAL                                            
+                                                                                
+                I   1563  MOLSC FROZEN                                          
+b   156315640   O   1564  MOLSC CURED                                           
+b   156315650   O   1565  MOLSC CANNED                                          
+                                                                                
+                I   1570  CEPHLP FRESH                                          
+b   157015710   O   1571  CPHLP FROZEN                                          
+b   157015720   O   1572  CPHLP CURED                                           
+b   157015730   O   1573  CPHLP CANNED                                          
+b   157015740   O   1574  CPHLP PR NES                                          
+b   157015750   O   1575  CPHLP MEAL                                            
+                                                                                
+		I   1579  AQUTO MAMMAL                                                        
+c   157915800   O   1580  AQ M MEAT                                             
+c   157915810   O   1581  AQ M MEALS                                            
+c   157915820   O   1582  AQ M OILS                                             
+c   157915830   O   1583  AQ M PREP NS                                          
+c   157915840   O   1584  AQ M MEAL OF                                          
+                                                                                
+                I   1582  AQ M OILS                                             
+b   158212420   O   1242  MARGARINE                                             
+b   158212430   O   1243  FATS PREP NS                                          
+b   158211680   O   1168  OILS ANIMAL                                           
+b   158212250   O   1225  TALLOW                                                
+b   158212750   O   1275  OILS HYDROGN                                          
+                                                                                
+                I   1587  AQ ANIM NES                                           
+b   158715880   O   1588  AQ AN CURED                                           
+b   158715890   O   1589  AQ AN PR NES                                          
+b   158715900   O   1590  AQ AN MEAL                                            
+                                                                                
+                I   1594  AQUTC PLANTS                                          
+b   159414950   O   1595  AQ P DRIED                                            
+b   159415960   O   1596  AQ P PREP NS                                          
+                                                                                

@@ -1,0 +1,20 @@
+     FILE AGS.TMP
+
+     FORMAT '15X,A30' FOR FILENAMES
+            '15X,A3'  FOR 'YES' / 'NO '
+               '15X,I2'  FOR INTEGERS
+
+IO - LIST                   : LST/ioext.lst
+IO - LIST                   : LST/ioextjm.lst
+---------------------------------------------
+IO - LIST                   : LST/ioext.lst
+COMM. LIST                  : LST/commap.lst
+AG-STRUCTURE                : BIN/agstr
+AG-LABELS                   : BIN/dirarc.ags
+COM-LABELS                  : BIN/comlab.ags
+do def extr.rates           : YES
+default extr.rates          : LST/defextr.lst
+do automatic cuts           : YES              
+list of comm. for auto cuts : LST/autocuts.lst
+NO. OF YEARS                : 53
+

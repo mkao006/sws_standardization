@@ -1,0 +1,16 @@
+#!/bin/ksh
+# prepare specific aggregation structure
+echo make aggregation structure for $1
+if [[ "$1" != "" ]]
+then
+	suf=_$1
+fi
+cp LST/IOL/ioext$suf.lst LST/ioext.lst
+cp LST/IOL/autocuts$suf.lst LST/autocuts.lst
+run ags
+cp BIN/agstr BIN/DIF/agstr$suf
+cp BIN/comlab.ags BIN/DIF/comlab$suf.ags
+cp BIN/dirarc.ags BIN/DIF/dirarc$suf.ags
+cp LST/IOL/ioext.lst LST
+cp LST/IOL/autocuts.lst LST
+echo run_ags$suf completed

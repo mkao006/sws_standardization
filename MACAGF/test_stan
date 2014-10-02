@@ -1,0 +1,13 @@
+#!/bin/ksh
+# script to run standardisation
+echo test_stan 
+##	mac 231 wrk
+mac $1 $2
+run convrt
+cp ACT/base.smp ACT/0.smp
+cp ACT/$1.smp ACT/0.smp
+run recov
+run ag111
+run ag222
+run rwcflex
+echo test stan completed 

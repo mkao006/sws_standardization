@@ -1,0 +1,94 @@
+    FILE COMMAP_MGO
+
+    specifically for  ESDG
+
+
+ CODES          SHORT NAME                   MAPPINGS         US$     VOL
+
+                123456789012x123456789012345678901234
+-------------------------------------------------------------------------
+   1 3          WHEA         WHEA                    0    0    0     .00     .00
+   2 3          RICE         RICE                    0    0    0     .00     .00
+   3 3          MAIZ         MAIZ                    0    0    0     .00     .00
+   4 3          BARL         BARL                    0    0    0     .00     .00
+   5 3          MILL         MILL                    0    0    0     .00     .00
+   6 3          SORG         SORG                    0    0    0     .00     .00
+   7 3          OTHC         OTHC                    0    0    0     .00     .00
+   8 3          POTA         POTA                    0    0    0     .00     .00
+   9 3          SPOT         SPOT                    0    0    0     .00     .00
+  10 3          CASS         CASS                    0    0    0     .00     .00
+  11 3          OTHR         OTHR                    0    0    0     .00     .00
+  12 3          PLAN         PLAN                    0    0    0     .00     .00
+  13 3          SUGA         SUGA                    0    0    0     .00     .00
+  14 3          PULS         PULS                    0    0    0     .00     .00
+  15 3          VEGE         VEGE                    0    0    0     .00     .00
+  16 3          BANA         BANA                    0    0    0     .00     .00
+  17 3          CITR         CITR                    0    0    0     .00     .00
+  18 3          FRUI         FRUI                    0    0    0     .00     .00
+  19 3          VEGO         VEGO                    0    0    0     .00     .00
+  20 3          COCO         COCO                    0    0    0     .00     .00
+  21 3          COFF         COFF                    0    0    0     .00     .00
+  22 3          TEAS         TEAS                    0    0    0     .00     .00
+  23 3          TOBA         TOBA                    0    0    0     .00     .00
+  24 3          COTT         COTT                    0    0    0     .00     .00
+  25 3          FIBR         FIBR                    0    0    0     .00     .00
+  26 3          RUBB         RUBB                    0    0    0     .00     .00
+  27 3          BEEF         BEEF                    0    0    0     .00     .00
+  28 3          MUTT         MUTT                    0    0    0     .00     .00
+  29 3          PIGM         PIGM                    0    0    0     .00     .00
+  30 3          POUL         POUL                    0    0    0     .00     .00
+  31 3          MILK         MILK                    0    0    0     .00     .00
+  32 3          EGGS         EGGS                    0    0    0     .00     .00
+  51 3          SUGC         SUGAR Cane              0    0    0     .00     .00
+  52 3          SUGB         SUGAR Beet              0    0    0     .00     .00
+  53 3          CSUG         Cane  SUGAR             0    0    0     .00     .00
+  54 3          BSUG         Beet  SUGAR             0    0    0     .00     .00
+  55 3          SUG5         Sugar raw cent.         0    0    0     .00     .00
+  56 3          SUG6         Sugar raw non c.        0    0    0     .00     .00
+  57 3          SUG7         Molasses (calories      0    0    0     .00     .00
+  58 3          SUG8         Sugar NES               0    0    0     .00     .00
+ 101 3          OTOC         Other oil crops         0    0    0     .00     .00
+ 102 3          OTOL         Other oil               0    0    0     .00     .00
+ 103 3          OTOE         Other oil & crops       0    0    0     .00     .00
+ 104 3          OTOX         Other oil crops (oil)   0    0    0     .00     .00
+ 105 3          RAPE         Rapeseed                0    0    0     .00     .00
+ 106 3          RAPE OIL     Rapeseed Oil            0    0    0     .00     .00
+ 107 3          RAPE OIL+C   Rapeseed Oil & crop     0    0    0     .00     .00
+ 108 3          RAPE (oil)   Rapeseed (oil equiv.)   0    0    0     .00     .00
+ 109 3                                               0    0    0     .00     .00
+ 110 3                                               0    0    0     .00     .00
+ 111 3          PALM +PK OIL Palm & PK oil           0    0    0     .00     .00
+ 112 3                                               0    0    0     .00     .00
+ 113 3          SOYB         Soybeans                0    0    0     .00     .00
+ 114 3          SOYB OIL     Soybean oil             0    0    0     .00     .00
+ 115 3          SOYB OIL+C   Soybean oil & crop      0    0    0     .00     .00
+ 116 3          SOYB (oil)   Soybean (oil equiv.)    0    0    0     .00     .00
+ 117 3          GRND         Groundnuts              0    0    0     .00     .00
+ 118 3          GRND OIL     Groundnut oil           0    0    0     .00     .00
+ 119 3          GRND OIL+C   Groundnut oil & crop    0    0    0     .00     .00
+ 120 3          GRND (oil)   Groundnut (oil equiv.)  0    0    0     .00     .00
+ 121 3          SUNF         Sunflowerseed           0    0    0     .00     .00
+ 122 3          SUNF OIL     Sunflowersd oil         0    0    0     .00     .00
+ 123 3          SUNF OIL+C   Sunflowersd oil & crop  0    0    0     .00     .00
+ 124 3          SUNF (oil)   Sunflowersd (oil equiv. 0    0    0     .00     .00
+ 125 3          SESA         Sesame seed             0    0    0     .00     .00
+ 126 3          SESA OIL     Sesame seed oil         0    0    0     .00     .00
+ 127 3          SESA OIL+C   Sesame seed oil & crop  0    0    0     .00     .00
+ 128 3          SESA (oil)   Sesame seed (oil equiv. 0    0    0     .00     .00
+ 129 3          COCN         Coconuts                0    0    0     .00     .00
+ 130 3          COCN OIL     Coconuts oil            0    0    0     .00     .00
+ 131 3          COCN OIL+C   Coconuts oil & crop     0    0    0     .00     .00
+ 132 3          COCN (oil)   Coconuts (oil equiv.    0    0    0     .00     .00
+ 133 3          COTS         Cotton seed             0    0    0     .00     .00
+ 134 3          COTS OIL     Cotton seed oil         0    0    0     .00     .00
+ 135 3          COTS OIL+C   Cotton seed oil & crop  0    0    0     .00     .00
+ 136 3                                               0    0    0     .00     .00
+ 137 3          COTT         Cotton lint             0    0    0     .00     .00
+ 151 3          WHBR         Wheat bran              0    0    0     .00     .00
+ 152 3          RIBR         Rice bran               0    0    0     .00     .00
+ 153 3          MZBR         Maize bran              0    0    0     .00     .00
+ 154 3          BRBR         Barley bran             0    0    0     .00     .00
+ 155 3          MLBR         Millet bran             0    0    0     .00     .00
+ 156 3          SGBR         Sorghum bran            0    0    0     .00     .00
+ 157 3          OTBR         Other bran              0    0    0     .00     .00
+2501 3          POPU         POPU                    0    0    0     .00     .00

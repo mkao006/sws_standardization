@@ -1,0 +1,13 @@
+     FILE MMERGFBCD IN
+
+     FORMAT '30X,A30' FOR FILENAMES
+            '30X,A3'  FOR 'YES'/'NO '
+            '30X,I2'  FOR INTEGERS
+
+
+-----------------------------------------
+data file in 1st            : TMP/MGOresD.dat
+data file in 2nd overrides 1: TMP/MGOresBC.dat
+data file out               : TMP/MGOresBCD.dat
+NO OF YEARS                 : 53
+

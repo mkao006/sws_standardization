@@ -1,0 +1,32 @@
+     FILE defextr IN
+
+     FORMAT '30x,A30' FOR FILENAMES
+            '30x,A3'  FOR 'YES'/'NO '
+            '30x,I2'  FOR INTEGERS
+a
+file 1                      : LST/IOL/iobas22.lst
+file out                    : LST/IOL/ioext.lst
+b
+file 1                      : LST/IOL/iobas22_CBS.lst
+file out                    : LST/IOL/ioext_CBS.lst
+c
+file 1                      : LST/IOL/iobas22_CBD.lst
+file out                    : LST/IOL/ioext_CBD.lst
+d
+file 1                      : LST/IOL/iobas22_MGO.lst
+file out                    : LST/IOL/ioext_MGO.lst
+e
+file 1                      : LST/iobas22.lst
+file out                    : LST/ioext.lst
+x
+file with defextr           : LST/defnew.extr
+file 1                      : LST/IOL/iobas22_JM.lst
+file out                    : LST/IOL/ioext_JM.lst
+-----------------------------------------
+file 1                      : LST/IOL/iobas22_CBD.lst
+file out                    : LST/IOL/ioext_CBD.lst
+insert def extr rates       : YES
+file with defextr           : LST/defextr.lst
+overwrite aggregation labels: NO     
+file with new ag labels     : BIN/dirarc.hlp
+nyr                         : 53

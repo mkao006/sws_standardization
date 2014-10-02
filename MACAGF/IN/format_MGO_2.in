@@ -1,0 +1,11 @@
+     FILE FORMAT_MGO IN
+
+     FORMAT '30X,A30' FOR FILENAMES
+            '30X,A3'  FOR 'YES' / 'NO '
+            '30X,I2'  FOR INTEGERS
+
+---------------------------------------------
+DATA-FILE                   : TMP/MGO222.dat
+do fbs conversions etc.     : NO  
+NYR                         : 53
+
