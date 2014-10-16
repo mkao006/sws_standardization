@@ -5,7 +5,7 @@
 
 library(data.table)
 library(igraph)
-library(faoswsExtra)
+library(faoswsUtil)
 library(FAOSTAT)
 
 currentYear = 2010

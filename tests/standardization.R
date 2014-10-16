@@ -2,7 +2,7 @@ library(RJDBC)
 library(reshape2)
 library(data.table)
 library(igraph)
-library(faoswsExtra)
+library(faoswsUtil)
 library(FAOSTAT)
 source("algorithm.R")
 
