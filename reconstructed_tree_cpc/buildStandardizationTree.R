@@ -7,8 +7,11 @@ suppressMessages({
     library(igraph)
 })
 
+R_SWS_SHARE_PATH = Sys.getenv("R_SWS_SHARE_PATH")
+DEBUG_MODE = Sys.getenv("R_DEBUG_MODE")
+
 ## Set up testing environments
-if(Sys.getenv("USER") == "mk"){
+if(!exists("DEBUG_MODE") || DEBUG_MODE == ""){
     GetTestEnvironment(
         ## baseUrl = "https://hqlqasws1.hq.un.fao.org:8181/sws",
         baseUrl = "https://hqlprswsas1.hq.un.fao.org:8181/sws",
@@ -21,20 +24,17 @@ fclcpcMapping = GetTableData(schemaName = "ess", tableName = "fcl_2_cpc")
 
 ## This default standardization tree was taken from the old system
 ## provided by Rafik.
-oldCommodityTree =
-    data.table(read.csv(file = "item_tree_final.csv"))
+dataUrl = RCurl::getURL("https://raw.githubusercontent.com/mkao006/sws_standardization/master/item_tree_final.csv")
+oldCommodityTree = fread(dataUrl)
 
 ## Remove multiple parents of SEED COTTON (328)
 oldCommodityTree =
     oldCommodityTree[!(itemCode == 328 & targetCode %in% c(767, 769)), ]
 
-
 ## Remove White Maize (67) and also pop corn (68) which are obsolete
-## item and also not mapped uniquely in cpc.
+## items and also not mapped uniquely in cpc.
 oldCommodityTree =
     oldCommodityTree[!itemCode %in% c(67, 68), ]
-
-
 
 ## Append CPC code to the old commodity tree
 setnames(oldCommodityTree, old = c("itemCode", "targetCode"),
@@ -49,8 +49,9 @@ oldCommodityTree[, cpc_parent_code:=
                      fclcpcMapping[match(oldCommodityTree$fcl_parent,
                                          fclcpcMapping$fcl_numeric), cpc]]
 
-
 ## Read in fbs default composition file
+# dataUrl = RCurl::getURL("https://raw.githubusercontent.com/mkao006/sws_standardization/master/item_tree_final.csv")
+# oldCommodityTree = fread(dataUrl)
 fbsComposition =
     data.table(read.csv(file = "default_fbs_composition.csv"))
 ## setnames(fbsComposition, old = "fcl_code", new = "fcl_children")
@@ -91,9 +92,8 @@ cpcCommodityTree[, cpc_parent_name :=
 
 
 ## Read the new fbs code to standardize group mapping
-fbsStndGroupMapping =
-    data.table(read.csv(file = "fbs_stnd_item_map.csv",
-                        colColass = c("character", "character"))
+dataUrl = RCurl::getURL("https://raw.githubusercontent.com/mkao006/sws_standardization/master/reconstructed_tree_cpc/fbs_stnd_item_map.csv")
+fbsStndGroupMapping = fread(dataUrl)
 setnames(fbsStndGroupMapping,
          old = c("FCL", "CPC_ST"),
          new = c("fbs_code", "cpc_standardized_code"))
