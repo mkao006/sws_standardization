@@ -1,0 +1,97 @@
+%\VignetteIndexEntry{faoswsStandardization: A package for the standardization of commodity trees in the Statistical Working System}
+%\VignetteEngine{knitr::knitr}
+\documentclass[nojss]{jss}
+\usepackage{url}
+\usepackage[sc]{mathpazo}
+\usepackage{geometry}
+\geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm}
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+\usepackage{breakurl}
+\usepackage{hyperref}
+\usepackage[ruled, vlined]{algorithm2e}
+\usepackage{mathtools}
+\usepackage{draftwatermark}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{mathrsfs}
+\usepackage{multirow}
+%% \usepackage{mathbbm}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator*{\argmax}{\arg\!\max}
+
+\title{\bf faoswsStandardization: A package for the standardization of commodity trees in the Statistical Working System}
+
+\author{Joshua M. Browning\\ Food and Agriculture
+    Organization \\ of the United Nations\\}
+
+\Plainauthor{Joshua M. Browning}
+
+\Plaintitle{faoswsStandardization: Package for Commodity Tree Standardization}
+
+\Shorttitle{Standardization Module}
+
+\Keywords{Standardization, Commodity Trees}
+\Plainkeywords{Standardization, Commodity Trees}
+
+\Address{
+  Joshua M. Browning\\
+  Economics and Social Statistics Division (ESS)\\
+  Economic and Social Development Department (ES)\\
+  Food and Agriculture Organization of the United Nations (FAO)\\
+  Viale delle Terme di Caracalla 00153 Rome, Italy\\
+  E-mail: \email{joshua.browning@fao.org}\\
+  URL: \url{https://github.com/SWS-Methodology/sws_standardization}
+}
+
+
+\begin{document}
+
+<<setup, include=FALSE, cache=FALSE>>=
+library(knitr)
+library(ggplot2)
+library(gridExtra)
+opts_chunk$set(fig.path='figure/', fig.align='center', fig.show='hold',
+               warning=FALSE, message=FALSE, error=FALSE, tidy=FALSE, 
+               results='markup', eval=TRUE, echo=TRUE, cache=FALSE, dpi=200)
+options(replace.assign=TRUE,width=80)
+assign("depthtrigger", 10, data.table:::.global)
+@ 
+
+\section{Getting Commodity Trees}
+
+\section{Correcting Extraction Rates}
+
+Let's look at the extraction rates for germ of maize:
+
+<<>>=
+data("commodityTree")
+commodityTree
+qplot(commodityTree[measuredItemChildFS == "57", extractionRate])
+@
+
+<<>>=
+subset = commodityTree[measuredItemChildFS == "57", ]
+subset[, c("meanRate", "sdRate") :=
+            huber(extractionRate, k = 1.5), by = byKey]
+subset[, normalScore := (extractionRate - meanRate)/sdRate]
+subset[, extractionQuantile := (rank(normalScore) - .5)/.N, by = byKey]
+subset[, normalValue := qnorm(extractionQuantile, mean = meanRate,
+                                     sd = sdRate)]
+histTop = qplot(subset$extractionRate) + labs(x = "", y = "")
+histRight = qplot(subset$normalValue) + labs(x = "", y = "") +
+    coord_flip()
+scatter = ggplot(subset, aes(x = extractionRate, y = normalValue)) +
+    geom_point()
+empty = ggplot()+geom_point(aes(1,1), colour="white")+
+    theme(axis.ticks=element_blank(), 
+         panel.background=element_blank(), 
+         axis.text.x=element_blank(), axis.text.y=element_blank(),           
+         axis.title.x=element_blank(), axis.title.y=element_blank())
+grid.arrange(histTop, empty, scatter, histRight, ncol=2, nrow=2,
+             widths=c(4, 1), heights=c(1, 4))
+@
+
+\section{Utilizing Trees for Standardization}
+
+\end{document}
