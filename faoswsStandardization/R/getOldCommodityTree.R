@@ -69,5 +69,10 @@ getOldCommodityTree = function(geographicAreaFS, timePointYears){
     edges = merge(shareData, extractionRateData,
                   by = c("geographicAreaFS", "measuredItemChildFS",
                          "timePointYearsSP"))
+    ## Format commodity codes with "0"'s and 4 digits
+    edges[, measuredItemParentFS := formatC(as.numeric(measuredItemParentFS),
+                                        width = 4, flag = "0", format = "d")]
+    edges[, measuredItemChildFS := formatC(as.numeric(measuredItemChildFS),
+                                        width = 4, flag = "0", format = "d")]
     edges
 }

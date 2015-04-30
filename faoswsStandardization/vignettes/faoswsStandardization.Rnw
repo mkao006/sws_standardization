@@ -47,6 +47,16 @@
 
 \begin{document}
 
+\begin{section}
+
+The term ``standardization'' is used within the FAO to refer to the process of taking a commodity tree and aggregating (or disaggregating) commodities to the parents/children.  For example, we have a wheat commodity tree: wheat is processed into flour, bran, and germ.  Wheat flour is in turn processed into bread, pastries, etc. and so we have a complex tree structure.  We don't wish to create food balance sheets for all of these commodities as we have very little data availability, yet we need to account for these commodities when they are available.  Thus, we standardize data on child commodities up to parent commodities.
+
+In most cases, we only have trade data available for the children commodities.  Production is generally available only at the top level (for example, wheat) and the other elements of the balance (i.e. seed, feed, etc.) are extremely sparse and also generally available at the top level only.
+
+Thus, to create a food balance sheet, we need to standardize detailed trade data (i.e. how many pretzels Mexico imported from Germany, how much mozzarella the US imported from Italy, etc.) into higher levels.  We choose to generally standardize to the first processing level (for example wheat flour) as the extraction rates from the raw commodities to the first processed level should be fairly reliable and because we usually have differing utilizations at this point (wheat flour goes to food while most wheat bran goes to feed).  So, we will take production, feed, seed, food, etc. and ``roll it down'' to the first processed level while we'll ``roll up'' trade data to the first processed level.  Then, we can balance our food balance equation.
+
+One further complication is that trade data is reported in HS (harmonized system) commodity codes while all other elements are reported in CPC (central product classification).  Thus, we must first convert the trade data into CPC codes, standardize it, and then it will be comparable to the other elements of the food balance.
+
 <<setup, include=FALSE, cache=FALSE>>=
 library(knitr)
 library(ggplot2)
@@ -59,6 +69,33 @@ assign("depthtrigger", 10, data.table:::.global)
 @ 
 
 \section{Getting Commodity Trees}
+
+Historic commodity trees in FCL (FAO commodity list) codes are available in the system, but they are problematic in that extraction rates were adjustable by the analyst.  Thus, some extraction rates are much too extreme, and so we must work to move all historic extraction rates to meaningful values in our new trees.  Additionally, we must convert the FCL trees into CPC trees, as these codes are what we need for the other elemnts of the FBS.
+
+The first function of use in this package, then, is a function pulling historic commodity trees.  To further complicate matters, we have different commodity trees for each country and each year.
+
+<<>>=
+areas = GetCodeList(domain = "faostat_one", dataset = "aupus_share_fs",
+                    dimension = "geographicAreaFS")$code
+commodityTree = getOldCommodityTree(geographicAreaFS = areas,
+                                    timePointYears = as.character(2005:2011))
+commodityTree
+@
+
+Now, we must convert this commodity tree into CPC codes instead of FCL codes:
+
+<<>>=
+fcl2cpc = GetTableData(schemaName = "ess", tableName = "fcl_2_cpc")
+newTree = mapCommodityTree(oldCommodityTree = commodityTree,
+                           commodityMap = fcl2cpc, oldColname = "fcl",
+                           newColname = "cpc",
+                           parentColname = "measuredItemParentFS",
+                           childColname = "measuredItemChildFS",
+                           extractionColname = "extractionRate",
+                           shareColname = "share",
+                           byKey = c("geographicAreaFS", "timePointYearsSP"))
+newTree
+@
 
 \section{Correcting Extraction Rates}
 

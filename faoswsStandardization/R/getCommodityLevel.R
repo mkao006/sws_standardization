@@ -11,6 +11,10 @@
 ##' of the parent node.
 ##' @param childColname The column name of commodityTree which contains the ID
 ##' of the child node.
+##' @param extractionColname The column name of commodityTree which contains
+##' the extraction rate data.
+##' @param shareColname The column name of commodityTree which contains the
+##' share data.
 ##' 
 ##' @return A data.table with two columns: node (the ID of the commodity code)
 ##' and level.  A level of 0 indicates a top level node which is then processed
