@@ -77,7 +77,7 @@ plotCommodityTrees = function(commodityTree, parentColname, childColname,
         A[indices] = 1
         rownames(A) = allNodes
         colnames(A) = allNodes
-        plotmat(A, curve = 0)
+        plotmat(A, curve = 0, relsize = .7)
     }
     for(id in commodityTree[, unique(finalTreeID)]){
     }
