@@ -99,7 +99,7 @@ standardize = function(nodeData, idColname, quantityColname,
                             calculationFormula = list(),
                             disaggregationFormula = aggFormula)
     
-    output = merge(quantity, calorie, by = "id")
+    output = merge(quantity, calorie, by = idColname)
     setnames(output, quantityColname, "totalQuantity")
     return(output)
 }

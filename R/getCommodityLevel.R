@@ -21,7 +21,8 @@
 ##' into a level 1 node.  Level 1 nodes are processed into level 2, and so on.
 ##' 
 
-getCommodityLevel = function(commodityTree, parentColname, childColname){
+getCommodityLevel = function(commodityTree, parentColname, childColname,
+                             extractionColname, shareColname){
     
     ## Data Quality Checks
     stopifnot(is(commodityTree, "data.table"))

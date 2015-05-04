@@ -8,6 +8,10 @@ GetTestEnvironment(
     ## token = "90bb0f92-e345-4401-945d-1e43af801167"
 )
 
+for(file in dir(path = "~/Documents/Github/sws_standardization/faoswsStandardization/R/",
+                full.names = TRUE))
+    source(file)
+
 extractionRateData = fread("~/Documents/Github/sws_standardization/faoswsStandardization/data/extractionRate2011.csv")
 shareData = fread("~/Documents/Github/sws_standardization/faoswsStandardization/data/shares2011.csv")
 
@@ -41,6 +45,9 @@ oldColname = "itemCodeFCL"
 
 ## Check that everything works:
 load("/home/josh/Documents/Github/Working/FBS Example/tradeData.RData")
+tradeData = tradeData[, sum(Value), by = c("reportingCountryM49",
+                                           "measuredElementTrade",
+                                           "measuredItemHS", "timePointYears")]
 oldCommodityTree[, measuredItemParentFS :=
                       formatC(as.numeric(measuredItemParentFS), width = 4,
                               flag = "0", format = "d")]
@@ -57,17 +64,17 @@ tradeData[, measuredItemHS := formatC(as.numeric(measuredItemHS), width = 6,
 tradeData = tradeData[grepl("^100", measuredItemHS), ]
 smallCommodityTree = newCommodityTree[grepl("^100", childItemCodeHS2012) |
                                       grepl("^100", parentItemCodeHS2012), ]
-tradeData = tradeData[1:10000, ]
 tradeData[, calorieRate := 100]
+setnames(tradeData, old = "V1", new = "Value")
 
 levels = getCommodityLevel(smallCommodityTree, "parentItemCodeHS2012",
-                           "childItemCodeHS2012")
+                           "childItemCodeHS2012", "extractionRate", "share")
 
 standardizedTrade = standardize(nodeData = tradeData,
                                 idColname = "measuredItemHS",
                                 quantityColname = "Value",
                                 calorieRateColname = "calorieRate",
-                                commodityTree = newCommodityTree,
+                                commodityTree = copy(newCommodityTree),
                                 parentColname = "parentItemCodeHS2012",
                                 childColname = "childItemCodeHS2012",
                                 extractionColname = "extractionRate",
