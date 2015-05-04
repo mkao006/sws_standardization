@@ -5,7 +5,7 @@ This is the **github** repository for the development of the FAOSTAT
 Pre-Standardization Methodology.
 
 
-![The Wheat Network](wheat_network.png?raw=true "Test")
+![The Wheat Network](Old_code_and_documentation/wheat_network.png?raw=true "Test")
 
 
 ### Documentation
@@ -13,7 +13,7 @@ Pre-Standardization Methodology.
 ### Presentation
 
 The presentation on the methodology can be downloaded from
-[Slides](presentation/draft_presentation.pdf?raw=TRUE)
+[Slides](Old_code_and_documentation/presentation/draft_presentation.pdf?raw=TRUE)
 
 ### Demo
 
