@@ -70,13 +70,19 @@ setnames(tradeData, old = "V1", new = "Value")
 levels = getCommodityLevel(smallCommodityTree, "parentItemCodeHS2012",
                            "childItemCodeHS2012", "extractionRate", "share")
 
-standardizedTrade = standardize(nodeData = tradeData,
-                                idColname = "measuredItemHS",
-                                quantityColname = "Value",
-                                calorieRateColname = "calorieRate",
-                                commodityTree = copy(newCommodityTree),
-                                parentColname = "parentItemCodeHS2012",
-                                childColname = "childItemCodeHS2012",
-                                extractionColname = "extractionRate",
-                                shareColname = "share",
-                                targetNodes = levels[level == 0, node])
+newCommodityTree[, byProductFlag := FALSE]
+
+standardizedTrade = tradeData[,
+    standardize(nodeData = .SD,
+                idColname = "measuredItemHS", quantityColname = "Value",
+                calorieRateColname = "calorieRate",
+                commodityTree = copy(newCommodityTree),
+                parentColname = "parentItemCodeHS2012",
+                childColname = "childItemCodeHS2012",
+                extractionColname = "extractionRate",
+                shareColname = "share",
+                targetNodes = levels[level == 0, node],
+                byProductColname = "byProductFlag"),
+    by = c("reportingCountryM49", "timePointYears", "measuredElementTrade")]
+tradeData
+standardizedTrade

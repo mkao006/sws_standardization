@@ -26,6 +26,17 @@
 ##' the extraction rate data.
 ##' @param shareColname The column name of commodityTree which contains the
 ##' share data.
+##' @param byProductColname The column name of the "by-product" flag column in
+##' commodityTree.  This variable should be a logical vector indicating which
+##' is always TRUE unless an item's quantity should not be standardized (but
+##' it's calories should).  For example, wheat is processed to flour, bran, and
+##' germ with extraction rates of 0.85, 0.12, and 0.03 (say).  If we have
+##' 850 kg of flour, 120 kg of bran and 30 kg of germ and try to standardize
+##' all the quantites, we'll overcount by a factor of 3: (850/0.85 + 120/0.12 +
+##' 30/0.03 = 3000, not 1000).  Thus, this flag allows us to specify which
+##' commodities should be ignored in the quantity standardization.  NOTE: all
+##' commodities will be standardized in the calorie standardization, as that is
+##' a simple adding of calories.
 ##' @param targetNodes A vector containing the ID's which should be
 ##' standardized to.
 ##' 
@@ -36,13 +47,13 @@
 standardize = function(nodeData, idColname, quantityColname,
                        calorieRateColname, commodityTree, parentColname,
                        childColname, extractionColname, shareColname,
-                       targetNodes){
+                       byProductColname = "byProductFlag", targetNodes){
 
     ## Data Quality Checks
     stopifnot(c(idColname, quantityColname, calorieRateColname) %in%
                   colnames(nodeData))
     stopifnot(c(parentColname, childColname, extractionColname,
-                shareColname) %in% colnames(commodityTree))
+                shareColname, byProductColname) %in% colnames(commodityTree))
     stopifnot(is(nodeData, "data.table"))
     stopifnot(is(commodityTree, "data.table"))
     if("totalCalories" %in% colnames(nodeData))
@@ -90,8 +101,8 @@ standardize = function(nodeData, idColname, quantityColname,
     
     ## Roll down quantities
     aggFormula = as.formula(paste0(
-        quantityColname, " ~ sum(", quantityColname, " * ifelse(is.na(",
-        shareColname, "), 100, ", shareColname, ")/ 100)"))
+        quantityColname, " ~ sum(", quantityColname, " * !", byProductColname,
+        " * ifelse(is.na(", shareColname, "), 100, ", shareColname, ")/ 100)"))
     quantity = rollDownNodes(nodes = quantity,
                             edgesDown = commodityTree[direction == "down", ],
                             nodesID = idColname, parentID = parentColname,
